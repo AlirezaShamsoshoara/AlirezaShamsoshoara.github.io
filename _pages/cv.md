@@ -13,7 +13,7 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Informatics, Northern Arizona University, 2021 (expected)
+* Ph.D. in Informatics, Northern Arizona University, 2021 (Expected)
 * M.Sc. in Informatics, Northern Arizona University, 2019
 * M.Sc. in Electrical Engineering, K.N. Toosi Unveristy of Technology, 2015
 * B.Sc. in Electrical Engineering, Shahid Beheshti University, 2012
