@@ -11,7 +11,7 @@ redirect_from:
 
 [[Download My Latest Resume in PDF here]](http://AlirezaShamsoshoara.github.io/files/AlirezaResume2020.pdf)
 
-<embed src="../files/AlirezaResume2020.pdf" width="800px" height="2100px" />
+<embed src="../files/AlirezaResume2020.pdf" width="600px" height="760px" />
 
 Education
 ======
