@@ -6,7 +6,7 @@ author_profile: true
 ---
 Alireza Shamsoshoara
 
-Wireless Networking and Information Processing (WiNIP) Laboratory, School of Informatics, Computing, and Cyber Systems, Northern Arizona University, Flagstaff, AZ
+Wireless Networking and Information Processing [(WiNIP) Laboratory](https://www.cefns.nau.edu/~fa334/index.html), School of Informatics, Computing, and Cyber Systems, Northern Arizona University, Flagstaff, AZ
 
 **Address:** #124, SICCS Building, 1295 S Knoles Drive, Flagstaff, AZ 86011
 
