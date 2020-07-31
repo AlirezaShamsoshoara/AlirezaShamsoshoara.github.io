@@ -6,12 +6,12 @@ author_profile: true
 ---
 Teaching Assistant
 ===========
-* **National University of Ireland, Galway**, Galway, Ireland <br />
-Object Oriented Programming; Data Structures and Algorithms; Computing Architecture &
-Operating Systems; Next Generation Technologies II; Java Programming, Oct. 2015 - Aug. 2017
+**Northern Arizona Unversity**, Flagstaff, AZ <br />
+* Microprocessors LAB: Working on MSP 430 Texas Instrument
+* Introduction to Electronics: Working on Multisim NI simulator
+* Signals and Systems: Signals and Systems in Matlab;
+* Fundamental of Electromagnetics: Electromagnetics in Matlab and DC motors;
+* Fundamental of Computer Engineering: FPGA design in Verilog HDL; 
+* Introduction to Digital Logic, Aug. 2018 - May 2020;
 
-Instructor
-===========
-* **Karoon Higher Education Institute**, Ahvaz, Iran <br />
-Artificial Intelligence; Data Structures and Algorithms; Database Systems; Expert Systems; C++
-Programming, Jan. 2014 - Sep. 2015
+
