@@ -11,3 +11,6 @@ Wireless Networking and Information Processing [(WiNIP) Laboratory](https://www.
 **Address:** #124, SICCS Building, 1295 S Knoles Drive, Flagstaff, AZ 86011
 
 **Email:** [Alireza_Shamsoshoara at nau dot edu](mailto:alireza_shamsoshoara@nau.edu)
+
+
+{% include youtubePlayer.html %}
