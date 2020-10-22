@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-Currently, I'm a Ph.D. candidate in Informatics and Computing under the supervison of [Dr. Fatemeh Afghah](https://profile.directory.nau.edu/person/fa334) at Northern Arizona University. I received my B.Sc. and M.Sc in Electrical engineering in 2012 and 2015 respectively. Also, I got another M.Sc. in Informatics in 2019.
+Currently, I'm a Ph.D. candidate in Informatics and Computing under the supervision of [Dr. Fatemeh Afghah](https://profile.directory.nau.edu/person/fa334) at Northern Arizona University. I received my B.Sc. and M.Sc in Electrical engineering in 2012 and 2015 respectively. Also, I got another M.Sc. in Informatics in 2019.
 
 My research area focuses on Unmanned Aerial Vehicle (UAV) and Internet of Thing (IoT) networks and Dynamic Spectrum Assignment (DSA) for these kind of networks. In my research, I target machine learning algorithms such as Reinforcement Learning (RL) to address different problems such as localizations, task allocation, scheduling and so on. 
 Also, I'm working on Software Defined Radio (SDR)s. My goal is to use a small size SDR, [Ettus B205-mini-i](https://www.ettus.com/all-products/usrp-b205mini-i/), on the drone and evaluate our simulated algorithms in the real-world scenarios.
