@@ -10,11 +10,11 @@ You can also find my articles on [my Google Scholar profile](https://scholar.goo
 Journals
 ==========
 * **Shamsoshoara, A.**, Afghah, F., Razi, A.,  Mousavi S., Ashdown, J. and Turk, K., 2020. An Autonomous Spectrum Management Scheme for Unmanned Aerial Vehicle Networks in Disaster Relief Operations. IEEE Access, 8, pp.58064-58079. [[link](https://ieeexplore.ieee.org/abstract/document/9046033)]
-* **Shamsoshoara, A.**, Korenda, A., Afghah, F. and Zeadally, S., 2019. A survey on hardware-based security mechanisms for internet of things. arXiv preprint arXiv:1907.12525. [[Preprint](https://arxiv.org/pdf/1907.12525.pdf)]
+* **Shamsoshoara, A.**, Korenda, A., Afghah, F. and Zeadally, S., 2020. A survey on physical unclonable function (PUF)-based security solutions for Internet of Things. Computer Networks, p.107593. [[link](https://www.sciencedirect.com/science/article/pii/S1389128620312275)]
 
 Conferences 
 ==========
-* Keshavarz, M., **Shamsoshoara, A.**, Afghah, F. and Ashdown, J., 2020. Real-time Framework for Trust Monitoring in a Network of Unmanned Aerial Vehicles. arXiv preprint arXiv:2007.08590. [[Preprint](https://arxiv.org/pdf/2007.08590.pdf)]
+* Keshavarz, M., **Shamsoshoara, A.**, Afghah, F. and Ashdown, J., 2020. Real-time Framework for Trust Monitoring in a Network of Unmanned Aerial Vehicles. In IEEE INFOCOM 2020-IEEE Conference on Computer Communications Workshops (INFOCOM WKSHPS) (pp. 677-682). IEEE. [[link](https://ieeexplore.ieee.org/abstract/document/9162761)]
 * Wu, H., Li, H., **Shamsoshoara, A.**, Razi, A. and Afghah, F., 2020, March. Transfer Learning for Wildfire Identification in UAV Imagery. In 2020 54th Annual Conference on Information Sciences and Systems (CISS) (pp. 1-6). IEEE. [[link](https://ieeexplore.ieee.org/abstract/document/9086204)]
 * **Shamsoshoara, A.**, Khaledi, M., Afghah, F., Razi, A., Ashdown, J. and Turck, K., 2019, June. A solution for dynamic spectrum management in mission-critical UAV networks. In 2019 16th Annual IEEE International Conference on Sensing, Communication, and Networking (SECON) (pp. 1-6). IEEE. [[link](https://ieeexplore.ieee.org/abstract/document/8824917)]
 * **Shamsoshoara, A.**, Khaledi, M., Afghah, F., Razi, A. and Ashdown, J., 2019, January. Distributed cooperative spectrum sharing in uav networks using multi-agent reinforcement learning. In 2019 16th IEEE Annual Consumer Communications & Networking Conference (CCNC) (pp. 1-6). IEEE. [[link](https://ieeexplore.ieee.org/abstract/document/8651796)]
