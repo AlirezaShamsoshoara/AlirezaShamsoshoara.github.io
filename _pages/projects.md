@@ -17,7 +17,3 @@ In this project, we used a team Q learning which is one of the approaches of rei
 * The system model of this paper is based on:
 ![Alt text](/images/system_solution_teamqlearning.JPG)
 
-
-
-
-In this page, I update my recent projects ... Under Construction!
