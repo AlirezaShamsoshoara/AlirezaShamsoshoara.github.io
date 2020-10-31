@@ -5,4 +5,4 @@ permalink: /projects/
 author_profile: true
 ---
 
-In this page, I update my recent projects ...
+In this page, I update my recent projects ... Under Construction!
