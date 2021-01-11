@@ -5,7 +5,7 @@ permalink: /projects/
 author_profile: true
 ---
 ## 1) FLAME (Fire Luminosity Airborne-based Machine learning Evaluation) Dataset: Aerial Imagery Pile burn detection using Deep Learning
-You can find the dataset in [IEEE-Dataport](https://ieee-dataport.org/open-access/flame-dataset-aerial-imagery-pile-burn-detection-using-drones-uavs)<br/>
+You can find the dataset in [IEEE-Dataport](https://ieee-dataport.org/open-access/flame-dataset-aerial-imagery-pile-burn-detection-using-drones-uavs).<br/>
 You can find the preprint of this article in [Preprint](https://arxiv.org/pdf/2012.14036.pdf).
 
 ### Code
