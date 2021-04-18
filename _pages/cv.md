@@ -9,7 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
-[[Download My Latest Resume in PDF here]](http://AlirezaShamsoshoara.github.io/files/AlirezaResume2020.pdf)
+[[Download My Latest Resume in PDF here]](http://AlirezaShamsoshoara.github.io/files/AlirezaResume2021CV.pdf)
 
 <embed src="../files/AlirezaResume2020.pdf" width="570px" height="710px" />
 
