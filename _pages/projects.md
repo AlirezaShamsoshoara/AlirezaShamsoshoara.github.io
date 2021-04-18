@@ -23,7 +23,28 @@ Wildfires are one of the costliest and deadliest natural disasters in the US, ca
 
 <hr style="border:2px solid gray">
 
-## 2) An Autonomous Spectrum Management Scheme for Unmanned Aerial Vehicle Networks in Disaster Relief Operations using Multi Independent Agent Reinforcement Learning
+
+
+## 2) UAV-Assisted Communication in Remote Disaster Areas Using Imitation Learning
+Article: [IEEE](https://ieeexplore.ieee.org/abstract/document/9381488).<br/>
+GitHub: [Repository](https://github.com/AlirezaShamsoshoara/Imitation-Learning-Behavioral-Cloning-UAV-Assisted-Communication).
+
+### Implementation
+The implementation is based on the Imitation Learning (IL) via Behavioral cloning using a deep learning approach for the UAV-Assisted Communication in Remote Disaster Areas. 
+For more information about the **code** please visit the [Github repository](https://github.com/AlirezaShamsoshoara/Imitation-Learning-Behavioral-Cloning-UAV-Assisted-Communication).
+
+### Abstract:
+
+* A short sample video of the simualtor and the process of the imitation learning using the Behavioral Cloning (BC) is available on YouTube:
+
+{% include youtubePlayer_imitation_BC.html %}
+
+
+The damage to cellular towers during natural and man-made disasters can disturb the communication services for cellular users. One solution to the problem is using unmanned aerial vehicles to augment the desired communication network. The paper demonstrates the design of a UAV-Assisted Imitation Learning (UnVAIL) communication system that relays the cellular users’ information to a neighbor base station. Since the user equipment (UEs) are equipped with buffers with limited capacity to hold packets, UnVAIL alternates between different UEs to reduce the chance of buffer overflow, positions itself optimally close to the selected UE to reduce service time, and uncovers a network pathway by acting as a relay node. UnVAIL utilizes Imitation Learning (IL) as a data-driven behavioral cloning approach to accomplish an optimal scheduling solution. Results demonstrate that UnVAIL performs similar to a human expert knowledge-based planning in communication timeliness, position accuracy, and energy consumption with an accuracy of 97.52% when evaluated on a developed simulator to train the UAV.
+
+<hr style="border:2px solid gray">
+
+## 3) An Autonomous Spectrum Management Scheme for Unmanned Aerial Vehicle Networks in Disaster Relief Operations using Multi Independent Agent Reinforcement Learning
 Article: [IEEE](https://ieeexplore.ieee.org/abstract/document/9046033).
 
 ### Implementation
@@ -39,7 +60,7 @@ This study investigates the problem of spectrum shortage in an unmanned aerial v
 
 <hr style="border:2px solid gray">
 
-## 3) A solution for Dynamic Spectrum Management in Mission-Critical UAV Networks using Team Q learning as a Multi-Agent Reinforcement Learning Approach
+## 4) A solution for Dynamic Spectrum Management in Mission-Critical UAV Networks using Team Q learning as a Multi-Agent Reinforcement Learning Approach
 Article: [IEEE](https://ieeexplore.ieee.org/abstract/document/8824917).
 
 ### Implementation
