@@ -9,7 +9,8 @@ You can also find my articles on [my Google Scholar profile](https://scholar.goo
 
 Journals
 ==========
-* **Shamsoshoara, A.**, Afghah, F., Razi, A., Zheng, L., Fulé, P.Z. and Blasch, E., 2020. Aerial Imagery Pile burn detection using Deep Learning: the FLAME dataset. arXiv preprint arXiv:2012.14036. [[Preprint](https://arxiv.org/pdf/2012.14036.pdf)]
+* **Shamsoshoara, A.**, Afghah, F., Razi, A., Zheng, L., Fulé, P.Z. and Blasch, E., 2020. "Aerial Imagery Pile burn detection using Deep Learning: the FLAME dataset." Computer Networks (2021): 108001. [[link](https://www.sciencedirect.com/science/article/pii/S1389128621001201)]
+* **Shamsoshoara, A. **, Fatemeh Afghah, Erik Blasch, Jonathan Ashdown, and Mehdi Bennis. "UAV-Assisted Communication in Remote Disaster Areas using Imitation Learning." IEEE Open Journal of the Communications Society (2021). [[link](https://ieeexplore.ieee.org/abstract/document/9381488)]
 * **Shamsoshoara, A.**, Afghah, F., Razi, A.,  Mousavi S., Ashdown, J. and Turk, K., 2020. An Autonomous Spectrum Management Scheme for Unmanned Aerial Vehicle Networks in Disaster Relief Operations. IEEE Access, 8, pp.58064-58079. [[link](https://ieeexplore.ieee.org/abstract/document/9046033)]
 * **Shamsoshoara, A.**, Korenda, A., Afghah, F. and Zeadally, S., 2020. A survey on physical unclonable function (PUF)-based security solutions for Internet of Things. Computer Networks, p.107593. [[link](https://www.sciencedirect.com/science/article/pii/S1389128620312275)]
 
@@ -22,6 +23,10 @@ Conferences
 * **Shamsoshoara, A.**, Khaledi, M., Afghah, F., Razi, A. and Ashdown, J., 2019, January. Distributed cooperative spectrum sharing in uav networks using multi-agent reinforcement learning. In 2019 16th IEEE Annual Consumer Communications & Networking Conference (CCNC) (pp. 1-6). IEEE. [[link](https://ieeexplore.ieee.org/abstract/document/8651796)]
 * Afghah, F., **Shamsoshoara, A.**, Njilla, L. and Kamhoua, C., 2018, April. A reputation-based stackelberg game model to enhance secrecy rate in spectrum leasing to selfish iot devices. In IEEE INFOCOM 2018-IEEE Conference on Computer Communications Workshops (INFOCOM WKSHPS) (pp. 312-317). IEEE. [[link](https://ieeexplore.ieee.org/abstract/document/8406970)]
 * **Shamsoshoara, A.** and Darmani, Y., 2015, May. Enhanced multi-route ad hoc on-demand distance vector routing. In 2015 23rd Iranian Conference on Electrical Engineering (pp. 578-583). IEEE. [[link](https://ieeexplore.ieee.org/abstract/document/7146282)]
+
+Dataset
+==========
+* The Flame Dataset: Aerial Imagery Pile Burn Detection Using Drones (UAVs), IEEE Dataport 2020, [[link](https://ieee-dataport.org/open-access/flame-dataset-aerial-imagery-pile-burn-detection-using-drones-uavs)]
 
 Book and Book Chapter 
 ==========
