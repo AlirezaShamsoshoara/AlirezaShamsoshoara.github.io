@@ -26,7 +26,7 @@ Conferences
 
 Dataset
 ==========
-* The Flame Dataset: Aerial Imagery Pile Burn Detection Using Drones (UAVs), IEEE Dataport 2020, [[link](https://ieee-dataport.org/open-access/flame-dataset-aerial-imagery-pile-burn-detection-using-drones-uavs)]
+* **Alireza Shamsoshoara**, Fatemeh Afghah, Abolfazl Razi, Liming Zheng, Peter Fulé, Erik Blasch, "The Flame Dataset: Aerial Imagery Pile Burn Detection Using Drones (UAVs)", IEEE Dataport, 2021, [[link](https://ieee-dataport.org/open-access/flame-dataset-aerial-imagery-pile-burn-detection-using-drones-uavs)]
 
 Book and Book Chapter 
 ==========
