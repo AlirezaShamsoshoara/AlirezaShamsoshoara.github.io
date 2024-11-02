@@ -32,7 +32,8 @@ Dataset
 
 Book and Book Chapter 
 ==========
-* (Book Chapter) Afghah, F., **Shamsoshoara, A.**, Njilla, L.L. and Kamhoua, C.A., 2020. Cooperative Spectrum Sharing and Trust Management in IoT Networks. Modeling and Design of Secure Internet of Things, pp.79-109. [[link](https://onlinelibrary.wiley.com/doi/abs/10.1002/9781119593386.ch4)]
+* (Book Chapter) **Shamsoshoara, A.** and Afghah, F., 2023. "Airborne Fire Detection and Modeling Using Unmanned Aerial Vehicles Imagery: Datasets and Approaches", Book: "Handbook of Dynamic Data Driven Applications Systems: Volume 2", pp.525-550. [[Link](https://link.springer.com/chapter/10.1007/978-3-031-27986-7_19)]
+* (Book Chapter) Afghah, F., **Shamsoshoara, A.**, Njilla, L.L. and Kamhoua, C.A., 2020. "Cooperative Spectrum Sharing and Trust Management in IoT Networks. Modeling and Design of Secure Internet of Things", pp.79-109. [[link](https://onlinelibrary.wiley.com/doi/abs/10.1002/9781119593386.ch4)]
 * (Book) **Shamsoshoara, A.**, Karimi, R., 2016, Overview of Network Simulator NS2, pp.1-859. [[link](https://www.researchgate.net/publication/337670285_Overview_of_Network_Simulator_NS2)]
 
 Reports 
