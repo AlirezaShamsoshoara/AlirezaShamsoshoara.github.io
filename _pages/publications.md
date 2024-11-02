@@ -9,6 +9,7 @@ You can also find my articles on [my Google Scholar profile](https://scholar.goo
 
 Journals
 ==========
+* **Shamsoshoara, A.**, Salih, B., S., Aghazadeh, P.,2024. "SwapTransformer: Highway overtaking tactical planner model via imitation learning on OSHA dataset" IEEE Access (2024):. [[link](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10540008)]
 * **Shamsoshoara, A.**, Afghah, F., Razi, A., Zheng, L., Fulé, P.Z. and Blasch, E., 2020. "Aerial Imagery Pile burn detection using Deep Learning: the FLAME dataset." Computer Networks (2021): 108001. [[link](https://www.sciencedirect.com/science/article/pii/S1389128621001201)]
 * **Shamsoshoara, A.**, Fatemeh Afghah, Erik Blasch, Jonathan Ashdown, and Mehdi Bennis. "UAV-Assisted Communication in Remote Disaster Areas using Imitation Learning." IEEE Open Journal of the Communications Society (2021). [[link](https://ieeexplore.ieee.org/abstract/document/9381488)]
 * **Shamsoshoara, A.**, Afghah, F., Razi, A.,  Mousavi S., Ashdown, J. and Turk, K., 2020. An Autonomous Spectrum Management Scheme for Unmanned Aerial Vehicle Networks in Disaster Relief Operations. IEEE Access, 8, pp.58064-58079. [[link](https://ieeexplore.ieee.org/abstract/document/9046033)]
