@@ -27,6 +27,7 @@ Conferences
 
 Dataset
 ==========
+* **Shamsoshoara, A.**, Salih, B., S., Aghazadeh, P., "OSHA DATASET: Overtaking on Simulated HighwAys", IEEE Dataport, 2024, [[link](https://ieee-dataport.org/documents/osha-dataset-overtaking-simulated-highways)]
 * **Alireza Shamsoshoara**, Fatemeh Afghah, Abolfazl Razi, Liming Zheng, Peter Fulé, Erik Blasch, "The Flame Dataset: Aerial Imagery Pile Burn Detection Using Drones (UAVs)", IEEE Dataport, 2021, [[link](https://ieee-dataport.org/open-access/flame-dataset-aerial-imagery-pile-burn-detection-using-drones-uavs)]
 
 Book and Book Chapter 
