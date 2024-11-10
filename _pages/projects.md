@@ -14,7 +14,7 @@ Code: [GitHub](https://github.com/VWIECCResearch/Swaptransformer)
 
 ### Abstract:
 
-* A short sample video of the dataset is available on YouTube:
+* A short video of the simulation and planner is available on YouTube:
 
 {% include youtubePlayer_swaptransformer.html %}
 
