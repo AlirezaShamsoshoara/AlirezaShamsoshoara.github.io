@@ -37,6 +37,10 @@ Book and Book Chapter
 * (Book Chapter) Afghah, F., **Shamsoshoara, A.**, Njilla, L.L. and Kamhoua, C.A., 2020. "Cooperative Spectrum Sharing and Trust Management in IoT Networks. Modeling and Design of Secure Internet of Things", pp.79-109. [[link](https://onlinelibrary.wiley.com/doi/abs/10.1002/9781119593386.ch4)]
 * (Book) **Shamsoshoara, A.**, Karimi, R., 2016, Overview of Network Simulator NS2, pp.1-859. [[link](https://www.researchgate.net/publication/337670285_Overview_of_Network_Simulator_NS2)]
 
+Patents 
+==========
+* **Shamsoshoara, A.**, Salih, S. and Aghazadeh, P., Volkswagen AG, 2025. Transformer-based ai planner for lane changing on multi-lane road. U.S. Patent Application 18/541,363.
+
 Reports 
 ==========
 * **Shamsoshoara, A.**, 2019. Overview of Blakley's Secret Sharing Scheme. arXiv preprint arXiv:1901.02802. [[link](https://arxiv.org/pdf/1901.02802.pdf)]

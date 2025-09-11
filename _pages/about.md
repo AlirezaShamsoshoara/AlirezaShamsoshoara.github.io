@@ -8,9 +8,9 @@ redirect_from:
   - /about.html
 ---
 
-In 2025, I joined Meta as an AI / ML partner engineer for the PyTorch team working on ditributed algorithms. This gives me a great opportunity to work on OSS applications.
+In 2025, I joined Meta as an AI / ML partner engineer for the PyTorch team working on ditributed algorithms. This gives me a great opportunity to work on OSS applications. 
 
-I joined the Volkswagen Group of America (VWGoA), Innovation and Engineering Center California [(IECC)](https://vwiecc.com) as an AI engineer. Before that, I was a Post-doctoral researcher in the WINIP Lab at Northern Arizona University (NAU). I got my Ph.D. in Informatics and Computing under the supervision of [Dr. Fatemeh Afghah](https://iswin-lab-clemson.github.io/Home.html) [[Personal Website]](https://fafghah.people.clemson.edu/) at Northern Arizona University. The title of my Ph.D. research was "***Spectrum Sharing and Management in Unmanned Aerial Vehicle Network***".  I received my B.Sc. and M.Sc in Electrical Engineering in 2012 and 2015 respectively. I also earned another M.Sc. in Informatics in 2019.
+In 2021, I joined the Volkswagen Group of America (VWGoA), Innovation and Engineering Center California [(IECC)](https://vwiecc.com) as an AI engineer. Before that, I was a Post-doctoral researcher in the WINIP Lab at Northern Arizona University (NAU). I got my Ph.D. in Informatics and Computing under the supervision of [Dr. Fatemeh Afghah](https://iswin-lab-clemson.github.io/Home.html) [[Personal Website]](https://fafghah.people.clemson.edu/) at Northern Arizona University. The title of my Ph.D. research was "***Spectrum Sharing and Management in Unmanned Aerial Vehicle Network***".  I received my B.Sc. and M.Sc in Electrical Engineering in 2012 and 2015 respectively. I also earned another M.Sc. in Informatics in 2019.
 
 My role at VW spans many projects including but not limited to self-driving vehicles, AI trajectory planning, ADAS, Robotic platforms, fine-tuning Large Language Models (LLMs), and Vision Language Models (VLMs). I focused on Imitation Learning (IL) and Reinforcement Learning (RL) for trajectory planning for ADAS platforms. Recently, I have been working on LLMs and VLMs for automative domains including prompt engineering, fine-tuning, in-context learning, and Retrieval Augmented Generation (RAG).
 
