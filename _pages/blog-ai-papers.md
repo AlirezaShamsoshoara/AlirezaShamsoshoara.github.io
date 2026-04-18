@@ -27,7 +27,7 @@ Daily summaries of trending AI and ML research papers, ranked by cross-platform 
       {% assign current_month = post_month %}
 <h3 class="archive__subtitle" style="margin-top: 0.5em; font-size: 1em; color: #6c757d;">{{ post_month }}</h3>
     {% endif %}
-    {% include archive-single.html %}
+    {% include archive-single-minimal.html %}
   {% endif %}
 {% endfor %}
 
