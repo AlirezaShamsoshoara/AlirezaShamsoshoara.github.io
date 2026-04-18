@@ -11,10 +11,6 @@ tags:
   - video-generation
 ---
 
-*Sources: HuggingFace Daily Papers, arxiv, Papers With Code, Reddit r/MachineLearning & r/LocalLLaMA, Hacker News, Web Search*
-
----
-
 ## 1. WildDet3D: Scaling Promptable 3D Detection in the Wild
 - **Authors:** (see arxiv)
 - **Link:** [arxiv.org/abs/2604.08626](https://arxiv.org/abs/2604.08626)
@@ -154,7 +150,3 @@ tags:
 - **Summary:** Provides a unified benchmark for evaluating speculative decoding techniques with diverse, representative workloads. Addresses limitations of existing benchmarks that suffer from narrow data coverage.
 - **Sources:** HuggingFace (7↑), arxiv
 - **Why trending:** Speculative decoding is critical for LLM inference speed; standardized evaluation enables fair comparison of acceleration techniques.
-
----
-
-*Report generated 2026-04-14 10:00 PDT. Ranked by cross-platform presence and community engagement (HuggingFace upvotes, multi-source visibility).*

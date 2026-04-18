@@ -11,11 +11,6 @@ tags:
   - agent-systems
 ---
 
-**Generated:** 2026-04-06 ~2:30 PM PT
-**Note:** Sunday — 15 new HuggingFace daily papers posted. Rankings combine fresh HF papers with carryover papers showing continued cross-platform engagement + new signals (Anthropic blog, Gemma 4 release, company blogs).
-
----
-
 ## Top 20 Trending AI/ML Papers
 
 ### 1. Self-Distilled RLVR

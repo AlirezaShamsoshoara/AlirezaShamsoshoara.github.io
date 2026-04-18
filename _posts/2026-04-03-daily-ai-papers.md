@@ -11,10 +11,6 @@ tags:
   - embodied-ai
 ---
 
-Top 20 trending AI papers, ranked by community attention and cross-platform presence.
-
----
-
 ## 1. Generative World Renderer
 **Authors:** Zheng-Hui Huang, Zhixiang Wang, Jiaming Tan, Ruihan Yu et al.
 **Summary:** Introduces a large-scale dynamic dataset of 4M continuous frames (720p/30fps) extracted from AAA games using a novel dual-screen stitched capture method to bridge the domain gap in generative rendering. Scales inverse and forward rendering to real-world complexity using game-quality synthetic data.

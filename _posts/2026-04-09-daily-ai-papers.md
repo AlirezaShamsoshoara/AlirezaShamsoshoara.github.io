@@ -11,11 +11,6 @@ tags:
   - video-generation
 ---
 
-**Generated:** 2026-04-09 ~11:20 AM PT
-**Note:** Strong day — 27 new HuggingFace papers for Apr 9, plus 20 from Apr 8. Rankings combine fresh HF engagement, cross-platform signals, and carryover papers with sustained momentum.
-
----
-
 ## Top 20 Trending AI/ML Papers
 
 ### 1. Video-MME-v2: Towards the Next Stage in Benchmarks for Comprehensive Video Understanding

@@ -11,10 +11,6 @@ tags:
   - embodied-ai
 ---
 
-Top 20 trending AI papers. No new HuggingFace daily papers posted yet today (Friday), so today's report captures the settled ranking from April 3's papers after a full day of community engagement, plus new cross-platform signals.
-
----
-
 ## 1. DataFlex: A Unified Framework for Data-Centric Dynamic Training of LLMs
 **Authors:** Hao Liang, Zhengyang Zhao, Meiyi Qiang, Mingrui Chen et al.
 **Summary:** Unifies data selection, mixture optimization, and reweighting into a single consistent framework. Existing approaches are fragmented across isolated codebases with inconsistent interfaces. Open-source on GitHub with YouTube walkthrough.

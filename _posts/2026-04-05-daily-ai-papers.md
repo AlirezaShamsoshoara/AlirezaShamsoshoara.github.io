@@ -11,11 +11,6 @@ tags:
   - agent-systems
 ---
 
-**Generated:** 2026-04-05 ~10:00 AM PT
-**Note:** Saturday — no new HuggingFace daily papers. Rankings reflect settled community engagement from Apr 3-4 papers + new cross-platform signals (Anthropic blog post, media coverage, HN discussions).
-
----
-
 ## Top 20 Trending AI/ML Papers
 
 ### 1. DataFlex: A Unified Framework for Data-Centric Dynamic Training of LLMs

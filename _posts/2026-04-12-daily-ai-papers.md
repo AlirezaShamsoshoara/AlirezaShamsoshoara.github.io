@@ -11,10 +11,6 @@ tags:
   - video-generation
 ---
 
-*Ranked by community engagement (HuggingFace upvotes + cross-platform signals)*
-
----
-
 ## 1. Rethinking Generalization in Reasoning SFT: A Conditional Analysis on Optimization, Data, and Model Capability
 - **Authors:** Qihan Ren, Peng Wang, Ruikun Cai, Shuai Shao
 - **Link:** [arxiv.org/abs/2604.06628](https://arxiv.org/abs/2604.06628)

@@ -11,25 +11,6 @@ tags:
   - reasoning-models
 ---
 
-Top 20 trending AI papers from the past 48 hours, ranked by community attention.
-
-## How This Report Is Built
-
-**Sources crawled (in order of signal strength):**
-1. **HuggingFace Trending Papers** (huggingface.co/papers) -- community upvotes from researchers and practitioners. Primary ranking signal.
-2. **HuggingFace Daily Papers** (huggingface.co/papers?date=YYYY-MM-DD) -- papers from the past 2-3 days to catch ones still gaining traction.
-3. **Company blogs and model hubs** -- Allen AI blog, EpochX blog, AMD ROCm blog, HuggingFace model releases.
-4. **Web search** -- picks up major lab announcements, social media buzz, and cross-platform discussion.
-5. **arxiv recent listings** (arxiv.org/list/cs.CL/current, cs.LG, cs.AI, cs.CV) -- raw new submissions for coverage.
-
-**Ranking criteria:**
-- Position on HuggingFace trending (highest weight)
-- Cross-source appearance (paper trending on multiple platforms ranks higher)
-- Lab/company prestige (major lab releases get boosted)
-- Relevance to current hot topics (agents, reasoning, efficiency, safety, video generation)
-
----
-
 ## 1. TAPS: Task Aware Proposal Distributions for Speculative Sampling
 **Authors:** Mohamad Zbib, Mohamad Bazzi, Ammar Mohanna, Hasan Abed Al Kader Hammoud, Bernard Ghanem
 **Summary:** Studies how the draft model's training distribution affects speculative decoding quality. Lightweight HASS and EAGLE-2 drafters trained on domain-specific data (MathInstruct, ShareGPT) significantly outperform generic drafters. Shows that task-aware proposal distributions can meaningfully improve speculative sampling without changing the target model.

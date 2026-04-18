@@ -11,24 +11,6 @@ tags:
   - long-context
 ---
 
-Top 20 trending AI papers from the past 48 hours, ranked by community attention.
-
-## How This Report Is Built
-
-**Sources crawled (in order of signal strength):**
-1. **HuggingFace Trending Papers** (huggingface.co/papers) -- community upvotes from researchers and practitioners. Primary ranking signal.
-2. **HuggingFace Daily Papers** (huggingface.co/papers?date=YYYY-MM-DD) -- papers from the past 2-3 days to catch ones still gaining traction.
-3. **arxiv recent listings** (arxiv.org/list/cs.CL/current, cs.LG, cs.AI) -- raw new submissions for coverage.
-4. **Web search** -- picks up major lab announcements (OpenAI, Google, Meta, Mistral, etc.) and social media buzz (Twitter/X, Reddit r/MachineLearning) that may not appear on HuggingFace yet.
-
-**Ranking criteria:**
-- Position on HuggingFace trending (highest weight)
-- Lab/company prestige (major lab releases get boosted)
-- Cross-source appearance (paper trending on multiple platforms ranks higher)
-- Relevance to current hot topics (agents, reasoning, long-context, video generation, safety)
-
----
-
 ## 1. Composer 2 Technical Report
 **Authors:** Cursor Research (Aaron Chan, Ahmed Shalaby, Alexander Wettig et al.)
 **Summary:** Cursor's new model for agentic software engineering. Trained in two phases: continued pretraining for coding knowledge, then large-scale RL for agentic behavior. Demonstrates strong long-term planning and coding intelligence while staying efficient for interactive use. This is the model powering Cursor's code editor.

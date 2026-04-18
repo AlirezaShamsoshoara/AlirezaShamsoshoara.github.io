@@ -11,11 +11,6 @@ tags:
   - multimodal-models
 ---
 
-*Compiled from: HuggingFace Daily Papers, arxiv, Reddit (r/MachineLearning, r/LocalLLaMA), X/Twitter, Hacker News, Papers With Code, Company Blogs*
-*Ranked by cross-platform presence and community engagement*
-
----
-
 ## 1. SkillClaw: Let Skills Evolve Collectively with Agentic Evolver
 - **Authors:** Ziyu Ma, Shidong Yang, Yuxiang Ji, Xucong Wang, Yong Wang, Yiming Hu, Tongwen Huang, Xiangxiang Chu
 - **arxiv:** [2604.08377](https://arxiv.org/abs/2604.08377)

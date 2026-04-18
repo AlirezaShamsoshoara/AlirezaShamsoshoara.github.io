@@ -11,9 +11,6 @@ tags:
   - embodied-ai
 ---
 
-**Sources checked:** HuggingFace Daily Papers, arxiv, Papers With Code, Hacker News, Reddit (r/MachineLearning, r/LocalLLaMA), X/Twitter (via web search), Company blogs (OpenAI, DeepMind, Meta FAIR, Mistral, Anthropic)
----
-
 ## 1. HY-World 2.0: A Multi-Modal World Model for Reconstructing, Generating, and Simulating 3D Worlds
 
 - **Authors:** Team HY-World (Tencent Hunyuan), Chenjie Cao, Xuhui Zuo, et al.

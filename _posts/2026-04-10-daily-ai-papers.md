@@ -11,10 +11,6 @@ tags:
   - video-generation
 ---
 
-> Top 20 trending AI/ML papers ranked by cross-platform presence and community engagement.
-
----
-
 ## 1. SkillClaw: Let Skills Evolve Collectively with Agentic Evolver
 - **Authors:** Ziyu Ma, Shidong Yang, Yuxiang Ji et al.
 - **ArXiv:** [arxiv.org/abs/2604.08377](https://arxiv.org/abs/2604.08377)
@@ -163,15 +159,5 @@ tags:
 3. **Embodied AI** (#3, #11, #20): Robotics foundation models gaining momentum with practical deployment focus.
 4. **Video Generation** (#4, #7): Text-to-video alignment and character performance remain active areas.
 5. **Efficient Inference** (#10, #18): Parallel decoding and attention optimization for production LLMs.
-
-## Sources Checked
-- ✅ HuggingFace Daily Papers API (primary ranking source, 30 papers)
-- ✅ ArXiv (abstracts fetched for all 20 papers)
-- ✅ Web search (cross-referenced via Three PAI external search)
-- ✅ EmergentMind, AlphaXiv, Paperium, BenchLM, AI Flash Report
-- ⚠️ Reddit r/MachineLearning & r/LocalLLaMA (JSON API blocked)
-- ⚠️ Hacker News (API connectivity issues)
-- ⚠️ X/Twitter (limited search results)
-- ⚠️ Company blogs (OpenAI, Anthropic, DeepMind — no new paper announcements today)
 
 *Report generated 2026-04-10 10:00 PDT*

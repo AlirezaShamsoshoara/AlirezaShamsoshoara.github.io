@@ -11,11 +11,6 @@ tags:
   - video-generation
 ---
 
-> Top 20 trending AI/ML papers ranked by cross-platform presence and community engagement.
-> Sources: HuggingFace Daily Papers, Reddit (r/MachineLearning, r/LocalLLaMA), X/Twitter, Company Blogs, arXiv, Papers With Code, Hacker News.
-
----
-
 ## 1. ClawGUI: A Unified Framework for Training, Evaluating, and Deploying GUI Agents
 - **Authors:** Fei Tang, Zhiqiong Lu, Boxuan Zhang et al. (Zhejiang University)
 - **arXiv:** [2604.11784](https://arxiv.org/abs/2604.11784)

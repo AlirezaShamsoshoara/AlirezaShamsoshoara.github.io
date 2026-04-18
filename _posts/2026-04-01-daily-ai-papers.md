@@ -11,10 +11,6 @@ tags:
   - 3d-vision
 ---
 
-Top 20 trending AI papers, ranked by community attention and cross-platform presence.
-
----
-
 ## 1. MonitorBench: A Comprehensive Benchmark for Chain-of-Thought Monitorability in LLMs
 **Authors:** Han Wang, Yifan Sun, Brian Ko, Mann Talati et al.
 **Summary:** First comprehensive, fully open-source benchmark for studying when LLM chains of thought are not causally responsible for their outputs. When CoT doesn't faithfully reflect the model's actual decision factors, monitoring becomes unreliable. Systematically measures this "reduced monitorability" problem across models.

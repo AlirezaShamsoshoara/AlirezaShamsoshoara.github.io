@@ -11,10 +11,6 @@ tags:
   - llm-safety
 ---
 
-> Ranked by cross-platform presence and community engagement. Sources: HuggingFace Daily Papers, arXiv, Hacker News, Reddit, Papers With Code, alphaXiv, GitHub.
-
----
-
 ## 1. WildDet3D: Scaling Promptable 3D Detection in the Wild
 - **Authors:** Weikai Huang, Jieyu Zhang, Sijun Li, Taoyang Jia, Jiafei Duan, Ali Farhadi, Ranjay Krishna et al.
 - **ArXiv:** [arxiv.org/abs/2604.08626](https://arxiv.org/abs/2604.08626)

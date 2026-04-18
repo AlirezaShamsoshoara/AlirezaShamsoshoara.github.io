@@ -11,10 +11,6 @@ tags:
   - agent-systems
 ---
 
-Ranked by cross-platform presence (HuggingFace upvotes, arxiv, web search signals, GitHub repos, blog posts) and community engagement.
-
----
-
 ## 1. ClawGUI: A Unified Framework for Training, Evaluating, and Deploying GUI Agents
 - **Authors:** Fei Tang, Zhiqiong Lu, Boxuan Zhang, Weiming Lu, Jun Xiao, Yueting Zhuang, Yongliang Shen
 - **arxiv:** [arxiv.org/abs/2604.11784](https://arxiv.org/abs/2604.11784)

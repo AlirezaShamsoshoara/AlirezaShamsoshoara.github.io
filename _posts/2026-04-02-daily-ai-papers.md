@@ -11,10 +11,6 @@ tags:
   - reasoning-models
 ---
 
-Top 20 trending AI papers, ranked by community attention and cross-platform presence.
-
----
-
 ## 1. Terminal Agents Suffice for Enterprise Automation
 **Authors:** Patrice Bechard, Orlando Marquez Ayala, Emily Chen, Jordan Skelton et al. (ServiceNow)
 **Summary:** Challenges whether complex agentic systems (MCP tool-augmented agents, web agents with GUIs) are necessary for enterprise automation. Shows that simple terminal-based agents -- just a model with a shell -- can match or beat more complex approaches. Questions the current rush toward elaborate agent architectures.
