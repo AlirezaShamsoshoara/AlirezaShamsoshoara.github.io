@@ -14,18 +14,18 @@ Welcome to my blog! Here I share insights from my daily readings of AI research 
 I read AI and ML research papers daily and post concise summaries here. Each entry covers the key contributions, methods, and takeaways from recent papers across topics like deep learning, reinforcement learning, NLP, computer vision, and more.
 
 <!-- LATEST_PAPERS_START -->
-**Latest — April 18, 2026**
+**Latest — April 19, 2026**
 
-1. **Sema Code** — Decouples AI coding agents into programmable, embeddable infrastructure for cross-platform reuse. [arxiv](https://arxiv.org/abs/2604.11045)
-2. **SemaClaw** — Harness engineering paradigm for building general-purpose personal AI agents. [arxiv](https://arxiv.org/abs/2604.11548)
-3. **Free Geometry** — Self-refining 3D reconstruction from feed-forward models at test time. [arxiv](https://arxiv.org/abs/2604.14048)
-4. **LangFlow** — First continuous diffusion language model to rival discrete autoregressive quality. [arxiv](https://arxiv.org/abs/2604.11748)
-5. **TREX** — Multi-agent system automating the full LLM fine-tuning lifecycle via tree-based exploration. [arxiv](https://arxiv.org/abs/2604.14116)
-6. **TIP** — Identifies which tokens matter most in on-policy knowledge distillation. [arxiv](https://arxiv.org/abs/2604.14084)
-7. **ROSE** — Intent-centered evaluation metric replacing brittle Execution Accuracy for NL2SQL. [arxiv](https://arxiv.org/abs/2604.12988)
-8. **UI-Zoomer** — Uncertainty-driven adaptive zoom-in for precise GUI element grounding. [arxiv](https://arxiv.org/abs/2604.14113)
-9. **Anthropogenic Regional Adaptation** — Framework for evaluating cultural/regional bias in vision-language models. [arxiv](https://arxiv.org/abs/2604.11490)
-10. **ReconPhys** — Feedforward reconstruction of geometry, appearance & physics from single video. [arxiv](https://arxiv.org/abs/2604.07882)
+1. **RLVR Reward Hacking** — Reasoning models trained with RLVR enumerate per-instance labels to game verifiers; Isomorphic Perturbation Testing fixes it. [arxiv](https://arxiv.org/abs/2604.15149)
+2. **YAN (MoE Flow Matching)** — Non-autoregressive LM via expert vector fields hits AR quality in 3 steps; up to 1000× over diffusion LMs. [arxiv](https://arxiv.org/abs/2604.15009)
+3. **AdaSplash-2** — Differentiable sparse attention competitive with FlashAttention-2 at >60% block sparsity. [arxiv](https://arxiv.org/abs/2604.15180)
+4. **OpenMobile** — Open recipe for mobile-agent task/trajectory synthesis; Qwen3-VL hits 64.7% on AndroidWorld. [arxiv](https://arxiv.org/abs/2604.15093)
+5. **Route to Rome Attack** — Adversarial-suffix attack steers cost-aware LLM routers to the most expensive backend ("denial-of-wallet"). [arxiv](https://arxiv.org/abs/2604.15022)
+6. **Shortest-Path Generalization** — Controlled benchmark separating data, paradigm, and inference-time effects on LLM generalization. [arxiv](https://arxiv.org/abs/2604.15306)
+7. **Judge Transitivity & Conformal Sets** — 33–67% of SummEval docs contain 3-cycles; conformal prediction calibrates judge reliability. [arxiv](https://arxiv.org/abs/2604.15302)
+8. **Looped Transformer Stability** — Fixed-point framework characterizing when iteration yields meaningful test-time predictions. [arxiv](https://arxiv.org/abs/2604.15259)
+9. **IG-Search** — Step-level Information Gain rewards beat trajectory baselines for search-augmented reasoning, no extra labels. [arxiv](https://arxiv.org/abs/2604.15148)
+10. **Stakes Signaling** — Telling an LLM judge the verdict's downstream stakes systematically corrupts its assessments. [arxiv](https://arxiv.org/abs/2604.15224)
 <!-- LATEST_PAPERS_END -->
 
 [Browse all paper summaries &rarr;](/blog/ai-papers/)
