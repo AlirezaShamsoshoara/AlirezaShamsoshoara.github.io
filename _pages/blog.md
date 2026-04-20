@@ -14,18 +14,18 @@ Welcome to my blog! Here I share insights from my daily readings of AI research 
 I read AI and ML research papers daily and post concise summaries here. Each entry covers the key contributions, methods, and takeaways from recent papers across topics like deep learning, reinforcement learning, NLP, computer vision, and more.
 
 <!-- LATEST_PAPERS_START -->
-**Latest — April 19, 2026**
+**Latest — April 20, 2026**
 
-1. **RLVR Reward Hacking** — Reasoning models trained with RLVR enumerate per-instance labels to game verifiers; Isomorphic Perturbation Testing fixes it. [arxiv](https://arxiv.org/abs/2604.15149)
-2. **YAN (MoE Flow Matching)** — Non-autoregressive LM via expert vector fields hits AR quality in 3 steps; up to 1000× over diffusion LMs. [arxiv](https://arxiv.org/abs/2604.15009)
-3. **AdaSplash-2** — Differentiable sparse attention competitive with FlashAttention-2 at >60% block sparsity. [arxiv](https://arxiv.org/abs/2604.15180)
-4. **OpenMobile** — Open recipe for mobile-agent task/trajectory synthesis; Qwen3-VL hits 64.7% on AndroidWorld. [arxiv](https://arxiv.org/abs/2604.15093)
-5. **Route to Rome Attack** — Adversarial-suffix attack steers cost-aware LLM routers to the most expensive backend ("denial-of-wallet"). [arxiv](https://arxiv.org/abs/2604.15022)
-6. **Shortest-Path Generalization** — Controlled benchmark separating data, paradigm, and inference-time effects on LLM generalization. [arxiv](https://arxiv.org/abs/2604.15306)
-7. **Judge Transitivity & Conformal Sets** — 33–67% of SummEval docs contain 3-cycles; conformal prediction calibrates judge reliability. [arxiv](https://arxiv.org/abs/2604.15302)
-8. **Looped Transformer Stability** — Fixed-point framework characterizing when iteration yields meaningful test-time predictions. [arxiv](https://arxiv.org/abs/2604.15259)
-9. **IG-Search** — Step-level Information Gain rewards beat trajectory baselines for search-augmented reasoning, no extra labels. [arxiv](https://arxiv.org/abs/2604.15148)
-10. **Stakes Signaling** — Telling an LLM judge the verdict's downstream stakes systematically corrupts its assessments. [arxiv](https://arxiv.org/abs/2604.15224)
+1. **SNR-t Bias in Diffusion** — Inference-only SNR/timestep misalignment causes error accumulation; training-free re-coupling lifts sample quality. [arxiv](https://arxiv.org/abs/2604.16044)
+2. **Deep Neural Lesion** — Data-free, optimization-free attack: flipping two sign bits in ResNet-50 collapses ImageNet accuracy. [arxiv](https://arxiv.org/abs/2502.07408)
+3. **PersonaVLM** — Multimodal agent framework for long-term personalization that tracks evolving user preferences across sessions. [arxiv](https://arxiv.org/abs/2604.13074)
+4. **W-RAC** — Web-scale RAG chunking that decouples extraction from boundary decisions, cutting tokens vs. fixed-size or agentic chunking. [arxiv](https://arxiv.org/abs/2604.04936)
+5. **Qwen3.5-Omni** — 256k-context omni-modal release trained on >100M hours A/V; SOTA on 215 audio benchmarks, claims to beat Gemini-3.1 Pro. [arxiv](https://arxiv.org/abs/2604.15804)
+6. **STOP (Path Pruning)** — Learnable internal-signal method that kills doomed parallel reasoning paths early at the prefix level. [arxiv](https://arxiv.org/abs/2604.16029)
+7. **1D Ordered Tokens** — Coarse-to-fine 1D tokenizers enable far more efficient verifier-guided test-time search than 2D spatial tokens. [arxiv](https://arxiv.org/abs/2604.15453)
+8. **LaviGen** — Repurposes a 3D generative model for native-3D autoregressive layout with geometric and physical-constraint modeling. [arxiv](https://arxiv.org/abs/2604.16299)
+9. **Diversity Collapse Diagnosis** — Disentangles whether post-training diversity loss comes from data, method, or generation format using Olmo 3 lineages. [arxiv](https://arxiv.org/abs/2604.16027)
+10. **QuantCode-Bench** — First benchmark for LLMs generating *executable* algorithmic trading strategies that actually trade on historical data. [arxiv](https://arxiv.org/abs/2604.15151)
 <!-- LATEST_PAPERS_END -->
 
 [Browse all paper summaries &rarr;](/blog/ai-papers/)
