@@ -14,18 +14,18 @@ Welcome to my blog! Here I share insights from my daily readings of AI research 
 I read AI and ML research papers daily and post concise summaries here. Each entry covers the key contributions, methods, and takeaways from recent papers across topics like deep learning, reinforcement learning, NLP, computer vision, and more.
 
 <!-- LATEST_PAPERS_START -->
-**Latest — April 20, 2026**
+**Latest — April 21, 2026**
 
-1. **SNR-t Bias in Diffusion** — Inference-only SNR/timestep misalignment causes error accumulation; training-free re-coupling lifts sample quality. [arxiv](https://arxiv.org/abs/2604.16044)
-2. **Deep Neural Lesion** — Data-free, optimization-free attack: flipping two sign bits in ResNet-50 collapses ImageNet accuracy. [arxiv](https://arxiv.org/abs/2502.07408)
-3. **PersonaVLM** — Multimodal agent framework for long-term personalization that tracks evolving user preferences across sessions. [arxiv](https://arxiv.org/abs/2604.13074)
-4. **W-RAC** — Web-scale RAG chunking that decouples extraction from boundary decisions, cutting tokens vs. fixed-size or agentic chunking. [arxiv](https://arxiv.org/abs/2604.04936)
-5. **Qwen3.5-Omni** — 256k-context omni-modal release trained on >100M hours A/V; SOTA on 215 audio benchmarks, claims to beat Gemini-3.1 Pro. [arxiv](https://arxiv.org/abs/2604.15804)
-6. **STOP (Path Pruning)** — Learnable internal-signal method that kills doomed parallel reasoning paths early at the prefix level. [arxiv](https://arxiv.org/abs/2604.16029)
-7. **1D Ordered Tokens** — Coarse-to-fine 1D tokenizers enable far more efficient verifier-guided test-time search than 2D spatial tokens. [arxiv](https://arxiv.org/abs/2604.15453)
-8. **LaviGen** — Repurposes a 3D generative model for native-3D autoregressive layout with geometric and physical-constraint modeling. [arxiv](https://arxiv.org/abs/2604.16299)
-9. **Diversity Collapse Diagnosis** — Disentangles whether post-training diversity loss comes from data, method, or generation format using Olmo 3 lineages. [arxiv](https://arxiv.org/abs/2604.16027)
-10. **QuantCode-Bench** — First benchmark for LLMs generating *executable* algorithmic trading strategies that actually trade on historical data. [arxiv](https://arxiv.org/abs/2604.15151)
+1. **One-Step Text-to-Image (MeanFlow)** — Extends one-step image generation from class-label to text-conditioning via discriminative text representations. [arxiv](https://arxiv.org/abs/2604.18168)
+2. **OneVL** — One-step latent reasoning + planning with vision-language explanation, cutting CoT latency for VLA-based autonomous driving. [arxiv](https://arxiv.org/abs/2604.18486)
+3. **Agent-World** — Scalable real-world environment synthesis (MCP-based) for training general agents with life-long learning. [arxiv](https://arxiv.org/abs/2604.18292)
+4. **OpenGame** — Open agentic coding pipeline that produces fully playable games end-to-end, addressing cross-file inconsistency failures. [arxiv](https://arxiv.org/abs/2604.18394)
+5. **MultiWorld** — Scalable multi-agent, multi-view video world models for action-conditioned future-frame prediction. [arxiv](https://arxiv.org/abs/2604.18564)
+6. **EasyVideoR1** — Easier RLVR pipeline for video understanding, addressing decode overhead and reproducibility across hyperparameters. [arxiv](https://arxiv.org/abs/2604.16893)
+7. **Weak-Supervision RLVR** — Investigates when LLMs can still learn to reason as verifiable reward signals become weaker. [arxiv](https://arxiv.org/abs/2604.18574)
+8. **GFT** — Unifies SFT and RL via unbiased group advantages and dynamic coefficient rectification, fixing entropy collapse. [arxiv](https://arxiv.org/abs/2604.14258)
+9. **WebCompass** — Multimodal benchmark for end-to-end web coding agents covering visual fidelity, interaction, and codebase reasoning. [arxiv](https://arxiv.org/abs/2604.18224)
+10. **ClawEnvKit** — Automatic environment generation pipeline for training and evaluating claw-like agents at scale. [arxiv](https://arxiv.org/abs/2604.18543)
 <!-- LATEST_PAPERS_END -->
 
 [Browse all paper summaries &rarr;](/blog/ai-papers/)
