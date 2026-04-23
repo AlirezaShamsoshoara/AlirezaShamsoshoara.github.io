@@ -14,18 +14,18 @@ Welcome to my blog! Here I share insights from my daily readings of AI research 
 I read AI and ML research papers daily and post concise summaries here. Each entry covers the key contributions, methods, and takeaways from recent papers across topics like deep learning, reinforcement learning, NLP, computer vision, and more.
 
 <!-- LATEST_PAPERS_START -->
-**Latest — April 21, 2026**
+**Latest — April 23, 2026**
 
-1. **One-Step Text-to-Image (MeanFlow)** — Extends one-step image generation from class-label to text-conditioning via discriminative text representations. [arxiv](https://arxiv.org/abs/2604.18168)
-2. **OneVL** — One-step latent reasoning + planning with vision-language explanation, cutting CoT latency for VLA-based autonomous driving. [arxiv](https://arxiv.org/abs/2604.18486)
-3. **Agent-World** — Scalable real-world environment synthesis (MCP-based) for training general agents with life-long learning. [arxiv](https://arxiv.org/abs/2604.18292)
-4. **OpenGame** — Open agentic coding pipeline that produces fully playable games end-to-end, addressing cross-file inconsistency failures. [arxiv](https://arxiv.org/abs/2604.18394)
-5. **MultiWorld** — Scalable multi-agent, multi-view video world models for action-conditioned future-frame prediction. [arxiv](https://arxiv.org/abs/2604.18564)
-6. **EasyVideoR1** — Easier RLVR pipeline for video understanding, addressing decode overhead and reproducibility across hyperparameters. [arxiv](https://arxiv.org/abs/2604.16893)
-7. **Weak-Supervision RLVR** — Investigates when LLMs can still learn to reason as verifiable reward signals become weaker. [arxiv](https://arxiv.org/abs/2604.18574)
-8. **GFT** — Unifies SFT and RL via unbiased group advantages and dynamic coefficient rectification, fixing entropy collapse. [arxiv](https://arxiv.org/abs/2604.14258)
-9. **WebCompass** — Multimodal benchmark for end-to-end web coding agents covering visual fidelity, interaction, and codebase reasoning. [arxiv](https://arxiv.org/abs/2604.18224)
-10. **ClawEnvKit** — Automatic environment generation pipeline for training and evaluating claw-like agents at scale. [arxiv](https://arxiv.org/abs/2604.18543)
+1. **LLaDA2.0-Uni** — Unified discrete diffusion LLM (SigLIP-VQ + MoE backbone + diffusion decoder) for native multimodal understanding and generation. [arxiv](https://arxiv.org/abs/2604.20796)
+2. **NPO** — Mixed-policy RLVR using the policy's own near-future checkpoint as auxiliary trajectories to break plateau and bootstrap. [arxiv](https://arxiv.org/abs/2604.20733)
+3. **DR-Venus** — 4B deep-research agent trained on only ~10K open data via two-stage agentic SFT + IGPO RL. [arxiv](https://arxiv.org/abs/2604.19859)
+4. **DeVI** — Physics-based dexterous human-object interaction trained from text-conditioned synthetic videos, no mocap required. [arxiv](https://arxiv.org/abs/2604.20841)
+5. **Reward Hacking Survey** — Formalizes reward hacking via the Proxy Compression Hypothesis, with a taxonomy of failure modes. [arxiv](https://arxiv.org/abs/2604.13602)
+6. **GSI-Bench** — Generative spatial intelligence benchmark; finds that synthetic spatial-edit fine-tuning improves spatial *understanding*. [arxiv](https://arxiv.org/abs/2604.20570)
+7. **TACO** — Self-evolving observational context compression for terminal agents, breaking quadratic token-cost growth. [arxiv](https://arxiv.org/abs/2604.19572)
+8. **C-GenReg** — Training-free 3D point cloud registration via multi-view-consistent geometry-to-image generation. [arxiv](https://arxiv.org/abs/2604.16680)
+9. **WavAlign** — Modality-aware adaptive RL post-training recipe for spoken dialogue models, balancing semantic and acoustic channels. [arxiv](https://arxiv.org/abs/2604.14932)
+10. **SWE-chat** — First large-scale dataset of real coding-agent sessions in the wild (6K sessions, 63K prompts, 355K tool calls). [arxiv](https://arxiv.org/abs/2604.20779)
 <!-- LATEST_PAPERS_END -->
 
 [Browse all paper summaries &rarr;](/blog/ai-papers/)
