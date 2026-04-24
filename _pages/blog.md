@@ -14,18 +14,18 @@ Welcome to my blog! Here I share insights from my daily readings of AI research 
 I read AI and ML research papers daily and post concise summaries here. Each entry covers the key contributions, methods, and takeaways from recent papers across topics like deep learning, reinforcement learning, NLP, computer vision, and more.
 
 <!-- LATEST_PAPERS_START -->
-**Latest — April 23, 2026**
+**Latest — April 24, 2026**
 
-1. **LLaDA2.0-Uni** — Unified discrete diffusion LLM (SigLIP-VQ + MoE backbone + diffusion decoder) for native multimodal understanding and generation. [arxiv](https://arxiv.org/abs/2604.20796)
-2. **NPO** — Mixed-policy RLVR using the policy's own near-future checkpoint as auxiliary trajectories to break plateau and bootstrap. [arxiv](https://arxiv.org/abs/2604.20733)
-3. **DR-Venus** — 4B deep-research agent trained on only ~10K open data via two-stage agentic SFT + IGPO RL. [arxiv](https://arxiv.org/abs/2604.19859)
-4. **DeVI** — Physics-based dexterous human-object interaction trained from text-conditioned synthetic videos, no mocap required. [arxiv](https://arxiv.org/abs/2604.20841)
-5. **Reward Hacking Survey** — Formalizes reward hacking via the Proxy Compression Hypothesis, with a taxonomy of failure modes. [arxiv](https://arxiv.org/abs/2604.13602)
-6. **GSI-Bench** — Generative spatial intelligence benchmark; finds that synthetic spatial-edit fine-tuning improves spatial *understanding*. [arxiv](https://arxiv.org/abs/2604.20570)
-7. **TACO** — Self-evolving observational context compression for terminal agents, breaking quadratic token-cost growth. [arxiv](https://arxiv.org/abs/2604.19572)
-8. **C-GenReg** — Training-free 3D point cloud registration via multi-view-consistent geometry-to-image generation. [arxiv](https://arxiv.org/abs/2604.16680)
-9. **WavAlign** — Modality-aware adaptive RL post-training recipe for spoken dialogue models, balancing semantic and acoustic channels. [arxiv](https://arxiv.org/abs/2604.14932)
-10. **SWE-chat** — First large-scale dataset of real coding-agent sessions in the wild (6K sessions, 63K prompts, 355K tool calls). [arxiv](https://arxiv.org/abs/2604.20779)
+1. **LLaTiSA** — Difficulty-stratified time-series reasoning with an 83k-sample CoT dataset and a VLM that fuses charts with calibrated tables. [arxiv](https://arxiv.org/abs/2604.17295)
+2. **WorldMark** — First unified benchmark for interactive video world models with a shared WASD action vocabulary and live arena. [arxiv](https://arxiv.org/abs/2604.21686)
+3. **UniT** — Unified Latent Action Tokenizer bridging human egocentric data and humanoid kinematics for zero-shot transfer. [arxiv](https://arxiv.org/abs/2604.19734)
+4. **StyleID** — Perception-aware benchmark and metric for facial-identity preservation across diffusion- and flow-based stylization. [arxiv](https://arxiv.org/abs/2604.21689)
+5. **Seeing Fast and Slow** — Treats playback time as a learnable visual concept; enables speed-conditioned generation and temporal SR. [arxiv](https://arxiv.org/abs/2604.21931)
+6. **COSPLAY** — Co-evolving LLM decision agent + skill bank; an 8B model beats frontier baselines by >25% across six game environments. [arxiv](https://arxiv.org/abs/2604.20987)
+7. **TingIS** — Production risk-event discovery handling 300k messages/day with 3.5-min P90 latency via cascaded LLM routing. [arxiv](https://arxiv.org/abs/2604.21889)
+8. **HPD** — Unifies LLM distillation as token-level reweighted log-likelihood, blending forward+reverse KL with light on-policy sampling. [arxiv](https://arxiv.org/abs/2604.20244)
+9. **VLAA-GUI** — Modular GUI automation (verifier + loop breaker + search) hitting 77.5% on OSWorld, with several backbones surpassing humans. [arxiv](https://arxiv.org/abs/2604.21375)
+10. **Context Unrolling** — Omni model natively trained on text/image/video/3D/hidden-rep with explicit cross-modal reasoning before prediction. [arxiv](https://arxiv.org/abs/2604.21921)
 <!-- LATEST_PAPERS_END -->
 
 [Browse all paper summaries &rarr;](/blog/ai-papers/)
