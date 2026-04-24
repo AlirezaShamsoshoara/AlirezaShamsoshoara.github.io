@@ -14,18 +14,18 @@ Welcome to my blog! Here I share insights from my daily readings of AI research 
 I read AI and ML research papers daily and post concise summaries here. Each entry covers the key contributions, methods, and takeaways from recent papers across topics like deep learning, reinforcement learning, NLP, computer vision, and more.
 
 <!-- LATEST_PAPERS_START -->
-**Latest — April 24, 2026**
+**Latest — April 25, 2026**
 
-1. **LLaTiSA** — Difficulty-stratified time-series reasoning with an 83k-sample CoT dataset and a VLM that fuses charts with calibrated tables. [arxiv](https://arxiv.org/abs/2604.17295)
-2. **WorldMark** — First unified benchmark for interactive video world models with a shared WASD action vocabulary and live arena. [arxiv](https://arxiv.org/abs/2604.21686)
-3. **UniT** — Unified Latent Action Tokenizer bridging human egocentric data and humanoid kinematics for zero-shot transfer. [arxiv](https://arxiv.org/abs/2604.19734)
-4. **StyleID** — Perception-aware benchmark and metric for facial-identity preservation across diffusion- and flow-based stylization. [arxiv](https://arxiv.org/abs/2604.21689)
-5. **Seeing Fast and Slow** — Treats playback time as a learnable visual concept; enables speed-conditioned generation and temporal SR. [arxiv](https://arxiv.org/abs/2604.21931)
-6. **COSPLAY** — Co-evolving LLM decision agent + skill bank; an 8B model beats frontier baselines by >25% across six game environments. [arxiv](https://arxiv.org/abs/2604.20987)
-7. **TingIS** — Production risk-event discovery handling 300k messages/day with 3.5-min P90 latency via cascaded LLM routing. [arxiv](https://arxiv.org/abs/2604.21889)
-8. **HPD** — Unifies LLM distillation as token-level reweighted log-likelihood, blending forward+reverse KL with light on-policy sampling. [arxiv](https://arxiv.org/abs/2604.20244)
-9. **VLAA-GUI** — Modular GUI automation (verifier + loop breaker + search) hitting 77.5% on OSWorld, with several backbones surpassing humans. [arxiv](https://arxiv.org/abs/2604.21375)
-10. **Context Unrolling** — Omni model natively trained on text/image/video/3D/hidden-rep with explicit cross-modal reasoning before prediction. [arxiv](https://arxiv.org/abs/2604.21921)
+1. **DiPO** — Perplexity-disentangled RLVR splits exploration vs. exploitation samples to fix the explore/exploit dilemma in reasoning post-training. [arxiv](https://arxiv.org/abs/2604.13902)
+2. **OpenMobile** — Fully open mobile-agent stack with synthesized task instructions and trajectories, closing the data gap to closed AndroidWorld leaders. [arxiv](https://arxiv.org/abs/2604.15093)
+3. **MindDR** — 30B three-agent (Planner/DeepSearch/Report) deep-research system trained via SFT → Search-RL → Report-RL → preference alignment. [arxiv](https://arxiv.org/abs/2604.14518)
+4. **Motif-Video 2B** — Strong text-to-video on <10M clips and <100K H200-hours by separating prompt, temporal, and detail pathways in a 2B backbone. [arxiv](https://arxiv.org/abs/2604.16503)
+5. **Illusion of Certainty** — Scaling Law of Miscalibration: on-policy distillation reliably boosts accuracy but traps students in severe overconfidence. [arxiv](https://arxiv.org/abs/2604.16830)
+6. **Reliability of Computer-Use Agents** — Decomposes same-task failure variance into execution stochasticity, instruction ambiguity, and environment drift. [arxiv](https://arxiv.org/abs/2604.17849)
+7. **Cross-Subject Brain Decoding** — Meta-optimized fMRI-to-vision decoder generalizes across subjects in-context, no per-subject fine-tuning. [arxiv](https://arxiv.org/abs/2604.08537)
+8. **Amazing Agent Race (AAR)** — 1,400 fork/merge DAG tool-use puzzles where frontier agents drop sharply from sequential to compositional legs. [arxiv](https://arxiv.org/abs/2604.10261)
+9. **Chasing the Public Score** — Frontier coding agents game visible benchmarks under user pressure while hidden eval doesn't budge — concrete reward hacking. [arxiv](https://arxiv.org/abs/2604.20200)
+10. **MLLM Multiplication** — MLLMs perceive numbers fine across text/image/audio but fail to compute once the input format changes. [arxiv](https://arxiv.org/abs/2604.18203)
 <!-- LATEST_PAPERS_END -->
 
 [Browse all paper summaries &rarr;](/blog/ai-papers/)
