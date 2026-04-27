@@ -14,18 +14,18 @@ Welcome to my blog! Here I share insights from my daily readings of AI research 
 I read AI and ML research papers daily and post concise summaries here. Each entry covers the key contributions, methods, and takeaways from recent papers across topics like deep learning, reinforcement learning, NLP, computer vision, and more.
 
 <!-- LATEST_PAPERS_START -->
-**Latest — April 26, 2026**
+**Latest — April 27, 2026**
 
-1. **RAG-Anything** — Unified all-in-one RAG framework with a single multimodal index over text, tables, images, code, and KGs. [arxiv](https://arxiv.org/abs/2510.12323)
-2. **Kronos** — Transformer foundation model pre-trained on 12B tokens of K-line market data; zero-shot beats supervised forecasting baselines. [arxiv](https://arxiv.org/abs/2508.02739)
-3. **PaddleOCR-VL** — 0.9B doc VLM (NaViT + ERNIE-4.5-0.3B) covering 100+ languages and beating much larger OCR-VL models. [arxiv](https://arxiv.org/abs/2510.14528)
-4. **MinerU2.5** — 1.2B doc-parsing VLM that decouples global layout from local recognition for SOTA at a fraction of monolithic-VLM FLOPs. [arxiv](https://arxiv.org/abs/2509.22186)
-5. **VibeVoice** — Long-form multi-speaker speech via next-token diffusion over an 80×-compressed continuous tokenizer. [arxiv](https://arxiv.org/abs/2508.19205)
-6. **Mem0** — Production agent memory layer that beats OpenAI Memory on LOCOMO with 26% lower latency and 91% lower token cost. [arxiv](https://arxiv.org/abs/2504.19413)
-7. **Recursive Language Models** — Treats long prompts as an environment the LLM peeks/slices/recurses on, beating long-context models on multi-doc reasoning. [arxiv](https://arxiv.org/abs/2512.24601)
-8. **SmolDocling** — Sub-1B VLM that converts whole documents (layout, tables, formulas, figures) into a new DocTags markup in one decode. [arxiv](https://arxiv.org/abs/2503.11576)
-9. **OmniFlatten** — Full-duplex voice GPT that flattens speech+text into one autoregressive stream with sub-200ms latency, no VAD/ASR. [arxiv](https://arxiv.org/abs/2410.17799)
-10. **TradingAgents** — Role-played LLM trading desk (analyst/researcher/trader/risk) that debates and votes; reports alpha vs. single-agent baselines. [arxiv](https://arxiv.org/abs/2412.20138)
+1. **Agentic World Modeling** — "Levels × laws" taxonomy for world models in agentic AI; defines L1 Predictor → L2 Simulator → L3 Evolver across physical, digital, social, and scientific regimes. [arxiv](https://arxiv.org/abs/2604.22748)
+2. **Semantic Progress Function** — 1D SPF captures how meaning evolves across video frames, enabling precise video editing in semantic rather than pixel space. [arxiv](https://arxiv.org/abs/2604.22554)
+3. **DiffNR** — Combines NeRF/3D Gaussians with a single-step diffusion model (SliceFixer) for SOTA sparse-view CT reconstruction without dense scan data. [arxiv](https://arxiv.org/abs/2604.21518)
+4. **SIREN** — Lightweight guard model detecting harmful LLM content via linear probing across all internal layers; outperforms SOTA guards more efficiently. [arxiv](https://arxiv.org/abs/2604.18519)
+5. **Abstract Chain-of-Thought (ACoT)** — LLMs reason in continuous latent space instead of verbose verbal steps, matching CoT accuracy with much shorter generation. [arxiv](https://arxiv.org/abs/2604.22709)
+6. **FlowAnchor** — Training-free framework anchoring the editing signal across frames for stable inversion-free video editing in multi-object scenes. [arxiv](https://arxiv.org/abs/2604.22586)
+7. **AgentSearchBench** — First benchmark for evaluating AI agents finding suitable sub-agents for task delegation in open-ended real-world settings. [arxiv](https://arxiv.org/abs/2604.22436)
+8. **Token Consumption in Agentic Coding** — Analyzes where coding agents spend tokens (plan/execute/reflect) and builds a predictive model for cost-aware agent scheduling. [arxiv](https://arxiv.org/abs/2604.22750)
+9. **Structured Reasoning for Long-Doc QA** — Decomposes multi-document QA into sub-tasks across chunk outputs, scaling robustly beyond any fixed context window. [arxiv](https://arxiv.org/abs/2604.22294)
+10. **Budget-Efficient Scaling Law Fitting** — Active learning selects pilot experiments to fit scaling laws with a fraction of the usual compute cost. [arxiv](https://arxiv.org/abs/2604.22753)
 <!-- LATEST_PAPERS_END -->
 
 [Browse all paper summaries &rarr;](/blog/ai-papers/)
