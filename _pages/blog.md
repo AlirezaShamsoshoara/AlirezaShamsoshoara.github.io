@@ -14,18 +14,18 @@ Welcome to my blog! Here I share insights from my daily readings of AI research 
 I read AI and ML research papers daily and post concise summaries here. Each entry covers the key contributions, methods, and takeaways from recent papers across topics like deep learning, reinforcement learning, NLP, computer vision, and more.
 
 <!-- LATEST_PAPERS_START -->
-**Latest — April 28, 2026**
+**Latest — April 29, 2026**
 
-1. **World-R1** — RL framework enforcing 3D geometric consistency in text-to-video generation via verifiable reward signals, no architecture changes needed. [arxiv](https://arxiv.org/abs/2604.24764)
-2. **ClawMark** — Living-world benchmark evaluating agents as persistent coworkers across multi-turn, multi-day, multimodal evolving environments. [arxiv](https://arxiv.org/abs/2604.23781)
-3. **Tuna-2** — Unified multimodal model operating directly on pixel embeddings, skipping pretrained vision encoders for end-to-end understanding and generation. [arxiv](https://arxiv.org/abs/2604.24763)
-4. **VLA Safety Survey** — Maps the unique threat landscape for vision-language-action models in embodied robotics: physical irreversibility, multimodal attack surface, latency constraints. [arxiv](https://arxiv.org/abs/2604.23775)
-5. **Skills to Talent** — Organizational layer for heterogeneous multi-agent systems modeled after real companies, replacing fixed team structures and tightly coupled coordination. [arxiv](https://arxiv.org/abs/2604.22446)
-6. **Zero-to-CAD** — Agentic synthesis generates interpretable CAD construction-history programs at million scale without any real training data. [arxiv](https://arxiv.org/abs/2604.24479)
-7. **SketchVLM** — Training-free framework enabling VLMs to annotate images with editable SVG overlays, making visual reasoning transparent and verifiable. [arxiv](https://arxiv.org/abs/2604.22875)
-8. **Scientific PRM** — Process reward model for agentic data analysis that rewards sound analytical methodology, not just correct outcomes. [arxiv](https://arxiv.org/abs/2604.24198)
-9. **Step-Level Advantage Selection** — Stabilizes efficient reasoning training, enabling shorter reasoning chains without the instability of length-based reward approaches. [arxiv](https://arxiv.org/abs/2604.24003)
-10. **Disentangled Robot Learning** — Separates forward dynamics (vision) from inverse dynamics (actions) in VLA pretraining, unlocking learning from action-free web video at scale. [arxiv](https://arxiv.org/abs/2604.16391)
+1. **RecursiveMAS** — Extends recursive computation scaling from single models to multi-agent systems via latent-space collaboration loops; 8.3% accuracy gain, 34–76% token reduction. [arxiv](https://arxiv.org/abs/2604.25917)
+2. **Test-Driven Data Engineering** — Maps LLM fine-tuning onto the software dev lifecycle: training data = code, benchmarking = unit tests, failure repair = debugging. [arxiv](https://arxiv.org/abs/2604.24819)
+3. **DV-World** — Benchmark of 260 tasks for data visualization agents in real environments with ambiguous user intent, beyond code-sandbox evaluation. [arxiv](https://arxiv.org/abs/2604.25914)
+4. **AutoResearchBench** — Evaluates AI agents on complex multi-hop scientific literature discovery for knowledge exploration and claim verification. [arxiv](https://arxiv.org/abs/2604.25256)
+5. **Meta-CoT** — Incorporates fine-grained structured Chain-of-Thought into multimodal model training to improve image editing granularity and OOD generalization. [arxiv](https://arxiv.org/abs/2604.24625)
+6. **Refinement via Regeneration** — Full image regeneration conditioned on prior output consistently outperforms small-edit refinement in unified multimodal models. [arxiv](https://arxiv.org/abs/2604.25636)
+7. **Mutual Forcing** — Dual-mode self-evolution framework for fast autoregressive audio-video generation with tight long-horizon synchronization. [arxiv](https://arxiv.org/abs/2604.25819)
+8. **Step-Audio-R1.5** — Extends Chain-of-Thought reasoning into the auditory domain for large audio language models, enabling complex acoustic understanding. [arxiv](https://arxiv.org/abs/2604.25719)
+9. **Co-Director** — Hierarchical multi-agent framework for coherent long-form video storytelling, addressing semantic drift in chained-module pipelines. [arxiv](https://arxiv.org/abs/2604.24842)
+10. **BARRED** — Trains custom policy guardrails synthetically via asymmetric LLM debate, eliminating expensive human annotation of boundary cases. [arxiv](https://arxiv.org/abs/2604.25203)
 <!-- LATEST_PAPERS_END -->
 
 [Browse all paper summaries &rarr;](/blog/ai-papers/)
