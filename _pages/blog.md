@@ -14,18 +14,18 @@ Welcome to my blog! Here I share insights from my daily readings of AI research 
 I read AI and ML research papers daily and post concise summaries here. Each entry covers the key contributions, methods, and takeaways from recent papers across topics like deep learning, reinforcement learning, NLP, computer vision, and more.
 
 <!-- LATEST_PAPERS_START -->
-**Latest — April 29, 2026**
+**Latest — April 30, 2026**
 
-1. **RecursiveMAS** — Extends recursive computation scaling from single models to multi-agent systems via latent-space collaboration loops; 8.3% accuracy gain, 34–76% token reduction. [arxiv](https://arxiv.org/abs/2604.25917)
-2. **Test-Driven Data Engineering** — Maps LLM fine-tuning onto the software dev lifecycle: training data = code, benchmarking = unit tests, failure repair = debugging. [arxiv](https://arxiv.org/abs/2604.24819)
-3. **DV-World** — Benchmark of 260 tasks for data visualization agents in real environments with ambiguous user intent, beyond code-sandbox evaluation. [arxiv](https://arxiv.org/abs/2604.25914)
-4. **AutoResearchBench** — Evaluates AI agents on complex multi-hop scientific literature discovery for knowledge exploration and claim verification. [arxiv](https://arxiv.org/abs/2604.25256)
-5. **Meta-CoT** — Incorporates fine-grained structured Chain-of-Thought into multimodal model training to improve image editing granularity and OOD generalization. [arxiv](https://arxiv.org/abs/2604.24625)
-6. **Refinement via Regeneration** — Full image regeneration conditioned on prior output consistently outperforms small-edit refinement in unified multimodal models. [arxiv](https://arxiv.org/abs/2604.25636)
-7. **Mutual Forcing** — Dual-mode self-evolution framework for fast autoregressive audio-video generation with tight long-horizon synchronization. [arxiv](https://arxiv.org/abs/2604.25819)
-8. **Step-Audio-R1.5** — Extends Chain-of-Thought reasoning into the auditory domain for large audio language models, enabling complex acoustic understanding. [arxiv](https://arxiv.org/abs/2604.25719)
-9. **Co-Director** — Hierarchical multi-agent framework for coherent long-form video storytelling, addressing semantic drift in chained-module pipelines. [arxiv](https://arxiv.org/abs/2604.24842)
-10. **BARRED** — Trains custom policy guardrails synthetically via asymmetric LLM debate, eliminating expensive human annotation of boundary cases. [arxiv](https://arxiv.org/abs/2604.25203)
+1. **From Skills to Talent** — Proposes a corporate org-layer metaphor for orchestrating heterogeneous multi-agent workforces with persistent, adaptive collaboration. [arxiv](https://arxiv.org/abs/2604.22446)
+2. **World-R1** — Applies RL (DeepSeek-R1 style) to enforce 3D geometric consistency in text-to-video generation without expensive architectural changes. [arxiv](https://arxiv.org/abs/2604.24764)
+3. **GLM-5V-Turbo** — Native multimodal foundation model integrating perception with reasoning, planning, and tool use across images, video, GUIs, and documents. [arxiv](https://arxiv.org/abs/2604.26752)
+4. **Tuna-2** — Challenges the CLIP-ViT paradigm by showing pixel embeddings can match or outperform dedicated vision encoders in multimodal understanding and generation. [arxiv](https://arxiv.org/abs/2604.24763)
+5. **ReVSI** — Rebuilds 3D spatial reasoning evaluation for VLMs using video-native, artifact-free annotations to fix systematic flaws in existing benchmarks. [arxiv](https://arxiv.org/abs/2604.24300)
+6. **ESamp (Exploratory Sampling)** — Distills diverse latent directions at decoding time to enable genuine semantic diversity for test-time scaling beyond surface lexical variation. [arxiv](https://arxiv.org/abs/2604.24927)
+7. **VLA Safety Survey** — Comprehensive survey of threats, evaluation protocols, and defense mechanisms for Vision-Language-Action models in embodied real-world deployment. [arxiv](https://arxiv.org/abs/2604.23775)
+8. **TIDE** — First cross-architecture distillation framework for diffusion LLMs, enabling knowledge transfer between models with different architectures and tokenizers. [arxiv](https://arxiv.org/abs/2604.26951)
+9. **ClawGym** — Full lifecycle infrastructure for training and evaluating personal Claw-style agents over file systems, tools, and persistent workspace states. [arxiv](https://arxiv.org/abs/2604.26904)
+10. **RADIO-ViPE** — Online semantic SLAM enabling open-vocabulary 3D grounding from monocular RGB video without depth sensors or pose initialization. [arxiv](https://arxiv.org/abs/2604.26067)
 <!-- LATEST_PAPERS_END -->
 
 [Browse all paper summaries &rarr;](/blog/ai-papers/)
