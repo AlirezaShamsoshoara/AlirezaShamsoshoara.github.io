@@ -14,18 +14,18 @@ Welcome to my blog! Here I share insights from my daily readings of AI research 
 I read AI and ML research papers daily and post concise summaries here. Each entry covers the key contributions, methods, and takeaways from recent papers across topics like deep learning, reinforcement learning, NLP, computer vision, and more.
 
 <!-- LATEST_PAPERS_START -->
-**Latest — April 30, 2026**
+**Latest — May 01, 2026**
 
-1. **From Skills to Talent** — Proposes a corporate org-layer metaphor for orchestrating heterogeneous multi-agent workforces with persistent, adaptive collaboration. [arxiv](https://arxiv.org/abs/2604.22446)
-2. **World-R1** — Applies RL (DeepSeek-R1 style) to enforce 3D geometric consistency in text-to-video generation without expensive architectural changes. [arxiv](https://arxiv.org/abs/2604.24764)
-3. **GLM-5V-Turbo** — Native multimodal foundation model integrating perception with reasoning, planning, and tool use across images, video, GUIs, and documents. [arxiv](https://arxiv.org/abs/2604.26752)
-4. **Tuna-2** — Challenges the CLIP-ViT paradigm by showing pixel embeddings can match or outperform dedicated vision encoders in multimodal understanding and generation. [arxiv](https://arxiv.org/abs/2604.24763)
-5. **ReVSI** — Rebuilds 3D spatial reasoning evaluation for VLMs using video-native, artifact-free annotations to fix systematic flaws in existing benchmarks. [arxiv](https://arxiv.org/abs/2604.24300)
-6. **ESamp (Exploratory Sampling)** — Distills diverse latent directions at decoding time to enable genuine semantic diversity for test-time scaling beyond surface lexical variation. [arxiv](https://arxiv.org/abs/2604.24927)
-7. **VLA Safety Survey** — Comprehensive survey of threats, evaluation protocols, and defense mechanisms for Vision-Language-Action models in embodied real-world deployment. [arxiv](https://arxiv.org/abs/2604.23775)
-8. **TIDE** — First cross-architecture distillation framework for diffusion LLMs, enabling knowledge transfer between models with different architectures and tokenizers. [arxiv](https://arxiv.org/abs/2604.26951)
-9. **ClawGym** — Full lifecycle infrastructure for training and evaluating personal Claw-style agents over file systems, tools, and persistent workspace states. [arxiv](https://arxiv.org/abs/2604.26904)
-10. **RADIO-ViPE** — Online semantic SLAM enabling open-vocabulary 3D grounding from monocular RGB video without depth sensors or pose initialization. [arxiv](https://arxiv.org/abs/2604.26067)
+1. **Eywa** — Drop-in multi-agent framework enabling LLMs to collaborate with domain-specific scientific foundation models across biology, physics, and social science. [arxiv](https://arxiv.org/abs/2604.27351)
+2. **Visual Generation in the New Era** — Survey charting a roadmap from photorealism to causal, spatially-aware agentic world modeling. [arxiv](https://arxiv.org/abs/2604.28185)
+3. **Nemotron 3 Nano Omni** — NVIDIA's first open multimodal model natively supporting audio, text, image, and video in a single efficient architecture. [arxiv](https://arxiv.org/abs/2604.24954)
+4. **TurboQuant** — Online vector quantization achieving ~6x KV-cache memory reduction for LLM inference with near-optimal distortion guarantees. [arxiv](https://arxiv.org/abs/2504.19874)
+5. **Co-Evolving Policy Distillation (CEPD)** — Unified framework jointly evolving teacher and student policies to consolidate multiple expert capabilities without capability loss. [arxiv](https://arxiv.org/abs/2604.27083)
+6. **ExoActor** — Reframes humanoid robot control as exocentric video generation, enabling generalization to novel environments without task-specific engineering. [arxiv](https://arxiv.org/abs/2604.27711)
+7. **RoundPipe** — Efficient LLM fine-tuning on consumer GPUs via pipeline parallelism with a round-robin weight binding fix that eliminates GPU bubbles. [arxiv](https://arxiv.org/abs/2604.27085)
+8. **Claw-Eval-Live** — Continuously-updated agent benchmark reflecting real evolving workflows, preventing data contamination and static-benchmark gaming. [arxiv](https://arxiv.org/abs/2604.28139)
+9. **Length Value Model (LenVM)** — Token-level value pretraining for dynamic inference length control, cutting unnecessary generation without sacrificing answer quality. [arxiv](https://arxiv.org/abs/2604.27039)
+10. **Safety Drift After Fine-Tuning** — Empirical study of 100 models showing domain fine-tuning consistently degrades safety properties even with benign training data. [arxiv](https://arxiv.org/abs/2604.24902)
 <!-- LATEST_PAPERS_END -->
 
 [Browse all paper summaries &rarr;](/blog/ai-papers/)
