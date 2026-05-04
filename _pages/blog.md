@@ -14,18 +14,18 @@ Welcome to my blog! Here I share insights from my daily readings of AI research 
 I read AI and ML research papers daily and post concise summaries here. Each entry covers the key contributions, methods, and takeaways from recent papers across topics like deep learning, reinforcement learning, NLP, computer vision, and more.
 
 <!-- LATEST_PAPERS_START -->
-**Latest — May 03, 2026**
+**Latest — May 04, 2026**
 
-1. **Nemotron 3 Nano Omni** — NVIDIA's first omni-modal open model natively supporting audio, text, images, and video with leading results in document understanding and agentic tasks. [arxiv](https://arxiv.org/abs/2604.24954)
-2. **Safety Drift After Fine-Tuning** — Analysis of 100 fine-tuned models showing safety behaviors reliably degrade in domain-specific ways, calling for post-fine-tuning safety evaluations. [arxiv](https://arxiv.org/abs/2604.24902)
-3. **The Last Human-Written Paper** — Argues scientific papers impose a "Storytelling Tax" and "Engineering Tax" on AI agents, proposing agent-native research artifacts as a replacement format. [arxiv](https://arxiv.org/abs/2604.24658)
-4. **Representation Fréchet Loss** — Makes Fréchet Distance practical as a training objective for visual generation by decoupling population size from batch size. [arxiv](https://arxiv.org/abs/2604.28190)
-5. **FlashRT** — Efficient red-teaming framework for evaluating long-context LLMs against prompt injection and knowledge corruption at scale. [arxiv](https://arxiv.org/abs/2604.28157)
-6. **RoundPipe** — Pipeline parallelism with CPU offloading that fixes the "weight binding issue," enabling large LLM fine-tuning on consumer GPUs. [arxiv](https://arxiv.org/abs/2604.27085)
-7. **Co-Evolving Policy Distillation** — Unified post-training paradigm resolving both RLVR divergence cost and OPD behavioral pattern gaps for multi-capability distillation. [arxiv](https://arxiv.org/abs/2604.27083)
-8. **Intern-Atlas** — Graph-based research infrastructure capturing methodological evolution between papers, designed to serve AI research agents. [arxiv](https://arxiv.org/abs/2604.28158)
-9. **Claw-Eval-Live** — Live agent benchmark with a refreshable signal layer that evaluates real task execution rather than grading final responses. [arxiv](https://arxiv.org/abs/2604.28139)
-10. **Length Value Model (LenVM)** — Token-level framework modeling remaining generation length as a value estimation problem for fine-grained inference cost control. [arxiv](https://arxiv.org/abs/2604.27039)
+1. **UniVidX** — Unified multimodal video diffusion framework for tasks like intrinsic decomposition and RGBA extraction, using under 1,000 training videos. [arxiv](https://arxiv.org/abs/2605.00658)
+2. **Web2BigTable** — Bi-level multi-agent system for internet-scale search achieving 7.5× SOTA on WideSearch structured extraction. [arxiv](https://arxiv.org/abs/2604.27221)
+3. **RAIN-Merging** — Gradient-free model merging that adds instruction following to reasoning models without breaking chain-of-thought. ICLR 2026 Oral. [openreview](https://openreview.net/forum?id=PO2iULmu5e)
+4. **MedAgentGym** — 72K-instance agentic training environment for biomedical data science with +45% RL gains. ICLR 2026 Oral. [arxiv](https://arxiv.org/abs/2506.04405)
+5. **Map2World** — Segment map conditioned 3D world generation that solves grid-layout and scale-inconsistency problems. [arxiv](https://arxiv.org/abs/2605.00781)
+6. **Prox-E** — Primitive-based 3D shape editing enabling fine-grained structural edits beyond appearance-only 2D methods. [arxiv](https://arxiv.org/abs/2604.23774)
+7. **Fleet-Scale RL for Robots** — Generalist robot policies that learn continuously from distribution shifts and failures during real-world deployment. [arxiv](https://arxiv.org/abs/2605.00416)
+8. **GenLIP** — Minimalist ViT pretraining that generates language tokens directly, eliminating contrastive/autoregressive mismatch in MLLMs. [arxiv](https://arxiv.org/abs/2605.00809)
+9. **Stable-GFlowNet** — GFlowNet-based LLM red-teaming using Contrastive Trajectory Balance for diverse and effective adversarial prompts. [arxiv](https://arxiv.org/abs/2605.00553)
+10. **SSL Agent Skills** — Scheduling-Structural-Logical representation for agent skills encoding dependencies, control flow, and tool calls in machine-readable format. [arxiv](https://arxiv.org/abs/2604.24026)
 <!-- LATEST_PAPERS_END -->
 
 [Browse all paper summaries &rarr;](/blog/ai-papers/)
