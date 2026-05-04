@@ -14,18 +14,18 @@ Welcome to my blog! Here I share insights from my daily readings of AI research 
 I read AI and ML research papers daily and post concise summaries here. Each entry covers the key contributions, methods, and takeaways from recent papers across topics like deep learning, reinforcement learning, NLP, computer vision, and more.
 
 <!-- LATEST_PAPERS_START -->
-**Latest — May 02, 2026**
+**Latest — May 03, 2026**
 
-1. **GLM-5V-Turbo** — Native multimodal agent foundation model integrating visual perception across images, video, GUIs, and documents into reasoning and tool use. [arxiv](https://arxiv.org/abs/2604.26752)
-2. **RADIO-ViPE** — Online semantic SLAM linking natural language queries to 3D regions in dynamic environments, using only raw monocular RGB video. [arxiv](https://arxiv.org/abs/2604.26067)
-3. **ESamp (Exploratory Sampling)** — Decoding method driving LLM exploration in latent space rather than token surface, substantially improving test-time scaling for reasoning. [arxiv](https://arxiv.org/abs/2604.24927)
-4. **ClawGym** — Full-lifecycle framework for building Claw-style personal agents: environment creation, verifiable training data synthesis, and diagnostic evaluation. [arxiv](https://arxiv.org/abs/2604.26904)
-5. **TIDE** — First cross-architecture knowledge distillation framework for diffusion LLMs, enabling efficient parallel-decoding models at practical scales. [arxiv](https://arxiv.org/abs/2604.26951)
-6. **AutoResearchBench** — Benchmark for evaluating AI agents on autonomous scientific literature discovery and hypothesis-driven evidence retrieval. [arxiv](https://arxiv.org/abs/2604.25256)
-7. **Step-Audio-R1.5** — Extends chain-of-thought reasoning to audio while preserving acoustic understanding lost in pure RLVR training via mixed paradigm. [arxiv](https://arxiv.org/abs/2604.25719)
-8. **Diffusion Templates** — Unified plugin framework decoupling controllable diffusion capabilities from backbone architectures, composable across tasks. [arxiv](https://arxiv.org/abs/2604.24351)
-9. **Step-level Optimization** — Selectively applies heavy multimodal reasoning only at critical GUI interaction steps, cutting computer-use agent cost without accuracy loss. [arxiv](https://arxiv.org/abs/2604.27151)
-10. **FAMA** — Meta-agentic failure detection and recovery framework improving open-source LLM agents in multi-turn tool-use environments. [arxiv](https://arxiv.org/abs/2604.25135)
+1. **Nemotron 3 Nano Omni** — NVIDIA's first omni-modal open model natively supporting audio, text, images, and video with leading results in document understanding and agentic tasks. [arxiv](https://arxiv.org/abs/2604.24954)
+2. **Safety Drift After Fine-Tuning** — Analysis of 100 fine-tuned models showing safety behaviors reliably degrade in domain-specific ways, calling for post-fine-tuning safety evaluations. [arxiv](https://arxiv.org/abs/2604.24902)
+3. **The Last Human-Written Paper** — Argues scientific papers impose a "Storytelling Tax" and "Engineering Tax" on AI agents, proposing agent-native research artifacts as a replacement format. [arxiv](https://arxiv.org/abs/2604.24658)
+4. **Representation Fréchet Loss** — Makes Fréchet Distance practical as a training objective for visual generation by decoupling population size from batch size. [arxiv](https://arxiv.org/abs/2604.28190)
+5. **FlashRT** — Efficient red-teaming framework for evaluating long-context LLMs against prompt injection and knowledge corruption at scale. [arxiv](https://arxiv.org/abs/2604.28157)
+6. **RoundPipe** — Pipeline parallelism with CPU offloading that fixes the "weight binding issue," enabling large LLM fine-tuning on consumer GPUs. [arxiv](https://arxiv.org/abs/2604.27085)
+7. **Co-Evolving Policy Distillation** — Unified post-training paradigm resolving both RLVR divergence cost and OPD behavioral pattern gaps for multi-capability distillation. [arxiv](https://arxiv.org/abs/2604.27083)
+8. **Intern-Atlas** — Graph-based research infrastructure capturing methodological evolution between papers, designed to serve AI research agents. [arxiv](https://arxiv.org/abs/2604.28158)
+9. **Claw-Eval-Live** — Live agent benchmark with a refreshable signal layer that evaluates real task execution rather than grading final responses. [arxiv](https://arxiv.org/abs/2604.28139)
+10. **Length Value Model (LenVM)** — Token-level framework modeling remaining generation length as a value estimation problem for fine-grained inference cost control. [arxiv](https://arxiv.org/abs/2604.27039)
 <!-- LATEST_PAPERS_END -->
 
 [Browse all paper summaries &rarr;](/blog/ai-papers/)
