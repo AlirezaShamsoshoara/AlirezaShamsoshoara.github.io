@@ -14,18 +14,18 @@ Welcome to my blog! Here I share insights from my daily readings of AI research 
 I read AI and ML research papers daily and post concise summaries here. Each entry covers the key contributions, methods, and takeaways from recent papers across topics like deep learning, reinforcement learning, NLP, computer vision, and more.
 
 <!-- LATEST_PAPERS_START -->
-**Latest — May 04, 2026**
+**Latest — May 05, 2026**
 
-1. **UniVidX** — Unified multimodal video diffusion framework for tasks like intrinsic decomposition and RGBA extraction, using under 1,000 training videos. [arxiv](https://arxiv.org/abs/2605.00658)
-2. **Web2BigTable** — Bi-level multi-agent system for internet-scale search achieving 7.5× SOTA on WideSearch structured extraction. [arxiv](https://arxiv.org/abs/2604.27221)
-3. **RAIN-Merging** — Gradient-free model merging that adds instruction following to reasoning models without breaking chain-of-thought. ICLR 2026 Oral. [openreview](https://openreview.net/forum?id=PO2iULmu5e)
-4. **MedAgentGym** — 72K-instance agentic training environment for biomedical data science with +45% RL gains. ICLR 2026 Oral. [arxiv](https://arxiv.org/abs/2506.04405)
-5. **Map2World** — Segment map conditioned 3D world generation that solves grid-layout and scale-inconsistency problems. [arxiv](https://arxiv.org/abs/2605.00781)
-6. **Prox-E** — Primitive-based 3D shape editing enabling fine-grained structural edits beyond appearance-only 2D methods. [arxiv](https://arxiv.org/abs/2604.23774)
-7. **Fleet-Scale RL for Robots** — Generalist robot policies that learn continuously from distribution shifts and failures during real-world deployment. [arxiv](https://arxiv.org/abs/2605.00416)
-8. **GenLIP** — Minimalist ViT pretraining that generates language tokens directly, eliminating contrastive/autoregressive mismatch in MLLMs. [arxiv](https://arxiv.org/abs/2605.00809)
-9. **Stable-GFlowNet** — GFlowNet-based LLM red-teaming using Contrastive Trajectory Balance for diverse and effective adversarial prompts. [arxiv](https://arxiv.org/abs/2605.00553)
-10. **SSL Agent Skills** — Scheduling-Structural-Logical representation for agent skills encoding dependencies, control flow, and tool calls in machine-readable format. [arxiv](https://arxiv.org/abs/2604.24026)
+1. **LLMs Get Lost In Multi-Turn Conversation** — LLMs show consistent performance drops in multi-turn conversations with underspecified instructions vs. single-turn evals. ICLR 2026 Outstanding Paper. [arxiv](https://arxiv.org/abs/2505.06120)
+2. **Transformers are Inherently Succinct** — Theoretical proof that transformers encode formal languages far more succinctly than classical representations like finite automata. ICLR 2026 Outstanding Paper. [arxiv](https://arxiv.org/abs/2510.19315)
+3. **The Polar Express** — GPU-friendly polynomial approximations for the matrix sign function that are provably optimal, improving Muon optimizer throughput and stability. ICLR 2026 Honorable Mention. [arxiv](https://arxiv.org/abs/2505.16932)
+4. **AcademiClaw** — Bilingual benchmark of 80 long-horizon real student academic tasks for evaluating AI agents, bypassing contamination issues. [arxiv](https://arxiv.org/abs/2605.02661)
+5. **MolmoAct2** — Open-weight, hardware-agnostic VLA model with real-time latency for robot manipulation from Ai2. [arxiv](https://arxiv.org/abs/2605.02881)
+6. **Code World Model Preparedness Report** — Meta's public safety assessment of their code-generation model against catastrophic-risk domains. [arxiv](https://arxiv.org/abs/2605.00932)
+7. **VLA-RFT** — RL fine-tuning framework for robot VLA policies using world simulators as verified-reward environments. ICLR 2026. [arxiv](https://arxiv.org/abs/2510.00406)
+8. **12 Angry AI Agents** — Multi-agent LLM benchmark based on jury deliberation from *12 Angry Men*, testing deliberation and persuasion. [arxiv](https://arxiv.org/abs/2605.01986)
+9. **Odysseus** — RL-based approach scaling VLMs to 100+ turn game decision-making without human trajectory supervision. [arxiv](https://arxiv.org/abs/2605.00347)
+10. **EngiAgent** — Fully connected multi-agent architecture for solving open-ended engineering problems under data and physical constraints. [arxiv](https://arxiv.org/abs/2605.02289)
 <!-- LATEST_PAPERS_END -->
 
 [Browse all paper summaries &rarr;](/blog/ai-papers/)
