@@ -14,18 +14,18 @@ Welcome to my blog! Here I share insights from my daily readings of AI research 
 I read AI and ML research papers daily and post concise summaries here. Each entry covers the key contributions, methods, and takeaways from recent papers across topics like deep learning, reinforcement learning, NLP, computer vision, and more.
 
 <!-- LATEST_PAPERS_START -->
-**Latest — May 05, 2026**
+**Latest — May 06, 2026**
 
-1. **LLMs Get Lost In Multi-Turn Conversation** — LLMs show consistent performance drops in multi-turn conversations with underspecified instructions vs. single-turn evals. ICLR 2026 Outstanding Paper. [arxiv](https://arxiv.org/abs/2505.06120)
-2. **Transformers are Inherently Succinct** — Theoretical proof that transformers encode formal languages far more succinctly than classical representations like finite automata. ICLR 2026 Outstanding Paper. [arxiv](https://arxiv.org/abs/2510.19315)
-3. **The Polar Express** — GPU-friendly polynomial approximations for the matrix sign function that are provably optimal, improving Muon optimizer throughput and stability. ICLR 2026 Honorable Mention. [arxiv](https://arxiv.org/abs/2505.16932)
-4. **AcademiClaw** — Bilingual benchmark of 80 long-horizon real student academic tasks for evaluating AI agents, bypassing contamination issues. [arxiv](https://arxiv.org/abs/2605.02661)
-5. **MolmoAct2** — Open-weight, hardware-agnostic VLA model with real-time latency for robot manipulation from Ai2. [arxiv](https://arxiv.org/abs/2605.02881)
-6. **Code World Model Preparedness Report** — Meta's public safety assessment of their code-generation model against catastrophic-risk domains. [arxiv](https://arxiv.org/abs/2605.00932)
-7. **VLA-RFT** — RL fine-tuning framework for robot VLA policies using world simulators as verified-reward environments. ICLR 2026. [arxiv](https://arxiv.org/abs/2510.00406)
-8. **12 Angry AI Agents** — Multi-agent LLM benchmark based on jury deliberation from *12 Angry Men*, testing deliberation and persuasion. [arxiv](https://arxiv.org/abs/2605.01986)
-9. **Odysseus** — RL-based approach scaling VLMs to 100+ turn game decision-making without human trajectory supervision. [arxiv](https://arxiv.org/abs/2605.00347)
-10. **EngiAgent** — Fully connected multi-agent architecture for solving open-ended engineering problems under data and physical constraints. [arxiv](https://arxiv.org/abs/2605.02289)
+1. **ARIS** — Autonomous research harness using adversarial multi-agent collaboration to self-verify outputs and combat hallucinated conclusions in long-horizon research. [arxiv](https://arxiv.org/abs/2605.03042)
+2. **Beyond SFT-to-RL** — Black-box on-policy distillation pre-alignment stage that fixes distributional drift before RL, beating the standard SFT→RLVR recipe for multimodal models. [arxiv](https://arxiv.org/abs/2604.28123)
+3. **X2SAM** — Unifies image and video segmentation under a single MLLM-driven framework using natural language instructions, extending SAM-quality masks to video. [arxiv](https://arxiv.org/abs/2605.00891)
+4. **HeavySkill** — Reframes extended chain-of-thought as a pluggable inner skill within agentic harnesses, revealing it as the key driver of agentic system performance. [arxiv](https://arxiv.org/abs/2605.02396)
+5. **Video Generation with Predictive Latents** — Proposes latents shaped to be predictable from prior context, fixing the VAE reconstruction-vs-diffusability tension in video generation. [arxiv](https://arxiv.org/abs/2605.02134)
+6. **OpenSeeker-v2** — SFT-only approach matching frontier search agent performance by focusing on trajectory quality rather than expensive RL training stages. [arxiv](https://arxiv.org/abs/2605.04036)
+7. **RL via Orchestration Traces** — Uses temporal interaction graphs of agent coordination as the RL optimization unit, enabling principled training of multi-agent system structure. [arxiv](https://arxiv.org/abs/2605.02801)
+8. **iWorld-Bench** — Large-scale benchmark evaluating world models on distance perception, physics reasoning, and counterfactual action generation for embodied agents. [arxiv](https://arxiv.org/abs/2605.03941)
+9. **Healthcare AI GYM** — Comprehensive RL training environment for medical agents covering history-taking, diagnostics, and treatment planning across clinical domains. [arxiv](https://arxiv.org/abs/2605.02943)
+10. **Chain of Evidence** — Pixel-level visual attribution for iterative RAG, pinpointing exact visual regions within retrieved documents rather than just identifying the source. [arxiv](https://arxiv.org/abs/2605.01284)
 <!-- LATEST_PAPERS_END -->
 
 [Browse all paper summaries &rarr;](/blog/ai-papers/)
