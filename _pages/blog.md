@@ -14,18 +14,18 @@ Welcome to my blog! Here I share insights from my daily readings of AI research 
 I read AI and ML research papers daily and post concise summaries here. Each entry covers the key contributions, methods, and takeaways from recent papers across topics like deep learning, reinforcement learning, NLP, computer vision, and more.
 
 <!-- LATEST_PAPERS_START -->
-**Latest — May 10, 2026**
+**Latest — May 11, 2026**
 
-1. **Beyond Semantic Similarity (DCI)** — Enables agents to query corpora directly instead of via top-k similarity, outperforming RAG for agentic search. [arxiv](https://arxiv.org/abs/2605.05242)
-2. **Skill1** — Unified RL framework training a single policy to simultaneously evolve skill selection, utilization, and distillation from a persistent library. [arxiv](https://arxiv.org/abs/2605.06130)
-3. **MiniCPM-o 4.5** — Edge-deployable omni-modal model with real-time full-duplex interaction via the Omni-Flow streaming framework. [arxiv](https://arxiv.org/abs/2604.27393)
-4. **Cola DLM** — Hierarchical latent diffusion language model that generates text without autoregressive left-to-right constraints. [arxiv](https://arxiv.org/abs/2605.06548)
-5. **MiA-Signature** — Cognitive-science-inspired compact representation approximating global activation for richer long-context LLM understanding. [arxiv](https://arxiv.org/abs/2605.06416)
-6. **RaguTeam (SemEval-2026 #1)** — 1st-place multi-turn RAG evaluation system using a GPT-4o-mini-judged ensemble of seven LLMs. [arxiv](https://arxiv.org/abs/2605.04523)
-7. **Adaptive Action Execution (WAMs)** — Monitors imagined vs. actual futures in robotic world models to trigger re-planning when predictions drift. [arxiv](https://arxiv.org/abs/2605.06222)
-8. **MARBLE** — Gradient-space RL framework for diffusion model alignment that balances multiple rewards without specialist reward models. [arxiv](https://arxiv.org/abs/2605.06507)
-9. **SkillOS** — RL-based skill curation for self-evolving LLM agents that improve continuously from streaming task experience. [arxiv](https://arxiv.org/abs/2605.06614)
-10. **LoPE** — Fixes GRPO's zero-advantage stall in reasoning RL by injecting Lorem Ipsum perturbations to broaden exploration. [arxiv](https://arxiv.org/abs/2605.05566)
+1. **MACE-Dance** — Cascaded expert architecture for music-driven dance video generation that separately models motion dynamics and visual appearance. [arxiv](https://arxiv.org/abs/2512.18181)
+2. **Mean Mode Screaming (MVSR)** — Identifies and fixes a silent DiT collapse mode; enables stable training of 1000-layer Diffusion Transformers. [arxiv](https://arxiv.org/abs/2605.06169)
+3. **Flow-OPD** — First unified on-policy distillation framework for Flow Matching T2I models, eliminating reward hacking across multi-task alignment. [arxiv](https://arxiv.org/abs/2605.08063)
+4. **Listwise Policy Optimization (LPO)** — Unifies GRPO/PPO variants geometrically and proposes a more stable, sample-efficient LLM post-training method. [arxiv](https://arxiv.org/abs/2605.06139)
+5. **HyperEyes** — Parallel multimodal search agent that fuses visual grounding and retrieval into one atomic action, cutting interaction rounds. [arxiv](https://arxiv.org/abs/2605.07177)
+6. **AutoTTS** — LLM agents autonomously discover and evaluate test-time scaling strategies, replacing hand-crafted heuristics. [arxiv](https://arxiv.org/abs/2605.08083)
+7. **HumanNet** — Million-hour human-centric video corpus targeting the data bottleneck in embodied AI and physical world understanding. [arxiv](https://arxiv.org/abs/2605.06747)
+8. **Anisotropic Modality Alignment** — Identifies persistent CLIP embedding misalignment across modalities and proposes corrections for better MLLM training. [arxiv](https://arxiv.org/abs/2605.07825)
+9. **CoREB** — Contamination-limited multitask code search benchmark covering full retrieval + reranking pipeline with developer-style queries. [arxiv](https://arxiv.org/abs/2605.04615)
+10. **TextLDM** — Transfers the visual latent diffusion recipe (DiT + flow matching + VAE) to text generation without autoregressive decoding. [arxiv](https://arxiv.org/abs/2605.07748)
 <!-- LATEST_PAPERS_END -->
 
 [Browse all paper summaries &rarr;](/blog/ai-papers/)
