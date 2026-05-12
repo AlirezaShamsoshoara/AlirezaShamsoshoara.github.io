@@ -14,18 +14,18 @@ Welcome to my blog! Here I share insights from my daily readings of AI research 
 I read AI and ML research papers daily and post concise summaries here. Each entry covers the key contributions, methods, and takeaways from recent papers across topics like deep learning, reinforcement learning, NLP, computer vision, and more.
 
 <!-- LATEST_PAPERS_START -->
-**Latest — May 11, 2026**
+**Latest — May 12, 2026**
 
-1. **MACE-Dance** — Cascaded expert architecture for music-driven dance video generation that separately models motion dynamics and visual appearance. [arxiv](https://arxiv.org/abs/2512.18181)
-2. **Mean Mode Screaming (MVSR)** — Identifies and fixes a silent DiT collapse mode; enables stable training of 1000-layer Diffusion Transformers. [arxiv](https://arxiv.org/abs/2605.06169)
-3. **Flow-OPD** — First unified on-policy distillation framework for Flow Matching T2I models, eliminating reward hacking across multi-task alignment. [arxiv](https://arxiv.org/abs/2605.08063)
-4. **Listwise Policy Optimization (LPO)** — Unifies GRPO/PPO variants geometrically and proposes a more stable, sample-efficient LLM post-training method. [arxiv](https://arxiv.org/abs/2605.06139)
-5. **HyperEyes** — Parallel multimodal search agent that fuses visual grounding and retrieval into one atomic action, cutting interaction rounds. [arxiv](https://arxiv.org/abs/2605.07177)
-6. **AutoTTS** — LLM agents autonomously discover and evaluate test-time scaling strategies, replacing hand-crafted heuristics. [arxiv](https://arxiv.org/abs/2605.08083)
-7. **HumanNet** — Million-hour human-centric video corpus targeting the data bottleneck in embodied AI and physical world understanding. [arxiv](https://arxiv.org/abs/2605.06747)
-8. **Anisotropic Modality Alignment** — Identifies persistent CLIP embedding misalignment across modalities and proposes corrections for better MLLM training. [arxiv](https://arxiv.org/abs/2605.07825)
-9. **CoREB** — Contamination-limited multitask code search benchmark covering full retrieval + reranking pipeline with developer-style queries. [arxiv](https://arxiv.org/abs/2605.04615)
-10. **TextLDM** — Transfers the visual latent diffusion recipe (DiT + flow matching + VAE) to text generation without autoregressive decoding. [arxiv](https://arxiv.org/abs/2605.07748)
+1. **Single Neuron Alignment Bypass** — A single neuron is sufficient to bypass safety alignment in LLMs up to 70B, via suppression or amplification, no training needed. [arxiv](https://arxiv.org/abs/2605.08513)
+2. **Qwen-Image-2.0** — Alibaba's unified image generation + editing foundation model built on Qwen3-VL and a Multimodal Diffusion Transformer. [arxiv](https://arxiv.org/abs/2605.10730)
+3. **Soohak** — Mathematician-curated benchmark for research-level math, targeting the next frontier beyond IMO gold-medal performance. [arxiv](https://arxiv.org/abs/2605.09063)
+4. **WorldReasonBench** — Stress-tests video generators (Seedance2.0, Veo3.1) as world-state predictors with human-aligned temporal reasoning benchmarks. [arxiv](https://arxiv.org/abs/2605.10434)
+5. **TMAS** — Multi-agent synergy framework that scales test-time compute via structured role-based collaboration (generate, refine, verify). [arxiv](https://arxiv.org/abs/2605.10344)
+6. **G-Zero** — Verifier-free self-play for open-ended LLM self-improvement using Hint-δ as an intrinsic reward, no judge model required. [arxiv](https://arxiv.org/abs/2605.09959)
+7. **Geometry Conflict** — Mechanistic explanation of catastrophic forgetting in LLM continual post-training via conflicting gradient geometries. [arxiv](https://arxiv.org/abs/2605.09608)
+8. **Model Merging Scaling Laws** — Power law relating model size and merged experts to cross-entropy, giving practitioners predictive merging guidelines. [arxiv](https://arxiv.org/abs/2509.24244)
+9. **SEIF** — Self-evolving RL for instruction following that generates progressively harder instructions without needing a stronger teacher model. [arxiv](https://arxiv.org/abs/2605.07465)
+10. **Memory-Efficient Looped Transformer** — Decouples KV cache memory from compute depth in looped LLMs, enabling deep reasoning without linear memory growth. [arxiv](https://arxiv.org/abs/2605.07721)
 <!-- LATEST_PAPERS_END -->
 
 [Browse all paper summaries &rarr;](/blog/ai-papers/)
