@@ -14,18 +14,18 @@ Welcome to my blog! Here I share insights from my daily readings of AI research 
 I read AI and ML research papers daily and post concise summaries here. Each entry covers the key contributions, methods, and takeaways from recent papers across topics like deep learning, reinforcement learning, NLP, computer vision, and more.
 
 <!-- LATEST_PAPERS_START -->
-**Latest — May 12, 2026**
+**Latest — May 13, 2026**
 
-1. **Single Neuron Alignment Bypass** — A single neuron is sufficient to bypass safety alignment in LLMs up to 70B, via suppression or amplification, no training needed. [arxiv](https://arxiv.org/abs/2605.08513)
-2. **Qwen-Image-2.0** — Alibaba's unified image generation + editing foundation model built on Qwen3-VL and a Multimodal Diffusion Transformer. [arxiv](https://arxiv.org/abs/2605.10730)
-3. **Soohak** — Mathematician-curated benchmark for research-level math, targeting the next frontier beyond IMO gold-medal performance. [arxiv](https://arxiv.org/abs/2605.09063)
-4. **WorldReasonBench** — Stress-tests video generators (Seedance2.0, Veo3.1) as world-state predictors with human-aligned temporal reasoning benchmarks. [arxiv](https://arxiv.org/abs/2605.10434)
-5. **TMAS** — Multi-agent synergy framework that scales test-time compute via structured role-based collaboration (generate, refine, verify). [arxiv](https://arxiv.org/abs/2605.10344)
-6. **G-Zero** — Verifier-free self-play for open-ended LLM self-improvement using Hint-δ as an intrinsic reward, no judge model required. [arxiv](https://arxiv.org/abs/2605.09959)
-7. **Geometry Conflict** — Mechanistic explanation of catastrophic forgetting in LLM continual post-training via conflicting gradient geometries. [arxiv](https://arxiv.org/abs/2605.09608)
-8. **Model Merging Scaling Laws** — Power law relating model size and merged experts to cross-entropy, giving practitioners predictive merging guidelines. [arxiv](https://arxiv.org/abs/2509.24244)
-9. **SEIF** — Self-evolving RL for instruction following that generates progressively harder instructions without needing a stronger teacher model. [arxiv](https://arxiv.org/abs/2605.07465)
-10. **Memory-Efficient Looped Transformer** — Decouples KV cache memory from compute depth in looped LLMs, enabling deep reasoning without linear memory growth. [arxiv](https://arxiv.org/abs/2605.07721)
+1. **SenseNova-U1** — Unified multimodal understanding + generation via NEO-unify architecture, arguing the understanding/generation split is a structural flaw. [arxiv](https://arxiv.org/abs/2605.12500)
+2. **World Action Models (WAM)** — Survey/position paper introducing embodied foundation models that explicitly model world dynamics under intervention, beyond reactive VLA mappings. [arxiv](https://arxiv.org/abs/2605.12090)
+3. **ThinC** — Makes code the primary reasoning medium in LLMs, eliminating ambiguous NL+code interleaving and making intermediate steps structurally verifiable. [arxiv](https://arxiv.org/abs/2605.07237)
+4. **Multi-Stream LLMs** — Breaks the serialized single-stream bottleneck in LLM agents with parallel computation streams for thoughts, inputs, and outputs. [arxiv](https://arxiv.org/abs/2605.12460)
+5. **Token Superposition Training (TST)** — Drop-in pre-training method that improves data throughput per FLOPs with zero architectural changes. [arxiv](https://arxiv.org/abs/2605.06546)
+6. **RubricEM** — Meta-RL using rubrics as shared scaffolding across agent trajectories, enabling RL beyond verifiable rewards for deep research agents. [arxiv](https://arxiv.org/abs/2605.10899)
+7. **L2P** — Transfers knowledge from pre-trained latent diffusion models to pixel-space generative models without training from scratch. [arxiv](https://arxiv.org/abs/2605.12013)
+8. **AlphaGRPO** — Applies GRPO to unified multimodal models for reasoning-guided text-to-image generation with self-reflective error correction. [arxiv](https://arxiv.org/abs/2605.12495)
+9. **Continual Harness** — Online adaptation framework for embodied agents; first AI to complete Pokémon Blue/Yellow/Crystal without a single lost battle. [arxiv](https://arxiv.org/abs/2605.09998)
+10. **PAAC** — Reframes the device-cloud boundary as a trust boundary, routing sensitive reasoning on-device and privacy-safe tasks to the cloud. [arxiv](https://arxiv.org/abs/2605.08646)
 <!-- LATEST_PAPERS_END -->
 
 [Browse all paper summaries &rarr;](/blog/ai-papers/)
