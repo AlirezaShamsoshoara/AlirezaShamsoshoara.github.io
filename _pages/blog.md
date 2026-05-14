@@ -14,18 +14,18 @@ Welcome to my blog! Here I share insights from my daily readings of AI research 
 I read AI and ML research papers daily and post concise summaries here. Each entry covers the key contributions, methods, and takeaways from recent papers across topics like deep learning, reinforcement learning, NLP, computer vision, and more.
 
 <!-- LATEST_PAPERS_START -->
-**Latest — May 13, 2026**
+**Latest — May 14, 2026**
 
-1. **SenseNova-U1** — Unified multimodal understanding + generation via NEO-unify architecture, arguing the understanding/generation split is a structural flaw. [arxiv](https://arxiv.org/abs/2605.12500)
-2. **World Action Models (WAM)** — Survey/position paper introducing embodied foundation models that explicitly model world dynamics under intervention, beyond reactive VLA mappings. [arxiv](https://arxiv.org/abs/2605.12090)
-3. **ThinC** — Makes code the primary reasoning medium in LLMs, eliminating ambiguous NL+code interleaving and making intermediate steps structurally verifiable. [arxiv](https://arxiv.org/abs/2605.07237)
-4. **Multi-Stream LLMs** — Breaks the serialized single-stream bottleneck in LLM agents with parallel computation streams for thoughts, inputs, and outputs. [arxiv](https://arxiv.org/abs/2605.12460)
-5. **Token Superposition Training (TST)** — Drop-in pre-training method that improves data throughput per FLOPs with zero architectural changes. [arxiv](https://arxiv.org/abs/2605.06546)
-6. **RubricEM** — Meta-RL using rubrics as shared scaffolding across agent trajectories, enabling RL beyond verifiable rewards for deep research agents. [arxiv](https://arxiv.org/abs/2605.10899)
-7. **L2P** — Transfers knowledge from pre-trained latent diffusion models to pixel-space generative models without training from scratch. [arxiv](https://arxiv.org/abs/2605.12013)
-8. **AlphaGRPO** — Applies GRPO to unified multimodal models for reasoning-guided text-to-image generation with self-reflective error correction. [arxiv](https://arxiv.org/abs/2605.12495)
-9. **Continual Harness** — Online adaptation framework for embodied agents; first AI to complete Pokémon Blue/Yellow/Crystal without a single lost battle. [arxiv](https://arxiv.org/abs/2605.09998)
-10. **PAAC** — Reframes the device-cloud boundary as a trust boundary, routing sensitive reasoning on-device and privacy-safe tasks to the cloud. [arxiv](https://arxiv.org/abs/2605.08646)
+1. **MinT** — Managed LoRA serving infrastructure that keeps the base model resident and dynamically loads adapter revisions, enabling multi-tenant LLM serving at millions-of-policies scale. [arxiv](https://arxiv.org/abs/2605.13779)
+2. **Orthrus** — Dual-architecture framework combining autoregressive generation fidelity with diffusion-based parallel token decoding for faster, memory-efficient inference. [arxiv](https://arxiv.org/abs/2605.12825)
+3. **DAgger for LLM-Agents** — Revisits the classic imitation learning algorithm to address covariate shift and sparse rewards in long-horizon LLM agent training. [arxiv](https://arxiv.org/abs/2605.12913)
+4. **MulTaBench** — Benchmark for multimodal tabular learning with text and image, showing frozen-embedding models underperform end-to-end tuned ones. [arxiv](https://arxiv.org/abs/2605.10616)
+5. **AnyFlow** — Video diffusion model with on-policy flow map distillation that maintains quality at any number of inference steps, eliminating the step-count cliff. [arxiv](https://arxiv.org/abs/2605.13724)
+6. **Qwen-Image-VAE-2.0** — High-compression VAE suite with Global Skip Connections and expanded latent channels, improving image generation quality across the Qwen ecosystem. [arxiv](https://arxiv.org/abs/2605.13565)
+7. **Long-Context VLM Training** — Systematic recipe for training VLMs that generalize beyond 128K context using balanced long-context data mixtures. [arxiv](https://arxiv.org/abs/2605.13831)
+8. **DAWN / WAIMs** — Formalizes World-Action Interactive Models with explicit bidirectional coupling between scene evolution and maneuver planning for embodied agents. [arxiv](https://arxiv.org/abs/2605.11550)
+9. **Many-Shot CoT-ICL** — Rigorous study showing many-shot in-context learning with chain-of-thought can match fine-tuning, with analysis of when it truly learns vs. pattern-matches. [arxiv](https://arxiv.org/abs/2605.13511)
+10. **Learning Agentic Policy from Action Guidance** — Uses explicit action guidance as external scaffolding to bootstrap LLM agents into sparse-reward regions without iterative prompting. [arxiv](https://arxiv.org/abs/2605.12004)
 <!-- LATEST_PAPERS_END -->
 
 [Browse all paper summaries &rarr;](/blog/ai-papers/)
