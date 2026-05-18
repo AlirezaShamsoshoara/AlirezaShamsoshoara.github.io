@@ -14,18 +14,18 @@ Welcome to my blog! Here I share insights from my daily readings of AI research 
 I read AI and ML research papers daily and post concise summaries here. Each entry covers the key contributions, methods, and takeaways from recent papers across topics like deep learning, reinforcement learning, NLP, computer vision, and more.
 
 <!-- LATEST_PAPERS_START -->
-**Latest — May 17, 2026**
+**Latest — May 18, 2026**
 
-1. **Gold-Medal Olympiad Reasoning** — Two-stage SFT+RL recipe achieves gold-medal-level IMO/IPhO performance without bespoke architectures. [arxiv](https://arxiv.org/abs/2605.13301)
-2. **Causal Forcing++** — Frame-wise 1-2 step diffusion distillation for real-time interactive video generation with low latency streaming. [arxiv](https://arxiv.org/abs/2605.15141)
-3. **Self-Distilled Agentic RL** — On-Policy Self-Distillation (OPSD) stabilizes multi-turn LLM agents with token-level teacher guidance. [arxiv](https://arxiv.org/abs/2605.15155)
-4. **MemLens** — 789-question benchmark across five multimodal memory abilities (extraction, multi-session reasoning, temporal, update, conflict). [arxiv](https://arxiv.org/abs/2605.14906)
-5. **SANA-WM** — 2.6B open-source world model for 1-minute 720p video with 6-DoF camera control via hybrid linear diffusion transformer. [arxiv](https://arxiv.org/abs/2605.15178)
-6. **MemEye** — Visual-centric memory evaluation that closes caption-shortcut loopholes by requiring fine-grained raw visual evidence retention. [arxiv](https://arxiv.org/abs/2605.15128)
-7. **Darwin Family** — Training-free evolutionary model merging with 14-dimensional adaptive genome and MRI-Trust Fusion for reasoning gains. [arxiv](https://arxiv.org/abs/2605.14386)
-8. **Multi-Agent Survey** — Unified taxonomy covering collaboration, failure attribution, and self-evolution in LLM-based multi-agent systems. [arxiv](https://arxiv.org/abs/2605.14892)
-9. **WildClawBench** — 60 human-authored bilingual long-horizon agent tasks in real CLI runtimes, averaging 8 minutes per task. [arxiv](https://arxiv.org/abs/2605.10912)
-10. **STALE** — Benchmark of 400 conflict scenarios testing whether LLM agents can detect and revise stale memories via implicit contradiction. [arxiv](https://arxiv.org/abs/2605.06527)
+1. **Natural Language Autoencoders (NLA)** — Anthropic interpretability paper used in Claude Opus 4.6 safety auditing; surfaced unverbalized evaluation awareness. [transformer-circuits.pub](https://transformer-circuits.pub/2026/nla/)
+2. **LLMs Get Lost In Multi-Turn Conversation** — ICLR 2026 Outstanding Paper exposing reliability degradation in multi-turn, underspecified conversations. [arxiv](https://arxiv.org/abs/2505.06120)
+3. **Transformers are Inherently Succinct** — ICLR 2026 Outstanding Paper proving transformers are exponentially more succinct than LTL and RNNs. [arxiv](https://arxiv.org/abs/2510.19315)
+4. **The Polar Express** — ICLR 2026 Honorable Mention deriving optimal polynomial approximations for the Muon optimizer's polar decomposition. [arxiv](https://arxiv.org/abs/2505.16932)
+5. **AI Co-Mathematician** — Google DeepMind agentic workbench for full mathematical research workflow; sets new FrontierMath SOTA. [arxiv](https://arxiv.org/abs/2605.06651)
+6. **ARIS** — Open-source autonomous scientific research harness via adversarial multi-agent collaboration. [arxiv](https://arxiv.org/abs/2605.03042)
+7. **Flash-GRPO** — One-step policy optimization cuts video diffusion GRPO alignment from hundreds of GPU days to a fraction. [arxiv](https://arxiv.org/abs/2605.15980)
+8. **Nudging Beyond the Comfort Zone** — Strategy-guided exploration breaks RLVR's comfort zone, substantially improving LLM reasoning. [arxiv](https://arxiv.org/abs/2605.15726)
+9. **PhysBrain 1.0** — Egocentric video to structured physical commonsense for VLA robot training; top upvoted HF paper today. [arxiv](https://arxiv.org/abs/2605.15298)
+10. **Pixal3D** — Pixel-aligned framework for significantly higher-fidelity 3D asset generation from single reference images. [arxiv](https://arxiv.org/abs/2605.10922)
 <!-- LATEST_PAPERS_END -->
 
 [Browse all paper summaries &rarr;](/blog/ai-papers/)
