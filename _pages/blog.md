@@ -14,18 +14,18 @@ Welcome to my blog! Here I share insights from my daily readings of AI research 
 I read AI and ML research papers daily and post concise summaries here. Each entry covers the key contributions, methods, and takeaways from recent papers across topics like deep learning, reinforcement learning, NLP, computer vision, and more.
 
 <!-- LATEST_PAPERS_START -->
-**Latest — May 18, 2026**
+**Latest — May 20, 2026**
 
-1. **Natural Language Autoencoders (NLA)** — Anthropic interpretability paper used in Claude Opus 4.6 safety auditing; surfaced unverbalized evaluation awareness. [transformer-circuits.pub](https://transformer-circuits.pub/2026/nla/)
-2. **LLMs Get Lost In Multi-Turn Conversation** — ICLR 2026 Outstanding Paper exposing reliability degradation in multi-turn, underspecified conversations. [arxiv](https://arxiv.org/abs/2505.06120)
-3. **Transformers are Inherently Succinct** — ICLR 2026 Outstanding Paper proving transformers are exponentially more succinct than LTL and RNNs. [arxiv](https://arxiv.org/abs/2510.19315)
-4. **The Polar Express** — ICLR 2026 Honorable Mention deriving optimal polynomial approximations for the Muon optimizer's polar decomposition. [arxiv](https://arxiv.org/abs/2505.16932)
-5. **AI Co-Mathematician** — Google DeepMind agentic workbench for full mathematical research workflow; sets new FrontierMath SOTA. [arxiv](https://arxiv.org/abs/2605.06651)
-6. **ARIS** — Open-source autonomous scientific research harness via adversarial multi-agent collaboration. [arxiv](https://arxiv.org/abs/2605.03042)
-7. **Flash-GRPO** — One-step policy optimization cuts video diffusion GRPO alignment from hundreds of GPU days to a fraction. [arxiv](https://arxiv.org/abs/2605.15980)
-8. **Nudging Beyond the Comfort Zone** — Strategy-guided exploration breaks RLVR's comfort zone, substantially improving LLM reasoning. [arxiv](https://arxiv.org/abs/2605.15726)
-9. **PhysBrain 1.0** — Egocentric video to structured physical commonsense for VLA robot training; top upvoted HF paper today. [arxiv](https://arxiv.org/abs/2605.15298)
-10. **Pixal3D** — Pixel-aligned framework for significantly higher-fidelity 3D asset generation from single reference images. [arxiv](https://arxiv.org/abs/2605.10922)
+1. **When Vision Speaks for Sound** — Multimodal LLMs exploit visual-acoustic shortcuts instead of verifying audio; THUD probing framework + alignment fix yields +28pp. [arxiv](https://arxiv.org/abs/2605.16403)
+2. **Anti-Self-Distillation (AntiSD)** — PMI-based fix for RL reasoning self-distillation: reverses divergence to protect deliberation tokens, 2–10× faster to baseline with +11.5pp accuracy. [arxiv](https://arxiv.org/abs/2605.11609)
+3. **GoLongRL** — Fully open-source long-context RLVR recipe (23K dataset, 9 task types); Qwen3-30B-A3B matches DeepSeek-R1-0528 on long-context tasks. [arxiv](https://arxiv.org/abs/2605.19577)
+4. **OpenComputer** — Verifier-grounded benchmark framework for computer-use agents over real desktop applications; replaces brittle screenshot matching. [arxiv](https://arxiv.org/abs/2605.19769)
+5. **Active PRP Rerankers** — Reframes LLM pairwise reranking as active learning to cut redundant comparison calls; broad applicability to RLHF and RAG. [arxiv](https://arxiv.org/abs/2605.14236)
+6. **AutoResearchClaw** — Iterative multi-perspective critique loop for autonomous scientific discovery with human-AI collaboration gates. [arxiv](https://arxiv.org/abs/2605.20025)
+7. **BetaPRM** — Process Reward Models with calibrated uncertainty via Beta-Binomial distributions; enables downstream methods to discount unreliable step predictions. [arxiv](https://arxiv.org/abs/2605.15529)
+8. **EnvFactory** — Synthesizes executable sandboxed tool environments from API schemas for agentic RL training at scale; highest GitHub traction today. [arxiv](https://arxiv.org/abs/2605.18703)
+9. **Stable Audio 3** — Stability AI's new family of fast latent diffusion models for variable-length audio generation, editing, and inpainting. [arxiv](https://arxiv.org/abs/2605.17991)
+10. **CogOmniControl** — Couples a reasoning VLM to a diffusion backbone via creative intent cognition for robust controllable video generation from abstract conditions. [arxiv](https://arxiv.org/abs/2605.19995)
 <!-- LATEST_PAPERS_END -->
 
 [Browse all paper summaries &rarr;](/blog/ai-papers/)
