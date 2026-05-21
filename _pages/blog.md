@@ -14,18 +14,18 @@ Welcome to my blog! Here I share insights from my daily readings of AI research 
 I read AI and ML research papers daily and post concise summaries here. Each entry covers the key contributions, methods, and takeaways from recent papers across topics like deep learning, reinforcement learning, NLP, computer vision, and more.
 
 <!-- LATEST_PAPERS_START -->
-**Latest — May 20, 2026**
+**Latest — May 21, 2026**
 
-1. **When Vision Speaks for Sound** — Multimodal LLMs exploit visual-acoustic shortcuts instead of verifying audio; THUD probing framework + alignment fix yields +28pp. [arxiv](https://arxiv.org/abs/2605.16403)
-2. **Anti-Self-Distillation (AntiSD)** — PMI-based fix for RL reasoning self-distillation: reverses divergence to protect deliberation tokens, 2–10× faster to baseline with +11.5pp accuracy. [arxiv](https://arxiv.org/abs/2605.11609)
-3. **GoLongRL** — Fully open-source long-context RLVR recipe (23K dataset, 9 task types); Qwen3-30B-A3B matches DeepSeek-R1-0528 on long-context tasks. [arxiv](https://arxiv.org/abs/2605.19577)
-4. **OpenComputer** — Verifier-grounded benchmark framework for computer-use agents over real desktop applications; replaces brittle screenshot matching. [arxiv](https://arxiv.org/abs/2605.19769)
-5. **Active PRP Rerankers** — Reframes LLM pairwise reranking as active learning to cut redundant comparison calls; broad applicability to RLHF and RAG. [arxiv](https://arxiv.org/abs/2605.14236)
-6. **AutoResearchClaw** — Iterative multi-perspective critique loop for autonomous scientific discovery with human-AI collaboration gates. [arxiv](https://arxiv.org/abs/2605.20025)
-7. **BetaPRM** — Process Reward Models with calibrated uncertainty via Beta-Binomial distributions; enables downstream methods to discount unreliable step predictions. [arxiv](https://arxiv.org/abs/2605.15529)
-8. **EnvFactory** — Synthesizes executable sandboxed tool environments from API schemas for agentic RL training at scale; highest GitHub traction today. [arxiv](https://arxiv.org/abs/2605.18703)
-9. **Stable Audio 3** — Stability AI's new family of fast latent diffusion models for variable-length audio generation, editing, and inpainting. [arxiv](https://arxiv.org/abs/2605.17991)
-10. **CogOmniControl** — Couples a reasoning VLM to a diffusion backbone via creative intent cognition for robust controllable video generation from abstract conditions. [arxiv](https://arxiv.org/abs/2605.19995)
+1. **Anti-Self-Distillation for Reasoning RL** — PMI-based suppression of over-confident teacher tokens sharpens focus on genuine deliberation steps; consistent gains on math/reasoning benchmarks without an external teacher. [arxiv](https://arxiv.org/abs/2605.11609)
+2. **Mega-ASR** — Scalable compound-data pipeline for in-the-wild² ASR robustness, tackling compositional noise/reverb/codec distortions that trip up current models. [arxiv](https://arxiv.org/abs/2605.19833)
+3. **When Vision Speaks for Sound** — Video MLLMs exploit visual-acoustic shortcuts instead of genuinely processing audio; paper exposes the "Clever Hans effect" and proposes evaluation protocols to catch it. [arxiv](https://arxiv.org/abs/2605.16403)
+4. **Active Learners as Efficient PRP Rerankers** — Reframes LLM pairwise reranking as active learning from noisy comparisons, improving NDCG@10 per LLM call within a fixed budget. [arxiv](https://arxiv.org/abs/2605.14236)
+5. **Video2GUI** — Fully automated framework that extracts GUI interaction trajectories from screen-recording videos for large-scale agent pretraining without human labeling. [arxiv](https://arxiv.org/abs/2605.14747)
+6. **Train-Free Infinite-Frame Video Generation** — Attention windowing + consistency regularization fixes train/inference mismatch in FIFO-diffusion, enabling coherent infinite-length video without fine-tuning. [arxiv](https://arxiv.org/abs/2605.18233)
+7. **OpenComputer** — Verifier-grounded framework for constructing reproducible software environments to evaluate and train computer-use agents on real desktop applications. [arxiv](https://arxiv.org/abs/2605.19769)
+8. **GoLongRL** — Fully open-source long-context RLVR recipe with 23K samples and multitask alignment to prevent capability regression during long-context RL training. [arxiv](https://arxiv.org/abs/2605.19577)
+9. **Rank-1 RLVR Trajectories** — RLVR weight updates are near-rank-1; extrapolating along this direction achieves strong reasoning gains with minimal actual training compute. [arxiv](https://arxiv.org/abs/2605.21468)
+10. **OScaR: Extreme KV Cache Quantization** — Principled replacement for per-channel quantization that handles Key tensor outliers, enabling sub-2-bit KV cache compression for longer contexts on the same hardware. [arxiv](https://arxiv.org/abs/2605.19660)
 <!-- LATEST_PAPERS_END -->
 
 [Browse all paper summaries &rarr;](/blog/ai-papers/)
