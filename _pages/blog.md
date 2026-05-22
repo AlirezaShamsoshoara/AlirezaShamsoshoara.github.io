@@ -14,18 +14,18 @@ Welcome to my blog! Here I share insights from my daily readings of AI research 
 I read AI and ML research papers daily and post concise summaries here. Each entry covers the key contributions, methods, and takeaways from recent papers across topics like deep learning, reinforcement learning, NLP, computer vision, and more.
 
 <!-- LATEST_PAPERS_START -->
-**Latest — May 21, 2026**
+**Latest — May 22, 2026**
 
-1. **Anti-Self-Distillation for Reasoning RL** — PMI-based suppression of over-confident teacher tokens sharpens focus on genuine deliberation steps; consistent gains on math/reasoning benchmarks without an external teacher. [arxiv](https://arxiv.org/abs/2605.11609)
-2. **Mega-ASR** — Scalable compound-data pipeline for in-the-wild² ASR robustness, tackling compositional noise/reverb/codec distortions that trip up current models. [arxiv](https://arxiv.org/abs/2605.19833)
-3. **When Vision Speaks for Sound** — Video MLLMs exploit visual-acoustic shortcuts instead of genuinely processing audio; paper exposes the "Clever Hans effect" and proposes evaluation protocols to catch it. [arxiv](https://arxiv.org/abs/2605.16403)
-4. **Active Learners as Efficient PRP Rerankers** — Reframes LLM pairwise reranking as active learning from noisy comparisons, improving NDCG@10 per LLM call within a fixed budget. [arxiv](https://arxiv.org/abs/2605.14236)
-5. **Video2GUI** — Fully automated framework that extracts GUI interaction trajectories from screen-recording videos for large-scale agent pretraining without human labeling. [arxiv](https://arxiv.org/abs/2605.14747)
-6. **Train-Free Infinite-Frame Video Generation** — Attention windowing + consistency regularization fixes train/inference mismatch in FIFO-diffusion, enabling coherent infinite-length video without fine-tuning. [arxiv](https://arxiv.org/abs/2605.18233)
-7. **OpenComputer** — Verifier-grounded framework for constructing reproducible software environments to evaluate and train computer-use agents on real desktop applications. [arxiv](https://arxiv.org/abs/2605.19769)
-8. **GoLongRL** — Fully open-source long-context RLVR recipe with 23K samples and multitask alignment to prevent capability regression during long-context RL training. [arxiv](https://arxiv.org/abs/2605.19577)
-9. **Rank-1 RLVR Trajectories** — RLVR weight updates are near-rank-1; extrapolating along this direction achieves strong reasoning gains with minimal actual training compute. [arxiv](https://arxiv.org/abs/2605.21468)
-10. **OScaR: Extreme KV Cache Quantization** — Principled replacement for per-channel quantization that handles Key tensor outliers, enabling sub-2-bit KV cache compression for longer contexts on the same hardware. [arxiv](https://arxiv.org/abs/2605.19660)
+1. **DelTA: Discriminative Token Credit Assignment for RLVR** — New "discriminator view" of policy-gradient shows token patterns dilute signal; DelTA amplifies discriminative gradients for +3.26 avg gains on 7 math benchmarks with Qwen3. [arxiv](https://arxiv.org/abs/2605.21467)
+2. **TransitLM** — 13M+ record transit planning dataset from 4 Chinese cities; LLM trained on it generates valid routes without any map infrastructure. [arxiv](https://arxiv.org/abs/2605.22355)
+3. **Perception or Prejudice: MLLMs & Personality** — Introduces GPR task + MM-OCEAN benchmark; finds 51% of correct MLLM trait ratings are ungrounded in evidence (the "Prejudice Gap"). [arxiv](https://arxiv.org/abs/2605.22109)
+4. **π-Bench: Proactive Personal Assistant Agents** — Benchmark for agents that must infer unstated needs across long-horizon workflows; frontier LLMs struggle significantly with proactive task completion. [arxiv](https://arxiv.org/abs/2605.14678)
+5. **Full Attention Strikes Back** — Full-attention LLMs are intrinsically sparse; converts them to sparse attention in <100 training steps with no accuracy loss. [arxiv](https://arxiv.org/abs/2605.16928)
+6. **ACC: Compiling Agent Trajectories for Long-Context Training** — Repurposes multi-turn agent trajectories as high-quality long-context training data, cutting curation cost. [arxiv](https://arxiv.org/abs/2605.21850)
+7. **PhysX-Omni: Unified Physical 3D Generation** — First framework generating simulation-ready 3D assets (rigid, deformable, articulated) in one unified model; strong gains for robotics/embodied AI. [arxiv](https://arxiv.org/abs/2605.21572)
+8. **LatentOmni: Audio-Visual Latent Reasoning** — Keeps audio-visual representations continuous during reasoning steps instead of discretizing to text tokens, improving temporal grounding. [arxiv](https://arxiv.org/abs/2605.22012)
+9. **WorldKV: Efficient World Memory** — KV retrieval + compression for consistent world generation in autoregressive video diffusion; maintains scene consistency without breaking real-time constraints. [arxiv](https://arxiv.org/abs/2605.22718)
+10. **Spreadsheet-RL** — RL-trained LLM agents on realistic Excel/Sheets tasks using verifiable outcomes as rewards; significantly beats prompting-based baselines. [arxiv](https://arxiv.org/abs/2605.22642)
 <!-- LATEST_PAPERS_END -->
 
 [Browse all paper summaries &rarr;](/blog/ai-papers/)
