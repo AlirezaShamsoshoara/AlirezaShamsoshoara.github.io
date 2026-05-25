@@ -14,18 +14,18 @@ Welcome to my blog! Here I share insights from my daily readings of AI research 
 I read AI and ML research papers daily and post concise summaries here. Each entry covers the key contributions, methods, and takeaways from recent papers across topics like deep learning, reinforcement learning, NLP, computer vision, and more.
 
 <!-- LATEST_PAPERS_START -->
-**Latest — May 23, 2026**
+**Latest — May 24, 2026**
 
-1. **Unsupervised Process Reward Models** — Trains step-level PRMs with zero human annotation on unlabeled problem sets, enabling scalable RLVR reward signals without labelers. [arxiv](https://arxiv.org/abs/2605.10158)
-2. **Training LLMs to Predict Clinical Events** — Converts MIMIC-III longitudinal notes into prediction tasks; LLMs forecast future clinical events from free-text EHRs alone. [arxiv](https://arxiv.org/abs/2605.12817)
-3. **Forecasting Downstream LLM Performance With Proxy Metrics** — Proxy metrics reliably predict downstream capabilities, replacing expensive direct evaluations during model development. [arxiv](https://arxiv.org/abs/2605.18607)
-4. **ClinSeekAgent: Multimodal Agentic Clinical Reasoning** — Active, iterative evidence-seeking agent across heterogeneous clinical sources; advances beyond static RAG for healthcare AI. [arxiv](https://arxiv.org/abs/2605.20176)
-5. **One Sentence, One Drama: Multi-Agent Video Drama Generation** — Multi-agent pipeline turns a single sentence into a coherent short-form drama with proper pacing and visual consistency. [arxiv](https://arxiv.org/abs/2605.22144)
-6. **Swift Sampling: Temporal Surprises via Taylor Series** — Training-free frame selector models video as a latent trajectory; Taylor series pinpoints high-information frames for long-video MLLMs. [arxiv](https://arxiv.org/abs/2605.22678)
-7. **LoREnc: Low-Rank Encryption for Foundation Models** — Training-free IP protection for FMs and LoRA adapters via spectral truncation; no retraining or original data required. [arxiv](https://arxiv.org/abs/2605.13163)
-8. **AutoRubric-T2I: Rule-Based Reward Model for T2I Alignment** — VLM judges auto-generate fine-grained rubrics for text-to-image alignment, replacing costly human preference corpora. [arxiv](https://arxiv.org/abs/2605.17602)
-9. **SceneAligner: 3D-Grounded Floorplan Localization** — Localizes observers in real-world buildings from visual inputs using 3D geometric grounding on rasterized floorplans. [arxiv](https://arxiv.org/abs/2605.22581)
-10. **SAM 2 Adaptation for Nonlinear Visual Object Tracking** — Adds motion, geometry, and semantic cues to SAM 2 for robust tracking under occlusion, distractors, and nonlinear motion. [arxiv](https://arxiv.org/abs/2605.22538)
+1. **DelTA: Discriminative Token Credit Assignment for RLVR** — Fine-grained token-level credit assignment for RLVR; treats policy-gradient updates as linear discriminators over token gradients to improve LLM reasoning. [arxiv](https://arxiv.org/abs/2605.21467)
+2. **TransitLM: Map-Free Transit Route Generation** — 13M+ route records from 4 Chinese cities; trains LLMs for public transit navigation without any map infrastructure. [arxiv](https://arxiv.org/abs/2605.22355)
+3. **Perception or Prejudice: MLLMs and Personality Reasoning** — New GPR benchmark shows MLLMs rely on visual stereotypes rather than behavioral evidence when inferring personality traits. [arxiv](https://arxiv.org/abs/2605.22109)
+4. **π-Bench: Proactive Personal Assistant Agent Evaluation** — Benchmark for long-horizon, underspecified workflows; frontier agents fail significantly at proactive, multi-step assistance. [arxiv](https://arxiv.org/abs/2605.14678)
+5. **Full Attention Strikes Back: Dense-to-Sparse in ~100 Steps** — Dense LLMs converted to sparse attention in ~100 fine-tuning steps with no accuracy loss, slashing long-context inference cost. [arxiv](https://arxiv.org/abs/2605.16928)
+6. **ACC: Compiling Agent Trajectories for Long-Context Training** — Repurposes agent tool-call trajectories as long-context training data, improving LLM long-context reasoning without costly curation. [arxiv](https://arxiv.org/abs/2605.21850)
+7. **PhysX-Omni: Unified Physical 3D Generation** — First framework generating simulation-ready 3D assets (rigid, deformable, articulated) with physically accurate properties in one system. [arxiv](https://arxiv.org/abs/2605.21572)
+8. **LatentOmni: Audio-Visual Latent Reasoning for MLLMs** — Bypasses text-CoT lossy compression by reasoning directly in a unified audio-visual latent space for omni-modal understanding. [arxiv](https://arxiv.org/abs/2605.22012)
+9. **SEGA: Spectral-Energy Guided Attention for DiT Resolution Extrapolation** — Training-free high-resolution generation beyond DiT training range via frequency-specific spectral-energy attention scaling. [arxiv](https://arxiv.org/abs/2605.22668)
+10. **Forecasting Scientific Progress with AI (CUSP)** — Benchmark testing AI's ability to anticipate novel discoveries under knowledge cutoffs; current models fall well short of genuine forecasting. [arxiv](https://arxiv.org/abs/2605.22681)
 <!-- LATEST_PAPERS_END -->
 
 [Browse all paper summaries &rarr;](/blog/ai-papers/)
