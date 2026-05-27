@@ -14,18 +14,18 @@ Welcome to my blog! Here I share insights from my daily readings of AI research 
 I read AI and ML research papers daily and post concise summaries here. Each entry covers the key contributions, methods, and takeaways from recent papers across topics like deep learning, reinforcement learning, NLP, computer vision, and more.
 
 <!-- LATEST_PAPERS_START -->
-**Latest — May 26, 2026**
+**Latest — May 27, 2026**
 
-1. **DVAO: Dynamic Variance-adaptive Advantage Optimization for Multi-reward Reinforcement Learning** — Dynamic weighting for multi-reward RLHF that up-weights high-signal objectives and suppresses noisy ones, outperforming baselines on Qwen3/Qwen2.5. [arxiv](https://arxiv.org/abs/2605.25604)
-2. **WBench: A Comprehensive Multi-turn Benchmark for Interactive Video World Model Evaluation** — Multi-turn benchmark for interactive world models across 5 dimensions, 289 test cases, 22 automatic sub-metrics covering 20 SOTA models. [arxiv](https://arxiv.org/abs/2605.25874)
-3. **Macaron-A2UI: A Model for Generative UI in Personal Agents** — Generative UI model that dynamically synthesizes context-aware controls and interactive state for personal agents, replacing static chat interfaces. [arxiv](https://arxiv.org/abs/2605.24830)
-4. **Foundation Protocol: A Coordination Layer for Agentic Society** — Shared protocol layer for inter-agent communication, trust, and task delegation as autonomous agents scale into agentic societies. [arxiv](https://arxiv.org/abs/2605.23218)
-5. **TriSplat: Simulation-Ready Feed-Forward 3D Scene Reconstruction** — Feed-forward 3D reconstruction from sparse views that produces clean triangle meshes for downstream simulation, beyond Gaussian splatting. [arxiv](https://arxiv.org/abs/2605.26115)
-6. **ParaVT: Taming the Tool Prior Paradox for Parallel Tool Use in Agentic Video Reinforcement Learning** — Enables multimodal models to invoke multiple video-processing tools in parallel per turn, eliminating sequential bottlenecks in video RL agents. [arxiv](https://arxiv.org/abs/2605.20342)
-7. **Toward Native Multimodal Modeling: A Roadmap** — Survey and roadmap tracing the evolution from late-fusion VLMs toward architectures that natively process and reason across modalities. [arxiv](https://arxiv.org/abs/2605.25343)
-8. **ThriftAttention: Selective Mixed Precision for Long-Context FP4 Attention** — Selective mixed-precision attention achieving near-lossless FP4 inference on Blackwell GPUs for long-context workloads with significant FP16 speedups. [arxiv](https://arxiv.org/abs/2605.23081)
-9. **QUEST: Training Frontier Deep Research Agents with Fully Synthetic Tasks** — Fully synthetic search-and-synthesis tasks for open training of deep research agents, closing the gap with frontier proprietary systems. [arxiv](https://arxiv.org/abs/2605.24218)
-10. **AutoResearch AI: Towards AI-Powered Research Automation for Scientific Discovery** — End-to-end framework automating the full scientific workflow from literature grounding through hypothesis generation, experimentation, and revision. [arxiv](https://arxiv.org/abs/2605.23204)
+1. **MiniMax-M2: Mini Activations Unleashing Max Real-World Intelligence** — 229.9B MoE model with 9.8B active params, agentic-first design with Forge RL system and hybrid Lightning+Softmax Attention for unlimited context. [arxiv](https://arxiv.org/abs/2605.26494)
+2. **Gemini Embedding 2: A Native Multimodal Embedding Model** — Google's first truly native multimodal embedding unifying video, audio, image, and text in one representation space via contrastive learning. [arxiv](https://arxiv.org/abs/2605.27295)
+3. **LLaVA-OneVision-2: Towards Next-Generation Perceptual Intelligence** — Advances LLaVA-OV with native encoder, Windowed Attention, and codec-stream video tokenization for efficient high-resolution multimodal reasoning. [arxiv](https://arxiv.org/abs/2605.25979)
+4. **LocateAnything: Fast Vision-Language Grounding with Parallel Box Decoding** — NVIDIA paper introducing Parallel Box Decoding (PBD) to resolve the autoregressive coordinate generation bottleneck in VLMs. [arxiv](https://arxiv.org/abs/2605.27365)
+5. **Share More, Search Less: Collaborative Parallel Thinking for Test-Time Scaling** — Branches in parallel search share intermediate reasoning discoveries in real time, eliminating redundant re-discovery and improving efficiency. [arxiv](https://arxiv.org/abs/2605.27030)
+6. **MobileMoE: Scaling On-Device Mixture of Experts** — First MoE scaling law for mobile hardware at 0.3–0.9B active params, establishing a new Pareto frontier for on-device LLMs. [arxiv](https://arxiv.org/abs/2605.27358)
+7. **MobileGym: Verifiable Parallel Simulation Platform for Mobile GUI Agents** — Browser-hosted RL environment with deterministic JSON state-based judging and hundreds of parallel rollout instances for mobile agent training. [arxiv](https://arxiv.org/abs/2605.26114)
+8. **MUSE-Autoskill: Self-Evolving Agents via Skill Lifecycle Management** — Skill-centric agent framework with continuous create→store→manage→evaluate→refine loop enabling long-term self-improvement without human intervention. [arxiv](https://arxiv.org/abs/2605.27366)
+9. **D²-Monitor: Dynamic Safety Monitoring for Diffusion LLMs** — First safety framework for diffusion-based LLMs, using hesitation signals in denoising trajectories to route unsafe generations to a heavier classifier. [arxiv](https://arxiv.org/abs/2605.25893)
+10. **VitaBench 2.0: Evaluating Personalized and Proactive Agents** — Benchmarks LLM agents on inferring user preferences from fragmented interactions and acting proactively in long-horizon realistic scenarios. [arxiv](https://arxiv.org/abs/2605.27141)
 <!-- LATEST_PAPERS_END -->
 
 [Browse all paper summaries &rarr;](/blog/ai-papers/)
