@@ -14,18 +14,18 @@ Welcome to my blog! Here I share insights from my daily readings of AI research 
 I read AI and ML research papers daily and post concise summaries here. Each entry covers the key contributions, methods, and takeaways from recent papers across topics like deep learning, reinforcement learning, NLP, computer vision, and more.
 
 <!-- LATEST_PAPERS_START -->
-**Latest — May 27, 2026**
+**Latest — May 28, 2026**
 
-1. **MiniMax-M2: Mini Activations Unleashing Max Real-World Intelligence** — 229.9B MoE model with 9.8B active params, agentic-first design with Forge RL system and hybrid Lightning+Softmax Attention for unlimited context. [arxiv](https://arxiv.org/abs/2605.26494)
-2. **Gemini Embedding 2: A Native Multimodal Embedding Model** — Google's first truly native multimodal embedding unifying video, audio, image, and text in one representation space via contrastive learning. [arxiv](https://arxiv.org/abs/2605.27295)
-3. **LLaVA-OneVision-2: Towards Next-Generation Perceptual Intelligence** — Advances LLaVA-OV with native encoder, Windowed Attention, and codec-stream video tokenization for efficient high-resolution multimodal reasoning. [arxiv](https://arxiv.org/abs/2605.25979)
-4. **LocateAnything: Fast Vision-Language Grounding with Parallel Box Decoding** — NVIDIA paper introducing Parallel Box Decoding (PBD) to resolve the autoregressive coordinate generation bottleneck in VLMs. [arxiv](https://arxiv.org/abs/2605.27365)
-5. **Share More, Search Less: Collaborative Parallel Thinking for Test-Time Scaling** — Branches in parallel search share intermediate reasoning discoveries in real time, eliminating redundant re-discovery and improving efficiency. [arxiv](https://arxiv.org/abs/2605.27030)
-6. **MobileMoE: Scaling On-Device Mixture of Experts** — First MoE scaling law for mobile hardware at 0.3–0.9B active params, establishing a new Pareto frontier for on-device LLMs. [arxiv](https://arxiv.org/abs/2605.27358)
-7. **MobileGym: Verifiable Parallel Simulation Platform for Mobile GUI Agents** — Browser-hosted RL environment with deterministic JSON state-based judging and hundreds of parallel rollout instances for mobile agent training. [arxiv](https://arxiv.org/abs/2605.26114)
-8. **MUSE-Autoskill: Self-Evolving Agents via Skill Lifecycle Management** — Skill-centric agent framework with continuous create→store→manage→evaluate→refine loop enabling long-term self-improvement without human intervention. [arxiv](https://arxiv.org/abs/2605.27366)
-9. **D²-Monitor: Dynamic Safety Monitoring for Diffusion LLMs** — First safety framework for diffusion-based LLMs, using hesitation signals in denoising trajectories to route unsafe generations to a heavier classifier. [arxiv](https://arxiv.org/abs/2605.25893)
-10. **VitaBench 2.0: Evaluating Personalized and Proactive Agents** — Benchmarks LLM agents on inferring user preferences from fragmented interactions and acting proactively in long-horizon realistic scenarios. [arxiv](https://arxiv.org/abs/2605.27141)
+1. **Gamma-World: Generative Multi-Agent World Modeling Beyond Two Players** — Principled multi-agent world model where agents are independently controllable, permutation-symmetric, and consistent across time — extends interactive video generation beyond single/two-player settings. [arxiv](https://arxiv.org/abs/2605.28816)
+2. **ProRL: Effective Reinforcement Learning for Proactive Recommendation** — Rectified policy gradient estimation stabilizes RL for sequential proactive recommendation, capturing both short-term acceptance and long-term preference guidance. [arxiv](https://arxiv.org/abs/2605.28293)
+3. **Agent Explorative Policy Optimization for Multimodal Agentic Reasoning (AEPO)** — Exploration-driven policy optimization balances internal reasoning and high-variance tool use in VLMs, tackling the asymmetry that breaks agentic pipelines. [arxiv](https://arxiv.org/abs/2605.28774)
+4. **From Pixels to Words — Towards Native One-Vision Models at Scale** — Proposes native pixel-word integration from the ground up, replacing the fragmented encoder-decoder paradigm in current VLMs for multi-image and video understanding. [arxiv](https://arxiv.org/abs/2605.28820)
+5. **Self-Improving Language Models with Bidirectional Evolutionary Search** — Bidirectional search generates LLM candidates via both forward expansion and backward refinement, guided by dense verification signals — a novel alternative to MCTS-style tree search. [arxiv](https://arxiv.org/abs/2605.28814)
+6. **DenoiseRL: Bootstrapping Reasoning Models to Recover from Noisy Prefixes** — Recovery-oriented RL trains models to reason through corrupted prefixes, enabling scalable self-improvement without teacher model dependency. [arxiv](https://arxiv.org/abs/2605.28421)
+7. **ResearchMath-14K: Scaling Research-Level Mathematics via Agents** — 14,056 frontier math problems curated by multi-agent framework from academic sources, filling the gap above AIME/IMO-level benchmarks for LLM evaluation. [arxiv](https://arxiv.org/abs/2605.28003)
+8. **MemTrace: Tracing and Attributing Errors in LLM Memory Systems** — First systematic study of error tracing and attribution in LLM memory, exposing how information is synthesized, propagated, or corrupted over time. [arxiv](https://arxiv.org/abs/2605.28732)
+9. **GEM: Generative Supervision Helps Embodied Intelligence** — Generative supervision bridges the semantic-physical gap in Vision-Language-Action models, improving spatial grounding for real robot execution. [arxiv](https://arxiv.org/abs/2605.28548)
+10. **Learn from Weaknesses: Automated Domain Specialization for Small Computer-Use Agents** — Identifies domain-specific failures in small agents and auto-synthesizes targeted training data, making compact agents competitive without large per-domain experts. [arxiv](https://arxiv.org/abs/2605.28775)
 <!-- LATEST_PAPERS_END -->
 
 [Browse all paper summaries &rarr;](/blog/ai-papers/)
