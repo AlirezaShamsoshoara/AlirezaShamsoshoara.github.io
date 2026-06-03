@@ -14,18 +14,18 @@ Welcome to my blog! Here I share insights from my daily readings of AI research 
 I read AI and ML research papers daily and post concise summaries here. Each entry covers the key contributions, methods, and takeaways from recent papers across topics like deep learning, reinforcement learning, NLP, computer vision, and more.
 
 <!-- LATEST_PAPERS_START -->
-**Latest — June 02, 2026**
+**Latest — June 03, 2026**
 
-1. **Crafter: A Multi-Agent Harness for Editable Scientific Figure Generation** — Multi-agent system producing editable SVGs for publication-quality figures across figure types and input conditions. [arxiv](https://arxiv.org/abs/2605.30611)
-2. **On the Scaling of PEFT: Towards Million Personal Models of Trillion Parameters** — Reframes PEFT adapters as persistent personal state on shared foundation models — "a million personal models on one base." [arxiv](https://arxiv.org/abs/2606.02437)
-3. **A Matter of TASTE: Improving Coverage and Difficulty of Agent Benchmarks** — Automated benchmark task synthesis via tool-sequence evolution, generating harder and more diverse agent evaluation scenarios. [arxiv](https://arxiv.org/abs/2605.28556)
-4. **K-BrowseComp: A Web Browsing Agent Benchmark Grounded in Korean Contexts** — 400-problem Korean web-browsing benchmark exposing significant frontier model blind spots in multilingual agentic tasks. [arxiv](https://arxiv.org/abs/2606.02404)
-5. **Domino: Decoupling Causal Modeling from Autoregressive Drafting in Speculative Decoding** — Breaks the speed/quality tradeoff in speculative decoding by separating causal coherence from autoregressive drafting. [arxiv](https://arxiv.org/abs/2605.29707)
-6. **Draft-OPD: On-Policy Distillation for Speculative Draft Models** — On-policy distillation breaks the SFT plateau in draft model training, outperforming EAGLE3 and DFlash baselines. [arxiv](https://arxiv.org/abs/2605.29343)
-7. **Linear Ensembles Wash Away Watermarks** — Averaging just two watermarked LLM outputs provably destroys attribution signatures below detection thresholds. [arxiv](https://arxiv.org/abs/2605.30501)
-8. **VLMs are Good Teachers for Video Reasoning via Adaptive Test-Time Optimization** — VLMs score and filter video generation trajectories at test time to fix logical errors without retraining. [arxiv](https://arxiv.org/abs/2606.02564)
-9. **NITP: Next Implicit Token Prediction for LLM Pre-training** — Adds implicit latent supervision to next-token prediction, fixing anisotropic hidden state drift and improving downstream performance. [arxiv](https://arxiv.org/abs/2605.24956)
-10. **X-Stream: Exploring MLLMs as Multiplexers for Multi-Stream Understanding** — Treats MLLMs as multiplexers for simultaneous multi-stream video reasoning targeting live sports, driving, and multi-screen use cases. [arxiv](https://arxiv.org/abs/2606.02482)
+1. **OCC-RAG: Optimal Cognitive Core for Faithful Question Answering** — Compact 0.6B–1.7B SLMs with structured reasoning traces and literal-quote citations that match or beat models 2–6× larger on multi-hop QA. [arxiv](https://arxiv.org/abs/2606.00683)
+2. **From Activation to Causality: Causal Visual Representations in the Human Brain** — BrainCause uses counterfactual edits and distractors to reveal that a large fraction of prior brain-region localizations were false positives. [arxiv](https://arxiv.org/abs/2605.23895)
+3. **Trust Region On-Policy Distillation (TrOPD)** — Stabilizes LLM on-policy distillation by restricting updates to trust regions and using off-policy teacher prefixes to guide exploration. [arxiv](https://arxiv.org/abs/2606.01249)
+4. **Humanoid-GPT: Scaling Data and Structure for Zero-Shot Motion Tracking** — GPT-style Transformer pre-trained on 2B motion frames achieves zero-shot generalization to unseen humanoid control tasks. [arxiv](https://arxiv.org/abs/2606.03985)
+5. **KVarN: Variance-Normalized KV-Cache Quantization** — Calibration-free 2-bit KV-cache quantizer via Hadamard rotation + dual-scaling, achieving SOTA on MATH500 and AIME24. [arxiv](https://arxiv.org/abs/2606.03458)
+6. **Local Perturbation Theory for Cross-Domain Interference in Multi-Domain RL** — Proves multi-domain RL damage concentrates in a low-dimensional conflict subspace; a short domain refresh selectively recovers performance. [arxiv](https://arxiv.org/abs/2606.02398)
+7. **MIRA: Mid-training Rubric Anchoring for Source-Aware Data Selection** — Per-source rubric discovery cuts mid-training token usage by 50% while matching full-corpus quality across 21 code sources. [arxiv](https://arxiv.org/abs/2605.30288)
+8. **World Models Meet Language Models: Complementarity of Concrete and Abstract Reasoning** — PF-OPSD trains MLLMs to invoke visual future simulation as privileged teacher context, gaining +10.6% on VRQABench. [arxiv](https://arxiv.org/abs/2606.03603)
+9. **AutoMedBench: Medical AutoResearch with Agentic AI Models** — Workflow-aware benchmark across a five-stage medical AI pipeline; Validate is the weakest stage, causing 76% of failures. [arxiv](https://arxiv.org/abs/2606.01961)
+10. **TRON: Targeted Rule-Verifiable Online Environments for Visual Reasoning RL** — 520-environment suite of infinitely generative visual RL tasks; consistently improves 10 multimodal benchmarks across leading VLMs. [arxiv](https://arxiv.org/abs/2606.01599)
 <!-- LATEST_PAPERS_END -->
 
 [Browse all paper summaries &rarr;](/blog/ai-papers/)
