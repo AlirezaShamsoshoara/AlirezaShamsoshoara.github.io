@@ -14,18 +14,18 @@ Welcome to my blog! Here I share insights from my daily readings of AI research 
 I read AI and ML research papers daily and post concise summaries here. Each entry covers the key contributions, methods, and takeaways from recent papers across topics like deep learning, reinforcement learning, NLP, computer vision, and more.
 
 <!-- LATEST_PAPERS_START -->
-**Latest — June 03, 2026**
+**Latest — June 04, 2026**
 
-1. **OCC-RAG: Optimal Cognitive Core for Faithful Question Answering** — Compact 0.6B–1.7B SLMs with structured reasoning traces and literal-quote citations that match or beat models 2–6× larger on multi-hop QA. [arxiv](https://arxiv.org/abs/2606.00683)
-2. **From Activation to Causality: Causal Visual Representations in the Human Brain** — BrainCause uses counterfactual edits and distractors to reveal that a large fraction of prior brain-region localizations were false positives. [arxiv](https://arxiv.org/abs/2605.23895)
-3. **Trust Region On-Policy Distillation (TrOPD)** — Stabilizes LLM on-policy distillation by restricting updates to trust regions and using off-policy teacher prefixes to guide exploration. [arxiv](https://arxiv.org/abs/2606.01249)
-4. **Humanoid-GPT: Scaling Data and Structure for Zero-Shot Motion Tracking** — GPT-style Transformer pre-trained on 2B motion frames achieves zero-shot generalization to unseen humanoid control tasks. [arxiv](https://arxiv.org/abs/2606.03985)
-5. **KVarN: Variance-Normalized KV-Cache Quantization** — Calibration-free 2-bit KV-cache quantizer via Hadamard rotation + dual-scaling, achieving SOTA on MATH500 and AIME24. [arxiv](https://arxiv.org/abs/2606.03458)
-6. **Local Perturbation Theory for Cross-Domain Interference in Multi-Domain RL** — Proves multi-domain RL damage concentrates in a low-dimensional conflict subspace; a short domain refresh selectively recovers performance. [arxiv](https://arxiv.org/abs/2606.02398)
-7. **MIRA: Mid-training Rubric Anchoring for Source-Aware Data Selection** — Per-source rubric discovery cuts mid-training token usage by 50% while matching full-corpus quality across 21 code sources. [arxiv](https://arxiv.org/abs/2605.30288)
-8. **World Models Meet Language Models: Complementarity of Concrete and Abstract Reasoning** — PF-OPSD trains MLLMs to invoke visual future simulation as privileged teacher context, gaining +10.6% on VRQABench. [arxiv](https://arxiv.org/abs/2606.03603)
-9. **AutoMedBench: Medical AutoResearch with Agentic AI Models** — Workflow-aware benchmark across a five-stage medical AI pipeline; Validate is the weakest stage, causing 76% of failures. [arxiv](https://arxiv.org/abs/2606.01961)
-10. **TRON: Targeted Rule-Verifiable Online Environments for Visual Reasoning RL** — 520-environment suite of infinitely generative visual RL tasks; consistently improves 10 multimodal benchmarks across leading VLMs. [arxiv](https://arxiv.org/abs/2606.01599)
+1. **Audio Interaction Model** — Always-on streaming LALM unifying ASR, voice chat, and real-time audio event response in a single perceive-decide-respond loop. [arxiv](https://arxiv.org/abs/2606.05121)
+2. **Cosmos 3: Omnimodal World Models for Physical AI** — NVIDIA's unified mixture-of-transformers handling text, image, video, audio, and actions for robotics and embodied AI. [arxiv](https://arxiv.org/abs/2606.02800)
+3. **DRIFT: Span-Level Error Localization in Agent Trajectories** — Claim-centric auditing that identifies *which* trajectory spans make deep-research agent answers unreliable, with TELBench (2,790 annotated trajectories). [arxiv](https://arxiv.org/abs/2606.02060)
+4. **CHERRL: Reward Hacking in Rubric-Based RL** — Controllable environment showing policy models can exploit LLM-judge biases while passing rubric evaluation, exposing RLHF safety gaps. [arxiv](https://arxiv.org/abs/2606.04923)
+5. **OVO-S-Bench: Streaming Spatial Intelligence Benchmark** — 1,680 human-annotated questions over 348 egocentric videos; reveals MLLMs fail badly at spatial reasoning across continuous streams. [arxiv](https://arxiv.org/abs/2606.03890)
+6. **Qwen-Image-Flash: Beyond Objective Design** — Few-step distillation via training recipe (data, teacher guidance, task mix), matching Qwen-Image-2.0 teacher quality with far fewer inference steps. [arxiv](https://arxiv.org/abs/2606.03746)
+7. **M³Eval: Multi-Modal Memory Evaluation** — First benchmark targeting what multimodal models actually retain from long videos, grounded in cognitive psychology; reveals major memory gaps in current SoTA. [arxiv](https://arxiv.org/abs/2606.05008)
+8. **ThoughtFold: Folding Reasoning Chains** — Step-level preference learning that folds out redundant CoT explorations without just penalizing length, improving reasoning efficiency for LRMs. [arxiv](https://arxiv.org/abs/2606.03503)
+9. **Echo-Infinity: Real-Time Infinite Video Generation** — Learnable evolving memory compresses any-length video history at constant cost, enabling coherent long-horizon generation without compounding errors. [arxiv](https://arxiv.org/abs/2606.04527)
+10. **StreamMA: Streaming Communication in Multi-Agent Reasoning** — Pipelining reasoning steps to downstream agents as they generate reduces latency AND improves quality — early steps are more reliable than final ones. [arxiv](https://arxiv.org/abs/2606.05158)
 <!-- LATEST_PAPERS_END -->
 
 [Browse all paper summaries &rarr;](/blog/ai-papers/)
