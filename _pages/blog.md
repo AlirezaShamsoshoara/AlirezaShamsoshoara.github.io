@@ -14,18 +14,18 @@ Welcome to my blog! Here I share insights from my daily readings of AI research 
 I read AI and ML research papers daily and post concise summaries here. Each entry covers the key contributions, methods, and takeaways from recent papers across topics like deep learning, reinforcement learning, NLP, computer vision, and more.
 
 <!-- LATEST_PAPERS_START -->
-**Latest — June 04, 2026**
+**Latest — June 05, 2026**
 
-1. **Audio Interaction Model** — Always-on streaming LALM unifying ASR, voice chat, and real-time audio event response in a single perceive-decide-respond loop. [arxiv](https://arxiv.org/abs/2606.05121)
-2. **Cosmos 3: Omnimodal World Models for Physical AI** — NVIDIA's unified mixture-of-transformers handling text, image, video, audio, and actions for robotics and embodied AI. [arxiv](https://arxiv.org/abs/2606.02800)
-3. **DRIFT: Span-Level Error Localization in Agent Trajectories** — Claim-centric auditing that identifies *which* trajectory spans make deep-research agent answers unreliable, with TELBench (2,790 annotated trajectories). [arxiv](https://arxiv.org/abs/2606.02060)
-4. **CHERRL: Reward Hacking in Rubric-Based RL** — Controllable environment showing policy models can exploit LLM-judge biases while passing rubric evaluation, exposing RLHF safety gaps. [arxiv](https://arxiv.org/abs/2606.04923)
-5. **OVO-S-Bench: Streaming Spatial Intelligence Benchmark** — 1,680 human-annotated questions over 348 egocentric videos; reveals MLLMs fail badly at spatial reasoning across continuous streams. [arxiv](https://arxiv.org/abs/2606.03890)
-6. **Qwen-Image-Flash: Beyond Objective Design** — Few-step distillation via training recipe (data, teacher guidance, task mix), matching Qwen-Image-2.0 teacher quality with far fewer inference steps. [arxiv](https://arxiv.org/abs/2606.03746)
-7. **M³Eval: Multi-Modal Memory Evaluation** — First benchmark targeting what multimodal models actually retain from long videos, grounded in cognitive psychology; reveals major memory gaps in current SoTA. [arxiv](https://arxiv.org/abs/2606.05008)
-8. **ThoughtFold: Folding Reasoning Chains** — Step-level preference learning that folds out redundant CoT explorations without just penalizing length, improving reasoning efficiency for LRMs. [arxiv](https://arxiv.org/abs/2606.03503)
-9. **Echo-Infinity: Real-Time Infinite Video Generation** — Learnable evolving memory compresses any-length video history at constant cost, enabling coherent long-horizon generation without compounding errors. [arxiv](https://arxiv.org/abs/2606.04527)
-10. **StreamMA: Streaming Communication in Multi-Agent Reasoning** — Pipelining reasoning steps to downstream agents as they generate reduces latency AND improves quality — early steps are more reliable than final ones. [arxiv](https://arxiv.org/abs/2606.05158)
+1. **ArcANE** — Benchmark spanning 17 novels and 80 characters testing whether role-playing agents adapt character values as narratives evolve, not just recall static facts. [arxiv](https://arxiv.org/abs/2606.05553)
+2. **TIDE: Proactive Multi-Problem Discovery** — Template-guided iterative framework that finds multiple hidden problems in user workspaces/repos that users haven't noticed yet. [arxiv](https://arxiv.org/abs/2606.04743)
+3. **AdaPlanBench** — Benchmark for LLM agents that must replan as world and user constraints are progressively revealed, not handed upfront. [arxiv](https://arxiv.org/abs/2606.05622)
+4. **VideoKR** — 315K video reasoning examples bridging deep factual knowledge with complex multi-step video reasoning for multimodal models. [arxiv](https://arxiv.org/abs/2606.05259)
+5. **RL Elicits Cross-Lingual Transfer** — RL training on high-resource pairs causes emergent translation generalization to unseen low-resource languages. [arxiv](https://arxiv.org/abs/2606.06428)
+6. **RobotValues** — Benchmark evaluating household robots when human values (privacy, safety, helpfulness, autonomy) genuinely conflict. [arxiv](https://arxiv.org/abs/2606.03312)
+7. **LoomVideo** — Unified video generation and editing framework accepting interleaved text, image, and video clip inputs in a single pipeline. [arxiv](https://arxiv.org/abs/2606.06042)
+8. **Personal AI Agent for Camera Roll VQA** — Conversational agent that retrieves relevant personal photos to answer user queries with episodic memory retrieval. [arxiv](https://arxiv.org/abs/2606.05275)
+9. **Complexity-Balanced Diffusion Splitting** — Decomposes denoising into specialized sub-networks per complexity regime, improving diffusion model efficiency and quality. [arxiv](https://arxiv.org/abs/2606.06477)
+10. **Meta-Cognitive Memory Policy Optimization** — Trains a meta-cognitive policy to decide when and how to summarize agent trajectories, improving long-horizon task performance. [arxiv](https://arxiv.org/abs/2605.30159)
 <!-- LATEST_PAPERS_END -->
 
 [Browse all paper summaries &rarr;](/blog/ai-papers/)
