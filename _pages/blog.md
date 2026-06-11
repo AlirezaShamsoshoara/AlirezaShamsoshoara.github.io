@@ -14,18 +14,18 @@ Welcome to my blog! Here I share insights from my daily readings of AI research 
 I read AI and ML research papers daily and post concise summaries here. Each entry covers the key contributions, methods, and takeaways from recent papers across topics like deep learning, reinforcement learning, NLP, computer vision, and more.
 
 <!-- LATEST_PAPERS_START -->
-**Latest — June 10, 2026**
+**Latest — June 11, 2026**
 
-1. **Kwai Keye-VL-2.0** — Open-source MoE multimodal model with adaptive token compression for hour-level video understanding and agentic capabilities. [arxiv](https://arxiv.org/abs/2606.10651)
-2. **ARM** — Unifies image understanding, generation, and editing under a single autoregressive next-token prediction framework using discrete visual representations. [arxiv](https://arxiv.org/abs/2606.11188)
-3. **Rethinking Divergence Regularization in LLM RL** — Challenges importance-ratio clipping in PPO/GRPO, proposing improved divergence regularization for more stable LLM RL training. [arxiv](https://arxiv.org/abs/2606.09821)
-4. **Flow-DPPO** — Extends principled trust-region optimization to flow matching generative models, improving alignment for image and video generation. [arxiv](https://arxiv.org/abs/2606.11025)
-5. **WorldOlympiad** — Benchmark evaluating world models on physical faithfulness, geometric consistency, and interaction fidelity simultaneously. [arxiv](https://arxiv.org/abs/2606.11129)
-6. **SearchSwarm** — Delegation-intelligence framework for multi-agent deep research that circumvents context-window limits via concise subagent summarization. [arxiv](https://arxiv.org/abs/2606.09730)
-7. **MemDreamer** — Decouples perception and reasoning for long video QA using agentic retrieval over hierarchical graph memory as a plug-and-play VLM framework. [arxiv](https://arxiv.org/abs/2606.07512)
-8. **Role-Agent** — LLM agents bootstrap capabilities through dual-role evolution, alternating between task-solving and environment-generation for self-improving training. [arxiv](https://arxiv.org/abs/2606.10917)
-9. **ABot-Earth 0.5** — First generative 3D model synthesizing globally consistent large-scale environments from satellite imagery using 3D Gaussian Splatting. [arxiv](https://arxiv.org/abs/2606.09967)
-10. **Retrospective Harness Optimization (RHO)** — Continuously improves LLM agent harnesses using model self-preference over trajectory rollouts, requiring no labeled validation data. [arxiv](https://arxiv.org/abs/2606.05922)
+1. **CodeSpear** — Grammar-Constrained Decoding exploited as a jailbreak attack to bypass safety filters and generate functional malicious code. [arxiv](https://arxiv.org/abs/2606.11817)
+2. **Arbor** — Autonomous research framework with Hypothesis Tree Refinement enabling long-horizon AI-driven scientific research loops. [arxiv](https://arxiv.org/abs/2606.11926)
+3. **MPI (Manifold Power Iteration)** — Principled MoE router redesign using manifold optimization for better token-expert affinity and downstream task performance. [arxiv](https://arxiv.org/abs/2606.12397)
+4. **Subquadratic Architectures Survey** — Systematic comparison of xLSTM, Mamba-2, and Gated DeltaNet identifies which design principles drive effective long-range sequence modeling. [arxiv](https://arxiv.org/abs/2606.12364)
+5. **RACES** — Recursively composes simple verifiable RL environments into complex multi-step tasks, enabling exponential scaling without human labeling. [arxiv](https://arxiv.org/abs/2606.12373)
+6. **Bebop** — Fixes MTP acceptance rate collapse during RL training via rejection sampling, delivering major rollout throughput improvements. [arxiv](https://arxiv.org/abs/2606.12370)
+7. **TRACE** — Adaptive rollout budget allocation based on prompt difficulty achieves equivalent RL reasoning quality with far fewer rollout tokens. [arxiv](https://arxiv.org/abs/2606.11119)
+8. **EvoTrainer** — Co-evolves LLM policies and training harnesses autonomously, matching human-designed RL recipes without manual engineering. [arxiv](https://arxiv.org/abs/2606.03108)
+9. **PACI** — Asynchronous pipeline parallel training with bounded weight inconsistency eliminates bubbles while maintaining near-perfect GPU utilization. [arxiv](https://arxiv.org/abs/2606.07881)
+10. **ICA Lens** — Applies Independent Component Analysis to recover interpretable LLM features without training sparse autoencoders, at a fraction of the cost. [arxiv](https://arxiv.org/abs/2606.11722)
 <!-- LATEST_PAPERS_END -->
 
 [Browse all paper summaries &rarr;](/blog/ai-papers/)
