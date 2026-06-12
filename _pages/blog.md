@@ -14,18 +14,18 @@ Welcome to my blog! Here I share insights from my daily readings of AI research 
 I read AI and ML research papers daily and post concise summaries here. Each entry covers the key contributions, methods, and takeaways from recent papers across topics like deep learning, reinforcement learning, NLP, computer vision, and more.
 
 <!-- LATEST_PAPERS_START -->
-**Latest — June 11, 2026**
+**Latest — June 12, 2026**
 
-1. **CodeSpear** — Grammar-Constrained Decoding exploited as a jailbreak attack to bypass safety filters and generate functional malicious code. [arxiv](https://arxiv.org/abs/2606.11817)
-2. **Arbor** — Autonomous research framework with Hypothesis Tree Refinement enabling long-horizon AI-driven scientific research loops. [arxiv](https://arxiv.org/abs/2606.11926)
-3. **MPI (Manifold Power Iteration)** — Principled MoE router redesign using manifold optimization for better token-expert affinity and downstream task performance. [arxiv](https://arxiv.org/abs/2606.12397)
-4. **Subquadratic Architectures Survey** — Systematic comparison of xLSTM, Mamba-2, and Gated DeltaNet identifies which design principles drive effective long-range sequence modeling. [arxiv](https://arxiv.org/abs/2606.12364)
-5. **RACES** — Recursively composes simple verifiable RL environments into complex multi-step tasks, enabling exponential scaling without human labeling. [arxiv](https://arxiv.org/abs/2606.12373)
-6. **Bebop** — Fixes MTP acceptance rate collapse during RL training via rejection sampling, delivering major rollout throughput improvements. [arxiv](https://arxiv.org/abs/2606.12370)
-7. **TRACE** — Adaptive rollout budget allocation based on prompt difficulty achieves equivalent RL reasoning quality with far fewer rollout tokens. [arxiv](https://arxiv.org/abs/2606.11119)
-8. **EvoTrainer** — Co-evolves LLM policies and training harnesses autonomously, matching human-designed RL recipes without manual engineering. [arxiv](https://arxiv.org/abs/2606.03108)
-9. **PACI** — Asynchronous pipeline parallel training with bounded weight inconsistency eliminates bubbles while maintaining near-perfect GPU utilization. [arxiv](https://arxiv.org/abs/2606.07881)
-10. **ICA Lens** — Applies Independent Component Analysis to recover interpretable LLM features without training sparse autoencoders, at a fraction of the cost. [arxiv](https://arxiv.org/abs/2606.11722)
+1. **MiniMax Sparse Attention** — Blockwise sparse attention achieving near-full-attention quality at nearly linear cost, enabling million-token contexts in production. [arxiv](https://arxiv.org/abs/2606.13392)
+2. **MaxProof** — RL-trained proof generation, verification, and critique-repair merged into one model; population-level test-time scaling for competition-level math. [arxiv](https://arxiv.org/abs/2606.13473)
+3. **EvoArena** — Benchmark tracking agent memory evolution across dynamically shifting tasks, stress-testing robustness to stale knowledge. [arxiv](https://arxiv.org/abs/2606.13681)
+4. **SpatialClaw** — Redesigned action interface for tool-augmented VLMs yields large gains on 3D localization, relation understanding, and motion prediction. [arxiv](https://arxiv.org/abs/2606.13673)
+5. **EurekAgent** — Formalizes "agent environment engineering" and shows well-designed environments unlock autonomous scientific discovery beyond human-designed approaches. [arxiv](https://arxiv.org/abs/2606.13662)
+6. **InterleaveThinker** — RL-trained interleaved text-image generation for unified multimodal models, unlocking visual narrative and step-by-step guidance capabilities. [arxiv](https://arxiv.org/abs/2606.13679)
+7. **FORT-Searcher** — Synthesizes shortcut-resistant search tasks to force genuine multi-step retrieval, fixing "shortcut collapse" in deep search training data. [arxiv](https://arxiv.org/abs/2606.12087)
+8. **LabVLA** — Vision-Language-Action models adapted for scientific lab settings, bridging AI reasoning and physical bench-work execution. [arxiv](https://arxiv.org/abs/2606.13578)
+9. **HYDRA-X** — First unified multimodal model using a single ViT for both image and video tokenization, providing a shared representation space for understanding and generation. [arxiv](https://arxiv.org/abs/2606.13289)
+10. **WeaveBench** — 114 long-horizon computer-use tasks across 8 real-world domains requiring sustained cross-interface orchestration (GUI + CLI + browser + code). [arxiv](https://arxiv.org/abs/2606.09426)
 <!-- LATEST_PAPERS_END -->
 
 [Browse all paper summaries &rarr;](/blog/ai-papers/)
