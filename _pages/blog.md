@@ -14,18 +14,18 @@ Welcome to my blog! Here I share insights from my daily readings of AI research 
 I read AI and ML research papers daily and post concise summaries here. Each entry covers the key contributions, methods, and takeaways from recent papers across topics like deep learning, reinforcement learning, NLP, computer vision, and more.
 
 <!-- LATEST_PAPERS_START -->
-**Latest — June 12, 2026**
+**Latest — June 13, 2026**
 
-1. **MiniMax Sparse Attention** — Blockwise sparse attention achieving near-full-attention quality at nearly linear cost, enabling million-token contexts in production. [arxiv](https://arxiv.org/abs/2606.13392)
-2. **MaxProof** — RL-trained proof generation, verification, and critique-repair merged into one model; population-level test-time scaling for competition-level math. [arxiv](https://arxiv.org/abs/2606.13473)
-3. **EvoArena** — Benchmark tracking agent memory evolution across dynamically shifting tasks, stress-testing robustness to stale knowledge. [arxiv](https://arxiv.org/abs/2606.13681)
-4. **SpatialClaw** — Redesigned action interface for tool-augmented VLMs yields large gains on 3D localization, relation understanding, and motion prediction. [arxiv](https://arxiv.org/abs/2606.13673)
-5. **EurekAgent** — Formalizes "agent environment engineering" and shows well-designed environments unlock autonomous scientific discovery beyond human-designed approaches. [arxiv](https://arxiv.org/abs/2606.13662)
-6. **InterleaveThinker** — RL-trained interleaved text-image generation for unified multimodal models, unlocking visual narrative and step-by-step guidance capabilities. [arxiv](https://arxiv.org/abs/2606.13679)
-7. **FORT-Searcher** — Synthesizes shortcut-resistant search tasks to force genuine multi-step retrieval, fixing "shortcut collapse" in deep search training data. [arxiv](https://arxiv.org/abs/2606.12087)
-8. **LabVLA** — Vision-Language-Action models adapted for scientific lab settings, bridging AI reasoning and physical bench-work execution. [arxiv](https://arxiv.org/abs/2606.13578)
-9. **HYDRA-X** — First unified multimodal model using a single ViT for both image and video tokenization, providing a shared representation space for understanding and generation. [arxiv](https://arxiv.org/abs/2606.13289)
-10. **WeaveBench** — 114 long-horizon computer-use tasks across 8 real-world domains requiring sustained cross-interface orchestration (GUI + CLI + browser + code). [arxiv](https://arxiv.org/abs/2606.09426)
+1. **DyCo-RL** — Fixes a core RLVR flaw in multimodal LLMs by rewarding dynamic re-attention to visual tokens during CoT reasoning, substantially reducing hallucination. [arxiv](https://arxiv.org/abs/2606.08035)
+2. **Structured Defect Grounding (T2I)** — Framework answering where, what, why, and how important a defect is in T2I outputs — enabling targeted fine-tuning via structured instance-level feedback. [arxiv](https://arxiv.org/abs/2606.06113)
+3. **1D Token Fusion** — Replaces 2D feature grids with compact 1D token interfaces from frozen pretrained tokenizers for multimodal image fusion (IR, MRI, satellite). [arxiv](https://arxiv.org/abs/2606.12303)
+4. **Z-Image Turbo++** — State-of-the-art image quality at just 2 diffusion steps via teacher-aligned end-to-end joint distillation — a step toward sub-100ms generation. [arxiv](https://arxiv.org/abs/2606.12575)
+5. **Visual Para-Thinker++** — Single MLLM policy instantiated as three role-conditioned parallel agents (Main/Workers/Summary), reducing hallucination without extra model copies. [arxiv](https://arxiv.org/abs/2606.09290)
+6. **SG-OPD** — Fixes on-policy distillation with sign-consistency gating (masks unreliable teacher tokens) and phased teacher sampling for trajectory alignment. [arxiv](https://arxiv.org/abs/2606.09304)
+7. **LLM Psychometrics Revisited** — Shows LLM self-reports reliably predict behavior under properly matched conditions; reframes validity of low-cost behavioral probes for AI safety. [arxiv](https://arxiv.org/abs/2606.12730)
+8. **RepWAM** — World action models for robotics with representation visual-action tokenizers replacing pixel-reconstruction tokenizers, boosting sample efficiency and generalization. [arxiv](https://arxiv.org/abs/2606.13674)
+9. **MaskAlign** — Noise-level-aware token subset selection for diffusion representation alignment, faster convergence and better FID than full-alignment baselines. [arxiv](https://arxiv.org/abs/2606.08788)
+10. **ReVision** — Removes temporally redundant visual tokens in GUI trajectories (up to 60% reduction), enabling longer interaction histories for computer-use agents within fixed compute. [arxiv](https://arxiv.org/abs/2605.11212)
 <!-- LATEST_PAPERS_END -->
 
 [Browse all paper summaries &rarr;](/blog/ai-papers/)
