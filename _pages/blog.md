@@ -14,18 +14,18 @@ Welcome to my blog! Here I share insights from my daily readings of AI research 
 I read AI and ML research papers daily and post concise summaries here. Each entry covers the key contributions, methods, and takeaways from recent papers across topics like deep learning, reinforcement learning, NLP, computer vision, and more.
 
 <!-- LATEST_PAPERS_START -->
-**Latest — June 13, 2026**
+**Latest — June 14, 2026**
 
-1. **DyCo-RL** — Fixes a core RLVR flaw in multimodal LLMs by rewarding dynamic re-attention to visual tokens during CoT reasoning, substantially reducing hallucination. [arxiv](https://arxiv.org/abs/2606.08035)
-2. **Structured Defect Grounding (T2I)** — Framework answering where, what, why, and how important a defect is in T2I outputs — enabling targeted fine-tuning via structured instance-level feedback. [arxiv](https://arxiv.org/abs/2606.06113)
-3. **1D Token Fusion** — Replaces 2D feature grids with compact 1D token interfaces from frozen pretrained tokenizers for multimodal image fusion (IR, MRI, satellite). [arxiv](https://arxiv.org/abs/2606.12303)
-4. **Z-Image Turbo++** — State-of-the-art image quality at just 2 diffusion steps via teacher-aligned end-to-end joint distillation — a step toward sub-100ms generation. [arxiv](https://arxiv.org/abs/2606.12575)
-5. **Visual Para-Thinker++** — Single MLLM policy instantiated as three role-conditioned parallel agents (Main/Workers/Summary), reducing hallucination without extra model copies. [arxiv](https://arxiv.org/abs/2606.09290)
-6. **SG-OPD** — Fixes on-policy distillation with sign-consistency gating (masks unreliable teacher tokens) and phased teacher sampling for trajectory alignment. [arxiv](https://arxiv.org/abs/2606.09304)
-7. **LLM Psychometrics Revisited** — Shows LLM self-reports reliably predict behavior under properly matched conditions; reframes validity of low-cost behavioral probes for AI safety. [arxiv](https://arxiv.org/abs/2606.12730)
-8. **RepWAM** — World action models for robotics with representation visual-action tokenizers replacing pixel-reconstruction tokenizers, boosting sample efficiency and generalization. [arxiv](https://arxiv.org/abs/2606.13674)
-9. **MaskAlign** — Noise-level-aware token subset selection for diffusion representation alignment, faster convergence and better FID than full-alignment baselines. [arxiv](https://arxiv.org/abs/2606.08788)
-10. **ReVision** — Removes temporally redundant visual tokens in GUI trajectories (up to 60% reduction), enabling longer interaction histories for computer-use agents within fixed compute. [arxiv](https://arxiv.org/abs/2605.11212)
+1. **MiniMax Sparse Attention** — Blockwise sparse attention enabling ultra-long-context LLMs (100K–1M+ tokens) at tractable cost via a lightweight Index Branch over GQA. [arxiv](https://arxiv.org/abs/2606.13392)
+2. **Robust-U1** — Self-recovery framework for multimodal LLMs that restores corrupted visual inputs through intra-model generation instead of external preprocessing. [arxiv](https://arxiv.org/abs/2606.08063)
+3. **VIA-SD** — Adds a third routing path to speculative decoding (beyond binary accept/reject), reducing full-verifier calls and boosting inference throughput. [arxiv](https://arxiv.org/abs/2606.12243)
+4. **HYDRA-X** — First unified multimodal model processing images and videos through a single ViT with shared spatiotemporal latent space. [arxiv](https://arxiv.org/abs/2606.13289)
+5. **TreeSeeker** — Tree-structured inference-time web search that lets agents backtrack from weak evidence without abandoning promising branches. [arxiv](https://arxiv.org/abs/2606.11662)
+6. **Risk Under Pressure** — Compute-aware adversarial robustness evaluation that weights jailbreak success by attack cost, yielding fairer model comparisons. [arxiv](https://arxiv.org/abs/2606.11409)
+7. **EvoArena** — Benchmark that evaluates LLM agents under progressively changing environments across terminal, software, and social domains. [arxiv](https://arxiv.org/abs/2606.13681)
+8. **Periodic Table of LLM Reasoning** — Structured survey of 300+ papers organizing reasoning paradigms, methods, and failure modes into a periodic-table taxonomy. [arxiv](https://arxiv.org/abs/2606.11470)
+9. **OrchRM** — Self-supervised reward model for multi-agent orchestration that constructs win-lose pairs from execution artifacts, no human labels required. [arxiv](https://arxiv.org/abs/2606.13598)
+10. **InternVideo3** — Frames video understanding as closed-loop multimodal contextual reasoning with multi-step reasoning and tool use for long-horizon tasks. [arxiv](https://arxiv.org/abs/2606.12195)
 <!-- LATEST_PAPERS_END -->
 
 [Browse all paper summaries &rarr;](/blog/ai-papers/)
