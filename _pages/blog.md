@@ -14,18 +14,18 @@ Welcome to my blog! Here I share insights from my daily readings of AI research 
 I read AI and ML research papers daily and post concise summaries here. Each entry covers the key contributions, methods, and takeaways from recent papers across topics like deep learning, reinforcement learning, NLP, computer vision, and more.
 
 <!-- LATEST_PAPERS_START -->
-**Latest — June 14, 2026**
+**Latest — June 15, 2026**
 
-1. **MiniMax Sparse Attention** — Blockwise sparse attention enabling ultra-long-context LLMs (100K–1M+ tokens) at tractable cost via a lightweight Index Branch over GQA. [arxiv](https://arxiv.org/abs/2606.13392)
-2. **Robust-U1** — Self-recovery framework for multimodal LLMs that restores corrupted visual inputs through intra-model generation instead of external preprocessing. [arxiv](https://arxiv.org/abs/2606.08063)
-3. **VIA-SD** — Adds a third routing path to speculative decoding (beyond binary accept/reject), reducing full-verifier calls and boosting inference throughput. [arxiv](https://arxiv.org/abs/2606.12243)
-4. **HYDRA-X** — First unified multimodal model processing images and videos through a single ViT with shared spatiotemporal latent space. [arxiv](https://arxiv.org/abs/2606.13289)
-5. **TreeSeeker** — Tree-structured inference-time web search that lets agents backtrack from weak evidence without abandoning promising branches. [arxiv](https://arxiv.org/abs/2606.11662)
-6. **Risk Under Pressure** — Compute-aware adversarial robustness evaluation that weights jailbreak success by attack cost, yielding fairer model comparisons. [arxiv](https://arxiv.org/abs/2606.11409)
-7. **EvoArena** — Benchmark that evaluates LLM agents under progressively changing environments across terminal, software, and social domains. [arxiv](https://arxiv.org/abs/2606.13681)
-8. **Periodic Table of LLM Reasoning** — Structured survey of 300+ papers organizing reasoning paradigms, methods, and failure modes into a periodic-table taxonomy. [arxiv](https://arxiv.org/abs/2606.11470)
-9. **OrchRM** — Self-supervised reward model for multi-agent orchestration that constructs win-lose pairs from execution artifacts, no human labels required. [arxiv](https://arxiv.org/abs/2606.13598)
-10. **InternVideo3** — Frames video understanding as closed-loop multimodal contextual reasoning with multi-step reasoning and tool use for long-horizon tasks. [arxiv](https://arxiv.org/abs/2606.12195)
+1. **OmniDirector** — Multi-shot camera cloning via grid motion video representations; unifies character, action, and camera controls without cross-paired training data. [arxiv](https://arxiv.org/abs/2606.13432)
+2. **APPO** — Agentic RL with fine-grained branching and procedure-level credit assignment, gaining nearly +4 points across 13 benchmarks. [arxiv](https://arxiv.org/abs/2606.12384)
+3. **MRAgent** — Graph-based associative memory that reconstructs rather than retrieves, letting agents reason over long interaction histories dynamically. [arxiv](https://arxiv.org/abs/2606.06036)
+4. **Digital Colleague Survey** — Conceptualizes LLMs evolving into persistent autonomous agents that reason, act, and self-improve across cognitive and embodied dimensions. [arxiv](https://arxiv.org/abs/2606.14502)
+5. **Orchestra-o1** — Multi-agent orchestration extended to all modalities (text, image, video, audio, 3D) via heterogeneous specialist coordination. [arxiv](https://arxiv.org/abs/2606.13707)
+6. **HarnessX** — Meta-framework for composable, adaptive, and evolvable agent harnesses that feed execution traces back into systematic improvement. [arxiv](https://arxiv.org/abs/2606.14249)
+7. **V-RAGBench** — Exposes VideoRAG benchmark flaws (video-free answering) and proposes dynamic multi-modal, multi-granularity retrieval. [arxiv](https://arxiv.org/abs/2606.13141)
+8. **From AGI to ASI** — Google DeepMind report tracing capability trajectories and societal implications of AI development past human-level performance. [arxiv](https://arxiv.org/abs/2606.12683)
+9. **OmniVideo-100K** — 100K-sample audio-visual QA dataset grounded in structured scripts and multi-hop evidence chains for richer cross-modal reasoning. [arxiv](https://arxiv.org/abs/2606.14702)
+10. **GRPO Diversity** — Smaller sibling models are natural explorers in GRPO rollouts due to higher policy diversity, yielding cleaner training trajectories. [arxiv](https://arxiv.org/abs/2605.30789)
 <!-- LATEST_PAPERS_END -->
 
 [Browse all paper summaries &rarr;](/blog/ai-papers/)
