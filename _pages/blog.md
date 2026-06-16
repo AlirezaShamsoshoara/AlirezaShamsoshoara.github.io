@@ -14,18 +14,18 @@ Welcome to my blog! Here I share insights from my daily readings of AI research 
 I read AI and ML research papers daily and post concise summaries here. Each entry covers the key contributions, methods, and takeaways from recent papers across topics like deep learning, reinforcement learning, NLP, computer vision, and more.
 
 <!-- LATEST_PAPERS_START -->
-**Latest — June 15, 2026**
+**Latest — June 16, 2026**
 
-1. **OmniDirector** — Multi-shot camera cloning via grid motion video representations; unifies character, action, and camera controls without cross-paired training data. [arxiv](https://arxiv.org/abs/2606.13432)
-2. **APPO** — Agentic RL with fine-grained branching and procedure-level credit assignment, gaining nearly +4 points across 13 benchmarks. [arxiv](https://arxiv.org/abs/2606.12384)
-3. **MRAgent** — Graph-based associative memory that reconstructs rather than retrieves, letting agents reason over long interaction histories dynamically. [arxiv](https://arxiv.org/abs/2606.06036)
-4. **Digital Colleague Survey** — Conceptualizes LLMs evolving into persistent autonomous agents that reason, act, and self-improve across cognitive and embodied dimensions. [arxiv](https://arxiv.org/abs/2606.14502)
-5. **Orchestra-o1** — Multi-agent orchestration extended to all modalities (text, image, video, audio, 3D) via heterogeneous specialist coordination. [arxiv](https://arxiv.org/abs/2606.13707)
-6. **HarnessX** — Meta-framework for composable, adaptive, and evolvable agent harnesses that feed execution traces back into systematic improvement. [arxiv](https://arxiv.org/abs/2606.14249)
-7. **V-RAGBench** — Exposes VideoRAG benchmark flaws (video-free answering) and proposes dynamic multi-modal, multi-granularity retrieval. [arxiv](https://arxiv.org/abs/2606.13141)
-8. **From AGI to ASI** — Google DeepMind report tracing capability trajectories and societal implications of AI development past human-level performance. [arxiv](https://arxiv.org/abs/2606.12683)
-9. **OmniVideo-100K** — 100K-sample audio-visual QA dataset grounded in structured scripts and multi-hop evidence chains for richer cross-modal reasoning. [arxiv](https://arxiv.org/abs/2606.14702)
-10. **GRPO Diversity** — Smaller sibling models are natural explorers in GRPO rollouts due to higher policy diversity, yielding cleaner training trajectories. [arxiv](https://arxiv.org/abs/2605.30789)
+1. **JoyAI-VL-Interaction** — Always-on 8B vision-language model that watches live video continuously and decides each second whether to respond; beats Doubao and Gemini in-app assistants. [arxiv](https://arxiv.org/abs/2606.14777)
+2. **Data Journalist Agent** — End-to-end agent that turns raw data into verifiable multimodal news stories in minutes, with context-hunting, statistics, and visual design built in. [arxiv](https://arxiv.org/abs/2606.11176)
+3. **Geometric Action Model** — Generalist robot policy that injects 3D geometric structure into VLA reasoning for more reliable cross-task manipulation transfer. [arxiv](https://arxiv.org/abs/2606.17046)
+4. **DreamX-World 1.0** — General-purpose interactive world model supporting camera navigation, region revisits, and promptable events across photorealistic and stylized domains. [arxiv](https://arxiv.org/abs/2606.16993)
+5. **FastContext** — Trained repository explorer that navigates codebases adaptively to supply only relevant context to coding agents, cutting token budget overhead. [arxiv](https://arxiv.org/abs/2606.14066)
+6. **VibeThinker-3B** — 3B dense model achieving strong verifiable reasoning via Spectrum-to-Signal post-training, demonstrating compact models can punch well above their weight. [arxiv](https://arxiv.org/abs/2606.16140)
+7. **MDLM Ensembling** — Tracks which Masked Diffusion Language Model leads reliably at each decoding step to enable effective multi-model ensembling without autoregressive constraints. [arxiv](https://arxiv.org/abs/2606.16281)
+8. **BRDFusion** — Hybrid urban scene inverse rendering that fuses physics-based lighting control with generative model quality for autonomous driving simulation. [arxiv](https://arxiv.org/abs/2606.17049)
+9. **VisualClaw** — Real-time personalized VLM agent framework that dynamically adapts context management and scaffolds post-deployment for low-latency physical-world operation. [arxiv](https://arxiv.org/abs/2606.16295)
+10. **OneRank** — Unified Transformer-native ranking architecture that couples feature interaction and sequence modeling for multi-task recommendation at scale. [arxiv](https://arxiv.org/abs/2606.16838)
 <!-- LATEST_PAPERS_END -->
 
 [Browse all paper summaries &rarr;](/blog/ai-papers/)
