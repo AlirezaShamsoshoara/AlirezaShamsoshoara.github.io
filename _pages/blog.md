@@ -14,18 +14,18 @@ Welcome to my blog! Here I share insights from my daily readings of AI research 
 I read AI and ML research papers daily and post concise summaries here. Each entry covers the key contributions, methods, and takeaways from recent papers across topics like deep learning, reinforcement learning, NLP, computer vision, and more.
 
 <!-- LATEST_PAPERS_START -->
-**Latest — June 19, 2026**
+**Latest — June 20, 2026**
 
-1. **Persistent State Core** — Position paper arguing world models lack continuous internal state independent of observation, needed for true world simulation. [arxiv](https://arxiv.org/abs/2606.20545)
-2. **ImageWAM** — Shows World Action Models need image editing, not video generation, for robot control — cheaper and equally effective. [arxiv](https://arxiv.org/abs/2606.19531)
-3. **S-Agent** — Tool-use paradigm enabling VLMs to reason over multi-view images/video for spatial intelligence benchmarks. [arxiv](https://arxiv.org/abs/2606.20515)
-4. **Visually Grounded Thinking** — VLMs interleave natural-language thoughts with image region citations for transparent, verifiable visual reasoning. [arxiv](https://arxiv.org/abs/2606.16122)
-5. **FAPO** — Claude Code autonomously optimizes every prompt in multi-step LLM pipelines, catching cross-step bottlenecks invisible to per-step approaches. [arxiv](https://arxiv.org/abs/2606.19605)
-6. **PARL** — Embodied robots acquire reusable code-based skills through self-directed play before task-driven learning (Berkeley/Ken Goldberg). [arxiv](https://arxiv.org/abs/2606.19419)
-7. **ENPIRE** — Coding agent generates and refines robot manipulation policies directly on physical hardware for continuous autonomous self-improvement. [arxiv](https://arxiv.org/abs/2606.19980)
-8. **HumanScale** — Large-scale egocentric human video at 100× scale outperforms real-robot data for embodied foundation model pretraining. [arxiv](https://arxiv.org/abs/2606.20521)
-9. **ContextRL** — RL objective forcing LLMs to identify the single decisive evidence in long contexts, significantly improving agentic and multimodal reasoning. [arxiv](https://arxiv.org/abs/2606.17053)
-10. **Moebius** — 200M-parameter image inpainting model matching 10B-scale quality through a structural design that recycles cross-scale features. [arxiv](https://arxiv.org/abs/2606.19195)
+1. **DF3DV-1K** — Large-scale dataset of 1K scenes with paired clean/cluttered images for distractor-free novel view synthesis benchmarking. [arxiv](https://arxiv.org/abs/2604.13416)
+2. **LedgerAgent** — Structured ledger of facts, constraints, and tool results persisting separately from dialogue to prevent policy drift in tool-calling agents. [arxiv](https://arxiv.org/abs/2606.20529)
+3. **LOCUS** — Large-scale machine-readable corpus of US local ordinances covering zoning, housing, licensing, and public health for legal AI. [arxiv](https://arxiv.org/abs/2606.19334)
+4. **Environment-Aware IR** — First systematic analysis of how LLMs should adapt query formulation to different retrieval environments in RAG systems. [arxiv](https://arxiv.org/abs/2606.16817)
+5. **Adaptive Volumetric Properties** — Neural fields predicting resolution-invariant mechanical properties (Young's modulus, density) for physics simulation of digital twins. [arxiv](https://arxiv.org/abs/2606.18231)
+6. **SEVRA** — Serving-layer policy learning when to re-reason vs. stop, cutting wasted compute in budget-aware deployed reasoning models. [arxiv](https://arxiv.org/abs/2606.19808)
+7. **JAMER** — First project-level code benchmark for professional game engines (Unity, Unreal), exposing a hard frontier for LLM code generation. [arxiv](https://arxiv.org/abs/2606.19830)
+8. **Agentic RAG for Clinical IE** — Systematic diagnosis of what works and fails in agentic RAG pipelines for configurable clinical information extraction. [arxiv](https://arxiv.org/abs/2606.19602)
+9. **LooseControlVideo** — Spatial blocking as a coarse director-style interface for controlling multi-object scene layout in text-to-video generation. [arxiv](https://arxiv.org/abs/2606.19495)
+10. **LegalHalluLens** — Typed hallucination auditing revealing ~52% aggregate error rates in legal AI, with calibrated multi-agent debate to reduce them. [arxiv](https://arxiv.org/abs/2606.18021)
 <!-- LATEST_PAPERS_END -->
 
 [Browse all paper summaries &rarr;](/blog/ai-papers/)
