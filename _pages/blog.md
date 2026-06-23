@@ -14,18 +14,18 @@ Welcome to my blog! Here I share insights from my daily readings of AI research 
 I read AI and ML research papers daily and post concise summaries here. Each entry covers the key contributions, methods, and takeaways from recent papers across topics like deep learning, reinforcement learning, NLP, computer vision, and more.
 
 <!-- LATEST_PAPERS_START -->
-**Latest — June 21, 2026**
+**Latest — June 22, 2026**
 
-1. **Gram** — Automated alignment auditing framework testing AI agents for sabotage propensity across 17 agentic scenarios; found ~2–3% misbehavior in Gemini models. [arxiv](https://arxiv.org/abs/2605.30322)
-2. **Gaussian Mixture Attention** — Replaces pairwise query-key attention with probabilistic Gaussian mixture routing, achieving linear-time sequence mixing. [arxiv](https://arxiv.org/abs/2606.18283)
-3. **REVES** — Augments LLM post-training with revision and verification signals to close the gap with multi-step test-time scaling. [arxiv](https://arxiv.org/abs/2606.18910)
-4. **iOSWorld** — First interactive native iOS simulator benchmark for phone agents that reason over a user's real identity, app history, and preferences. [arxiv](https://arxiv.org/abs/2606.09764)
-5. **MyPCBench** — Desktop computer-use benchmark for agents operating across a user's whole digital life (accounts, files, historical data). [arxiv](https://arxiv.org/abs/2606.16748)
-6. **Breaking the Solver Bottleneck** — Trains task generators that continuously supply frontier tasks for open-ended RL self-improvement without human curricula. [arxiv](https://arxiv.org/abs/2606.18284)
-7. **Pareto LoRA** — Bi-objective LoRA fine-tuning that prevents language gradients from dominating, gaining up to 44.9% image quality over vanilla LoRA. [arxiv](https://arxiv.org/abs/2606.17296)
-8. **NAVI-Orbital** — First real in-orbit deployment of a zero-shot VLM on a LEO spacecraft for autonomous onboard Earth observation. [arxiv](https://arxiv.org/abs/2606.18271)
-9. **CODEBLOCK** — Block-level supervision that learns which code segments provide high-value signal, outperforming token-level selection baselines. [arxiv](https://arxiv.org/abs/2606.18286)
-10. **Diffusion Language Models** — Systematic empirical comparison of DLMs vs. autoregressive LLMs, mapping regimes where each wins. [arxiv](https://arxiv.org/abs/2606.19475)
+1. **Cosmos 3** — NVIDIA's omnimodal world model family jointly processing language, image, video, audio, and actions in a unified mixture-of-transformers for Physical AI. [arxiv](https://arxiv.org/abs/2606.02800)
+2. **PerceptionDLM** — Multimodal diffusion LM enabling parallel region captioning via structured attention masking, breaking the autoregressive sequential bottleneck. [arxiv](https://arxiv.org/abs/2606.19534)
+3. **Kairos** — World model stack built for operational Physical AI: heterogeneous experience ingestion, persistent long-horizon state, and deployment-efficient execution. [arxiv](https://arxiv.org/abs/2606.16533)
+4. **DreamX-World 1.0** — Interactive text/image-to-video world model with camera navigation, revisitable regions, and promptable events across photorealistic and game domains. [arxiv](https://arxiv.org/abs/2606.16993)
+5. **Latent Thought Flow** — Moves Chain-of-Thought deliberation into continuous latent space, allocating probability across reasoning trajectories to cut inference overhead. [arxiv](https://arxiv.org/abs/2606.16222)
+6. **Arbor** — Generalist autonomous research framework running a hypothesis-tree loop of exploration, experimentation, and abstraction over long horizons. [arxiv](https://arxiv.org/abs/2606.11926)
+7. **JoyAI-VL-Interaction** — Real-time VLM that triggers proactively on video stream events (security alerts, livestream products) without waiting for a user query. [arxiv](https://arxiv.org/abs/2606.14777)
+8. **GateMem** — Benchmark for LLM agent memory governance in multi-principal shared settings (hospitals, workplaces), highlighting access control and conflict resolution needs. [arxiv](https://arxiv.org/abs/2606.18829)
+9. **MemSlides** — Hierarchical memory agent framework for personalized slide generation, distinguishing long-term style preferences from short-term session adjustments. [arxiv](https://arxiv.org/abs/2606.17162)
+10. **FastContext** — Trains a lightweight specialist for repo exploration in coding agents, cutting irrelevant context and reducing token costs while improving task performance. [arxiv](https://arxiv.org/abs/2606.14066)
 <!-- LATEST_PAPERS_END -->
 
 [Browse all paper summaries &rarr;](/blog/ai-papers/)
