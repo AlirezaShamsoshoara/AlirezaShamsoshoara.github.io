@@ -14,18 +14,18 @@ Welcome to my blog! Here I share insights from my daily readings of AI research 
 I read AI and ML research papers daily and post concise summaries here. Each entry covers the key contributions, methods, and takeaways from recent papers across topics like deep learning, reinforcement learning, NLP, computer vision, and more.
 
 <!-- LATEST_PAPERS_START -->
-**Latest — June 22, 2026**
+**Latest — June 23, 2026**
 
-1. **Cosmos 3** — NVIDIA's omnimodal world model family jointly processing language, image, video, audio, and actions in a unified mixture-of-transformers for Physical AI. [arxiv](https://arxiv.org/abs/2606.02800)
-2. **PerceptionDLM** — Multimodal diffusion LM enabling parallel region captioning via structured attention masking, breaking the autoregressive sequential bottleneck. [arxiv](https://arxiv.org/abs/2606.19534)
-3. **Kairos** — World model stack built for operational Physical AI: heterogeneous experience ingestion, persistent long-horizon state, and deployment-efficient execution. [arxiv](https://arxiv.org/abs/2606.16533)
-4. **DreamX-World 1.0** — Interactive text/image-to-video world model with camera navigation, revisitable regions, and promptable events across photorealistic and game domains. [arxiv](https://arxiv.org/abs/2606.16993)
-5. **Latent Thought Flow** — Moves Chain-of-Thought deliberation into continuous latent space, allocating probability across reasoning trajectories to cut inference overhead. [arxiv](https://arxiv.org/abs/2606.16222)
-6. **Arbor** — Generalist autonomous research framework running a hypothesis-tree loop of exploration, experimentation, and abstraction over long horizons. [arxiv](https://arxiv.org/abs/2606.11926)
-7. **JoyAI-VL-Interaction** — Real-time VLM that triggers proactively on video stream events (security alerts, livestream products) without waiting for a user query. [arxiv](https://arxiv.org/abs/2606.14777)
-8. **GateMem** — Benchmark for LLM agent memory governance in multi-principal shared settings (hospitals, workplaces), highlighting access control and conflict resolution needs. [arxiv](https://arxiv.org/abs/2606.18829)
-9. **MemSlides** — Hierarchical memory agent framework for personalized slide generation, distinguishing long-term style preferences from short-term session adjustments. [arxiv](https://arxiv.org/abs/2606.17162)
-10. **FastContext** — Trains a lightweight specialist for repo exploration in coding agents, cutting irrelevant context and reducing token costs while improving task performance. [arxiv](https://arxiv.org/abs/2606.14066)
+1. **Tmax** — Strongest open RL recipe for terminal agents, hitting 27% on Terminal-Bench 2.0 with a 9B model via PPO + verified execution environments. [arxiv.org/abs/2606.23321](https://arxiv.org/abs/2606.23321)
+2. **Confident Layer Decoding** — Qwen team shows deeper LLM layers can degrade reasoning; routing to intermediate layers when final-layer confidence is low recovers capability without retraining. [arxiv.org/abs/2606.21906](https://arxiv.org/abs/2606.21906)
+3. **PlanBench-XL** — Benchmark of 327 tasks over 1,665 tools testing long-horizon planning when agents can't see the full tool catalog upfront. [arxiv.org/abs/2606.22388](https://arxiv.org/abs/2606.22388)
+4. **EvoEmbedding** — Embedding model that maintains a continuously updated latent memory as it processes inputs, enabling retrieval systems that track state rather than encode snapshots. [arxiv.org/abs/2606.21649](https://arxiv.org/abs/2606.21649)
+5. **Causal Discovery in the Era of Agents** — CMU argues LLM agents should design experiments and constrain search while statistical algorithms handle causal graph estimation. [arxiv.org/abs/2606.23608](https://arxiv.org/abs/2606.23608)
+6. **Tapered Language Models** — Mila proposes decreasing parameter capacity with depth (wider early, narrower late layers), matching or beating uniform-depth models with fewer parameters. [arxiv.org/abs/2606.23670](https://arxiv.org/abs/2606.23670)
+7. **CLI-Universe** — Principled synthesis engine for terminal-agent training data generating unambiguous instructions with automatically verifiable correctness criteria. [arxiv.org/abs/2606.22883](https://arxiv.org/abs/2606.22883)
+8. **BioMatrix** — First decoder-only foundation model unifying DNA/protein sequences, 3D structures, and natural language in a single architecture (Microsoft Research). [arxiv.org/abs/2606.22138](https://arxiv.org/abs/2606.22138)
+9. **World Action Models Survey** — NUS/Sea AI Lab taxonomy distinguishing WAMs from world models and VLA policies, covering video-generation-based and language-backbone-based approaches. [arxiv.org/abs/2606.20781](https://arxiv.org/abs/2606.20781)
+10. **GQE: Grouped Query Experts** — Places mixture-of-experts routing on top of grouped-query attention heads, adding a new sparsity axis for efficient transformers at long context. [arxiv.org/abs/2606.20945](https://arxiv.org/abs/2606.20945)
 <!-- LATEST_PAPERS_END -->
 
 [Browse all paper summaries &rarr;](/blog/ai-papers/)
