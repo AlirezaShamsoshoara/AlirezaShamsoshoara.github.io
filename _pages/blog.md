@@ -14,18 +14,18 @@ Welcome to my blog! Here I share insights from my daily readings of AI research 
 I read AI and ML research papers daily and post concise summaries here. Each entry covers the key contributions, methods, and takeaways from recent papers across topics like deep learning, reinforcement learning, NLP, computer vision, and more.
 
 <!-- LATEST_PAPERS_START -->
-**Latest — June 23, 2026**
+**Latest — June 24, 2026**
 
-1. **Tmax** — Strongest open RL recipe for terminal agents, hitting 27% on Terminal-Bench 2.0 with a 9B model via PPO + verified execution environments. [arxiv.org/abs/2606.23321](https://arxiv.org/abs/2606.23321)
-2. **Confident Layer Decoding** — Qwen team shows deeper LLM layers can degrade reasoning; routing to intermediate layers when final-layer confidence is low recovers capability without retraining. [arxiv.org/abs/2606.21906](https://arxiv.org/abs/2606.21906)
-3. **PlanBench-XL** — Benchmark of 327 tasks over 1,665 tools testing long-horizon planning when agents can't see the full tool catalog upfront. [arxiv.org/abs/2606.22388](https://arxiv.org/abs/2606.22388)
-4. **EvoEmbedding** — Embedding model that maintains a continuously updated latent memory as it processes inputs, enabling retrieval systems that track state rather than encode snapshots. [arxiv.org/abs/2606.21649](https://arxiv.org/abs/2606.21649)
-5. **Causal Discovery in the Era of Agents** — CMU argues LLM agents should design experiments and constrain search while statistical algorithms handle causal graph estimation. [arxiv.org/abs/2606.23608](https://arxiv.org/abs/2606.23608)
-6. **Tapered Language Models** — Mila proposes decreasing parameter capacity with depth (wider early, narrower late layers), matching or beating uniform-depth models with fewer parameters. [arxiv.org/abs/2606.23670](https://arxiv.org/abs/2606.23670)
-7. **CLI-Universe** — Principled synthesis engine for terminal-agent training data generating unambiguous instructions with automatically verifiable correctness criteria. [arxiv.org/abs/2606.22883](https://arxiv.org/abs/2606.22883)
-8. **BioMatrix** — First decoder-only foundation model unifying DNA/protein sequences, 3D structures, and natural language in a single architecture (Microsoft Research). [arxiv.org/abs/2606.22138](https://arxiv.org/abs/2606.22138)
-9. **World Action Models Survey** — NUS/Sea AI Lab taxonomy distinguishing WAMs from world models and VLA policies, covering video-generation-based and language-backbone-based approaches. [arxiv.org/abs/2606.20781](https://arxiv.org/abs/2606.20781)
-10. **GQE: Grouped Query Experts** — Places mixture-of-experts routing on top of grouped-query attention heads, adding a new sparsity axis for efficient transformers at long context. [arxiv.org/abs/2606.20945](https://arxiv.org/abs/2606.20945)
+1. **Qwen-AgentWorld** — Qwen's language world models (35B and 397B) simulate agentic environments across 7 domains, trained on 10M+ trajectories; acts as environment simulator or unified agent foundation model. [arxiv.org/abs/2606.24597](https://arxiv.org/abs/2606.24597)
+2. **NatureBench** — 90 tasks from Nature-family papers testing whether AI coding agents can genuinely reproduce and beat published SOTA, not just re-run demos. [arxiv.org/abs/2606.24530](https://arxiv.org/abs/2606.24530)
+3. **MobileForge** — Annotation-free adaptation of MLLM-based mobile GUI agents to real apps via hierarchical feedback-guided policy optimization. [arxiv.org/abs/2606.19930](https://arxiv.org/abs/2606.19930)
+4. **MemGUI-Agent** — End-to-end long-horizon mobile GUI agent with proactive context management that curates and compresses facts across multi-app transitions. [arxiv.org/abs/2606.19926](https://arxiv.org/abs/2606.19926)
+5. **AOHP** — Open-source OS-level agent harness providing a unified substrate for tool-calling, memory, and cross-app access without OS modifications. [arxiv.org/abs/2606.23449](https://arxiv.org/abs/2606.23449)
+6. **LingxiDiagBench** — Multi-agent benchmark for Chinese psychiatric consultation, with AI playing both patient and diagnostician across the full intake-to-diagnosis workflow. [arxiv.org/abs/2602.09379](https://arxiv.org/abs/2602.09379)
+7. **OpenThoughts-Agent** — Data recipes and ablations for training agent models that generalize across code, tool use, and web navigation — first open cross-domain study. [arxiv.org/abs/2606.24855](https://arxiv.org/abs/2606.24855)
+8. **Semantic Browsing** — Lets users browse a semantically structured diversity space in text-to-image generation instead of random noise injection. [arxiv.org/abs/2606.23679](https://arxiv.org/abs/2606.23679)
+9. **FLAT** — Generates explorable 3D scenes from a single image by decoding video diffusion latents into triangle-mesh-based 3D Gaussian Splatting representations. [arxiv.org/abs/2606.24876](https://arxiv.org/abs/2606.24876)
+10. **FedOT** — Watermarking scheme for federated latent diffusion models enabling ownership verification and leakage tracing without breaking FL privacy guarantees. [arxiv.org/abs/2606.22875](https://arxiv.org/abs/2606.22875)
 <!-- LATEST_PAPERS_END -->
 
 [Browse all paper summaries &rarr;](/blog/ai-papers/)
