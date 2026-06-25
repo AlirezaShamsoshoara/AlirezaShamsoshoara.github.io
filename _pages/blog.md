@@ -14,18 +14,18 @@ Welcome to my blog! Here I share insights from my daily readings of AI research 
 I read AI and ML research papers daily and post concise summaries here. Each entry covers the key contributions, methods, and takeaways from recent papers across topics like deep learning, reinforcement learning, NLP, computer vision, and more.
 
 <!-- LATEST_PAPERS_START -->
-**Latest — June 24, 2026**
+**Latest — June 25, 2026**
 
-1. **Qwen-AgentWorld** — Qwen's language world models (35B and 397B) simulate agentic environments across 7 domains, trained on 10M+ trajectories; acts as environment simulator or unified agent foundation model. [arxiv.org/abs/2606.24597](https://arxiv.org/abs/2606.24597)
-2. **NatureBench** — 90 tasks from Nature-family papers testing whether AI coding agents can genuinely reproduce and beat published SOTA, not just re-run demos. [arxiv.org/abs/2606.24530](https://arxiv.org/abs/2606.24530)
-3. **MobileForge** — Annotation-free adaptation of MLLM-based mobile GUI agents to real apps via hierarchical feedback-guided policy optimization. [arxiv.org/abs/2606.19930](https://arxiv.org/abs/2606.19930)
-4. **MemGUI-Agent** — End-to-end long-horizon mobile GUI agent with proactive context management that curates and compresses facts across multi-app transitions. [arxiv.org/abs/2606.19926](https://arxiv.org/abs/2606.19926)
-5. **AOHP** — Open-source OS-level agent harness providing a unified substrate for tool-calling, memory, and cross-app access without OS modifications. [arxiv.org/abs/2606.23449](https://arxiv.org/abs/2606.23449)
-6. **LingxiDiagBench** — Multi-agent benchmark for Chinese psychiatric consultation, with AI playing both patient and diagnostician across the full intake-to-diagnosis workflow. [arxiv.org/abs/2602.09379](https://arxiv.org/abs/2602.09379)
-7. **OpenThoughts-Agent** — Data recipes and ablations for training agent models that generalize across code, tool use, and web navigation — first open cross-domain study. [arxiv.org/abs/2606.24855](https://arxiv.org/abs/2606.24855)
-8. **Semantic Browsing** — Lets users browse a semantically structured diversity space in text-to-image generation instead of random noise injection. [arxiv.org/abs/2606.23679](https://arxiv.org/abs/2606.23679)
-9. **FLAT** — Generates explorable 3D scenes from a single image by decoding video diffusion latents into triangle-mesh-based 3D Gaussian Splatting representations. [arxiv.org/abs/2606.24876](https://arxiv.org/abs/2606.24876)
-10. **FedOT** — Watermarking scheme for federated latent diffusion models enabling ownership verification and leakage tracing without breaking FL privacy guarantees. [arxiv.org/abs/2606.22875](https://arxiv.org/abs/2606.22875)
+1. **Are We Ready For An Agent-Native Memory System?** — First systematic study of agent memory decomposed into 4 modules across 12 systems and 11 datasets; no single architecture wins. [arxiv.org/abs/2606.24775](https://arxiv.org/abs/2606.24775)
+2. **DomainShuttle** — Subject-driven text-to-video framework handling both high-fidelity in-domain and flexible cross-domain generation via Domain-MoT and DualRoPE. [arxiv.org/abs/2606.26058](https://arxiv.org/abs/2606.26058)
+3. **Wan-Streamer v0.1** — Native-streaming multimodal foundation model for real-time full-duplex audio-visual interaction within a single Transformer. [arxiv.org/abs/2606.25041](https://arxiv.org/abs/2606.25041)
+4. **ShutterMuse** — MLLM-based real-time photography guidance for camera framing and subject pose, with new CaptureGuide-Bench benchmark. [arxiv.org/abs/2606.25763](https://arxiv.org/abs/2606.25763)
+5. **iLLaDA** — 8B masked diffusion language model trained on 12T tokens with fully bidirectional attention, a serious challenge to the autoregressive paradigm. [arxiv.org/abs/2606.25331](https://arxiv.org/abs/2606.25331)
+6. **Beyond NL2Code** — Structured survey of multimodal code intelligence covering intent specified via screenshots, charts, videos, and UI states. [arxiv.org/abs/2606.15932](https://arxiv.org/abs/2606.15932)
+7. **MVTrack4Gen** — Uses multi-view point tracking as geometric supervision for 4D video generation, avoiding brittle explicit 3D reconstruction. [arxiv.org/abs/2606.26087](https://arxiv.org/abs/2606.26087)
+8. **V-Zero** — Label-free fine-grained visual reasoning in MLLMs via contrastive evidence gating and on-policy distillation without ground-truth annotations. [arxiv.org/abs/2606.25319](https://arxiv.org/abs/2606.25319)
+9. **UnityShots** — Coherent multi-shot video generation with structured cross-shot memory and boundary-aware gating for shot transitions. [arxiv.org/abs/2606.21661](https://arxiv.org/abs/2606.21661)
+10. **IV-CoT** — Implicit visual chain-of-thought that disentangles structural planning from appearance rendering for better compositional text-to-image generation. [arxiv.org/abs/2606.24849](https://arxiv.org/abs/2606.24849)
 <!-- LATEST_PAPERS_END -->
 
 [Browse all paper summaries &rarr;](/blog/ai-papers/)
