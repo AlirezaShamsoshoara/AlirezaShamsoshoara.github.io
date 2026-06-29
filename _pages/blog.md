@@ -14,18 +14,18 @@ Welcome to my blog! Here I share insights from my daily readings of AI research 
 I read AI and ML research papers daily and post concise summaries here. Each entry covers the key contributions, methods, and takeaways from recent papers across topics like deep learning, reinforcement learning, NLP, computer vision, and more.
 
 <!-- LATEST_PAPERS_START -->
-**Latest — June 28, 2026**
+**Latest — June 29, 2026**
 
-1. **DataFlow** — LLM-driven framework for unified, reproducible data preparation pipelines with model-in-the-loop quality filtering for LLM training at scale. [arxiv.org/abs/2512.16676](https://arxiv.org/abs/2512.16676)
-2. **GLM-5** — Zhipu AI's next-gen foundation model bridging "vibe coding" to rigorous agentic engineering with strong coding, planning, and multi-step tool use. [arxiv.org/abs/2602.15763](https://arxiv.org/abs/2602.15763)
-3. **Unlimited OCR Works** — Decouples visual recognition from LLM language priors in OCR, achieving SOTA accuracy on diverse benchmarks with a significantly smaller model. [arxiv.org/abs/2606.23050](https://arxiv.org/abs/2606.23050)
-4. **Agent READMEs** — First large-scale empirical study of 2,303 agent context files, providing a taxonomy and best practices that measurably improve agentic coding task completion. [arxiv.org/abs/2511.12884](https://arxiv.org/abs/2511.12884)
-5. **Geometric Context Transformer** — Streaming 3D reconstruction from video with real-time geometric accuracy and temporal consistency, inspired by SLAM principles. [arxiv.org/abs/2604.14141](https://arxiv.org/abs/2604.14141)
-6. **YOLO26** — Ultralytics' end-to-end vision models eliminating NMS at inference, unifying detection, segmentation, pose, and classification with higher throughput. [arxiv.org/abs/2606.03748](https://arxiv.org/abs/2606.03748)
-7. **EvoScientist** — Multi-agent framework for automated scientific discovery where specialized agents evolve their roles through experience, outperforming static pipelines. [arxiv.org/abs/2603.08127](https://arxiv.org/abs/2603.08127)
-8. **Zep** — Agent memory layer built on a temporal knowledge graph with time-aware edges, outperforming MemGPT on deep memory retrieval at enterprise scale. [arxiv.org/abs/2501.13956](https://arxiv.org/abs/2501.13956)
-9. **olmOCR** — Open-source VLM-powered toolkit for high-fidelity PDF-to-text extraction across tables, math, and figures to unlock trillions of tokens for LLM training. [arxiv.org/abs/2502.18443](https://arxiv.org/abs/2502.18443)
-10. **AI-Trader** — Live benchmark for LLM-based autonomous trading agents in real-time financial markets, revealing significant gaps versus expert human traders. [arxiv.org/abs/2512.10971](https://arxiv.org/abs/2512.10971)
+1. **Qwen-Image-2.0-RL** — RLHF post-training pipeline for Qwen's diffusion image model using task-specific VLM reward models to improve visual quality and instruction-following. [arxiv.org/abs/2606.27608](https://arxiv.org/abs/2606.27608)
+2. **Formalizing Latent Thoughts** — Axiomatic framework for evaluating LLM latent thought representations, independent of downstream benchmarks, revealing failures masked by accuracy metrics. [arxiv.org/abs/2606.27378](https://arxiv.org/abs/2606.27378)
+3. **Google's Paper Assistant Tool** — Gemini-powered automated peer review system piloted at STOC 2026, designed to scale scientific review as AI-assisted paper submissions accelerate. [arxiv.org/abs/2606.28277](https://arxiv.org/abs/2606.28277)
+4. **Thinking While Speaking** — Inference-time knowledge transfer from a large model to a small real-time model, enabling voice agents to reason deeply without increasing spoken response latency. [arxiv.org/abs/2511.07397](https://arxiv.org/abs/2511.07397)
+5. **PhysisForcing** — NVIDIA's physics-reinforced video generation world model for robotic manipulation, injecting physical constraints to eliminate implausible trajectories. [arxiv.org/abs/2606.28128](https://arxiv.org/abs/2606.28128)
+6. **Translation as a Bridging Action** — Transfers novel manipulation skills from human demos to bi-manual robots via hand-to-gripper retargeting, bypassing expensive teleoperation data collection. [arxiv.org/abs/2606.28133](https://arxiv.org/abs/2606.28133)
+7. **GBC** — Gradient-based connections that propagate structured credit assignment across LLM multi-agent boundaries, enabling principled optimization of role specialization. [arxiv.org/abs/2606.28187](https://arxiv.org/abs/2606.28187)
+8. **SimFoundry** — Zero-shot real-to-sim system building digital twins from a single video, with affordance-preserving scene variations to scale robot policy training. [arxiv.org/abs/2606.28276](https://arxiv.org/abs/2606.28276)
+9. **NormGuard** — Constrains velocity norm inflation (5–15%) during RL fine-tuning of flow-based image generators, preserving perceptual quality while maintaining reward alignment. [arxiv.org/abs/2606.27771](https://arxiv.org/abs/2606.27771)
+10. **Parallel Rollout Approximation** — Reduces the train-inference gap in pixel-space autoregressive image generation by simulating multi-step rollouts during training without sequential overhead. [arxiv.org/abs/2606.27978](https://arxiv.org/abs/2606.27978)
 <!-- LATEST_PAPERS_END -->
 
 [Browse all paper summaries &rarr;](/blog/ai-papers/)
