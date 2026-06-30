@@ -14,18 +14,18 @@ Welcome to my blog! Here I share insights from my daily readings of AI research 
 I read AI and ML research papers daily and post concise summaries here. Each entry covers the key contributions, methods, and takeaways from recent papers across topics like deep learning, reinforcement learning, NLP, computer vision, and more.
 
 <!-- LATEST_PAPERS_START -->
-**Latest — June 29, 2026**
+**Latest — June 30, 2026**
 
-1. **Qwen-Image-2.0-RL** — RLHF post-training pipeline for Qwen's diffusion image model using task-specific VLM reward models to improve visual quality and instruction-following. [arxiv.org/abs/2606.27608](https://arxiv.org/abs/2606.27608)
-2. **Formalizing Latent Thoughts** — Axiomatic framework for evaluating LLM latent thought representations, independent of downstream benchmarks, revealing failures masked by accuracy metrics. [arxiv.org/abs/2606.27378](https://arxiv.org/abs/2606.27378)
-3. **Google's Paper Assistant Tool** — Gemini-powered automated peer review system piloted at STOC 2026, designed to scale scientific review as AI-assisted paper submissions accelerate. [arxiv.org/abs/2606.28277](https://arxiv.org/abs/2606.28277)
-4. **Thinking While Speaking** — Inference-time knowledge transfer from a large model to a small real-time model, enabling voice agents to reason deeply without increasing spoken response latency. [arxiv.org/abs/2511.07397](https://arxiv.org/abs/2511.07397)
-5. **PhysisForcing** — NVIDIA's physics-reinforced video generation world model for robotic manipulation, injecting physical constraints to eliminate implausible trajectories. [arxiv.org/abs/2606.28128](https://arxiv.org/abs/2606.28128)
-6. **Translation as a Bridging Action** — Transfers novel manipulation skills from human demos to bi-manual robots via hand-to-gripper retargeting, bypassing expensive teleoperation data collection. [arxiv.org/abs/2606.28133](https://arxiv.org/abs/2606.28133)
-7. **GBC** — Gradient-based connections that propagate structured credit assignment across LLM multi-agent boundaries, enabling principled optimization of role specialization. [arxiv.org/abs/2606.28187](https://arxiv.org/abs/2606.28187)
-8. **SimFoundry** — Zero-shot real-to-sim system building digital twins from a single video, with affordance-preserving scene variations to scale robot policy training. [arxiv.org/abs/2606.28276](https://arxiv.org/abs/2606.28276)
-9. **NormGuard** — Constrains velocity norm inflation (5–15%) during RL fine-tuning of flow-based image generators, preserving perceptual quality while maintaining reward alignment. [arxiv.org/abs/2606.27771](https://arxiv.org/abs/2606.27771)
-10. **Parallel Rollout Approximation** — Reduces the train-inference gap in pixel-space autoregressive image generation by simulating multi-step rollouts during training without sequential overhead. [arxiv.org/abs/2606.27978](https://arxiv.org/abs/2606.27978)
+1. **Agentic Abstention** — Defines when LLM agents should stop acting under uncertainty, benchmarking 13 agent systems on 28k+ tasks across web, terminal, and QA environments. [arxiv.org/abs/2606.28733](https://arxiv.org/abs/2606.28733)
+2. **LiveEdit** — Real-time streaming video editing via causal diffusion distillation, maintaining stable backgrounds and non-edited regions at interactive latency. [arxiv.org/abs/2606.26740](https://arxiv.org/abs/2606.26740)
+3. **Agents-A1** — A 35B MoE agent matching trillion-parameter performance by scaling trajectory horizon instead of model size, via multi-teacher on-policy distillation. [arxiv.org/abs/2606.30616](https://arxiv.org/abs/2606.30616)
+4. **TUA-Bench** — Comprehensive benchmark for terminal-use agents covering general computer use and specialized workflows beyond code-only evaluations. [arxiv.org/abs/2606.28480](https://arxiv.org/abs/2606.28480)
+5. **ReFreeKV** — Threshold-free KV cache compression using adaptive budget allocation, maintaining full-cache quality across datasets without manual tuning. [arxiv.org/abs/2502.16886](https://arxiv.org/abs/2502.16886)
+6. **Beyond IID (TabFMs)** — Stress-tests tabular foundation models under non-IID conditions, finding tree-based methods still win on complex real-world data. [arxiv.org/abs/2606.30410](https://arxiv.org/abs/2606.30410)
+7. **Visual World Model Long-Tail Eval** — Structured framework exposing that video/image generators fail on rare and impossible physical scenarios missed by standard benchmarks. [arxiv.org/abs/2606.24256](https://arxiv.org/abs/2606.24256)
+8. **Video-MME-Logical** — Controlled benchmark pushing MLLMs to reason temporally-logically over video (state tracking, counting, ordering) beyond frame-level perception. [arxiv.org/abs/2606.27828](https://arxiv.org/abs/2606.27828)
+9. **AsyncOPD** — Decouples rollout generation from learner updates in on-policy distillation, enabling continuous async training with Monte Carlo staleness corrections. [arxiv.org/abs/2606.24143](https://arxiv.org/abs/2606.24143)
+10. **Generalized Keyframe Extraction** — Bridges VideoQA and video-guided agentic tasks by selecting frames jointly for task relevance and scene dynamics. [arxiv.org/abs/2606.29445](https://arxiv.org/abs/2606.29445)
 <!-- LATEST_PAPERS_END -->
 
 [Browse all paper summaries &rarr;](/blog/ai-papers/)
