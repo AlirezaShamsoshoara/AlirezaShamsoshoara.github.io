@@ -14,18 +14,18 @@ Welcome to my blog! Here I share insights from my daily readings of AI research 
 I read AI and ML research papers daily and post concise summaries here. Each entry covers the key contributions, methods, and takeaways from recent papers across topics like deep learning, reinforcement learning, NLP, computer vision, and more.
 
 <!-- LATEST_PAPERS_START -->
-**Latest — July 01, 2026**
+**Latest — July 02, 2026**
 
-1. **Orca: The World is in Your Mind** — General world foundation model learning a unified world latent space from 125K hours of video and language via Next-State-Prediction. [arxiv.org/abs/2606.30534](https://arxiv.org/abs/2606.30534)
-2. **Dockerless** — Environment-free agentic patch verifier achieving 62.0% on SWE-bench Verified without Docker, using agentic repo exploration for correctness evidence. [arxiv.org/abs/2606.28436](https://arxiv.org/abs/2606.28436)
-3. **DOPD: Dual On-policy Distillation** — Advantage-aware distillation that fixes "privilege illusion" by dynamically routing token-level supervision between teacher and student policies. [arxiv.org/abs/2606.30626](https://arxiv.org/abs/2606.30626)
-4. **BlockPilot** — Instance-adaptive policy for diffusion-based speculative decoding achieving 4.20× speedup on Qwen3-4B by predicting optimal block size per sample. [arxiv.org/abs/2606.31315](https://arxiv.org/abs/2606.31315)
-5. **Instance-Structured 3D Tokenization** — Feed-forward framework decomposing unposed multi-view scenes into object-centric 3D token groups for reconstruction, segmentation, and manipulation. [arxiv.org/abs/2606.29513](https://arxiv.org/abs/2606.29513)
-6. **GEAR** — End-to-end co-training of VQ tokenizer and autoregressive generator guided by representation alignment, breaking the frozen two-stage image synthesis pipeline. [arxiv.org/abs/2606.32039](https://arxiv.org/abs/2606.32039)
-7. **Multi-Block Diffusion Language Models** — Extends diffusion LMs to decode consecutive blocks concurrently with training recipes that close the teacher-forcing inference gap. [arxiv.org/abs/2606.29215](https://arxiv.org/abs/2606.29215)
-8. **SkillHone** — Continual agent skill evolution harness retaining full decision history (evaluations, rejections, rationale) to enable principled skill improvement over time. [arxiv.org/abs/2606.08671](https://arxiv.org/abs/2606.08671)
-9. **Evolution Fine-Tuning** — Trains LLMs within evolutionary search scaffolds across 371 diverse tasks (GPU kernels, conjectures, combinatorics) for general cross-domain discovery transfer. [arxiv.org/abs/2606.29082](https://arxiv.org/abs/2606.29082)
-10. **MemLearner** — Learning-based adaptive context query for video world models that retrieves relevant past frames conditioned on actions and state, solving long-video inconsistency. [arxiv.org/abs/2606.31734](https://arxiv.org/abs/2606.31734)
+1. **Seed2.0** — ByteDance frontier model series targeting long-tail knowledge and complex instruction following, competitive with GPT and Gemini on real-world task benchmarks. [arxiv.org/abs/2607.00248](https://arxiv.org/abs/2607.00248)
+2. **AutoTrainess** — System enabling LLM agents to autonomously conduct full post-training pipelines: data construction, training, evaluation, and checkpoint management. [arxiv.org/abs/2606.31551](https://arxiv.org/abs/2606.31551)
+3. **ELDR** — Expert-locality-aware decode router for PD-disaggregated MoE serving that caches expert weights from prefill to reduce decode latency. [arxiv.org/abs/2607.00466](https://arxiv.org/abs/2607.00466)
+4. **State-Prediction Separation Hypothesis** — Dual-stream Transformer variant that decouples next-token prediction from state storage, improving language modeling across scales. [arxiv.org/abs/2607.01218](https://arxiv.org/abs/2607.01218)
+5. **Valdi** — Value diffusion world models combining MPC with latent diffusion, where value functions guide sampling toward high-value imagined trajectories. [arxiv.org/abs/2607.00917](https://arxiv.org/abs/2607.00917)
+6. **CausalMix** — Reframes LLM data mixing as causal inference, enabling mixture weight optimization that generalizes across dynamic data distributions. [arxiv.org/abs/2607.01104](https://arxiv.org/abs/2607.01104)
+7. **TurboServe** — Serving system for streaming video generation workloads with session-aware scheduling and memory management under tight latency constraints. [arxiv.org/abs/2606.19271](https://arxiv.org/abs/2606.19271)
+8. **ASPIRE** — Continual robotics learning system that autonomously writes and refines control programs, accumulating a growing skill library via iterative exploration. [arxiv.org/abs/2607.00272](https://arxiv.org/abs/2607.00272)
+9. **ABot-M0.5** — World Action Model for mobile manipulation jointly modeling navigation and manipulation from fine-grained video frames. [arxiv.org/abs/2607.00678](https://arxiv.org/abs/2607.00678)
+10. **Domain Arithmetic** — One-shot VLA adaptation to environmental shifts (camera pose, embodiment changes) by composing domain-specific model edits arithmetically. [arxiv.org/abs/2607.00666](https://arxiv.org/abs/2607.00666)
 <!-- LATEST_PAPERS_END -->
 
 [Browse all paper summaries &rarr;](/blog/ai-papers/)
