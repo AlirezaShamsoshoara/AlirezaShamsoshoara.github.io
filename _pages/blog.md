@@ -14,18 +14,18 @@ Welcome to my blog! Here I share insights from my daily readings of AI research 
 I read AI and ML research papers daily and post concise summaries here. Each entry covers the key contributions, methods, and takeaways from recent papers across topics like deep learning, reinforcement learning, NLP, computer vision, and more.
 
 <!-- LATEST_PAPERS_START -->
-**Latest — July 03, 2026**
+**Latest — July 04, 2026**
 
-1. **Program-as-Weights** — New programming paradigm that compiles natural-language function specs into compact neural adapters, letting a 0.6B model match Qwen3-32B at 1/50th the memory for offline/on-device AI. [arxiv.org/abs/2607.02512](https://arxiv.org/abs/2607.02512)
-2. **EvoPolicyGym** — First benchmark evaluating how well agents iteratively improve executable RL policies under fixed budgets, with trajectory-level diagnostics across 16 environments. [arxiv.org/abs/2607.02440](https://arxiv.org/abs/2607.02440)
-3. **AgenticSTS** — Bounded-memory testbed for long-horizon LLM agents that isolates the effect of individual memory components under a fixed-context contract. [arxiv.org/abs/2607.02255](https://arxiv.org/abs/2607.02255)
-4. **Morphing into Hybrid Attention** — Learned layer-selection method for converting full-attention Transformers into efficient hybrid models, outperforming heuristic placement strategies. [arxiv.org/abs/2606.30562](https://arxiv.org/abs/2606.30562)
-5. **AgenticDataBench** — Comprehensive benchmark for LLM-based data agents spanning ingestion, transformation, analysis, and visualization across the full data science pipeline. [arxiv.org/abs/2607.01647](https://arxiv.org/abs/2607.01647)
-6. **Multi-Resolution Flow Matching** — Training-free diffusion acceleration via staged multi-resolution sampling, achieving >5× speedup on text-to-image models with no retraining. [arxiv.org/abs/2607.01642](https://arxiv.org/abs/2607.01642)
-7. **WorldDirector** — Controllable video world model that decouples semantic motion orchestration from pixel rendering, maintaining persistent dynamic object memory across viewpoints. [arxiv.org/abs/2607.02517](https://arxiv.org/abs/2607.02517)
-8. **Breaking Failure Cascades** — Step-aware RL for medical multimodal reasoning that penalizes cascading errors in clinical image analysis, improving diagnostic reliability. [arxiv.org/abs/2606.31825](https://arxiv.org/abs/2606.31825)
-9. **SkillCoach** — Self-evolving rubric system that helps LLM agents improve skill selection and execution in large skill repositories without human annotation. [arxiv.org/abs/2607.01874](https://arxiv.org/abs/2607.01874)
-10. **Distribution-wise Rewards for Visual Generation** — Framework that finetunes generative models with distribution-level rewards to prevent reward hacking and mode collapse in RLHF for images. [arxiv.org/abs/2607.02291](https://arxiv.org/abs/2607.02291)
+1. **Program-as-Weights** — Compiles natural-language task specs into compact neural adapters; a 0.6B interpreter matches Qwen3-32B at 1/50th the memory, running 30 tokens/s on a MacBook M3. [arxiv.org/abs/2607.02512](https://arxiv.org/abs/2607.02512)
+2. **AgenticSTS** — Bounded-memory contract for LLM agents using typed retrieval instead of ever-growing transcripts; tested in Slay the Spire 2 with a 298-trajectory public dataset. [arxiv.org/abs/2607.02255](https://arxiv.org/abs/2607.02255)
+3. **EvoPolicyGym** — Controlled benchmark isolating iterative self-improvement in LLM agents, measuring policy-edit quality rather than just final scores. [arxiv.org/abs/2607.02440](https://arxiv.org/abs/2607.02440)
+4. **Morphing into Hybrid Attention** — Gradient-based layer importance scoring converts full-attention Transformers into efficient hybrids, outperforming heuristic placement strategies. [arxiv.org/abs/2606.30562](https://arxiv.org/abs/2606.30562)
+5. **Multi-Resolution Flow Matching** — Training-free, hardware-agnostic diffusion acceleration via staged multi-resolution sampling achieving >5× speedup on existing SD/FLUX pipelines. [arxiv.org/abs/2607.01642](https://arxiv.org/abs/2607.01642)
+6. **AgenticDataBench** — Benchmark for LLM data agents across loading, cleaning, analysis, and visualization with automated grading beyond code execution. [arxiv.org/abs/2607.01647](https://arxiv.org/abs/2607.01647)
+7. **WorldDirector** — Video world model decoupling semantic motion orchestration from visual rendering with persistent object-centric memory across viewpoints. [arxiv.org/abs/2607.02517](https://arxiv.org/abs/2607.02517)
+8. **Breaking Failure Cascades** — Step-aware RL assigns credit at each reasoning step to prevent compounding errors in clinical multimodal LLM diagnostics. [arxiv.org/abs/2606.31825](https://arxiv.org/abs/2606.31825)
+9. **SkillCoach** — Auto-generates and refines rubrics for agent skill selection, enabling reliable tool choice in large skill repositories without binary success signals. [arxiv.org/abs/2607.01874](https://arxiv.org/abs/2607.01874)
+10. **AutoMem** — Treats memory as a trainable cognitive skill, promoting file-system operations (read/write/organize) to first-class agent actions alongside task actions. [arxiv.org/abs/2607.01224](https://arxiv.org/abs/2607.01224)
 <!-- LATEST_PAPERS_END -->
 
 [Browse all paper summaries &rarr;](/blog/ai-papers/)
