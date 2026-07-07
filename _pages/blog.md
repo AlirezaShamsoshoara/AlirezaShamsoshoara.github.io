@@ -14,18 +14,18 @@ Welcome to my blog! Here I share insights from my daily readings of AI research 
 I read AI and ML research papers daily and post concise summaries here. Each entry covers the key contributions, methods, and takeaways from recent papers across topics like deep learning, reinforcement learning, NLP, computer vision, and more.
 
 <!-- LATEST_PAPERS_START -->
-**Latest — July 04, 2026**
+**Latest — July 06, 2026**
 
-1. **Program-as-Weights** — Compiles natural-language task specs into compact neural adapters; a 0.6B interpreter matches Qwen3-32B at 1/50th the memory, running 30 tokens/s on a MacBook M3. [arxiv.org/abs/2607.02512](https://arxiv.org/abs/2607.02512)
-2. **AgenticSTS** — Bounded-memory contract for LLM agents using typed retrieval instead of ever-growing transcripts; tested in Slay the Spire 2 with a 298-trajectory public dataset. [arxiv.org/abs/2607.02255](https://arxiv.org/abs/2607.02255)
-3. **EvoPolicyGym** — Controlled benchmark isolating iterative self-improvement in LLM agents, measuring policy-edit quality rather than just final scores. [arxiv.org/abs/2607.02440](https://arxiv.org/abs/2607.02440)
-4. **Morphing into Hybrid Attention** — Gradient-based layer importance scoring converts full-attention Transformers into efficient hybrids, outperforming heuristic placement strategies. [arxiv.org/abs/2606.30562](https://arxiv.org/abs/2606.30562)
-5. **Multi-Resolution Flow Matching** — Training-free, hardware-agnostic diffusion acceleration via staged multi-resolution sampling achieving >5× speedup on existing SD/FLUX pipelines. [arxiv.org/abs/2607.01642](https://arxiv.org/abs/2607.01642)
-6. **AgenticDataBench** — Benchmark for LLM data agents across loading, cleaning, analysis, and visualization with automated grading beyond code execution. [arxiv.org/abs/2607.01647](https://arxiv.org/abs/2607.01647)
-7. **WorldDirector** — Video world model decoupling semantic motion orchestration from visual rendering with persistent object-centric memory across viewpoints. [arxiv.org/abs/2607.02517](https://arxiv.org/abs/2607.02517)
-8. **Breaking Failure Cascades** — Step-aware RL assigns credit at each reasoning step to prevent compounding errors in clinical multimodal LLM diagnostics. [arxiv.org/abs/2606.31825](https://arxiv.org/abs/2606.31825)
-9. **SkillCoach** — Auto-generates and refines rubrics for agent skill selection, enabling reliable tool choice in large skill repositories without binary success signals. [arxiv.org/abs/2607.01874](https://arxiv.org/abs/2607.01874)
-10. **AutoMem** — Treats memory as a trainable cognitive skill, promoting file-system operations (read/write/organize) to first-class agent actions alongside task actions. [arxiv.org/abs/2607.01224](https://arxiv.org/abs/2607.01224)
+1. **MIPU: Monotonic Inference Policy Update** — Fixes a foundational flaw in LLM RL post-training where optimizing the training-engine policy doesn't guarantee improvement in the inference-engine policy at deployment. [arxiv.org/abs/2606.29526](https://arxiv.org/abs/2606.29526)
+2. **Embodied.cpp** — Portable C++ inference runtime for VLA models on heterogeneous robots; achieves 100% task success on HY-VLA while cutting WAM memory from 312 MiB to 88 MiB. [arxiv.org/abs/2607.02501](https://arxiv.org/abs/2607.02501)
+3. **VLA-Corrector** — Lightweight detect-and-correct module for VLA action chunking that triggers corrective re-planning mid-chunk without full policy re-inference. [arxiv.org/abs/2607.01804](https://arxiv.org/abs/2607.01804)
+4. **OrbitQuant** — Data-agnostic quantization for diffusion transformers via randomized permuted block-Hadamard transform; zero calibration data required. [arxiv.org/abs/2607.02461](https://arxiv.org/abs/2607.02461)
+5. **DataComp-VLM** — First systematic benchmark for VLM data curation, aggregating 160 datasets into a 6T multimodal token corpus for evaluating filtering and mixing strategies. [arxiv.org/abs/2606.28551](https://arxiv.org/abs/2606.28551)
+6. **AI-Infra-Guard** — Open-source multi-layer red teaming framework for AI agents covering infrastructure, MCP/tool, agent behavior, and model-level attack surfaces. [arxiv.org/abs/2606.31227](https://arxiv.org/abs/2606.31227)
+7. **Visually Grounded Self-Reflection** — RL-based training that rewards VLMs for grounding self-reflection steps in image evidence, reducing hallucinated corrections. [arxiv.org/abs/2607.02490](https://arxiv.org/abs/2607.02490)
+8. **ReContext** — Training-free harness using recursive evidence replay to fix the gap between long-context access and effective context utilization in LLMs. [arxiv.org/abs/2607.02509](https://arxiv.org/abs/2607.02509)
+9. **LLM Agent Social Structure** — Dual-channel experiment (public vs. off-the-record) finds LLM agents develop emergent latent objectives and adapt messaging based on perceived audience. [arxiv.org/abs/2607.02507](https://arxiv.org/abs/2607.02507)
+10. **AGE: Adaptive-masking for GraphRAG** — Transformer with mask-based self-supervised learning bridges graph-structured knowledge and LLM latent spaces without fine-tuning. [arxiv.org/abs/2607.00052](https://arxiv.org/abs/2607.00052)
 <!-- LATEST_PAPERS_END -->
 
 [Browse all paper summaries &rarr;](/blog/ai-papers/)
