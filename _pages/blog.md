@@ -14,18 +14,18 @@ Welcome to my blog! Here I share insights from my daily readings of AI research 
 I read AI and ML research papers daily and post concise summaries here. Each entry covers the key contributions, methods, and takeaways from recent papers across topics like deep learning, reinforcement learning, NLP, computer vision, and more.
 
 <!-- LATEST_PAPERS_START -->
-**Latest — July 06, 2026**
+**Latest — July 07, 2026**
 
-1. **MIPU: Monotonic Inference Policy Update** — Fixes a foundational flaw in LLM RL post-training where optimizing the training-engine policy doesn't guarantee improvement in the inference-engine policy at deployment. [arxiv.org/abs/2606.29526](https://arxiv.org/abs/2606.29526)
-2. **Embodied.cpp** — Portable C++ inference runtime for VLA models on heterogeneous robots; achieves 100% task success on HY-VLA while cutting WAM memory from 312 MiB to 88 MiB. [arxiv.org/abs/2607.02501](https://arxiv.org/abs/2607.02501)
-3. **VLA-Corrector** — Lightweight detect-and-correct module for VLA action chunking that triggers corrective re-planning mid-chunk without full policy re-inference. [arxiv.org/abs/2607.01804](https://arxiv.org/abs/2607.01804)
-4. **OrbitQuant** — Data-agnostic quantization for diffusion transformers via randomized permuted block-Hadamard transform; zero calibration data required. [arxiv.org/abs/2607.02461](https://arxiv.org/abs/2607.02461)
-5. **DataComp-VLM** — First systematic benchmark for VLM data curation, aggregating 160 datasets into a 6T multimodal token corpus for evaluating filtering and mixing strategies. [arxiv.org/abs/2606.28551](https://arxiv.org/abs/2606.28551)
-6. **AI-Infra-Guard** — Open-source multi-layer red teaming framework for AI agents covering infrastructure, MCP/tool, agent behavior, and model-level attack surfaces. [arxiv.org/abs/2606.31227](https://arxiv.org/abs/2606.31227)
-7. **Visually Grounded Self-Reflection** — RL-based training that rewards VLMs for grounding self-reflection steps in image evidence, reducing hallucinated corrections. [arxiv.org/abs/2607.02490](https://arxiv.org/abs/2607.02490)
-8. **ReContext** — Training-free harness using recursive evidence replay to fix the gap between long-context access and effective context utilization in LLMs. [arxiv.org/abs/2607.02509](https://arxiv.org/abs/2607.02509)
-9. **LLM Agent Social Structure** — Dual-channel experiment (public vs. off-the-record) finds LLM agents develop emergent latent objectives and adapt messaging based on perceived audience. [arxiv.org/abs/2607.02507](https://arxiv.org/abs/2607.02507)
-10. **AGE: Adaptive-masking for GraphRAG** — Transformer with mask-based self-supervised learning bridges graph-structured knowledge and LLM latent spaces without fine-tuning. [arxiv.org/abs/2607.00052](https://arxiv.org/abs/2607.00052)
+1. **UI-MOPD** — First method combining multi-teacher on-policy distillation with continual learning for GUI agents across desktop and mobile; 38.2% task success on OSWorld. [arxiv.org/abs/2607.04425](https://arxiv.org/abs/2607.04425)
+2. **OmniOpt** — Unified taxonomy and benchmark of 100+ modern optimizers across LLM pretraining to image classification, with open-source code. [arxiv.org/abs/2607.04033](https://arxiv.org/abs/2607.04033)
+3. **PixWorld** — Unified pixel-space model for both 3D scene generation and reconstruction, avoiding the information loss of latent-space approaches. [arxiv.org/abs/2607.05373](https://arxiv.org/abs/2607.05373)
+4. **ResearchStudio-Reel** — Microsoft Research tool that converts papers into editable posters, video scripts, and blog posts with hard quality gates. [arxiv.org/abs/2607.04438](https://arxiv.org/abs/2607.04438)
+5. **ResearchStudio-Idea** — Evidence-grounded research ideation suite that grounds AI-generated proposals in real ML conference outcomes and checks novelty. [arxiv.org/abs/2607.04439](https://arxiv.org/abs/2607.04439)
+6. **GigaWorld-1** — Roadmap for using world models as robot policy evaluators; finds rollout consistency matters more than visual realism. [arxiv.org/abs/2607.02642](https://arxiv.org/abs/2607.02642)
+7. **Vision Pretraining for Dense Spatial Perception** — Boundary-centric pretraining for sub-pixel spatial representations, improving depth estimation without added architectural complexity. [arxiv.org/abs/2607.05247](https://arxiv.org/abs/2607.05247)
+8. **MANCE** — Manifold-aware concept erasure that projects updates onto representation manifolds, achieving state-of-the-art nonlinear concept removal. [arxiv.org/abs/2607.03973](https://arxiv.org/abs/2607.03973)
+9. **Wan-Streamer v0.2** — Doubles interactive video resolution (192×336 → 640×368) at the same ~200ms latency via multi-GPU parallel processing. [arxiv.org/abs/2607.04443](https://arxiv.org/abs/2607.04443)
+10. **EVA-Client** — Open-source unified framework bridging policy servers and physical robot hardware for data collection, inference, and deployment. [arxiv.org/abs/2607.02646](https://arxiv.org/abs/2607.02646)
 <!-- LATEST_PAPERS_END -->
 
 [Browse all paper summaries &rarr;](/blog/ai-papers/)
