@@ -14,18 +14,18 @@ Welcome to my blog! Here I share insights from my daily readings of AI research 
 I read AI and ML research papers daily and post concise summaries here. Each entry covers the key contributions, methods, and takeaways from recent papers across topics like deep learning, reinforcement learning, NLP, computer vision, and more.
 
 <!-- LATEST_PAPERS_START -->
-**Latest — July 08, 2026**
+**Latest — July 09, 2026**
 
-1. **RynnWorld-4D** — Synchronized RGB-depth-optical-flow (RGB-DF) as a physically grounded 4D representation for robotic manipulation world models. [arxiv.org/abs/2607.06559](https://arxiv.org/abs/2607.06559)
-2. **AlayaWorld** — Autoregressive video world model for long-horizon, interactive game-like environments without labor-intensive production pipelines. [arxiv.org/abs/2607.06291](https://arxiv.org/abs/2607.06291)
-3. **RynnWorld-Teleop** — Action-conditioned world model that simulates manipulation outcomes for digital teleoperation without physical robot presence. [arxiv.org/abs/2607.06558](https://arxiv.org/abs/2607.06558)
-4. **Gemma 4** — Google DeepMind's new open-weight natively multimodal models (2.3B–31B) with encoder-free architecture handling vision and audio. [arxiv.org/abs/2607.02770](https://arxiv.org/abs/2607.02770)
-5. **HiLS Attention** — Hierarchical Landmark Sparse attention achieving near-full-attention quality at sub-quadratic complexity for practical infinite context. [arxiv.org/abs/2607.02980](https://arxiv.org/abs/2607.02980)
-6. **SenseNova-Vision** — Reformulates all vision tasks (recognition, segmentation, depth, generation) as unified multimodal generation without task-specific heads. [arxiv.org/abs/2607.06560](https://arxiv.org/abs/2607.06560)
-7. **Nemotron-Labs-Diffusion** — NVIDIA's tri-mode LM unifying AR, diffusion, and self-speculation decoding for ~6x tokens-per-forward-pass. [arxiv.org/abs/2607.05722](https://arxiv.org/abs/2607.05722)
-8. **Light-Omni** — Replaces iterative reasoning in video agents with reflex-based responses backed by persistent long-term memory, cutting latency. [arxiv.org/abs/2607.05511](https://arxiv.org/abs/2607.05511)
-9. **DSpark** — Confidence-scheduled speculative decoding that reduces wasted verification capacity while preserving parallel drafting speedups. [arxiv.org/abs/2607.05147](https://arxiv.org/abs/2607.05147)
-10. **Parallelized AR Decoding** — Generates multiple temporally-grounded video captions concurrently for fast dense video captioning without quality loss. [arxiv.org/abs/2607.02963](https://arxiv.org/abs/2607.02963)
+1. **Deep Native Structural Reasoning** — Transparent structure-property reasoning spanning biology, chemistry, and materials science via physically-grounded structural reasoning. [arxiv.org/abs/2607.07708](https://arxiv.org/abs/2607.07708)
+2. **Dual Latent Memory (VLA)** — Latent memory living inside a VLA model's native embedding space, fixing long-horizon, temporally dependent robot manipulation. [arxiv.org/abs/2607.07608](https://arxiv.org/abs/2607.07608)
+3. **LingBot-Video** — DiT-based Mixture-of-Experts video pretraining purpose-built for embodied intelligence rather than visual fidelity. [arxiv.org/abs/2607.07675](https://arxiv.org/abs/2607.07675)
+4. **LingBot-World-Infinity** — Unbounded-horizon interactive video world model with a real-time 720p/60fps distilled variant. [arxiv.org/abs/2607.07534](https://arxiv.org/abs/2607.07534)
+5. **LLM-as-a-Tutor** — Adapts RL training prompts to the evolving policy so LLM-judge reward signals stay meaningful on non-verifiable tasks. [arxiv.org/abs/2607.04412](https://arxiv.org/abs/2607.04412)
+6. **Oxygen AIIC V1** — JD.com's industrial-scale LLM/VLM system for item understanding across billions of SKUs and 700M+ users. [arxiv.org/abs/2606.28070](https://arxiv.org/abs/2606.28070)
+7. **RoboDojo** — Unified sim-and-real benchmark closing the gap between sim-only and real-only generalist robot manipulation evaluation. [arxiv.org/abs/2607.04434](https://arxiv.org/abs/2607.04434)
+8. **One Token at a Time (OTaT)** — Tracks token-level attention role-switching in multimodal LLM generation, a "when" rather than "where" interpretability lens. [arxiv.org/abs/2607.03738](https://arxiv.org/abs/2607.03738)
+9. **Rank-Then-Act** — Reward-free control from expert video via a correlation-based RL signal derived from frame-order progress ranking. [arxiv.org/abs/2607.01897](https://arxiv.org/abs/2607.01897)
+10. **SWE-Review** — Closes the loop on agentic PR generation with a reviewer agent that judges and gives structured revision feedback. [arxiv.org/abs/2607.06065](https://arxiv.org/abs/2607.06065)
 <!-- LATEST_PAPERS_END -->
 
 [Browse all paper summaries &rarr;](/blog/ai-papers/)
