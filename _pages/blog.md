@@ -14,18 +14,18 @@ Welcome to my blog! Here I share insights from my daily readings of AI research 
 I read AI and ML research papers daily and post concise summaries here. Each entry covers the key contributions, methods, and takeaways from recent papers across topics like deep learning, reinforcement learning, NLP, computer vision, and more.
 
 <!-- LATEST_PAPERS_START -->
-**Latest — July 09, 2026**
+**Latest — July 10, 2026**
 
-1. **Deep Native Structural Reasoning** — Transparent structure-property reasoning spanning biology, chemistry, and materials science via physically-grounded structural reasoning. [arxiv.org/abs/2607.07708](https://arxiv.org/abs/2607.07708)
-2. **Dual Latent Memory (VLA)** — Latent memory living inside a VLA model's native embedding space, fixing long-horizon, temporally dependent robot manipulation. [arxiv.org/abs/2607.07608](https://arxiv.org/abs/2607.07608)
-3. **LingBot-Video** — DiT-based Mixture-of-Experts video pretraining purpose-built for embodied intelligence rather than visual fidelity. [arxiv.org/abs/2607.07675](https://arxiv.org/abs/2607.07675)
-4. **LingBot-World-Infinity** — Unbounded-horizon interactive video world model with a real-time 720p/60fps distilled variant. [arxiv.org/abs/2607.07534](https://arxiv.org/abs/2607.07534)
-5. **LLM-as-a-Tutor** — Adapts RL training prompts to the evolving policy so LLM-judge reward signals stay meaningful on non-verifiable tasks. [arxiv.org/abs/2607.04412](https://arxiv.org/abs/2607.04412)
-6. **Oxygen AIIC V1** — JD.com's industrial-scale LLM/VLM system for item understanding across billions of SKUs and 700M+ users. [arxiv.org/abs/2606.28070](https://arxiv.org/abs/2606.28070)
-7. **RoboDojo** — Unified sim-and-real benchmark closing the gap between sim-only and real-only generalist robot manipulation evaluation. [arxiv.org/abs/2607.04434](https://arxiv.org/abs/2607.04434)
-8. **One Token at a Time (OTaT)** — Tracks token-level attention role-switching in multimodal LLM generation, a "when" rather than "where" interpretability lens. [arxiv.org/abs/2607.03738](https://arxiv.org/abs/2607.03738)
-9. **Rank-Then-Act** — Reward-free control from expert video via a correlation-based RL signal derived from frame-order progress ranking. [arxiv.org/abs/2607.01897](https://arxiv.org/abs/2607.01897)
-10. **SWE-Review** — Closes the loop on agentic PR generation with a reviewer agent that judges and gives structured revision feedback. [arxiv.org/abs/2607.06065](https://arxiv.org/abs/2607.06065)
+1. **Vidu S1** — Real-time, voice-steerable interactive video generation producing infinite-length 540p video at up to 42 fps. [arxiv.org/abs/2607.03118](https://arxiv.org/abs/2607.03118)
+2. **Video-Oasis** — Rethinks what "video understanding" benchmarks should isolate, disentangling visual reasoning from language-prior leakage. [arxiv.org/abs/2603.29616](https://arxiv.org/abs/2603.29616)
+3. **Why Can't I Open My Drawer?** — Diagnoses and fixes object-driven shortcuts in zero-shot compositional action recognition. [arxiv.org/abs/2601.16211](https://arxiv.org/abs/2601.16211)
+4. **UniClawBench** — A universal, real-world benchmark for proactive agents beyond sandboxed single-turn evals. [arxiv.org/abs/2607.08768](https://arxiv.org/abs/2607.08768)
+5. **Ideas Have Genomes** — IdeaGene-Bench tests whether AI can trace scientific idea "inheritance" rather than generate from a blank slate. [arxiv.org/abs/2607.08758](https://arxiv.org/abs/2607.08758)
+6. **LongE2V** — Uses video diffusion priors to reconstruct, predict, and interpolate video from sparse event-camera streams. [arxiv.org/abs/2607.08770](https://arxiv.org/abs/2607.08770)
+7. **Canvas360** — Geometry-aware pretraining plus a new 1M-sample dataset for in-context panoramic generation. [arxiv.org/abs/2607.08765](https://arxiv.org/abs/2607.08765)
+8. **CineMobile** — On-device image-to-video diffusion for cinematic camera motion, sidestepping heavy Diffusion Transformer compute. [arxiv.org/abs/2607.03803](https://arxiv.org/abs/2607.03803)
+9. **Jet-Long** — A dynamic "bifocal" RoPE scheme for zero-shot long-context extension in open-weight LLMs. [arxiv.org/abs/2607.07740](https://arxiv.org/abs/2607.07740)
+10. **OpenCoF** — "Chain-of-Frame" reasoning where a video generator's frames serve as the reasoning trace instead of text CoT. [arxiv.org/abs/2607.08763](https://arxiv.org/abs/2607.08763)
 <!-- LATEST_PAPERS_END -->
 
 [Browse all paper summaries &rarr;](/blog/ai-papers/)
