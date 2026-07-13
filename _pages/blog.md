@@ -14,18 +14,18 @@ Welcome to my blog! Here I share insights from my daily readings of AI research 
 I read AI and ML research papers daily and post concise summaries here. Each entry covers the key contributions, methods, and takeaways from recent papers across topics like deep learning, reinforcement learning, NLP, computer vision, and more.
 
 <!-- LATEST_PAPERS_START -->
-**Latest — July 12, 2026**
+**Latest — July 13, 2026**
 
-1. **Deform360** — A massive multi-view visuotactile dataset comparing 2D-pixel vs 3D-geometric world models for deformable objects. [arxiv.org/abs/2607.05390](https://arxiv.org/abs/2607.05390)
-2. **PraMem** — Practice-derived experiential memory for predicting user behavior over long horizons. [arxiv.org/abs/2607.02881](https://arxiv.org/abs/2607.02881)
-3. **Mastermind** — Strategy-grounded learning for agents that reproduce vulnerabilities across entire repositories. [arxiv.org/abs/2607.01764](https://arxiv.org/abs/2607.01764)
-4. **CONFLUX** — A 3D latent diffusion model for controllable chest-CT synthesis, refined with RL post-training. [arxiv.org/abs/2607.02998](https://arxiv.org/abs/2607.02998)
-5. **AI Wizards at EXIST 2026** — A lightweight Gated MLP on frozen Gemini embeddings wins a multimodal sexism-detection shared task. [arxiv.org/abs/2607.04410](https://arxiv.org/abs/2607.04410)
-6. **Safety Testing LLM Agents at Scale** — Vera, an automated, evidence-grounded safety-testing framework for LLM agents. [arxiv.org/abs/2607.01793](https://arxiv.org/abs/2607.01793)
-7. **GORGO** — A proxy architecture jointly optimizing KV-cache locality, load, and cross-region latency for LLM serving. [arxiv.org/abs/2602.11688](https://arxiv.org/abs/2602.11688)
-8. **Transition-Aware best-of-N** — Training-free sampling for chest X-ray reports that stays aware of change since a prior exam. [arxiv.org/abs/2606.28393](https://arxiv.org/abs/2606.28393)
-9. **MuseBench** — Benchmarks whether MLLMs understand audiovisual art at the level of creative intent, not just content. [arxiv.org/abs/2606.30026](https://arxiv.org/abs/2606.30026)
-10. **ARDY** — Autoregressive diffusion with a hybrid representation for real-time, text-controllable human motion generation. [arxiv.org/abs/2607.08741](https://arxiv.org/abs/2607.08741)
+1. **Long-Horizon-Terminal-Bench** — 46 long-horizon terminal tasks with dense partial-credit grading show even the best frontier model only hits 15.2% pass@1. [arxiv.org/abs/2607.08964](https://arxiv.org/abs/2607.08964)
+2. **Scalable Visual Pretraining for Language Intelligence** — Keeps document structure intact (instead of flattening to text) as a pretraining signal for language reasoning. [arxiv.org/abs/2607.09657](https://arxiv.org/abs/2607.09657)
+3. **Video Generation Models are General-Purpose Vision Learners** — Argues text-to-video pretraining is CV's answer to NLP's next-token prediction, via "GenCeption." [arxiv.org/abs/2607.09024](https://arxiv.org/abs/2607.09024)
+4. **Trust Region Policy Distillation** — TOP-D stabilizes on-policy distillation with a dynamic proximal teacher and a formal convergence guarantee. [arxiv.org/abs/2607.04751](https://arxiv.org/abs/2607.04751)
+5. **KronQ** — Kronecker-factored Hessian quantization folds in gradient covariance for better accuracy-per-bit LLM compression. [arxiv.org/abs/2607.07964](https://arxiv.org/abs/2607.07964)
+6. **From RGB Generation to Dense Field Readout** — Proposes a direct pixel-space readout for dense prediction instead of decoding annotations as RGB images. [arxiv.org/abs/2607.06553](https://arxiv.org/abs/2607.06553)
+7. **PanoWorld** — Exploits rotation-equivariant panoramic structure for long-range memory in real-world panoramic generation. [arxiv.org/abs/2607.09661](https://arxiv.org/abs/2607.09661)
+8. **Self-Guided Test-Time Training for Long-Context LLMs** — Cheap, selective test-time training that targets only the most relevant long-context evidence. [arxiv.org/abs/2607.09415](https://arxiv.org/abs/2607.09415)
+9. **The Knowing–Using Gap** — Mechanistic tracing of why LLMs memorize injected facts but fail to use them in downstream reasoning. [arxiv.org/abs/2607.08393](https://arxiv.org/abs/2607.08393)
+10. **Flow-ERD** — Agent-type aware flow matching with entropy-regularized distillation for more diverse traffic simulation. [arxiv.org/abs/2607.06957](https://arxiv.org/abs/2607.06957)
 <!-- LATEST_PAPERS_END -->
 
 [Browse all paper summaries &rarr;](/blog/ai-papers/)
