@@ -14,18 +14,18 @@ Welcome to my blog! Here I share insights from my daily readings of AI research 
 I read AI and ML research papers daily and post concise summaries here. Each entry covers the key contributions, methods, and takeaways from recent papers across topics like deep learning, reinforcement learning, NLP, computer vision, and more.
 
 <!-- LATEST_PAPERS_START -->
-**Latest — July 11, 2026**
+**Latest — July 12, 2026**
 
-1. **Does VLA Even Know the Basics?** — Fine-tuning VLMs into robot policies quietly erodes commonsense and world knowledge. [arxiv.org/abs/2606.19297](https://arxiv.org/abs/2606.19297)
-2. **Qwen-RobotManip** — Alibaba's alignment-and-scale recipe for robotic manipulation foundation models. [arxiv.org/abs/2606.17846](https://arxiv.org/abs/2606.17846)
-3. **Qwen-RobotNav** — A single reconfigurable navigation backbone for instruction-following, search, tracking, and driving. [arxiv.org/abs/2606.18112](https://arxiv.org/abs/2606.18112)
-4. **Bridging Interleaved Multi-Modal Reasoning** — Reframes text-image reasoning as one unified decision process for joint RL credit assignment. [arxiv.org/abs/2607.03748](https://arxiv.org/abs/2607.03748)
-5. **Unified Audio Intelligence** — NVIDIA's Audex adds audio understanding/generation to an LLM without regressing text ability. [arxiv.org/abs/2607.05196](https://arxiv.org/abs/2607.05196)
-6. **PhotoQuilt** — Training-free arbitrary-resolution photomosaics via bootstrapped tiled denoising. [arxiv.org/abs/2606.30968](https://arxiv.org/abs/2606.30968)
-7. **VideoSearch-R1** — Iteratively refines soft queries to interleave large-scale video retrieval with fine-grained reasoning. [arxiv.org/abs/2607.00446](https://arxiv.org/abs/2607.00446)
-8. **Look Before You Leap** — Distills tree search into a lightweight action-evaluation module for frozen VLA models. [arxiv.org/abs/2607.03751](https://arxiv.org/abs/2607.03751)
-9. **ACID** — Adds inverse-dynamics consistency checks so world-model plans stay physically grounded. [arxiv.org/abs/2607.02403](https://arxiv.org/abs/2607.02403)
-10. **Play2Perfect** — Studies what dexterous play pretraining actually transfers to precise, contact-rich assembly. [arxiv.org/abs/2606.26428](https://arxiv.org/abs/2606.26428)
+1. **Deform360** — A massive multi-view visuotactile dataset comparing 2D-pixel vs 3D-geometric world models for deformable objects. [arxiv.org/abs/2607.05390](https://arxiv.org/abs/2607.05390)
+2. **PraMem** — Practice-derived experiential memory for predicting user behavior over long horizons. [arxiv.org/abs/2607.02881](https://arxiv.org/abs/2607.02881)
+3. **Mastermind** — Strategy-grounded learning for agents that reproduce vulnerabilities across entire repositories. [arxiv.org/abs/2607.01764](https://arxiv.org/abs/2607.01764)
+4. **CONFLUX** — A 3D latent diffusion model for controllable chest-CT synthesis, refined with RL post-training. [arxiv.org/abs/2607.02998](https://arxiv.org/abs/2607.02998)
+5. **AI Wizards at EXIST 2026** — A lightweight Gated MLP on frozen Gemini embeddings wins a multimodal sexism-detection shared task. [arxiv.org/abs/2607.04410](https://arxiv.org/abs/2607.04410)
+6. **Safety Testing LLM Agents at Scale** — Vera, an automated, evidence-grounded safety-testing framework for LLM agents. [arxiv.org/abs/2607.01793](https://arxiv.org/abs/2607.01793)
+7. **GORGO** — A proxy architecture jointly optimizing KV-cache locality, load, and cross-region latency for LLM serving. [arxiv.org/abs/2602.11688](https://arxiv.org/abs/2602.11688)
+8. **Transition-Aware best-of-N** — Training-free sampling for chest X-ray reports that stays aware of change since a prior exam. [arxiv.org/abs/2606.28393](https://arxiv.org/abs/2606.28393)
+9. **MuseBench** — Benchmarks whether MLLMs understand audiovisual art at the level of creative intent, not just content. [arxiv.org/abs/2606.30026](https://arxiv.org/abs/2606.30026)
+10. **ARDY** — Autoregressive diffusion with a hybrid representation for real-time, text-controllable human motion generation. [arxiv.org/abs/2607.08741](https://arxiv.org/abs/2607.08741)
 <!-- LATEST_PAPERS_END -->
 
 [Browse all paper summaries &rarr;](/blog/ai-papers/)
