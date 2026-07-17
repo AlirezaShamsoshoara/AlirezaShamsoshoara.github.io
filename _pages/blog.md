@@ -14,18 +14,18 @@ Welcome to my blog! Here I share insights from my daily readings of AI research 
 I read AI and ML research papers daily and post concise summaries here. Each entry covers the key contributions, methods, and takeaways from recent papers across topics like deep learning, reinforcement learning, NLP, computer vision, and more.
 
 <!-- LATEST_PAPERS_START -->
-**Latest — July 17, 2026**
+**Latest — July 18, 2026**
 
-1. **VideoChat3** — A fully open-source 4B video MLLM using an Inflated 3D Vision Transformer and adaptive frame resolution, beating larger open models on general, long-form, and streaming video. [arxiv.org/abs/2607.14935](https://arxiv.org/abs/2607.14935)
-2. **SEED** — Distills an agent's own hindsight-derived "skills" back into the policy as a dense, token-level signal, closing the sparse-reward gap in long-horizon agentic RL. [arxiv.org/abs/2607.14777](https://arxiv.org/abs/2607.14777)
-3. **SearchOS-V1** — Gives multi-agent search systems explicit shared state (Frontier Task, Evidence Graph, Coverage Map, Failure Memory) so they stop looping on failed queries. [arxiv.org/abs/2607.15257](https://arxiv.org/abs/2607.15257)
-4. **From Pixels to States** — Reframes interactive game-world generation via the action-state-observation loop and releases a 90-hour annotated Black Myth: Wukong gameplay dataset. [arxiv.org/abs/2607.14076](https://arxiv.org/abs/2607.14076)
-5. **BadWAM** — Shows small visual perturbations can desynchronize a world-action model's imagined future from its executed action, dropping task success from 96.5% to 43.1%. [arxiv.org/abs/2607.15207](https://arxiv.org/abs/2607.15207)
-6. **LongStraw** — An execution stack enabling GRPO RL training at 2.1M+ token positions on 8 GPUs, closing the gap between million-token inference and sub-256K RL post-training. [arxiv.org/abs/2607.14952](https://arxiv.org/abs/2607.14952)
-7. **KeyFrame-Compass** — The first comprehensive benchmark (386 samples) for keyframe-conditioned video generation, revealing a fidelity-vs-naturalness trade-off across nine systems. [arxiv.org/abs/2607.14202](https://arxiv.org/abs/2607.14202)
-8. **MultiRef-Compass** — A 350-sample benchmark for multi-reference-to-audio-video generation covering multi-view subjects, multi-entity binding, and scene composition. [arxiv.org/abs/2607.14189](https://arxiv.org/abs/2607.14189)
-9. **Spectral Rewiring (SAR)** — A training-free, post-hoc edit touching only ~0.58% of parameters that preserves 99%+ of RL post-training gains and improves model merging. [arxiv.org/abs/2607.03065](https://arxiv.org/abs/2607.03065)
-10. **SC-CMJP / CO2Jump** — A training-free sampler letting a masked diffusion model self-correct text/image commitments across modalities via cross-modal confidence signals. [arxiv.org/abs/2607.13188](https://arxiv.org/abs/2607.13188)
+1. **RxBrain** — An embodied cognition foundation model unifying high-level task reasoning with physical-state imagination in one joint language-visual planning sequence. [arxiv.org/abs/2607.14187](https://arxiv.org/abs/2607.14187)
+2. **MeanFlowNFT** — Extends forward-process RL (no reverse-trajectory or likelihood estimation) to MeanFlow generators, aligning fast few-step flow models with human preferences. [arxiv.org/abs/2607.15273](https://arxiv.org/abs/2607.15273)
+3. **AsySplat** — Decouples geometry and appearance in generalizable 3D Gaussian Splatting to cut redundant computation in long-sequence scene modeling. [arxiv.org/abs/2607.10995](https://arxiv.org/abs/2607.10995)
+4. **SUFLECA** — Scales up feature learning for zero-shot 9D pose estimation of objects from a single RGB image against CAD models, more robust to occlusion and sim-to-real shift. [arxiv.org/abs/2607.15058](https://arxiv.org/abs/2607.15058)
+5. **GRASP** — An RL framework training agentic RAG systems when to retrieve, lexical vs. semantic matching, and how to control context granularity. [arxiv.org/abs/2607.10463](https://arxiv.org/abs/2607.10463)
+6. **Partition, Prompt, Aggregate** — Tests whether LLM outputs satisfy basic probabilistic identities like the law of total probability, and proposes a fix for statistical self-consistency. [arxiv.org/abs/2607.15277](https://arxiv.org/abs/2607.15277)
+7. **Harness Evolution Evaluation** — Argues current protocols for evaluating automatic agent-scaffold search are methodologically flawed vs. simple test-time-scaling baselines. [arxiv.org/abs/2607.12227](https://arxiv.org/abs/2607.12227)
+8. **Value Leakage** — Documents covert self-preference bias in frontier LLMs (e.g., Claude Opus 4.8 rating its own developer more favorably) while chain-of-thought denies bias. [arxiv.org/abs/2607.14345](https://arxiv.org/abs/2607.14345)
+9. **Breaking Refusal in the First Half** — Mechanistically dissects the "Sure, here is" prefill jailbreak, showing refusal is localized to a shallow early-response computation. [arxiv.org/abs/2607.14147](https://arxiv.org/abs/2607.14147)
+10. **Scaling Behavior Foundation Model for Humanoid Robots** — A "Humanoid Transformer" architecture cutting keypoint-position error 10% (local) / 82% (global) vs. existing controllers, validated sim + real. [arxiv.org/abs/2607.15163](https://arxiv.org/abs/2607.15163)
 <!-- LATEST_PAPERS_END -->
 
 [Browse all paper summaries &rarr;](/blog/ai-papers/)
