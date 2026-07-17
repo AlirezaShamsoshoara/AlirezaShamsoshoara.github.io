@@ -14,18 +14,18 @@ Welcome to my blog! Here I share insights from my daily readings of AI research 
 I read AI and ML research papers daily and post concise summaries here. Each entry covers the key contributions, methods, and takeaways from recent papers across topics like deep learning, reinforcement learning, NLP, computer vision, and more.
 
 <!-- LATEST_PAPERS_START -->
-**Latest — July 16, 2026**
+**Latest — July 17, 2026**
 
-1. **Harness Handbook** — A behavior-centric map plus "Behavior-Guided Progressive Disclosure" that helps agents localize and edit the right code in large, evolving agent harnesses. [arxiv.org/abs/2607.13285](https://arxiv.org/abs/2607.13285)
-2. **Boogu-Image-0.1** — An open-source unified multimodal family (generation, fast inference, editing, bilingual text rendering) claiming near-closed-source quality at ~$400K training cost. [arxiv.org/abs/2607.13125](https://arxiv.org/abs/2607.13125)
-3. **KnowAct-GUIClaw** — Extends OpenClaw with a "Know-Route-Act-Reflect" architecture and self-evolving memory for cross-platform GUI control, beating closed models on MobileWorld. [arxiv.org/abs/2607.12625](https://arxiv.org/abs/2607.12625)
-4. **OvisOCR2** — A compact 0.8B end-to-end document parser hitting SOTA on OmniDocBench v1.6, beating pipeline-based OCR systems with a single small model. [arxiv.org/abs/2607.13639](https://arxiv.org/abs/2607.13639)
-5. **PolicyShiftGuard** — A policy-conditioned image safety guardrail plus PolicyShiftBench, achieving SOTA F1 and transferring well across safety benchmarks. [arxiv.org/abs/2607.05910](https://arxiv.org/abs/2607.05910)
-6. **GigaWorld-Policy-0.5** — A World Action Model that drops video generation at inference for 85ms latency on an RTX 4090, tuned via an agent-driven "AutoResearch" pipeline. [arxiv.org/abs/2607.13960](https://arxiv.org/abs/2607.13960)
-7. **MetaView** — A diffusion-based novel-view-synthesis framework blending implicit geometry priors with metric depth for large-viewpoint monocular changes. [arxiv.org/abs/2607.12000](https://arxiv.org/abs/2607.12000)
-8. **Registers Matter for Pixel-Space Diffusion Transformers** — Finds DiTs still benefit from register tokens (especially in pixel-space), and proposes "Register Guidance" to amplify the effect. [arxiv.org/abs/2605.16147](https://arxiv.org/abs/2605.16147)
-9. **Hallo4D** — A training-free "generation-detection-correction" framework that fixes spatial hallucinations in 3D/4D generation using multimodal-model consensus. [arxiv.org/abs/2607.12752](https://arxiv.org/abs/2607.12752)
-10. **ShortOPD** — Recovers pruned LLMs from suffix-repetition collapse via short-to-long on-policy distillation, matching standard recovery with a quarter of the training time. [arxiv.org/abs/2607.13124](https://arxiv.org/abs/2607.13124)
+1. **VideoChat3** — A fully open-source 4B video MLLM using an Inflated 3D Vision Transformer and adaptive frame resolution, beating larger open models on general, long-form, and streaming video. [arxiv.org/abs/2607.14935](https://arxiv.org/abs/2607.14935)
+2. **SEED** — Distills an agent's own hindsight-derived "skills" back into the policy as a dense, token-level signal, closing the sparse-reward gap in long-horizon agentic RL. [arxiv.org/abs/2607.14777](https://arxiv.org/abs/2607.14777)
+3. **SearchOS-V1** — Gives multi-agent search systems explicit shared state (Frontier Task, Evidence Graph, Coverage Map, Failure Memory) so they stop looping on failed queries. [arxiv.org/abs/2607.15257](https://arxiv.org/abs/2607.15257)
+4. **From Pixels to States** — Reframes interactive game-world generation via the action-state-observation loop and releases a 90-hour annotated Black Myth: Wukong gameplay dataset. [arxiv.org/abs/2607.14076](https://arxiv.org/abs/2607.14076)
+5. **BadWAM** — Shows small visual perturbations can desynchronize a world-action model's imagined future from its executed action, dropping task success from 96.5% to 43.1%. [arxiv.org/abs/2607.15207](https://arxiv.org/abs/2607.15207)
+6. **LongStraw** — An execution stack enabling GRPO RL training at 2.1M+ token positions on 8 GPUs, closing the gap between million-token inference and sub-256K RL post-training. [arxiv.org/abs/2607.14952](https://arxiv.org/abs/2607.14952)
+7. **KeyFrame-Compass** — The first comprehensive benchmark (386 samples) for keyframe-conditioned video generation, revealing a fidelity-vs-naturalness trade-off across nine systems. [arxiv.org/abs/2607.14202](https://arxiv.org/abs/2607.14202)
+8. **MultiRef-Compass** — A 350-sample benchmark for multi-reference-to-audio-video generation covering multi-view subjects, multi-entity binding, and scene composition. [arxiv.org/abs/2607.14189](https://arxiv.org/abs/2607.14189)
+9. **Spectral Rewiring (SAR)** — A training-free, post-hoc edit touching only ~0.58% of parameters that preserves 99%+ of RL post-training gains and improves model merging. [arxiv.org/abs/2607.03065](https://arxiv.org/abs/2607.03065)
+10. **SC-CMJP / CO2Jump** — A training-free sampler letting a masked diffusion model self-correct text/image commitments across modalities via cross-modal confidence signals. [arxiv.org/abs/2607.13188](https://arxiv.org/abs/2607.13188)
 <!-- LATEST_PAPERS_END -->
 
 [Browse all paper summaries &rarr;](/blog/ai-papers/)
