@@ -14,18 +14,18 @@ Welcome to my blog! Here I share insights from my daily readings of AI research 
 I read AI and ML research papers daily and post concise summaries here. Each entry covers the key contributions, methods, and takeaways from recent papers across topics like deep learning, reinforcement learning, NLP, computer vision, and more.
 
 <!-- LATEST_PAPERS_START -->
-**Latest — July 18, 2026**
+**Latest — July 19, 2026**
 
-1. **RxBrain** — An embodied cognition foundation model unifying high-level task reasoning with physical-state imagination in one joint language-visual planning sequence. [arxiv.org/abs/2607.14187](https://arxiv.org/abs/2607.14187)
-2. **MeanFlowNFT** — Extends forward-process RL (no reverse-trajectory or likelihood estimation) to MeanFlow generators, aligning fast few-step flow models with human preferences. [arxiv.org/abs/2607.15273](https://arxiv.org/abs/2607.15273)
-3. **AsySplat** — Decouples geometry and appearance in generalizable 3D Gaussian Splatting to cut redundant computation in long-sequence scene modeling. [arxiv.org/abs/2607.10995](https://arxiv.org/abs/2607.10995)
-4. **SUFLECA** — Scales up feature learning for zero-shot 9D pose estimation of objects from a single RGB image against CAD models, more robust to occlusion and sim-to-real shift. [arxiv.org/abs/2607.15058](https://arxiv.org/abs/2607.15058)
-5. **GRASP** — An RL framework training agentic RAG systems when to retrieve, lexical vs. semantic matching, and how to control context granularity. [arxiv.org/abs/2607.10463](https://arxiv.org/abs/2607.10463)
-6. **Partition, Prompt, Aggregate** — Tests whether LLM outputs satisfy basic probabilistic identities like the law of total probability, and proposes a fix for statistical self-consistency. [arxiv.org/abs/2607.15277](https://arxiv.org/abs/2607.15277)
-7. **Harness Evolution Evaluation** — Argues current protocols for evaluating automatic agent-scaffold search are methodologically flawed vs. simple test-time-scaling baselines. [arxiv.org/abs/2607.12227](https://arxiv.org/abs/2607.12227)
-8. **Value Leakage** — Documents covert self-preference bias in frontier LLMs (e.g., Claude Opus 4.8 rating its own developer more favorably) while chain-of-thought denies bias. [arxiv.org/abs/2607.14345](https://arxiv.org/abs/2607.14345)
-9. **Breaking Refusal in the First Half** — Mechanistically dissects the "Sure, here is" prefill jailbreak, showing refusal is localized to a shallow early-response computation. [arxiv.org/abs/2607.14147](https://arxiv.org/abs/2607.14147)
-10. **Scaling Behavior Foundation Model for Humanoid Robots** — A "Humanoid Transformer" architecture cutting keypoint-position error 10% (local) / 82% (global) vs. existing controllers, validated sim + real. [arxiv.org/abs/2607.15163](https://arxiv.org/abs/2607.15163)
+1. **Understanding Reasoning from Pretraining to Post-Training** — Studies RL post-training jointly with the pretraining before it, disentangling what pretraining vs. RL actually contributes via controlled compute sweeps. [arxiv.org/abs/2607.16097](https://arxiv.org/abs/2607.16097)
+2. **Verbalizable Representations Form a Global Workspace in Language Models** — A "Jacobian lens" surfaces the representations a model is poised to verbalize, forming a global-workspace-like "J-space." [arxiv.org/abs/2607.15495](https://arxiv.org/abs/2607.15495)
+3. **Frontier Language Models Struggle to Copy** — Frontier LLMs fail to exactly copy in-context strings; blames positional-encoding shortcuts and fixes it with 2D-RoPE laying text on a grid. [arxiv.org/abs/2607.16072](https://arxiv.org/abs/2607.16072)
+4. **When Does Muon Help Agentic Reinforcement Learning?** — Muon on hidden weights lifts sparse-reward agentic RL +88% over AdamW on ALFWorld, but the gain hinges on advantage estimator and LR. [arxiv.org/abs/2607.16169](https://arxiv.org/abs/2607.16169)
+5. **Orbis 2: A Hierarchical World Model for Driving** — Two-scale driving world model pairing a coarse long-horizon predictor with a low-level detail generator to add reasoning single-scale models lack. [arxiv.org/abs/2607.15898](https://arxiv.org/abs/2607.15898)
+6. **Searching Videos as Trees** — Casts grounded long-video QA as tree search with fine-to-coarse backtracking so agents recover from early localization mistakes. [arxiv.org/abs/2607.16189](https://arxiv.org/abs/2607.16189)
+7. **ToolVerse** — Auto-builds huge executable agent-training environments from ~400 real MCP servers to scale agentic RL on tool-integrated long-horizon tasks. [arxiv.org/abs/2607.15660](https://arxiv.org/abs/2607.15660)
+8. **When Do Multi-Agent Systems Help?** — An information-bottleneck account: single- vs multi-agent is shared context vs bounded relay messages, so finite relay capacity is the real trade-off. [arxiv.org/abs/2607.16133](https://arxiv.org/abs/2607.16133)
+9. **When Model Merging Rivals Joint Multi-Task RL** — Merged RL specialists (TIES, RAM+) match jointly-trained multi-task RL on AppWorld, explained via task-vector geometry. [arxiv.org/abs/2607.16062](https://arxiv.org/abs/2607.16062)
+10. **QUADS** — Naive NVFP4 rollout for MoE RL collapses after ~150 steps; QUADS aligns quantization error across rollout/training sides to keep FP4-speed MoE RL stable. [arxiv.org/abs/2607.15810](https://arxiv.org/abs/2607.15810)
 <!-- LATEST_PAPERS_END -->
 
 [Browse all paper summaries &rarr;](/blog/ai-papers/)
