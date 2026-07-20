@@ -14,18 +14,18 @@ Welcome to my blog! Here I share insights from my daily readings of AI research 
 I read AI and ML research papers daily and post concise summaries here. Each entry covers the key contributions, methods, and takeaways from recent papers across topics like deep learning, reinforcement learning, NLP, computer vision, and more.
 
 <!-- LATEST_PAPERS_START -->
-**Latest — July 19, 2026**
+**Latest — July 20, 2026**
 
-1. **Understanding Reasoning from Pretraining to Post-Training** — Studies RL post-training jointly with the pretraining before it, disentangling what pretraining vs. RL actually contributes via controlled compute sweeps. [arxiv.org/abs/2607.16097](https://arxiv.org/abs/2607.16097)
-2. **Verbalizable Representations Form a Global Workspace in Language Models** — A "Jacobian lens" surfaces the representations a model is poised to verbalize, forming a global-workspace-like "J-space." [arxiv.org/abs/2607.15495](https://arxiv.org/abs/2607.15495)
-3. **Frontier Language Models Struggle to Copy** — Frontier LLMs fail to exactly copy in-context strings; blames positional-encoding shortcuts and fixes it with 2D-RoPE laying text on a grid. [arxiv.org/abs/2607.16072](https://arxiv.org/abs/2607.16072)
-4. **When Does Muon Help Agentic Reinforcement Learning?** — Muon on hidden weights lifts sparse-reward agentic RL +88% over AdamW on ALFWorld, but the gain hinges on advantage estimator and LR. [arxiv.org/abs/2607.16169](https://arxiv.org/abs/2607.16169)
-5. **Orbis 2: A Hierarchical World Model for Driving** — Two-scale driving world model pairing a coarse long-horizon predictor with a low-level detail generator to add reasoning single-scale models lack. [arxiv.org/abs/2607.15898](https://arxiv.org/abs/2607.15898)
-6. **Searching Videos as Trees** — Casts grounded long-video QA as tree search with fine-to-coarse backtracking so agents recover from early localization mistakes. [arxiv.org/abs/2607.16189](https://arxiv.org/abs/2607.16189)
-7. **ToolVerse** — Auto-builds huge executable agent-training environments from ~400 real MCP servers to scale agentic RL on tool-integrated long-horizon tasks. [arxiv.org/abs/2607.15660](https://arxiv.org/abs/2607.15660)
-8. **When Do Multi-Agent Systems Help?** — An information-bottleneck account: single- vs multi-agent is shared context vs bounded relay messages, so finite relay capacity is the real trade-off. [arxiv.org/abs/2607.16133](https://arxiv.org/abs/2607.16133)
-9. **When Model Merging Rivals Joint Multi-Task RL** — Merged RL specialists (TIES, RAM+) match jointly-trained multi-task RL on AppWorld, explained via task-vector geometry. [arxiv.org/abs/2607.16062](https://arxiv.org/abs/2607.16062)
-10. **QUADS** — Naive NVFP4 rollout for MoE RL collapses after ~150 steps; QUADS aligns quantization error across rollout/training sides to keep FP4-speed MoE RL stable. [arxiv.org/abs/2607.15810](https://arxiv.org/abs/2607.15810)
+1. **Function-Aware Fill-in-the-Middle as Mid-Training for Coding Agent Foundation Models** — Exploits the structural match between coding-agent tool loops and function call sites to build a fill-in-the-middle mid-training objective for agentic coding. [arxiv.org/abs/2607.12463](https://arxiv.org/abs/2607.12463)
+2. **RAGU** — Open-source modular GraphRAG engine with typed extraction, DBSCAN dedup, and Leiden community detection, powered by a compact domain-adapted LLM. [arxiv.org/abs/2607.11683](https://arxiv.org/abs/2607.11683)
+3. **RESOURCE2SKILL** — Distills tutorial videos, repos, and articles into executable, reusable agent skills instead of relying only on hand-written or agent-trace-derived libraries. [arxiv.org/abs/2606.29538](https://arxiv.org/abs/2606.29538)
+4. **Loop the Loopies!** — Loopie, the strongest looped Transformer yet (two MoE variants), narrows the long-standing gap between looping and true parameter scaling. [arxiv.org/abs/2607.16051](https://arxiv.org/abs/2607.16051)
+5. **Xiaomi-Robotics-1** — A VLA model for mobile manipulation trained on 100K+ hours of real-world trajectories, adapting to new tasks with minimal fine-tuning. [arxiv.org/abs/2607.15330](https://arxiv.org/abs/2607.15330)
+6. **xHC: Expanded Hyper-Connections** — Investigates why Hyper-Connections stall around N=4 parallel residual streams and proposes xHC to push residual-stream expansion further. [arxiv.org/abs/2607.14530](https://arxiv.org/abs/2607.14530)
+7. **Cura 1T** — A healthcare-specialized LLM trained to jointly handle consultation, clinical reasoning, diagnosis, and EHR tool use without cross-task interference. [arxiv.org/abs/2607.15314](https://arxiv.org/abs/2607.15314)
+8. **RecGPT-V3** — Taobao's third-generation production recommender LLM, evolving from intent-centric (V1) and multi-agent (V2) toward solving statelessness at scale. [arxiv.org/abs/2607.15591](https://arxiv.org/abs/2607.15591)
+9. **On-Policy Delta Distillation** — A token-level "delta signal" distillation reward for on-policy RL post-training that avoids directly imitating the teacher's output distribution. [arxiv.org/abs/2607.15161](https://arxiv.org/abs/2607.15161)
+10. **From Human-Centric to Agentic Code Review** — An empirical study of how LLM and autonomous-agent reviewers, alongside humans, reshape code review quality and workload. [arxiv.org/abs/2607.13196](https://arxiv.org/abs/2607.13196)
 <!-- LATEST_PAPERS_END -->
 
 [Browse all paper summaries &rarr;](/blog/ai-papers/)
