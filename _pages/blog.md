@@ -14,18 +14,18 @@ Welcome to my blog! Here I share insights from my daily readings of AI research 
 I read AI and ML research papers daily and post concise summaries here. Each entry covers the key contributions, methods, and takeaways from recent papers across topics like deep learning, reinforcement learning, NLP, computer vision, and more.
 
 <!-- LATEST_PAPERS_START -->
-**Latest — July 21, 2026**
+**Latest — July 22, 2026**
 
-1. **TimeLens2** — Generalist video temporal grounding model that jointly describes and precisely localizes variable-cardinality evidence intervals across video lengths and domains. [arxiv.org/abs/2607.17423](https://arxiv.org/abs/2607.17423)
-2. **DeepSearch-World** — A self-distillation framework for training web/tool-use search agents in a verifiable environment, improving on fixed teacher-distilled trajectories and sparse-reward RL. [arxiv.org/abs/2607.07820](https://arxiv.org/abs/2607.07820)
-3. **EvolvingWorld** — An open-schema framework and benchmark for co-evolving role-play agents and their world in interactive literary simulations. [arxiv.org/abs/2607.17250](https://arxiv.org/abs/2607.17250)
-4. **SWE-Pruner Pro** — Shows a coder LLM's own internal representations already signal which tool-output context is relevant, removing the need for a separate pruning classifier. [arxiv.org/abs/2607.18213](https://arxiv.org/abs/2607.18213)
-5. **HOMIE** — A multimodal enhancement pipeline for human-object centric video personalization, balancing subject fidelity with accurate interaction patterns. [arxiv.org/abs/2607.18217](https://arxiv.org/abs/2607.18217)
-6. **Apple-π** — First benchmark evaluating whether video "world models" reach physically plausible outputs via faithful, law-grounded reasoning rather than surface plausibility. [arxiv.org/abs/2607.16401](https://arxiv.org/abs/2607.16401)
-7. **RynnBrain 1.1** — A 2B/9B/122B-A10B family of embodied foundation models adding contact-point prediction for spatial reasoning, localization, and planning. [arxiv.org/abs/2607.17977](https://arxiv.org/abs/2607.17977)
-8. **GigaChat Audio** — A time-aware audio LLM answering questions with explicit timestamps over recordings up to 120 minutes long. [arxiv.org/abs/2607.10387](https://arxiv.org/abs/2607.10387)
-9. **GigaAM Multilingual** — A Conformer-based foundation model for robust ASR on underrepresented Central Asian languages (Kazakh, Kyrgyz, Uzbek). [arxiv.org/abs/2607.10371](https://arxiv.org/abs/2607.10371)
-10. **ReflectWorld-MM** — An entity-oriented multimodal memory system letting assistants reason over long-term experience from open-ended video streams beyond context-window limits. [arxiv.org/abs/2607.09759](https://arxiv.org/abs/2607.09759)
+1. **ABot-World-0** — An action-conditioned video world model running infinite interactive rollouts on a single desktop GPU, trained across AAA games, simulators, and real footage. [arxiv.org/abs/2607.19191](https://arxiv.org/abs/2607.19191)
+2. **DataFlow-Harness** — A grounded code-agent platform that turns LLM-generated data scripts into persistent, editable pipeline artifacts instead of throwaway code. [arxiv.org/abs/2607.16617](https://arxiv.org/abs/2607.16617)
+3. **Text Template Tokens** — Shows text template tokens act as implicit semantic registers in diffusion transformers, offering a new mechanistic view of DiT internals. [arxiv.org/abs/2607.19139](https://arxiv.org/abs/2607.19139)
+4. **AlayaRenderer** — A generative world renderer that synthesizes RGB frames from physics-engine world states, with a distilled variant playable at 30 FPS. [arxiv.org/abs/2607.18703](https://arxiv.org/abs/2607.18703)
+5. **Mage-Flow** — A compact 4B-parameter native-resolution foundation model delivering strong high-resolution text-to-image generation and editing. [arxiv.org/abs/2607.19064](https://arxiv.org/abs/2607.19064)
+6. **AlayaWorld** — Full technical report on an interactive, long-horizon video world model generating playable environments directly from data. [arxiv.org/abs/2607.18367](https://arxiv.org/abs/2607.18367)
+7. **Stale but Stable** — Staleness-adaptive trust regions that stabilize asynchronous RL training against policy lag and MoE routing instability. [arxiv.org/abs/2607.18722](https://arxiv.org/abs/2607.18722)
+8. **AgentDebugX** — An open-source toolkit for observing, attributing, and recovering from LLM agent failures, with a shareable Error Hub. [arxiv.org/abs/2607.18754](https://arxiv.org/abs/2607.18754)
+9. **SciForma** — A structure-faithful generator for scientific methodology diagrams, preserving components, relations, and text annotations. [arxiv.org/abs/2607.18091](https://arxiv.org/abs/2607.18091)
+10. **HPD-Parsing** — A hierarchical parallel document-parsing architecture combining global coordination with parallel decoding for efficient VLM document understanding. [arxiv.org/abs/2607.18839](https://arxiv.org/abs/2607.18839)
 <!-- LATEST_PAPERS_END -->
 
 [Browse all paper summaries &rarr;](/blog/ai-papers/)
