@@ -14,18 +14,18 @@ Welcome to my blog! Here I share insights from my daily readings of AI research 
 I read AI and ML research papers daily and post concise summaries here. Each entry covers the key contributions, methods, and takeaways from recent papers across topics like deep learning, reinforcement learning, NLP, computer vision, and more.
 
 <!-- LATEST_PAPERS_START -->
-**Latest — July 23, 2026**
+**Latest — July 24, 2026**
 
-1. **SLAI T-Rex** — Full-parameter post-training of trillion-parameter DeepSeek-V4 MoE models on Huawei's Ascend NPU SuperPOD, a rare deep dive into frontier training off the Nvidia stack. [arxiv.org/abs/2607.20145](https://arxiv.org/abs/2607.20145)
-2. **Subliminal Clocks** — Diffusion language models internally encode a latent "clock" tracking denoising progress, despite never being explicitly given a timestep. [arxiv.org/abs/2607.01774](https://arxiv.org/abs/2607.01774)
-3. **Self Gradient Forcing** — Extends autoregressive video diffusion by letting future-frame losses supervise how latents are written into the KV cache, improving long-horizon video extrapolation. [arxiv.org/abs/2607.20368](https://arxiv.org/abs/2607.20368)
-4. **Beyond Relevance-Centric Retrieval** — Proposes evaluating retrieved document *sets* (not just individual docs) for redundancy, conflict, and complementarity in RAG pipelines. [arxiv.org/abs/2607.19747](https://arxiv.org/abs/2607.19747)
-5. **An Exam for Active Observers** — Introduces ActiveVision, a benchmark testing whether multimodal LLMs can iteratively redirect attention like human gaze instead of processing one static snapshot. [arxiv.org/abs/2607.16165](https://arxiv.org/abs/2607.16165)
-6. **Hypernetwork-Based Knowledge Injection** — Studies scaling laws for using hypernetworks at train time to generate LoRA adapters from fact corpora for scalable LLM knowledge injection. [arxiv.org/abs/2607.19604](https://arxiv.org/abs/2607.19604)
-7. **Generalizable VLA Finetuning** — Shows behavior-cloning finetuning erodes VLM generalization for robot policies, and proposes representation anchoring to preserve it. [arxiv.org/abs/2607.13429](https://arxiv.org/abs/2607.13429)
-8. **Beyond Euclidean Clipping** — Diagnoses PPO-Clip's exploration collapse in LLM RL as a geometry mismatch, proposing a Riemannian isometric policy optimization fix. [arxiv.org/abs/2607.10169](https://arxiv.org/abs/2607.10169)
-9. **AutoIndex** — Searches over executable "representation programs" for document indexing instead of just tuning retrievers/rerankers. [arxiv.org/abs/2607.18603](https://arxiv.org/abs/2607.18603)
-10. **DocOps** — A deterministically verifiable benchmark for autonomous agents tackling real-world document-manipulation workflows. [arxiv.org/abs/2607.19865](https://arxiv.org/abs/2607.19865)
+1. **AREX** — A recursively self-improving deep-research agent that alternates evidence-gathering with constraint-by-constraint auditing, beating baselines on BrowseComp and Humanity's Last Exam. [arxiv.org/abs/2607.21461](https://arxiv.org/abs/2607.21461)
+2. **ReferTrack** — A refer-then-track paradigm for embodied visual tracking, hitting SOTA on EVT-Bench with real sim-to-real transfer on legged and humanoid robots. [arxiv.org/abs/2607.20061](https://arxiv.org/abs/2607.20061)
+3. **K12-KGraph** — A curriculum-aligned knowledge graph from K-12 textbooks powering a new benchmark and training corpus for educational LLMs. [arxiv.org/abs/2605.09635](https://arxiv.org/abs/2605.09635)
+4. **Visual Contrastive Self-Distillation** — A teacher-free on-policy self-distillation recipe that meaningfully lifts Qwen3-VL benchmark scores at no extra inference cost. [arxiv.org/abs/2607.21556](https://arxiv.org/abs/2607.21556)
+5. **Show, Don't Tell** — Proposes evaluating spatial cognition through generated pixels rather than text/coordinates, finding image-gen models competitive when allowed to "show" their answer. [arxiv.org/abs/2607.21072](https://arxiv.org/abs/2607.21072)
+6. **Tencent WorkBuddy Bench** — A contamination-resistant, multi-domain coding-agent benchmark built from real commits/PRs rewritten as role-played tasks. [arxiv.org/abs/2607.20911](https://arxiv.org/abs/2607.20911)
+7. **NVIDIA Object-Oriented Agents (NOOA)** — A Python framework where agents are plain objects whose "..." method bodies are completed at runtime by an LLM loop. [arxiv.org/abs/2607.20709](https://arxiv.org/abs/2607.20709)
+8. **Color Pass-Through** — An end-to-end learned camera-display coupling that fixes long-standing capture-to-screen color fidelity mismatches. [arxiv.org/abs/2607.12746](https://arxiv.org/abs/2607.12746)
+9. **LLMs Get Lost in Evolving User Intent** — Converts static benchmarks into multi-turn conversations with shifting intent, showing today's LLMs don't reliably track it. [arxiv.org/abs/2607.20734](https://arxiv.org/abs/2607.20734)
+10. **Structured Dynamics Model** — Self-supervised video learning that disentangles camera motion from object motion in frozen ViT features. [arxiv.org/abs/2607.21576](https://arxiv.org/abs/2607.21576)
 <!-- LATEST_PAPERS_END -->
 
 [Browse all paper summaries &rarr;](/blog/ai-papers/)
