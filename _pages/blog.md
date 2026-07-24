@@ -14,18 +14,18 @@ Welcome to my blog! Here I share insights from my daily readings of AI research 
 I read AI and ML research papers daily and post concise summaries here. Each entry covers the key contributions, methods, and takeaways from recent papers across topics like deep learning, reinforcement learning, NLP, computer vision, and more.
 
 <!-- LATEST_PAPERS_START -->
-**Latest — July 24, 2026**
+**Latest — July 25, 2026**
 
-1. **AREX** — A recursively self-improving deep-research agent that alternates evidence-gathering with constraint-by-constraint auditing, beating baselines on BrowseComp and Humanity's Last Exam. [arxiv.org/abs/2607.21461](https://arxiv.org/abs/2607.21461)
-2. **ReferTrack** — A refer-then-track paradigm for embodied visual tracking, hitting SOTA on EVT-Bench with real sim-to-real transfer on legged and humanoid robots. [arxiv.org/abs/2607.20061](https://arxiv.org/abs/2607.20061)
-3. **K12-KGraph** — A curriculum-aligned knowledge graph from K-12 textbooks powering a new benchmark and training corpus for educational LLMs. [arxiv.org/abs/2605.09635](https://arxiv.org/abs/2605.09635)
-4. **Visual Contrastive Self-Distillation** — A teacher-free on-policy self-distillation recipe that meaningfully lifts Qwen3-VL benchmark scores at no extra inference cost. [arxiv.org/abs/2607.21556](https://arxiv.org/abs/2607.21556)
-5. **Show, Don't Tell** — Proposes evaluating spatial cognition through generated pixels rather than text/coordinates, finding image-gen models competitive when allowed to "show" their answer. [arxiv.org/abs/2607.21072](https://arxiv.org/abs/2607.21072)
-6. **Tencent WorkBuddy Bench** — A contamination-resistant, multi-domain coding-agent benchmark built from real commits/PRs rewritten as role-played tasks. [arxiv.org/abs/2607.20911](https://arxiv.org/abs/2607.20911)
-7. **NVIDIA Object-Oriented Agents (NOOA)** — A Python framework where agents are plain objects whose "..." method bodies are completed at runtime by an LLM loop. [arxiv.org/abs/2607.20709](https://arxiv.org/abs/2607.20709)
-8. **Color Pass-Through** — An end-to-end learned camera-display coupling that fixes long-standing capture-to-screen color fidelity mismatches. [arxiv.org/abs/2607.12746](https://arxiv.org/abs/2607.12746)
-9. **LLMs Get Lost in Evolving User Intent** — Converts static benchmarks into multi-turn conversations with shifting intent, showing today's LLMs don't reliably track it. [arxiv.org/abs/2607.20734](https://arxiv.org/abs/2607.20734)
-10. **Structured Dynamics Model** — Self-supervised video learning that disentangles camera motion from object motion in frozen ViT features. [arxiv.org/abs/2607.21576](https://arxiv.org/abs/2607.21576)
+1. **NexForge** — A requirement-driven task synthesis framework that scales open agent training data, lifting Qwen3.5-35B-A3B to 75.3% on Terminal-Bench 2.1. [arxiv.org/abs/2607.14186](https://arxiv.org/abs/2607.14186)
+2. **OCT-Bench** — A 10,076-question benchmark showing current MLLMs still fall well short of reliable optical coherence tomography understanding. [arxiv.org/abs/2607.16609](https://arxiv.org/abs/2607.16609)
+3. **Beyond Success Rate** — Argues security-agent evaluation should be cost-aware, finding offensive CTF performance scales with test-time compute while defensive SOC work depends on disciplined tool use. [arxiv.org/abs/2607.15263](https://arxiv.org/abs/2607.15263)
+4. **Masked Diffusion World Models** — Diffusion LMs beat 4x-larger autoregressive world models for agentic RL, driving up to 47% zero-shot transfer gains. [arxiv.org/abs/2607.16204](https://arxiv.org/abs/2607.16204)
+5. **Nonuniformity Principle** — Derives an optimal scheduling rule for human oversight checkpoints in long AI agent workflows. [arxiv.org/abs/2607.16530](https://arxiv.org/abs/2607.16530)
+6. **DiFA** — A training-free, Kalman-filter-inspired inference upgrade for diffusion models with clear FID/IS gains. [arxiv.org/abs/2607.17972](https://arxiv.org/abs/2607.17972)
+7. **FlashRT** — An agent harness that auto-optimizes real-time multimodal deployments, cutting latency up to ~70x versus reference implementations. [arxiv.org/abs/2607.18171](https://arxiv.org/abs/2607.18171)
+8. **SVR-R1** — A self-verifying multi-turn RL framework that gives VLMs a second-chance rethink before finalizing answers. [arxiv.org/abs/2607.10966](https://arxiv.org/abs/2607.10966)
+9. **Self-State Attacks** — Co-authored by Jürgen Schmidhuber, this maps a novel OS-level threat model for corrupting self-hosted AI agents via their own memory/config files. [arxiv.org/abs/2607.17986](https://arxiv.org/abs/2607.17986)
+10. **WorldCupArena** — A contamination-resistant football-forecasting benchmark tied to the 2026 FIFA World Cup, testing LLMs and deep-research agents against betting markets. [arxiv.org/abs/2607.18084](https://arxiv.org/abs/2607.18084)
 <!-- LATEST_PAPERS_END -->
 
 [Browse all paper summaries &rarr;](/blog/ai-papers/)
