@@ -14,18 +14,18 @@ Welcome to my blog! Here I share insights from my daily readings of AI research 
 I read AI and ML research papers daily and post concise summaries here. Each entry covers the key contributions, methods, and takeaways from recent papers across topics like deep learning, reinforcement learning, NLP, computer vision, and more.
 
 <!-- LATEST_PAPERS_START -->
-**Latest — July 27, 2026**
+**Latest — July 28, 2026**
 
-1. **DataPrep-Bench** — First unified benchmark measuring how well LLMs/agents construct and curate training data end-to-end. [arxiv.org/abs/2607.20465](https://arxiv.org/abs/2607.20465)
-2. **Skill Self-Play** — Co-evolving skills and tasks in a self-play loop to expand LLM capability while keeping reward signals reliable. [arxiv.org/abs/2607.22529](https://arxiv.org/abs/2607.22529)
-3. **Molt** — NVIDIA's PyTorch-native training framework for cheap, fast-iterating agentic reinforcement learning research. [arxiv.org/abs/2607.21653](https://arxiv.org/abs/2607.21653)
-4. **Scaling Native Multimodal Pre-Training From Scratch** — Trains on mixed text/vision data from scratch instead of bolting vision onto a text-pretrained LLM. [arxiv.org/abs/2607.22043](https://arxiv.org/abs/2607.22043)
-5. **Three-Body Scattering for Generative Modeling** — A physics-inspired distributional energy formulation replaces adversarial critics for one-step generation. [arxiv.org/abs/2607.18198](https://arxiv.org/abs/2607.18198)
-6. **O-VAD** — Combines object-centric tracking with VLM reasoning for industrial video anomaly detection. [arxiv.org/abs/2607.18142](https://arxiv.org/abs/2607.18142)
-7. **LAMAR** — An open, language-aware multilingual reranker that improves cross-lingual RAG retrieval quality. [arxiv.org/abs/2607.22042](https://arxiv.org/abs/2607.22042)
-8. **IDEAgent** — Frames LLM research-idea generation as agentic quality-diversity search to avoid clustered or trivial ideas. [arxiv.org/abs/2607.22375](https://arxiv.org/abs/2607.22375)
-9. **Closing the Loop** — A training-free method enforces revisit consistency in autoregressive, long-horizon 3D scene video rendering. [arxiv.org/abs/2607.21848](https://arxiv.org/abs/2607.21848)
-10. **Multi-Head Latent Control** — A unified interface lets agentic LLMs coordinate reasoning, deferral, tool-use, and abstention decisions. [arxiv.org/abs/2607.14277](https://arxiv.org/abs/2607.14277)
+1. **Kimi K3** — A 2.8T-parameter open-weight frontier MoE model with native vision and 1M-token context, ~2.5x more compute-efficient than prior generations. [arxiv.org/abs/2607.24653](https://arxiv.org/abs/2607.24653)
+2. **JarvisHub** — An open harness for long-horizon, canvas-native multimodal creative agents that manage drafts, edits, and feedback over time. [arxiv.org/abs/2607.23588](https://arxiv.org/abs/2607.23588)
+3. **Proprietary-to-Open Protocol Distillation** — Distills proprietary agentic-search reasoning into open-source students via multi-agent protocol-level supervision. [arxiv.org/abs/2607.24280](https://arxiv.org/abs/2607.24280)
+4. **Rethinking CFG in On-Policy Diffusion Distillation** — Fixes an under-identified guidance-branch flaw in on-policy diffusion distillation used to speed up generation. [arxiv.org/abs/2607.24731](https://arxiv.org/abs/2607.24731)
+5. **Progress Reward Modeling Survey** — Unifies the fragmented literature on dense, progress-based reward signals for robotic learning. [arxiv.org/abs/2607.21655](https://arxiv.org/abs/2607.21655)
+6. **StateAct** — Argues computer-use agents should reason over program state (files, DOM) instead of lossy screenshot pixels. [arxiv.org/abs/2607.22798](https://arxiv.org/abs/2607.22798)
+7. **Data Pyramid for Embodied Manipulation** — A five-level taxonomy for combining real-robot, simulation, and vision-language data sources. [arxiv.org/abs/2607.24744](https://arxiv.org/abs/2607.24744)
+8. **Sol-Attn** — Training-free, on-the-fly sparse attention that cuts video diffusion inference cost while preserving accuracy. [arxiv.org/abs/2607.24027](https://arxiv.org/abs/2607.24027)
+9. **OmniVAE** — Aligns audio and video VAE latent spaces for synchronized joint audio-video generation. [arxiv.org/abs/2607.23855](https://arxiv.org/abs/2607.23855)
+10. **Physics of Multi-Turn Long-Horizon Planning** — A controlled study of how agentic planning ability is acquired across pre- and post-training via on-policy distillation. [arxiv.org/abs/2607.24720](https://arxiv.org/abs/2607.24720)
 <!-- LATEST_PAPERS_END -->
 
 [Browse all paper summaries &rarr;](/blog/ai-papers/)
