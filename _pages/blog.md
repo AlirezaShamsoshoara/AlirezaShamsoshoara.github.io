@@ -14,18 +14,18 @@ Welcome to my blog! Here I share insights from my daily readings of AI research 
 I read AI and ML research papers daily and post concise summaries here. Each entry covers the key contributions, methods, and takeaways from recent papers across topics like deep learning, reinforcement learning, NLP, computer vision, and more.
 
 <!-- LATEST_PAPERS_START -->
-**Latest — July 29, 2026**
+**Latest — July 30, 2026**
 
-1. **HiFi-UMI** — A portable UMI data-capture rig hits 3mm accuracy without external tracking, letting robot-free data alone match real-robot teleop performance. [arxiv.org/abs/2607.25895](https://arxiv.org/abs/2607.25895)
-2. **A New Role for Relevance in Agentic Search** — Proposes grep-style "Direct Corpus Interaction" guided by relevance signals instead of just top-k document filtering. [arxiv.org/abs/2607.24223](https://arxiv.org/abs/2607.24223)
-3. **ReDesign** — Recovers fully editable design files (typography, vectors, layers) from a raster image via agentic, verification-gated decomposition. [arxiv.org/abs/2607.25565](https://arxiv.org/abs/2607.25565)
-4. **Keep It InMind** — Benchmarks the "implicit-association blind spot" where agent memory fails to surface relevant facts that aren't textually similar to the query. [arxiv.org/abs/2607.24368](https://arxiv.org/abs/2607.24368)
-5. **CodeNib** — A multi-view repository index (lexical, dense, structural) that serves coding agents context with 8.7x–25.4x faster updates and far fewer tokens. [arxiv.org/abs/2607.25431](https://arxiv.org/abs/2607.25431)
-6. **Pass the Baton (Relay-OPD)** — Lets a teacher briefly retake control at detected "prefix failure" points during on-policy distillation, boosting math accuracy while cutting trajectory length. [arxiv.org/abs/2607.26057](https://arxiv.org/abs/2607.26057)
-7. **Mage-VL** — A codec-native streaming multimodal model that cuts visual tokens 75%+ while beating a 15B baseline on video/spatial reasoning. [arxiv.org/abs/2607.24904](https://arxiv.org/abs/2607.24904)
-8. **Rethinking Contamination-Free Dynamic Fact-Checking Evals** — Argues static fact-checking benchmarks are inflated by claims answerable from internal LLM knowledge alone. [arxiv.org/abs/2607.23514](https://arxiv.org/abs/2607.23514)
-9. **Shieldstral** — A 3B multimodal safety classifier from Mistral that matches or beats models 7x its size via a unified binary-moderation framework. [arxiv.org/abs/2607.25857](https://arxiv.org/abs/2607.25857)
-10. **Wonder** — A real-time, camera-controllable video world model generating minute-scale, geometry-consistent "playable worlds" at 16 FPS. [arxiv.org/abs/2607.26037](https://arxiv.org/abs/2607.26037)
+1. **TurboVLA** — Reformulates vision→language→action into a direct vision+language→action mapping, hitting 32 Hz robot control on a single RTX 4090 with <1 GB VRAM. [arxiv.org/abs/2607.27205](https://arxiv.org/abs/2607.27205)
+2. **CoRT** — Introduces counterfactual replay to attribute rubric-based RL rewards at the token level instead of broadcasting a single scalar across a whole generation. [arxiv.org/abs/2607.25659](https://arxiv.org/abs/2607.25659)
+3. **HumanCLAW** — An evaluation framework that decouples a VLM's high-level decisions from a low-level motor controller to isolate embodied-reasoning failures. [arxiv.org/abs/2607.27180](https://arxiv.org/abs/2607.27180)
+4. **DecoEvo** — Co-evolves a solver and a rubric-generator in text space so LLM optimization keeps improving past a fixed rubric's saturation point. [arxiv.org/abs/2607.25675](https://arxiv.org/abs/2607.25675)
+5. **CLBench-V** — A benchmark for multimodal context learning, spanning basic visual grounding to knowledge acquisition from mixed-modality inputs. [arxiv.org/abs/2607.25294](https://arxiv.org/abs/2607.25294)
+6. **CAST** — Uses classical game solvers to give LLM agents dense, turn-level credit signals in place of sparse final-reward-only RLVR training. [arxiv.org/abs/2607.25308](https://arxiv.org/abs/2607.25308)
+7. **SkillRise** — A unified agentic RL framework that extracts, retrieves, and reuses skills across tasks in a single training loop. [arxiv.org/abs/2607.26784](https://arxiv.org/abs/2607.26784)
+8. **StatePlay** — Adds explicit game-state tracking (health, skills, timers) to world models so generated gameplay stays mechanically consistent. [arxiv.org/abs/2607.26754](https://arxiv.org/abs/2607.26754)
+9. **Can AI agents conduct open-ended AI research?** — Proposes assessing agents directly on open-ended research projects, with early case-study evidence of how far they get. [arxiv.org/abs/2607.27191](https://arxiv.org/abs/2607.27191)
+10. **OmegaUse-OfficeVal** — Benchmarks LLM agents on 100 long-horizon office-suite workflows with explicit economic/cost grounding, not just task completion. [arxiv.org/abs/2607.27155](https://arxiv.org/abs/2607.27155)
 <!-- LATEST_PAPERS_END -->
 
 [Browse all paper summaries &rarr;](/blog/ai-papers/)
