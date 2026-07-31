@@ -14,18 +14,18 @@ Welcome to my blog! Here I share insights from my daily readings of AI research 
 I read AI and ML research papers daily and post concise summaries here. Each entry covers the key contributions, methods, and takeaways from recent papers across topics like deep learning, reinforcement learning, NLP, computer vision, and more.
 
 <!-- LATEST_PAPERS_START -->
-**Latest — July 31, 2026**
+**Latest — August 1, 2026**
 
-1. **Qwen-UI-Agent** — A foundation GUI agent that combines GUI interaction with CLI execution for long-horizon, cross-platform tasks. [arxiv.org/abs/2607.28227](https://arxiv.org/abs/2607.28227)
-2. **Metis** — Natively internalizes agent memory into a foundation model instead of bolting it on as an external module. [arxiv.org/abs/2607.26760](https://arxiv.org/abs/2607.26760)
-3. **AskChem** — A claim-centered infrastructure for chemistry literature search, assembling provenance-verified answers across papers. [arxiv.org/abs/2607.28618](https://arxiv.org/abs/2607.28618)
-4. **PhiZero** — A world model built on "physical language," a compact discrete representation of world-state transitions. [arxiv.org/abs/2607.28624](https://arxiv.org/abs/2607.28624)
-5. **Frontis-MA1 (OpenMLE)** — A full-stack open system for studying recursive self-improvement via machine learning engineering tasks. [arxiv.org/abs/2607.28568](https://arxiv.org/abs/2607.28568)
-6. **VideoCoCo** — Uses executable code as an intermediate chain-of-thought for physically-consistent text-to-video generation. [arxiv.org/abs/2607.27380](https://arxiv.org/abs/2607.27380)
-7. **Memory Decoder at Scale** — Scales a parametric long-term memory module to 6.9B parameters pretrained on 300B tokens. [arxiv.org/abs/2607.27919](https://arxiv.org/abs/2607.27919)
-8. **Beacon** — Reframes agentic visual reasoning around mode adaptiveness and tool effect to boost MLLM task success. [arxiv.org/abs/2607.28595](https://arxiv.org/abs/2607.28595)
-9. **BM25 Wins at Scale** — A 28-tier scaling study finding lexical BM25 retrieval stays highly competitive against dense/graph/agentic RAG. [arxiv.org/abs/2607.26497](https://arxiv.org/abs/2607.26497)
-10. **Flux-OPD** — On-policy distillation with contexts that evolve alongside student performance for open-ended domains. [arxiv.org/abs/2607.28022](https://arxiv.org/abs/2607.28022)
+1. **DistillAlign** — Coordinates mode-covering and mode-seeking stages in autoregressive video distillation so the initialized student matches what DMD actually optimizes for. [arxiv.org/abs/2607.26811](https://arxiv.org/abs/2607.26811)
+2. **MindForge** — Builds source-free training environments for whole-life-cycle software engineering so small LMs can learn from-scratch program synthesis. [arxiv.org/abs/2607.27146](https://arxiv.org/abs/2607.27146)
+3. **β-OPSD** — Reframes on-policy self-distillation as the β=1 case of a broader policy-optimization family, making reasoning-model training more reliable. [arxiv.org/abs/2607.28582](https://arxiv.org/abs/2607.28582)
+4. **Σ-Mem** — An online reliability memory that tracks peer competence and trust evidence for LLM-based multi-agent systems. [arxiv.org/abs/2607.27958](https://arxiv.org/abs/2607.27958)
+5. **INTACT** — A search-free, JEPA-style world model that learns an isomorphic intent-to-action interface from reward-free trajectories. [arxiv.org/abs/2607.26056](https://arxiv.org/abs/2607.26056)
+6. **Explorative Modeling** — Proposes a third pretraining axis aimed at unlocking genuinely end-to-end generative model training. [arxiv.org/abs/2607.27372](https://arxiv.org/abs/2607.27372)
+7. **LEDGERMIND** — Audits multimodal agentic reasoning via a provenance-constrained, structured evidence ledger instead of final-answer-only accuracy. [arxiv.org/abs/2607.28374](https://arxiv.org/abs/2607.28374)
+8. **Echoverse** — Builds deep, evolving, stateful environments to train computer-use agents at scale. [arxiv.org/abs/2607.28074](https://arxiv.org/abs/2607.28074)
+9. **Multi-Head Attention Residuals** — Gives each attention subspace its own residual stream so it can independently learn which depths to attend to. [arxiv.org/abs/2607.27230](https://arxiv.org/abs/2607.27230)
+10. **Filesystem-Based Memory** — Stress-tests whether LLM agents can keep a plain-filesystem memory store organized as it accumulates and goes stale. [arxiv.org/abs/2607.26637](https://arxiv.org/abs/2607.26637)
 <!-- LATEST_PAPERS_END -->
 
 [Browse all paper summaries &rarr;](/blog/ai-papers/)
