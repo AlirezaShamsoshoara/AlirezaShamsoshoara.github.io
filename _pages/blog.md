@@ -14,18 +14,18 @@ Welcome to my blog! Here I share insights from my daily readings of AI research 
 I read AI and ML research papers daily and post concise summaries here. Each entry covers the key contributions, methods, and takeaways from recent papers across topics like deep learning, reinforcement learning, NLP, computer vision, and more.
 
 <!-- LATEST_PAPERS_START -->
-**Latest — July 30, 2026**
+**Latest — July 31, 2026**
 
-1. **TurboVLA** — Reformulates vision→language→action into a direct vision+language→action mapping, hitting 32 Hz robot control on a single RTX 4090 with <1 GB VRAM. [arxiv.org/abs/2607.27205](https://arxiv.org/abs/2607.27205)
-2. **CoRT** — Introduces counterfactual replay to attribute rubric-based RL rewards at the token level instead of broadcasting a single scalar across a whole generation. [arxiv.org/abs/2607.25659](https://arxiv.org/abs/2607.25659)
-3. **HumanCLAW** — An evaluation framework that decouples a VLM's high-level decisions from a low-level motor controller to isolate embodied-reasoning failures. [arxiv.org/abs/2607.27180](https://arxiv.org/abs/2607.27180)
-4. **DecoEvo** — Co-evolves a solver and a rubric-generator in text space so LLM optimization keeps improving past a fixed rubric's saturation point. [arxiv.org/abs/2607.25675](https://arxiv.org/abs/2607.25675)
-5. **CLBench-V** — A benchmark for multimodal context learning, spanning basic visual grounding to knowledge acquisition from mixed-modality inputs. [arxiv.org/abs/2607.25294](https://arxiv.org/abs/2607.25294)
-6. **CAST** — Uses classical game solvers to give LLM agents dense, turn-level credit signals in place of sparse final-reward-only RLVR training. [arxiv.org/abs/2607.25308](https://arxiv.org/abs/2607.25308)
-7. **SkillRise** — A unified agentic RL framework that extracts, retrieves, and reuses skills across tasks in a single training loop. [arxiv.org/abs/2607.26784](https://arxiv.org/abs/2607.26784)
-8. **StatePlay** — Adds explicit game-state tracking (health, skills, timers) to world models so generated gameplay stays mechanically consistent. [arxiv.org/abs/2607.26754](https://arxiv.org/abs/2607.26754)
-9. **Can AI agents conduct open-ended AI research?** — Proposes assessing agents directly on open-ended research projects, with early case-study evidence of how far they get. [arxiv.org/abs/2607.27191](https://arxiv.org/abs/2607.27191)
-10. **OmegaUse-OfficeVal** — Benchmarks LLM agents on 100 long-horizon office-suite workflows with explicit economic/cost grounding, not just task completion. [arxiv.org/abs/2607.27155](https://arxiv.org/abs/2607.27155)
+1. **Qwen-UI-Agent** — A foundation GUI agent that combines GUI interaction with CLI execution for long-horizon, cross-platform tasks. [arxiv.org/abs/2607.28227](https://arxiv.org/abs/2607.28227)
+2. **Metis** — Natively internalizes agent memory into a foundation model instead of bolting it on as an external module. [arxiv.org/abs/2607.26760](https://arxiv.org/abs/2607.26760)
+3. **AskChem** — A claim-centered infrastructure for chemistry literature search, assembling provenance-verified answers across papers. [arxiv.org/abs/2607.28618](https://arxiv.org/abs/2607.28618)
+4. **PhiZero** — A world model built on "physical language," a compact discrete representation of world-state transitions. [arxiv.org/abs/2607.28624](https://arxiv.org/abs/2607.28624)
+5. **Frontis-MA1 (OpenMLE)** — A full-stack open system for studying recursive self-improvement via machine learning engineering tasks. [arxiv.org/abs/2607.28568](https://arxiv.org/abs/2607.28568)
+6. **VideoCoCo** — Uses executable code as an intermediate chain-of-thought for physically-consistent text-to-video generation. [arxiv.org/abs/2607.27380](https://arxiv.org/abs/2607.27380)
+7. **Memory Decoder at Scale** — Scales a parametric long-term memory module to 6.9B parameters pretrained on 300B tokens. [arxiv.org/abs/2607.27919](https://arxiv.org/abs/2607.27919)
+8. **Beacon** — Reframes agentic visual reasoning around mode adaptiveness and tool effect to boost MLLM task success. [arxiv.org/abs/2607.28595](https://arxiv.org/abs/2607.28595)
+9. **BM25 Wins at Scale** — A 28-tier scaling study finding lexical BM25 retrieval stays highly competitive against dense/graph/agentic RAG. [arxiv.org/abs/2607.26497](https://arxiv.org/abs/2607.26497)
+10. **Flux-OPD** — On-policy distillation with contexts that evolve alongside student performance for open-ended domains. [arxiv.org/abs/2607.28022](https://arxiv.org/abs/2607.28022)
 <!-- LATEST_PAPERS_END -->
 
 [Browse all paper summaries &rarr;](/blog/ai-papers/)
