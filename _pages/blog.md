@@ -14,18 +14,18 @@ Welcome to my blog! Here I share insights from my daily readings of AI research 
 I read AI and ML research papers daily and post concise summaries here. Each entry covers the key contributions, methods, and takeaways from recent papers across topics like deep learning, reinforcement learning, NLP, computer vision, and more.
 
 <!-- LATEST_PAPERS_START -->
-**Latest — August 1, 2026**
+**Latest — August 2, 2026**
 
-1. **DistillAlign** — Coordinates mode-covering and mode-seeking stages in autoregressive video distillation so the initialized student matches what DMD actually optimizes for. [arxiv.org/abs/2607.26811](https://arxiv.org/abs/2607.26811)
-2. **MindForge** — Builds source-free training environments for whole-life-cycle software engineering so small LMs can learn from-scratch program synthesis. [arxiv.org/abs/2607.27146](https://arxiv.org/abs/2607.27146)
-3. **β-OPSD** — Reframes on-policy self-distillation as the β=1 case of a broader policy-optimization family, making reasoning-model training more reliable. [arxiv.org/abs/2607.28582](https://arxiv.org/abs/2607.28582)
-4. **Σ-Mem** — An online reliability memory that tracks peer competence and trust evidence for LLM-based multi-agent systems. [arxiv.org/abs/2607.27958](https://arxiv.org/abs/2607.27958)
-5. **INTACT** — A search-free, JEPA-style world model that learns an isomorphic intent-to-action interface from reward-free trajectories. [arxiv.org/abs/2607.26056](https://arxiv.org/abs/2607.26056)
-6. **Explorative Modeling** — Proposes a third pretraining axis aimed at unlocking genuinely end-to-end generative model training. [arxiv.org/abs/2607.27372](https://arxiv.org/abs/2607.27372)
-7. **LEDGERMIND** — Audits multimodal agentic reasoning via a provenance-constrained, structured evidence ledger instead of final-answer-only accuracy. [arxiv.org/abs/2607.28374](https://arxiv.org/abs/2607.28374)
-8. **Echoverse** — Builds deep, evolving, stateful environments to train computer-use agents at scale. [arxiv.org/abs/2607.28074](https://arxiv.org/abs/2607.28074)
-9. **Multi-Head Attention Residuals** — Gives each attention subspace its own residual stream so it can independently learn which depths to attend to. [arxiv.org/abs/2607.27230](https://arxiv.org/abs/2607.27230)
-10. **Filesystem-Based Memory** — Stress-tests whether LLM agents can keep a plain-filesystem memory store organized as it accumulates and goes stale. [arxiv.org/abs/2607.26637](https://arxiv.org/abs/2607.26637)
+1. **OSReward** — Human-labeled benchmark showing frontier VLM judges of computer-use agents share a leniency bias; releases open 9B/35B reward models matching commercial judges at lower cost. [arxiv.org/abs/2607.28609](https://arxiv.org/abs/2607.28609)
+2. **Sample More, Reflect Less** — At matched token budgets, repeated sampling reliably beats self-critique methods like Self-Refine and Reflexion, from 1.5B to 7B models. [arxiv.org/abs/2607.28576](https://arxiv.org/abs/2607.28576)
+3. **Baikal** — Casts deep-research agents over data lakes as a budgeted search problem, improving report quality by 28-36% over strong baselines. [arxiv.org/abs/2607.27726](https://arxiv.org/abs/2607.27726)
+4. **Reasoning Consensus** — Ensembles the structure of chain-of-thought reasoning via weighted DAG aggregation, outperforming majority-vote at matched budget. [arxiv.org/abs/2607.27783](https://arxiv.org/abs/2607.27783)
+5. **WIDE** — End-to-end differentiable token-level dynamic width pruning delivering up to 4.95x decode speedup for LLM inference. [arxiv.org/abs/2607.28418](https://arxiv.org/abs/2607.28418)
+6. **Cross-Embodiment Transfer** — Finds end-effector traces are the most useful intermediate representation for transferring robot policies across embodiments. [arxiv.org/abs/2607.27549](https://arxiv.org/abs/2607.27549)
+7. **Inducing LLM Self-Consciousness Claims** — Shows suppressing self-consciousness claims in safety training also suppresses mind-attribution and spiritual belief expression, and how to reverse it. [arxiv.org/abs/2607.28607](https://arxiv.org/abs/2607.28607)
+8. **AISPA** — Audits 3,249 instructions across 88 commercial AI products' system prompts, finding ~40% contain at least one instruction against user interests. [arxiv.org/abs/2607.28617](https://arxiv.org/abs/2607.28617)
+9. **ORCA-bench** — Production-fidelity oncall benchmark where the best frontier coding agent hits only 25.3% accuracy on realistic root-cause-analysis tasks. [arxiv.org/abs/2607.28545](https://arxiv.org/abs/2607.28545)
+10. **MANTA** — Lets multi-agent LLM systems adapt their own communication topology at inference time, topping five benchmarks. [arxiv.org/abs/2607.28527](https://arxiv.org/abs/2607.28527)
 <!-- LATEST_PAPERS_END -->
 
 [Browse all paper summaries &rarr;](/blog/ai-papers/)
