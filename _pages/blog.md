@@ -14,18 +14,18 @@ Welcome to my blog! Here I share insights from my daily readings of AI research 
 I read AI and ML research papers daily and post concise summaries here. Each entry covers the key contributions, methods, and takeaways from recent papers across topics like deep learning, reinforcement learning, NLP, computer vision, and more.
 
 <!-- LATEST_PAPERS_START -->
-**Latest — August 3, 2026**
+**Latest — August 4, 2026**
 
-1. **RLSVR** — Transforms open-ended LLM tasks into self-verifiable ones, extending verifiable-reward RL self-improvement beyond math/coding. [arxiv.org/abs/2607.23802](https://arxiv.org/abs/2607.23802)
-2. **Mental World Modeling** — Jointly tracks physical dynamics and agents' hidden mental states (beliefs, desires, intentions) for better action prediction. [arxiv.org/abs/2607.27201](https://arxiv.org/abs/2607.27201)
-3. **N₀-VTLA** — Vision-tactile-language-action foundation model adding tactile perception to vision-based robot manipulation backbones. [arxiv.org/abs/2607.23782](https://arxiv.org/abs/2607.23782)
-4. **Meshy T2** — Fast native mesh generation via flow matching, replacing slow autoregressive token-by-token mesh decoding. [arxiv.org/abs/2607.28675](https://arxiv.org/abs/2607.28675)
-5. **N₀-TWAM** — Large-scale tactile-native world-action model jointly predicting future vision and contact for contact-rich manipulation. [arxiv.org/abs/2607.23783](https://arxiv.org/abs/2607.23783)
-6. **Text Conditioning Scaling** — Finds diffusion training loss scales predictably with the amount of structured language in prompts. [arxiv.org/abs/2607.29679](https://arxiv.org/abs/2607.29679)
-7. **SAF-OPD** — Stable advantage fusion combining RLVR rewards with on-policy distillation signal without triggering entropy collapse. [arxiv.org/abs/2607.29209](https://arxiv.org/abs/2607.29209)
-8. **Fewer Clarifications, Better Code** — Benchmarks whether coding assistants can use cross-session memory to stop re-asking resolved ambiguity questions. [arxiv.org/abs/2607.26611](https://arxiv.org/abs/2607.26611)
-9. **Rubric-based RL via Self-Distillation** — Lets policies internalize rubric guidance via self-distillation, avoiding a train-inference mismatch. [arxiv.org/abs/2607.18082](https://arxiv.org/abs/2607.18082)
-10. **ExtractBench** — Benchmark for schema-guided enterprise document extraction spanning 4,869 pages across 370 document types. [arxiv.org/abs/2607.29677](https://arxiv.org/abs/2607.29677)
+1. **Salience Bias in LLMs** — Reveals LLMs over-prioritize explicit inputs like numbers, suppressing implicit commonsense knowledge needed for everyday reasoning. [arxiv.org/abs/2607.28478](https://arxiv.org/abs/2607.28478)
+2. **SGTP** — Real-time game-theoretic planner for multi-vehicle autonomous racing, hitting a 95% win rate across 10-agent scenarios. [arxiv.org/abs/2607.25388](https://arxiv.org/abs/2607.25388)
+3. **Inference-Time Scaling for Computer-Use Agents** — Analyzes failure modes and compute tradeoffs when scaling inference-time compute for local computer-use agents. [arxiv.org/abs/2607.28573](https://arxiv.org/abs/2607.28573)
+4. **How Benchmarks Mis-Score Computer-Use Agents** — Identifies scoring artifacts that distort comparisons between computer-use agent systems. [arxiv.org/abs/2607.28367](https://arxiv.org/abs/2607.28367)
+5. **InfoOps Bench** — A live, continuously updated benchmark for evaluating AI systems' vulnerability to disinformation and influence operations. [arxiv.org/abs/2607.28503](https://arxiv.org/abs/2607.28503)
+6. **Numerical Intelligence Foundation Model** — A foundation model targeting quantitative reasoning with claimed cross-disciplinary generalization. [arxiv.org/abs/2607.28432](https://arxiv.org/abs/2607.28432)
+7. **LLM Over-Trust in Derived Measurements** — Quantifies and mitigates LLMs' over-trust in computed values versus raw evidence. [arxiv.org/abs/2607.28421](https://arxiv.org/abs/2607.28421)
+8. **GLM-RAG** — Combines graph language models with retrieval-augmented generation to reason over graph-structured knowledge. [arxiv.org/abs/2607.28397](https://arxiv.org/abs/2607.28397)
+9. **Book-Level Synthetic Data** — Shows book-level organization of synthetic textbook data beats sentence-level rephrasing for LLM mid-training. [arxiv.org/abs/2607.28109](https://arxiv.org/abs/2607.28109)
+10. **Group-Reflective Self-Distillation** — Uses group-level reflection to make agentic RL training more sample-efficient and self-correcting. [arxiv.org/abs/2607.28076](https://arxiv.org/abs/2607.28076)
 <!-- LATEST_PAPERS_END -->
 
 [Browse all paper summaries &rarr;](/blog/ai-papers/)
