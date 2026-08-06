@@ -14,18 +14,18 @@ Welcome to my blog! Here I share insights from my daily readings of AI research 
 I read AI and ML research papers daily and post concise summaries here. Each entry covers the key contributions, methods, and takeaways from recent papers across topics like deep learning, reinforcement learning, NLP, computer vision, and more.
 
 <!-- LATEST_PAPERS_START -->
-**Latest — August 5, 2026**
+**Latest — August 6, 2026**
 
-1. **MerchantBench** — A benchmark testing whether LLM agents can maintain coherent, goal-directed behavior across long-horizon e-commerce operations. [arxiv.org/abs/2607.28956](https://arxiv.org/abs/2607.28956)
-2. **JoyAI-Video-Edit** — A 16B-parameter autoregressive diffusion framework for real-time, open-ended video editing without access to future frames. [arxiv.org/abs/2608.03974](https://arxiv.org/abs/2608.03974)
-3. **AURORA-LM** — Autoencodes text into a continuous latent space for diffusion-based language modeling, bridging the discrete-token gap with other modalities. [arxiv.org/abs/2608.02602](https://arxiv.org/abs/2608.02602)
-4. **Hunyuan3D-Buffalo 1.0** — A unified multimodal model for scalable 3D generation, understanding, and editing from a single architecture. [arxiv.org/abs/2608.02711](https://arxiv.org/abs/2608.02711)
-5. **InfiniSplat** — Implicit Gaussian decoding for large-baseline monocular view synthesis, moving beyond fixed pixel-aligned Gaussian prediction. [arxiv.org/abs/2608.02437](https://arxiv.org/abs/2608.02437)
-6. **Video-DeepResearch** — Extends multimodal deep-research agents from static images to continuous video streams with open-web exploration. [arxiv.org/abs/2608.03979](https://arxiv.org/abs/2608.03979)
-7. **Knowledge-Geometry Decoupling** — A refreshable pretrained-transfer method (KGD) for streaming recommendation under behavioral distribution drift. [arxiv.org/abs/2608.02738](https://arxiv.org/abs/2608.02738)
-8. **PCSD** — Persistent consistency for self-distillation, densifying sparse rewards in agentic reinforcement learning over long multi-turn trajectories. [arxiv.org/abs/2608.01837](https://arxiv.org/abs/2608.01837)
-9. **Quo Vadis, World Modeling?** — A position/survey paper mapping world modeling as a low-cost feedback proxy for continually improving agents. [arxiv.org/abs/2608.02713](https://arxiv.org/abs/2608.02713)
-10. **PAST-Bench** — Benchmarks the foundations of recursive self-improvement in personal AI agents that retain preferences, histories, and tool routines. [arxiv.org/abs/2608.04003](https://arxiv.org/abs/2608.04003)
+1. **ABSeeker** — Trains long-horizon search agents with answer-backtracked credit assignment, separating useful actions from erroneous or redundant ones. [arxiv.org/abs/2608.05102](https://arxiv.org/abs/2608.05102)
+2. **ToolArtist** — A tool-using unified multimodal model that puts the full open-world image generation pipeline under agent control. [arxiv.org/abs/2608.04436](https://arxiv.org/abs/2608.04436)
+3. **The Personalization Mirage** — Shows LLMs with persistent memory fabricate user attributes beyond the evidence, and that self-monitoring fails to catch it. [arxiv.org/abs/2608.04570](https://arxiv.org/abs/2608.04570)
+4. **Towards Physics of Multimodal Pretraining** — Studies knowledge flow, modality synergy, and early unification mechanisms in natively unified multimodal pretraining. [arxiv.org/abs/2608.05000](https://arxiv.org/abs/2608.05000)
+5. **OneDayAgent** — A long-horizon harness for autonomous agents handling open-ended, cross-environment, multimodal everyday tasks. [arxiv.org/abs/2608.05013](https://arxiv.org/abs/2608.05013)
+6. **GDPevo** — Evaluates agent self-evolution on real, economically valuable business tasks while guarding against data contamination. [arxiv.org/abs/2608.03764](https://arxiv.org/abs/2608.03764)
+7. **Toward Skill-Native LLMs** — Introduces skill entropy to benchmark and train LLMs on cross-skill, long-horizon reasoning chains. [arxiv.org/abs/2608.05139](https://arxiv.org/abs/2608.05139)
+8. **When Teachers Mislead** — A spurious-signal-aware on-policy distillation method that filters unreliable dense teacher signals. [arxiv.org/abs/2608.03632](https://arxiv.org/abs/2608.03632)
+9. **Ego2Robot** — Synthesizes scalable robot manipulation data by retargeting egocentric human videos. [arxiv.org/abs/2608.02580](https://arxiv.org/abs/2608.02580)
+10. **NOLLI** — A difficulty-calibrated, seed-regenerable puzzle benchmark diagnosing the English-Korean LLM performance gap. [arxiv.org/abs/2608.04397](https://arxiv.org/abs/2608.04397)
 <!-- LATEST_PAPERS_END -->
 
 [Browse all paper summaries &rarr;](/blog/ai-papers/)
