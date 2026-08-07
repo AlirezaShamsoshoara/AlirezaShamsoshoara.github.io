@@ -14,18 +14,18 @@ Welcome to my blog! Here I share insights from my daily readings of AI research 
 I read AI and ML research papers daily and post concise summaries here. Each entry covers the key contributions, methods, and takeaways from recent papers across topics like deep learning, reinforcement learning, NLP, computer vision, and more.
 
 <!-- LATEST_PAPERS_START -->
-**Latest — August 6, 2026**
+**Latest — August 7, 2026**
 
-1. **ABSeeker** — Trains long-horizon search agents with answer-backtracked credit assignment, separating useful actions from erroneous or redundant ones. [arxiv.org/abs/2608.05102](https://arxiv.org/abs/2608.05102)
-2. **ToolArtist** — A tool-using unified multimodal model that puts the full open-world image generation pipeline under agent control. [arxiv.org/abs/2608.04436](https://arxiv.org/abs/2608.04436)
-3. **The Personalization Mirage** — Shows LLMs with persistent memory fabricate user attributes beyond the evidence, and that self-monitoring fails to catch it. [arxiv.org/abs/2608.04570](https://arxiv.org/abs/2608.04570)
-4. **Towards Physics of Multimodal Pretraining** — Studies knowledge flow, modality synergy, and early unification mechanisms in natively unified multimodal pretraining. [arxiv.org/abs/2608.05000](https://arxiv.org/abs/2608.05000)
-5. **OneDayAgent** — A long-horizon harness for autonomous agents handling open-ended, cross-environment, multimodal everyday tasks. [arxiv.org/abs/2608.05013](https://arxiv.org/abs/2608.05013)
-6. **GDPevo** — Evaluates agent self-evolution on real, economically valuable business tasks while guarding against data contamination. [arxiv.org/abs/2608.03764](https://arxiv.org/abs/2608.03764)
-7. **Toward Skill-Native LLMs** — Introduces skill entropy to benchmark and train LLMs on cross-skill, long-horizon reasoning chains. [arxiv.org/abs/2608.05139](https://arxiv.org/abs/2608.05139)
-8. **When Teachers Mislead** — A spurious-signal-aware on-policy distillation method that filters unreliable dense teacher signals. [arxiv.org/abs/2608.03632](https://arxiv.org/abs/2608.03632)
-9. **Ego2Robot** — Synthesizes scalable robot manipulation data by retargeting egocentric human videos. [arxiv.org/abs/2608.02580](https://arxiv.org/abs/2608.02580)
-10. **NOLLI** — A difficulty-calibrated, seed-regenerable puzzle benchmark diagnosing the English-Korean LLM performance gap. [arxiv.org/abs/2608.04397](https://arxiv.org/abs/2608.04397)
+1. **Recursive Synthesis** — Auto-generates consistent long-horizon terminal-agent training tasks, sidestepping costly human authoring that breaks instruction-verifier dependencies. [arxiv.org/abs/2608.05466](https://arxiv.org/abs/2608.05466)
+2. **AgentOPSD** — Recursive self-distillation for agentic RL that sharpens credit assignment on the few pivotal decisions in long-horizon, multi-turn tasks. [arxiv.org/abs/2608.05987](https://arxiv.org/abs/2608.05987)
+3. **WorldClaw** — A fully agentic coarse-to-fine framework that generates explorable, editable open-world 3D scenes from open-ended text. [arxiv.org/abs/2608.05248](https://arxiv.org/abs/2608.05248)
+4. **GST-Bench** — A video VQA benchmark testing whether VLMs build global spatial awareness across long-horizon streams, not just single-view perception. [arxiv.org/abs/2608.05747](https://arxiv.org/abs/2608.05747)
+5. **EnvACE** — Replaces costly external environment interaction in agentic RL with internalized world rehearsal for long-horizon tool use. [arxiv.org/abs/2608.06197](https://arxiv.org/abs/2608.06197)
+6. **Retrieval-Centric CoT** — Uses hard negatives and chain-of-thought to teach unified multimodal retrievers the fine-grained cues that separate similar candidates. [arxiv.org/abs/2608.06060](https://arxiv.org/abs/2608.06060)
+7. **ChronoVision** — Tackles multi-step temporal reasoning via latent state reconstruction, bypassing the ambiguity of language-only reasoning over visual change. [arxiv.org/abs/2608.05631](https://arxiv.org/abs/2608.05631)
+8. **Agentic Economies** — A systems blueprint for economic world models where heterogeneous agents act, adapt, and co-evolve with markets from the inside. [arxiv.org/abs/2608.06020](https://arxiv.org/abs/2608.06020)
+9. **Interpretable MEG Decoding** — Maps CLIP-style speech-retrieval networks onto cortical sources, revealing which stimulus features actually drive MEG decoding. [arxiv.org/abs/2608.01481](https://arxiv.org/abs/2608.01481)
+10. **HarnessOpt-Bench** — Benchmarks LLMs at optimizing their own agentic harness — the prompts, tools, memory, and orchestration around the model. [arxiv.org/abs/2608.06301](https://arxiv.org/abs/2608.06301)
 <!-- LATEST_PAPERS_END -->
 
 [Browse all paper summaries &rarr;](/blog/ai-papers/)
