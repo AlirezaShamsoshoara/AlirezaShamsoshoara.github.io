@@ -14,18 +14,18 @@ Welcome to my blog! Here I share insights from my daily readings of AI research 
 I read AI and ML research papers daily and post concise summaries here. Each entry covers the key contributions, methods, and takeaways from recent papers across topics like deep learning, reinforcement learning, NLP, computer vision, and more.
 
 <!-- LATEST_PAPERS_START -->
-**Latest — August 8, 2026**
+**Latest — August 9, 2026**
 
-1. **Activity Frames** — Compiles passively captured screen activity into deterministic, auditable agent memory so computer-use agents replay what users did, not just what they said. [arxiv.org/abs/2608.05784](https://arxiv.org/abs/2608.05784)
-2. **KVAE** — A family of tokenizers for multimodal generative models, treating the tokenizer as a first-class driver of latent-diffusion quality and speed. [arxiv.org/abs/2608.05798](https://arxiv.org/abs/2608.05798)
-3. **MameLoshnLM** — The first open-source 8B language model built specifically for Yiddish, paired with a new evaluation benchmark for a low-resource language. [arxiv.org/abs/2608.05850](https://arxiv.org/abs/2608.05850)
-4. **Continual Learning in Transition** — Reframes continual learning beyond parameter-centric adaptation, surveying the emerging paradigms reshaping the field. [arxiv.org/abs/2608.06216](https://arxiv.org/abs/2608.06216)
-5. **ExplainBench** — Benchmarks how well LLM agents explain the increasingly large code changes they generate. [arxiv.org/abs/2607.26451](https://arxiv.org/abs/2607.26451)
-6. **WorldCycle** — Self-verifiable RL for long-horizon video world models, breaking the verification bottleneck where no ground-truth future exists. [arxiv.org/abs/2608.04964](https://arxiv.org/abs/2608.04964)
-7. **RestoreKV** — Recovers full-cache behavior under aggressive query-agnostic KV cache eviction, keeping quality intact under tight memory budgets. [arxiv.org/abs/2608.01247](https://arxiv.org/abs/2608.01247)
-8. **ContextMaster** — Interactive multi-shot video creation via fixed-budget sparse context routing, unifying generation, reference conditioning, and editing across shots. [arxiv.org/abs/2608.04956](https://arxiv.org/abs/2608.04956)
-9. **Invisible Shortcuts** — Reveals how vision encoders exploit hidden camera-identity cues, a subtler bias than the visible object-background shortcuts studied before. [arxiv.org/abs/2608.05424](https://arxiv.org/abs/2608.05424)
-10. **FinanceHarness** — An autonomous deep-research framework purpose-built for finance, where general-purpose report generators fall short. [arxiv.org/abs/2607.27853](https://arxiv.org/abs/2607.27853)
+1. **FactorJEPA** — A JEPA-based world model that factorizes monolithic futures into layout, agent, and interaction channels for crowded, chaotic urban scenes. [arxiv.org/abs/2608.01049](https://arxiv.org/abs/2608.01049)
+2. **Weights or Skills?** — A survey mapping robot learning along one axis: policies frozen into weights (VLAs) versus agents that write and refine their own executable skills. [arxiv.org/abs/2608.01851](https://arxiv.org/abs/2608.01851)
+3. **GaussianSelector** — Lightweight, human-guided 3D object selection in Gaussian splatting via graph optimization, avoiding heavy retraining and dense multi-view supervision. [arxiv.org/abs/2608.01492](https://arxiv.org/abs/2608.01492)
+4. **Task-Conditional Flow Matching** — Adapts multilingual text embeddings per task, applying flow matching to translation while using better-aligned objectives for retrieval and classification. [arxiv.org/abs/2608.05785](https://arxiv.org/abs/2608.05785)
+5. **ST-WAM** — A semantic-temporal world action model for robust manipulation, decoupling action-relevant state transitions from task-irrelevant visual content under distribution shift. [arxiv.org/abs/2607.28993](https://arxiv.org/abs/2607.28993)
+6. **ARCHead** — Activation-metric residual correction that lets the LLM output head be quantized without wrecking the vocabulary-logit distribution. [arxiv.org/abs/2608.02703](https://arxiv.org/abs/2608.02703)
+7. **Self-Evolving Coding Agents** — Coding agents that keep learning after deployment, accumulating reusable repair experience instead of staying static. [arxiv.org/abs/2608.03392](https://arxiv.org/abs/2608.03392)
+8. **When Attention Goes Blind** — Identifies a numerical failure where ALiBi's linear bias underflows floating point, zeroing attention weights and blinding heads, plus four fixes. [arxiv.org/abs/2608.03994](https://arxiv.org/abs/2608.03994)
+9. **Agent Against Agent** — An agentic system that automatically red-teams prompt injection, both evaluating risk and generating training data for defenses. [arxiv.org/abs/2608.05108](https://arxiv.org/abs/2608.05108)
+10. **TriGlue** — A biology-inspired generative model for designing molecular glue-induced ternary complexes in targeted protein degradation. [arxiv.org/abs/2607.22143](https://arxiv.org/abs/2607.22143)
 <!-- LATEST_PAPERS_END -->
 
 [Browse all paper summaries &rarr;](/blog/ai-papers/)
