@@ -14,18 +14,18 @@ Welcome to my blog! Here I share insights from my daily readings of AI research 
 I read AI and ML research papers daily and post concise summaries here. Each entry covers the key contributions, methods, and takeaways from recent papers across topics like deep learning, reinforcement learning, NLP, computer vision, and more.
 
 <!-- LATEST_PAPERS_START -->
-**Latest — August 9, 2026**
+**Latest — August 10, 2026**
 
-1. **FactorJEPA** — A JEPA-based world model that factorizes monolithic futures into layout, agent, and interaction channels for crowded, chaotic urban scenes. [arxiv.org/abs/2608.01049](https://arxiv.org/abs/2608.01049)
-2. **Weights or Skills?** — A survey mapping robot learning along one axis: policies frozen into weights (VLAs) versus agents that write and refine their own executable skills. [arxiv.org/abs/2608.01851](https://arxiv.org/abs/2608.01851)
-3. **GaussianSelector** — Lightweight, human-guided 3D object selection in Gaussian splatting via graph optimization, avoiding heavy retraining and dense multi-view supervision. [arxiv.org/abs/2608.01492](https://arxiv.org/abs/2608.01492)
-4. **Task-Conditional Flow Matching** — Adapts multilingual text embeddings per task, applying flow matching to translation while using better-aligned objectives for retrieval and classification. [arxiv.org/abs/2608.05785](https://arxiv.org/abs/2608.05785)
-5. **ST-WAM** — A semantic-temporal world action model for robust manipulation, decoupling action-relevant state transitions from task-irrelevant visual content under distribution shift. [arxiv.org/abs/2607.28993](https://arxiv.org/abs/2607.28993)
-6. **ARCHead** — Activation-metric residual correction that lets the LLM output head be quantized without wrecking the vocabulary-logit distribution. [arxiv.org/abs/2608.02703](https://arxiv.org/abs/2608.02703)
-7. **Self-Evolving Coding Agents** — Coding agents that keep learning after deployment, accumulating reusable repair experience instead of staying static. [arxiv.org/abs/2608.03392](https://arxiv.org/abs/2608.03392)
-8. **When Attention Goes Blind** — Identifies a numerical failure where ALiBi's linear bias underflows floating point, zeroing attention weights and blinding heads, plus four fixes. [arxiv.org/abs/2608.03994](https://arxiv.org/abs/2608.03994)
-9. **Agent Against Agent** — An agentic system that automatically red-teams prompt injection, both evaluating risk and generating training data for defenses. [arxiv.org/abs/2608.05108](https://arxiv.org/abs/2608.05108)
-10. **TriGlue** — A biology-inspired generative model for designing molecular glue-induced ternary complexes in targeted protein degradation. [arxiv.org/abs/2607.22143](https://arxiv.org/abs/2607.22143)
+1. **SFT Conflicts, RL Coexists** — A theoretical and empirical look at multi-task LLM training, showing SFT suffers severe task conflicts while RL lets diverse tasks stably coexist. [arxiv.org/abs/2608.03573](https://arxiv.org/abs/2608.03573)
+2. **Beyond Environment Scaling** — Argues that simply growing the pool of multimodal environments isn't enough, and designs effective environment distributions for agent learning. [arxiv.org/abs/2608.03571](https://arxiv.org/abs/2608.03571)
+3. **SimWAM** — A simple world-action model for end-to-end autonomous driving that uses video generation only as a training signal, avoiding costly future generation at inference. [arxiv.org/abs/2608.07468](https://arxiv.org/abs/2608.07468)
+4. **StreamArena** — A benchmark pushing multimodal agents toward continuous, long-horizon streaming video understanding with hour-scale memory instead of brief clips. [arxiv.org/abs/2608.05703](https://arxiv.org/abs/2608.05703)
+5. **YOLO-PEFT** — Structure-aware parameter-efficient fine-tuning for the YOLO family, framing adapter placement as an auditable constraint-planning problem. [arxiv.org/abs/2608.07051](https://arxiv.org/abs/2608.07051)
+6. **Activation Oracle Blind Spots** — Reveals concept-specific blind spots where fine-tuned oracles reading model activations learn not to read certain internal information. [arxiv.org/abs/2607.23379](https://arxiv.org/abs/2607.23379)
+7. **Efficient LLM Distillation** — Speeds up knowledge distillation for small LLMs with offline top-K logits and a fused chunked KL loss. [arxiv.org/abs/2608.03796](https://arxiv.org/abs/2608.03796)
+8. **Evolving Rubrics for Audio Reasoning** — Uses reinforcement learning with evolving, evidence-grounded rubrics as rewards to make audio reasoning attend to the actual acoustic signal. [arxiv.org/abs/2608.02831](https://arxiv.org/abs/2608.02831)
+9. **Douyin Multimodal Embedding** — A technical report on an industrial multimodal embedding model powering large-scale search and recommendation. [arxiv.org/abs/2608.02148](https://arxiv.org/abs/2608.02148)
+10. **Referential Dangling** — Identifies a paradigm-level failure in hard prompt compression where independent selection splits dependent evidence pairs. [arxiv.org/abs/2608.04569](https://arxiv.org/abs/2608.04569)
 <!-- LATEST_PAPERS_END -->
 
 [Browse all paper summaries &rarr;](/blog/ai-papers/)
