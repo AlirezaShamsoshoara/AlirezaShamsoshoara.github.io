@@ -6,7 +6,7 @@ categories:
   - ai-paper-summary
 tags:
   - daily-digest
-  - agentic-systems
+  - agentic-coding
   - agent-memory
   - benchmarks
 ---
@@ -168,5 +168,3 @@ tags:
 **arXiv:** [arxiv.org/abs/2608.07346](https://arxiv.org/abs/2608.07346)
 **Summary:** With the rapid advancement of large language models (LLMs), harnesses have become essential infrastructure for deploying agents across a wide range of domains. The fast-evolving harness ecosystem has also made rigorous capability evaluation increasingly important.
 **Trending because:** 6 HuggingFace upvotes + featured in today's HuggingFace papers feed.
-
----
