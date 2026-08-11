@@ -14,18 +14,18 @@ Welcome to my blog! Here I share insights from my daily readings of AI research 
 I read AI and ML research papers daily and post concise summaries here. Each entry covers the key contributions, methods, and takeaways from recent papers across topics like deep learning, reinforcement learning, NLP, computer vision, and more.
 
 <!-- LATEST_PAPERS_START -->
-**Latest — August 10, 2026**
+**Latest — August 11, 2026**
 
-1. **SFT Conflicts, RL Coexists** — A theoretical and empirical look at multi-task LLM training, showing SFT suffers severe task conflicts while RL lets diverse tasks stably coexist. [arxiv.org/abs/2608.03573](https://arxiv.org/abs/2608.03573)
-2. **Beyond Environment Scaling** — Argues that simply growing the pool of multimodal environments isn't enough, and designs effective environment distributions for agent learning. [arxiv.org/abs/2608.03571](https://arxiv.org/abs/2608.03571)
-3. **SimWAM** — A simple world-action model for end-to-end autonomous driving that uses video generation only as a training signal, avoiding costly future generation at inference. [arxiv.org/abs/2608.07468](https://arxiv.org/abs/2608.07468)
-4. **StreamArena** — A benchmark pushing multimodal agents toward continuous, long-horizon streaming video understanding with hour-scale memory instead of brief clips. [arxiv.org/abs/2608.05703](https://arxiv.org/abs/2608.05703)
-5. **YOLO-PEFT** — Structure-aware parameter-efficient fine-tuning for the YOLO family, framing adapter placement as an auditable constraint-planning problem. [arxiv.org/abs/2608.07051](https://arxiv.org/abs/2608.07051)
-6. **Activation Oracle Blind Spots** — Reveals concept-specific blind spots where fine-tuned oracles reading model activations learn not to read certain internal information. [arxiv.org/abs/2607.23379](https://arxiv.org/abs/2607.23379)
-7. **Efficient LLM Distillation** — Speeds up knowledge distillation for small LLMs with offline top-K logits and a fused chunked KL loss. [arxiv.org/abs/2608.03796](https://arxiv.org/abs/2608.03796)
-8. **Evolving Rubrics for Audio Reasoning** — Uses reinforcement learning with evolving, evidence-grounded rubrics as rewards to make audio reasoning attend to the actual acoustic signal. [arxiv.org/abs/2608.02831](https://arxiv.org/abs/2608.02831)
-9. **Douyin Multimodal Embedding** — A technical report on an industrial multimodal embedding model powering large-scale search and recommendation. [arxiv.org/abs/2608.02148](https://arxiv.org/abs/2608.02148)
-10. **Referential Dangling** — Identifies a paradigm-level failure in hard prompt compression where independent selection splits dependent evidence pairs. [arxiv.org/abs/2608.04569](https://arxiv.org/abs/2608.04569)
+1. **BDH-CQ** — A reasoning model that fuses in-context learning with recurrent latent computation, solving queries iteratively in latent space without verbalizing intermediate steps. [arxiv.org/abs/2608.09888](https://arxiv.org/abs/2608.09888)
+2. **Macaron-V1** — An open agent-model family for experiential intelligence, using self-improvement and a mixture-of-LoRA to keep learning after deployment. [arxiv.org/abs/2608.09819](https://arxiv.org/abs/2608.09819)
+3. **SWE-Bench ProMax** — A harder, more realistic coding benchmark centered on large-scale multilingual refactoring, where behavior-preserving edits span many files. [arxiv.org/abs/2608.09802](https://arxiv.org/abs/2608.09802)
+4. **Ouroboros** — A self-developing coding agent whose tools, prompts, and core code evolve through reviewed commits that become the runtime for later work. [arxiv.org/abs/2608.08311](https://arxiv.org/abs/2608.08311)
+5. **Agent Memory Distillation** — A training-free framework that transfers a large teacher agent's hierarchical memory to small LLM agents that can't generate enough successful trajectories alone. [arxiv.org/abs/2608.07169](https://arxiv.org/abs/2608.07169)
+6. **Motif 3** — A 314B-parameter decoder-only Mixture-of-Experts model activating 13.2B per token across 384 routed experts. [arxiv.org/abs/2608.09119](https://arxiv.org/abs/2608.09119)
+7. **MatrAIx** — A world simulator populated by 8.3 billion persona agents to make human-style evaluation of AI systems scalable and diverse. [arxiv.org/abs/2608.04205](https://arxiv.org/abs/2608.04205)
+8. **What to Edit Next** — Brings visually aligned follow-up edit suggestions to conversational image-editing systems, an underexplored space beyond text-only assistants. [arxiv.org/abs/2608.07565](https://arxiv.org/abs/2608.07565)
+9. **Sci-VBench** — A 1,253-example benchmark for knowledge- and reasoning-intensive video generation across 60 scientific subjects. [arxiv.org/abs/2608.09873](https://arxiv.org/abs/2608.09873)
+10. **SPOT** — Improves on-policy distillation with sparse probing and outcome calibration, addressing where reverse-KL training misallocates probability mass. [arxiv.org/abs/2608.04419](https://arxiv.org/abs/2608.04419)
 <!-- LATEST_PAPERS_END -->
 
 [Browse all paper summaries &rarr;](/blog/ai-papers/)
