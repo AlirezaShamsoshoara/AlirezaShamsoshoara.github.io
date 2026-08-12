@@ -14,18 +14,18 @@ Welcome to my blog! Here I share insights from my daily readings of AI research 
 I read AI and ML research papers daily and post concise summaries here. Each entry covers the key contributions, methods, and takeaways from recent papers across topics like deep learning, reinforcement learning, NLP, computer vision, and more.
 
 <!-- LATEST_PAPERS_START -->
-**Latest — August 11, 2026**
+**Latest — August 12, 2026**
 
-1. **BDH-CQ** — A reasoning model that fuses in-context learning with recurrent latent reasoning, solving queries through iterative computation in latent space without verbalizing intermediate steps. [arxiv.org/abs/2608.09888](https://arxiv.org/abs/2608.09888)
-2. **Macaron-V1** — An open agent-model family built for experiential intelligence, learning from real environments and continuing to improve after deployment via self-improvement and a mixture of LoRAs. [arxiv.org/abs/2608.09819](https://arxiv.org/abs/2608.09819)
-3. **SWE-Bench ProMax** — A tougher, more realistic coding benchmark centered on large-scale multilingual refactoring, addressing the saturation and flawed-test problems plaguing existing SWE benchmarks. [arxiv.org/abs/2608.09802](https://arxiv.org/abs/2608.09802)
-4. **Ouroboros** — A self-developing coding agent whose tools, prompts, and core implementation improve through reviewed commits that become the runtime for later work. [arxiv.org/abs/2608.08311](https://arxiv.org/abs/2608.08311)
-5. **Agent Memory Distillation** — A training-free framework that transfers hierarchical memory from a large teacher agent to a small student, boosting weak models that can't generate good trajectories alone. [arxiv.org/abs/2608.07169](https://arxiv.org/abs/2608.07169)
-6. **Motif 3** — A 314B-parameter decoder-only Mixture-of-Experts model activating 13.2B per token across 384 routed experts per sparse layer. [arxiv.org/abs/2608.09119](https://arxiv.org/abs/2608.09119)
-7. **MatrAIx** — A world simulator populated by 8.3 billion persona agents, offering scalable evaluation that preserves human diversity and interactive behavior. [arxiv.org/abs/2608.04205](https://arxiv.org/abs/2608.04205)
-8. **What to Edit Next** — Brings visually aligned follow-up edit suggestions to conversational image-editing systems, a space left underexplored by text-only assistants. [arxiv.org/abs/2608.07565](https://arxiv.org/abs/2608.07565)
-9. **Sci-VBench** — A benchmark of 1,253 expert-annotated examples testing knowledge- and reasoning-intensive video generation across 60 scientific subjects. [arxiv.org/abs/2608.09873](https://arxiv.org/abs/2608.09873)
-10. **SPOT** — Sparse probing and outcome calibration for on-policy distillation, targeting where reverse-KL training under-weights plausible token continuations. [arxiv.org/abs/2608.04419](https://arxiv.org/abs/2608.04419)
+1. **On-Policy Self-Distillation** — Post-trains LLMs through genuine self-distillation, dropping the ground-truth signals, environmental feedback, and larger-teacher guidance that prior "self"-distillation methods still leaned on. [arxiv.org/abs/2608.06296](https://arxiv.org/abs/2608.06296)
+2. **ComBodied Agents** — A human-centric agentic paradigm that pairs software and embodied agents to not just act but reason about why a person behaved as they did and what support actually fits. [arxiv.org/abs/2608.10915](https://arxiv.org/abs/2608.10915)
+3. **Co-Evolution in Agentic Systems** — A survey reframing self-evolution as a multi-component process where agents and their environment exert adaptive pressure on one another, moving beyond static single-entity learning. [arxiv.org/abs/2608.10299](https://arxiv.org/abs/2608.10299)
+4. **Beyond Pixels** — Turns video priors into coherent 4D worlds, unifying dynamic-scene synthesis and geometry prediction rather than bolting a separate 4D model onto generated RGB video. [arxiv.org/abs/2608.10744](https://arxiv.org/abs/2608.10744)
+5. **Articulated Object Reconstruction** — Recovers both 3D geometry and kinematic structure from a single rest-state observation, no longer requiring objects to be filmed across multiple articulation states. [arxiv.org/abs/2607.27749](https://arxiv.org/abs/2607.27749)
+6. **AdvFD** — Adds an adversarial Fréchet-distance loss for visual generation that captures the benefits of distribution-level objectives while guarding against Fréchet hacking. [arxiv.org/abs/2608.11205](https://arxiv.org/abs/2608.11205)
+7. **Mendel Gödel Machine** — A recursively self-improving coding agent that mines comparative signals across its whole archive of past attempts instead of learning from one failure at a time. [arxiv.org/abs/2608.07645](https://arxiv.org/abs/2608.07645)
+8. **Business Arena** — Benchmarks LLM agents inside a realistic marketplace where they must spot opportunity, commit capital under uncertainty, and stay within regulatory bounds. [arxiv.org/abs/2608.08621](https://arxiv.org/abs/2608.08621)
+9. **RynnValue** — Scales robotic value foundation models using temporal distance as supervision, aiming for reward signals that transfer cleanly across embodiments and data sources. [arxiv.org/abs/2608.09853](https://arxiv.org/abs/2608.09853)
+10. **VibeLifeBench** — Tests whether life-assistant agents can stay proactive and persistent in a living, evolving world rather than answering short self-contained requests in static settings. [arxiv.org/abs/2608.10875](https://arxiv.org/abs/2608.10875)
 <!-- LATEST_PAPERS_END -->
 
 [Browse all paper summaries &rarr;](/blog/ai-papers/)
