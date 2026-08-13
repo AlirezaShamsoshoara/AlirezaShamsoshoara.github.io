@@ -14,18 +14,18 @@ Welcome to my blog! Here I share insights from my daily readings of AI research 
 I read AI and ML research papers daily and post concise summaries here. Each entry covers the key contributions, methods, and takeaways from recent papers across topics like deep learning, reinforcement learning, NLP, computer vision, and more.
 
 <!-- LATEST_PAPERS_START -->
-**Latest — August 12, 2026**
+**Latest — August 13, 2026**
 
-1. **On-Policy Self-Distillation** — Post-trains LLMs through genuine self-distillation, dropping the ground-truth signals, environmental feedback, and larger-teacher guidance that prior "self"-distillation methods still leaned on. [arxiv.org/abs/2608.06296](https://arxiv.org/abs/2608.06296)
-2. **ComBodied Agents** — A human-centric agentic paradigm that pairs software and embodied agents to not just act but reason about why a person behaved as they did and what support actually fits. [arxiv.org/abs/2608.10915](https://arxiv.org/abs/2608.10915)
-3. **Co-Evolution in Agentic Systems** — A survey reframing self-evolution as a multi-component process where agents and their environment exert adaptive pressure on one another, moving beyond static single-entity learning. [arxiv.org/abs/2608.10299](https://arxiv.org/abs/2608.10299)
-4. **Beyond Pixels** — Turns video priors into coherent 4D worlds, unifying dynamic-scene synthesis and geometry prediction rather than bolting a separate 4D model onto generated RGB video. [arxiv.org/abs/2608.10744](https://arxiv.org/abs/2608.10744)
-5. **Articulated Object Reconstruction** — Recovers both 3D geometry and kinematic structure from a single rest-state observation, no longer requiring objects to be filmed across multiple articulation states. [arxiv.org/abs/2607.27749](https://arxiv.org/abs/2607.27749)
-6. **AdvFD** — Adds an adversarial Fréchet-distance loss for visual generation that captures the benefits of distribution-level objectives while guarding against Fréchet hacking. [arxiv.org/abs/2608.11205](https://arxiv.org/abs/2608.11205)
-7. **Mendel Gödel Machine** — A recursively self-improving coding agent that mines comparative signals across its whole archive of past attempts instead of learning from one failure at a time. [arxiv.org/abs/2608.07645](https://arxiv.org/abs/2608.07645)
-8. **Business Arena** — Benchmarks LLM agents inside a realistic marketplace where they must spot opportunity, commit capital under uncertainty, and stay within regulatory bounds. [arxiv.org/abs/2608.08621](https://arxiv.org/abs/2608.08621)
-9. **RynnValue** — Scales robotic value foundation models using temporal distance as supervision, aiming for reward signals that transfer cleanly across embodiments and data sources. [arxiv.org/abs/2608.09853](https://arxiv.org/abs/2608.09853)
-10. **VibeLifeBench** — Tests whether life-assistant agents can stay proactive and persistent in a living, evolving world rather than answering short self-contained requests in static settings. [arxiv.org/abs/2608.10875](https://arxiv.org/abs/2608.10875)
+1. **Spark-to-Paper** — Recasts full research-paper generation as thirteen composable skills living inside an ordinary coding assistant, from literature retrieval through experiments to publication-ready figures. [arxiv.org/abs/2608.11924](https://arxiv.org/abs/2608.11924)
+2. **OpenART** — Scales agent red-teaming through open-ended environment evolution, stress-testing how early state changes ripple through long-horizon agent workflows. [arxiv.org/abs/2608.00677](https://arxiv.org/abs/2608.00677)
+3. **AI4AI at Test-Time** — Asks whether a strong model can hand its capabilities to a weaker one at inference via harnesses, rather than through parameter-updating distillation. [arxiv.org/abs/2608.12307](https://arxiv.org/abs/2608.12307)
+4. **Mechanist** — Treats AI itself as a scientific instrument for automating mechanistic interpretability, narrowing the gap between what models do and what we understand. [arxiv.org/abs/2608.12036](https://arxiv.org/abs/2608.12036)
+5. **SkillZip (Graph Compression)** — Compresses agent skill libraries via contract-preserving graph compression, exposing the smallest sufficient executable context under a tight budget. [arxiv.org/abs/2608.05604](https://arxiv.org/abs/2608.05604)
+6. **Stick to the Script** — A benchmark probing whether LLM agents keep long-horizon logical and narrative consistency when users intervene freely in interactive stories. [arxiv.org/abs/2608.08160](https://arxiv.org/abs/2608.08160)
+7. **StateFlow** — Builds, evolves, and queries persistent 3D world states for previsualization, letting creators iterate on scenes, cameras, and spatial-temporal dynamics. [arxiv.org/abs/2608.12314](https://arxiv.org/abs/2608.12314)
+8. **Self-Geometry** — A ground-truth-free, plug-and-play test-time adaptation that restores multi-view geometric consistency in 3D vision foundation models without costly bundle adjustment. [arxiv.org/abs/2608.10708](https://arxiv.org/abs/2608.10708)
+9. **SkillZip (Eval-Free)** — Compresses self-evolving agents' skills without evaluation by discovering reusable structure across restated requirements and copied action sequences. [arxiv.org/abs/2608.11079](https://arxiv.org/abs/2608.11079)
+10. **UniMoMo** — Accelerates large recommendation MoE models by merging experts to fit a fixed budget, shrinking a trained checkpoint without a compression-specific online module. [arxiv.org/abs/2608.08627](https://arxiv.org/abs/2608.08627)
 <!-- LATEST_PAPERS_END -->
 
 [Browse all paper summaries &rarr;](/blog/ai-papers/)
