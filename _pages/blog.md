@@ -14,18 +14,18 @@ Welcome to my blog! Here I share insights from my daily readings of AI research 
 I read AI and ML research papers daily and post concise summaries here. Each entry covers the key contributions, methods, and takeaways from recent papers across topics like deep learning, reinforcement learning, NLP, computer vision, and more.
 
 <!-- LATEST_PAPERS_START -->
-**Latest — August 13, 2026**
+**Latest — August 14, 2026**
 
-1. **Spark-to-Paper** — Recasts full research-paper generation as thirteen composable skills living inside an ordinary coding assistant, from literature retrieval through experiments to publication-ready figures. [arxiv.org/abs/2608.11924](https://arxiv.org/abs/2608.11924)
-2. **OpenART** — Scales agent red-teaming through open-ended environment evolution, stress-testing how early state changes ripple through long-horizon agent workflows. [arxiv.org/abs/2608.00677](https://arxiv.org/abs/2608.00677)
-3. **AI4AI at Test-Time** — Asks whether a strong model can hand its capabilities to a weaker one at inference via harnesses, rather than through parameter-updating distillation. [arxiv.org/abs/2608.12307](https://arxiv.org/abs/2608.12307)
-4. **Mechanist** — Treats AI itself as a scientific instrument for automating mechanistic interpretability, narrowing the gap between what models do and what we understand. [arxiv.org/abs/2608.12036](https://arxiv.org/abs/2608.12036)
-5. **SkillZip (Graph Compression)** — Compresses agent skill libraries via contract-preserving graph compression, exposing the smallest sufficient executable context under a tight budget. [arxiv.org/abs/2608.05604](https://arxiv.org/abs/2608.05604)
-6. **Stick to the Script** — A benchmark probing whether LLM agents keep long-horizon logical and narrative consistency when users intervene freely in interactive stories. [arxiv.org/abs/2608.08160](https://arxiv.org/abs/2608.08160)
-7. **StateFlow** — Builds, evolves, and queries persistent 3D world states for previsualization, letting creators iterate on scenes, cameras, and spatial-temporal dynamics. [arxiv.org/abs/2608.12314](https://arxiv.org/abs/2608.12314)
-8. **Self-Geometry** — A ground-truth-free, plug-and-play test-time adaptation that restores multi-view geometric consistency in 3D vision foundation models without costly bundle adjustment. [arxiv.org/abs/2608.10708](https://arxiv.org/abs/2608.10708)
-9. **SkillZip (Eval-Free)** — Compresses self-evolving agents' skills without evaluation by discovering reusable structure across restated requirements and copied action sequences. [arxiv.org/abs/2608.11079](https://arxiv.org/abs/2608.11079)
-10. **UniMoMo** — Accelerates large recommendation MoE models by merging experts to fit a fixed budget, shrinking a trained checkpoint without a compression-specific online module. [arxiv.org/abs/2608.08627](https://arxiv.org/abs/2608.08627)
+1. **Alaya-EVOKE** — An interactive world model that trades off persistent memory, low-latency interaction, and long-horizon generation to sustain an effectively endless world. [arxiv.org/abs/2608.13546](https://arxiv.org/abs/2608.13546)
+2. **DreamX-Phi 1.0** — An action-conditioned video world model for robotic manipulation that predicts future frames from an image, a language instruction, and a planned action sequence. [arxiv.org/abs/2608.13489](https://arxiv.org/abs/2608.13489)
+3. **LLMRouter** — Unified infrastructure for developing, evaluating, and deploying LLM routers, making cost-aware model selection fairly comparable and extensible. [arxiv.org/abs/2608.06867](https://arxiv.org/abs/2608.06867)
+4. **DarwinX** — Evolves agent harnesses (prompts, tools, skills, control flow) through natural selection to escape the path-dependence of single-lineage self-improvement. [arxiv.org/abs/2608.07545](https://arxiv.org/abs/2608.07545)
+5. **Intern-S2-Preview** — A scientific agentic foundation model built for multimodal reasoning over evidence, tool use, and sustained progress on long-horizon research tasks. [arxiv.org/abs/2608.13505](https://arxiv.org/abs/2608.13505)
+6. **Rhetoric Reward-Hacking** — Dissects how rhetorical choices alone can sway AI peer reviewers, exposing a subtle reward-hacking channel in LLM-based paper evaluation. [arxiv.org/abs/2608.08975](https://arxiv.org/abs/2608.08975)
+7. **AutoDesign** — Meta-harness optimization for long-horizon agentic media design, letting the harness accumulate reusable experience for recursive self-improvement. [arxiv.org/abs/2608.13560](https://arxiv.org/abs/2608.13560)
+8. **PlayWorld** — Benchmarks video world models by having agent players pursue long-horizon objectives, probing consistency and controllability beyond short clips. [arxiv.org/abs/2608.13552](https://arxiv.org/abs/2608.13552)
+9. **Spatial Memory Agent** — Grounds VLM agents in experience-based procedure memory to strengthen spatial reasoning for embodied and multimodal tasks. [arxiv.org/abs/2608.12743](https://arxiv.org/abs/2608.12743)
+10. **Massive Activations in Hybrid Linear Attention** — First systematic study of massive activations in interleaved linear/full-attention LLMs, revealing pre-attention spikes and inter-spike plateaus. [arxiv.org/abs/2608.12149](https://arxiv.org/abs/2608.12149)
 <!-- LATEST_PAPERS_END -->
 
 [Browse all paper summaries &rarr;](/blog/ai-papers/)
