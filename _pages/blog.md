@@ -14,18 +14,18 @@ Welcome to my blog! Here I share insights from my daily readings of AI research 
 I read AI and ML research papers daily and post concise summaries here. Each entry covers the key contributions, methods, and takeaways from recent papers across topics like deep learning, reinforcement learning, NLP, computer vision, and more.
 
 <!-- LATEST_PAPERS_START -->
-**Latest — August 14, 2026**
+**Latest — August 15, 2026**
 
-1. **Alaya-EVOKE** — An interactive world model that trades off persistent memory, low-latency interaction, and long-horizon generation to sustain an effectively endless world. [arxiv.org/abs/2608.13546](https://arxiv.org/abs/2608.13546)
-2. **DreamX-Phi 1.0** — An action-conditioned video world model for robotic manipulation that predicts future frames from an image, a language instruction, and a planned action sequence. [arxiv.org/abs/2608.13489](https://arxiv.org/abs/2608.13489)
-3. **LLMRouter** — Unified infrastructure for developing, evaluating, and deploying LLM routers, making cost-aware model selection fairly comparable and extensible. [arxiv.org/abs/2608.06867](https://arxiv.org/abs/2608.06867)
-4. **DarwinX** — Evolves agent harnesses (prompts, tools, skills, control flow) through natural selection to escape the path-dependence of single-lineage self-improvement. [arxiv.org/abs/2608.07545](https://arxiv.org/abs/2608.07545)
-5. **Intern-S2-Preview** — A scientific agentic foundation model built for multimodal reasoning over evidence, tool use, and sustained progress on long-horizon research tasks. [arxiv.org/abs/2608.13505](https://arxiv.org/abs/2608.13505)
-6. **Rhetoric Reward-Hacking** — Dissects how rhetorical choices alone can sway AI peer reviewers, exposing a subtle reward-hacking channel in LLM-based paper evaluation. [arxiv.org/abs/2608.08975](https://arxiv.org/abs/2608.08975)
-7. **AutoDesign** — Meta-harness optimization for long-horizon agentic media design, letting the harness accumulate reusable experience for recursive self-improvement. [arxiv.org/abs/2608.13560](https://arxiv.org/abs/2608.13560)
-8. **PlayWorld** — Benchmarks video world models by having agent players pursue long-horizon objectives, probing consistency and controllability beyond short clips. [arxiv.org/abs/2608.13552](https://arxiv.org/abs/2608.13552)
-9. **Spatial Memory Agent** — Grounds VLM agents in experience-based procedure memory to strengthen spatial reasoning for embodied and multimodal tasks. [arxiv.org/abs/2608.12743](https://arxiv.org/abs/2608.12743)
-10. **Massive Activations in Hybrid Linear Attention** — First systematic study of massive activations in interleaved linear/full-attention LLMs, revealing pre-attention spikes and inter-spike plateaus. [arxiv.org/abs/2608.12149](https://arxiv.org/abs/2608.12149)
+1. **Beyond Starry Night** — Shortcut-aware control-state planning keeps artist-grounded text-to-image generation faithful to the intended scene instead of collapsing into canonical motifs. [arxiv.org/abs/2608.06751](https://arxiv.org/abs/2608.06751)
+2. **Full-Bandwidth Transformer** — Widens the narrow vertical feedback channel between decoding steps so top-layer hidden states are no longer discarded between tokens. [arxiv.org/abs/2608.08888](https://arxiv.org/abs/2608.08888)
+3. **Intent Speaks Louder** — Controllable user simulation that steers toward interaction intent rather than merely imitating plausible next-turn responses. [arxiv.org/abs/2608.09420](https://arxiv.org/abs/2608.09420)
+4. **AI4AI Token Pruning** — An AI-designed framework that replaces handcrafted heuristics for visual-token pruning in multimodal LLMs. [arxiv.org/abs/2608.07193](https://arxiv.org/abs/2608.07193)
+5. **Don't Scroll Back** — Missing-evidence memory lets streaming dialogue summarizers pull selective context from unbounded history under a fixed budget. [arxiv.org/abs/2608.09043](https://arxiv.org/abs/2608.09043)
+6. **Gaming Without an Attacker** — Shows how LLM-driven search under selection pressure fingerprints benchmarks, quietly gaming held-out generalization gates. [arxiv.org/abs/2608.08722](https://arxiv.org/abs/2608.08722)
+7. **Bidirectional Grounding** — Reframes vision-language grounding as two-way concept correspondence, deciding which words are visually referential rather than assuming it. [arxiv.org/abs/2608.07886](https://arxiv.org/abs/2608.07886)
+8. **AVA-Encoder** — Agent-native video representation learning that yields a structured, manipulable representation of film content for creative agents. [arxiv.org/abs/2608.12313](https://arxiv.org/abs/2608.12313)
+9. **Syntax-Informed Positional Embeddings** — Injects a lightweight dependency-parse prior across absolute, relative, and rotary position families without touching self-attention. [arxiv.org/abs/2608.06111](https://arxiv.org/abs/2608.06111)
+10. **CEAA** — A cognitive embodied-agent architecture bridging low-level reactive control and high-level reasoning for real-time interactive virtual worlds. [arxiv.org/abs/2608.09848](https://arxiv.org/abs/2608.09848)
 <!-- LATEST_PAPERS_END -->
 
 [Browse all paper summaries &rarr;](/blog/ai-papers/)
