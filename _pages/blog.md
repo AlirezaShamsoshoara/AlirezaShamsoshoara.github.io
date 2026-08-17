@@ -14,18 +14,18 @@ Welcome to my blog! Here I share insights from my daily readings of AI research 
 I read AI and ML research papers daily and post concise summaries here. Each entry covers the key contributions, methods, and takeaways from recent papers across topics like deep learning, reinforcement learning, NLP, computer vision, and more.
 
 <!-- LATEST_PAPERS_START -->
-**Latest — August 16, 2026**
+**Latest — August 17, 2026**
 
-1. **Maglev** — A recurrent Transformer with fixed-size memory that generalizes sliding-window attention while staying parallelizable to train. [arxiv.org/abs/2608.02870](https://arxiv.org/abs/2608.02870)
-2. **SKILLER** — Language-level reinforcement learning that extracts reusable skills so small models can run agent harnesses without prohibitive inference cost. [arxiv.org/abs/2608.10538](https://arxiv.org/abs/2608.10538)
-3. **Context-Matched Distillation** — Teacher-causality distillation for autoregressive video that keeps few-step rollouts fast while respecting online control constraints. [arxiv.org/abs/2608.13391](https://arxiv.org/abs/2608.13391)
-4. **LycheeMemory V2** — Semantic segment-level consolidation gives LLM agents efficient long-term memory without invoking the model after every interaction. [arxiv.org/abs/2608.12990](https://arxiv.org/abs/2608.12990)
-5. **Knowing When to Quit** — Diagnoses futile reasoning on beyond-capability tasks and trains LLMs to abort instead of producing plausible-but-wrong derivations. [arxiv.org/abs/2607.29211](https://arxiv.org/abs/2607.29211)
-6. **Hybrid-Policy Self-Editing** — Composable knowledge editing that updates outdated facts in an LLM without disturbing unrelated knowledge. [arxiv.org/abs/2608.11660](https://arxiv.org/abs/2608.11660)
-7. **Are You Sure You're Sure?** — Measures how instruction tuning inflates verbalized confidence and reshapes lexical diversity in generation. [arxiv.org/abs/2608.13430](https://arxiv.org/abs/2608.13430)
-8. **Inaudible Inputs, Model Failures** — Exposes low-frequency, human-inaudible audio as a real safety attack surface for large audio-language models. [arxiv.org/abs/2608.09158](https://arxiv.org/abs/2608.09158)
-9. **Specification-First Convergence** — A case study of an AI coding agent dismantling a core invariant across 189 files in a 717k-line codebase with no test oracle or human review. [arxiv.org/abs/2608.12440](https://arxiv.org/abs/2608.12440)
-10. **Enfold** — Folds a world model's imagination computation into predictive representations for ultra-efficient embodied control. [arxiv.org/abs/2607.26657](https://arxiv.org/abs/2607.26657)
+1. **Crisis Video Deepfake Defense** — A systematic evaluation of detectors, generators, and social spread for AI-fabricated crisis videos. [arxiv.org/abs/2608.14391](https://arxiv.org/abs/2608.14391)
+2. **Self-Supervised Visual On-Policy Distillation** — Asks where informative teacher-student asymmetry can come from when no privileged supervision exists. [arxiv.org/abs/2608.14144](https://arxiv.org/abs/2608.14144)
+3. **Beyond Final Scores** — Evaluates long-horizon AI R&D agents on where progress is gained or lost, not just the final number. [arxiv.org/abs/2608.13417](https://arxiv.org/abs/2608.13417)
+4. **Intern-S2-Mobius** — A foundation model that decouples a shared knowledge memory from iterative reasoning operators. [arxiv.org/abs/2608.14290](https://arxiv.org/abs/2608.14290)
+5. **Marionette** — An interactive game world model that predicts explicit world states before rendering geometry and appearance. [arxiv.org/abs/2608.14530](https://arxiv.org/abs/2608.14530)
+6. **MobileMem** — A benchmark for persistent mobile assistants that learn from a year of heterogeneous, personal experiences. [arxiv.org/abs/2608.13606](https://arxiv.org/abs/2608.13606)
+7. **SimpleOPD** — A tokenizer-agnostic on-policy distillation recipe that transfers long-context reasoning to short-context students. [arxiv.org/abs/2608.14277](https://arxiv.org/abs/2608.14277)
+8. **DFM Mimir v1** — A 1B open HRM reaching frontier performance using only permissibly-licensed post-training data. [arxiv.org/abs/2608.13517](https://arxiv.org/abs/2608.13517)
+9. **Apodex Discovery** — Reality benchmarks and environments for building and evaluating discovery-oriented AI. [arxiv.org/abs/2608.11341](https://arxiv.org/abs/2608.11341)
+10. **HumanTracker** — A human-aligned motion-tracking benchmark that captures the physical artifacts kinematic error misses. [arxiv.org/abs/2608.13555](https://arxiv.org/abs/2608.13555)
 <!-- LATEST_PAPERS_END -->
 
 [Browse all paper summaries &rarr;](/blog/ai-papers/)
