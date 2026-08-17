@@ -14,18 +14,18 @@ Welcome to my blog! Here I share insights from my daily readings of AI research 
 I read AI and ML research papers daily and post concise summaries here. Each entry covers the key contributions, methods, and takeaways from recent papers across topics like deep learning, reinforcement learning, NLP, computer vision, and more.
 
 <!-- LATEST_PAPERS_START -->
-**Latest — August 15, 2026**
+**Latest — August 16, 2026**
 
-1. **Beyond Starry Night** — Shortcut-aware control-state planning keeps artist-grounded text-to-image generation faithful to the intended scene instead of collapsing into canonical motifs. [arxiv.org/abs/2608.06751](https://arxiv.org/abs/2608.06751)
-2. **Full-Bandwidth Transformer** — Widens the narrow vertical feedback channel between decoding steps so top-layer hidden states are no longer discarded between tokens. [arxiv.org/abs/2608.08888](https://arxiv.org/abs/2608.08888)
-3. **Intent Speaks Louder** — Controllable user simulation that steers toward interaction intent rather than merely imitating plausible next-turn responses. [arxiv.org/abs/2608.09420](https://arxiv.org/abs/2608.09420)
-4. **AI4AI Token Pruning** — An AI-designed framework that replaces handcrafted heuristics for visual-token pruning in multimodal LLMs. [arxiv.org/abs/2608.07193](https://arxiv.org/abs/2608.07193)
-5. **Don't Scroll Back** — Missing-evidence memory lets streaming dialogue summarizers pull selective context from unbounded history under a fixed budget. [arxiv.org/abs/2608.09043](https://arxiv.org/abs/2608.09043)
-6. **Gaming Without an Attacker** — Shows how LLM-driven search under selection pressure fingerprints benchmarks, quietly gaming held-out generalization gates. [arxiv.org/abs/2608.08722](https://arxiv.org/abs/2608.08722)
-7. **Bidirectional Grounding** — Reframes vision-language grounding as two-way concept correspondence, deciding which words are visually referential rather than assuming it. [arxiv.org/abs/2608.07886](https://arxiv.org/abs/2608.07886)
-8. **AVA-Encoder** — Agent-native video representation learning that yields a structured, manipulable representation of film content for creative agents. [arxiv.org/abs/2608.12313](https://arxiv.org/abs/2608.12313)
-9. **Syntax-Informed Positional Embeddings** — Injects a lightweight dependency-parse prior across absolute, relative, and rotary position families without touching self-attention. [arxiv.org/abs/2608.06111](https://arxiv.org/abs/2608.06111)
-10. **CEAA** — A cognitive embodied-agent architecture bridging low-level reactive control and high-level reasoning for real-time interactive virtual worlds. [arxiv.org/abs/2608.09848](https://arxiv.org/abs/2608.09848)
+1. **Maglev** — A recurrent Transformer with fixed-size memory that generalizes sliding-window attention while staying parallelizable to train. [arxiv.org/abs/2608.02870](https://arxiv.org/abs/2608.02870)
+2. **SKILLER** — Language-level reinforcement learning that extracts reusable skills so small models can run agent harnesses without prohibitive inference cost. [arxiv.org/abs/2608.10538](https://arxiv.org/abs/2608.10538)
+3. **Context-Matched Distillation** — Teacher-causality distillation for autoregressive video that keeps few-step rollouts fast while respecting online control constraints. [arxiv.org/abs/2608.13391](https://arxiv.org/abs/2608.13391)
+4. **LycheeMemory V2** — Semantic segment-level consolidation gives LLM agents efficient long-term memory without invoking the model after every interaction. [arxiv.org/abs/2608.12990](https://arxiv.org/abs/2608.12990)
+5. **Knowing When to Quit** — Diagnoses futile reasoning on beyond-capability tasks and trains LLMs to abort instead of producing plausible-but-wrong derivations. [arxiv.org/abs/2607.29211](https://arxiv.org/abs/2607.29211)
+6. **Hybrid-Policy Self-Editing** — Composable knowledge editing that updates outdated facts in an LLM without disturbing unrelated knowledge. [arxiv.org/abs/2608.11660](https://arxiv.org/abs/2608.11660)
+7. **Are You Sure You're Sure?** — Measures how instruction tuning inflates verbalized confidence and reshapes lexical diversity in generation. [arxiv.org/abs/2608.13430](https://arxiv.org/abs/2608.13430)
+8. **Inaudible Inputs, Model Failures** — Exposes low-frequency, human-inaudible audio as a real safety attack surface for large audio-language models. [arxiv.org/abs/2608.09158](https://arxiv.org/abs/2608.09158)
+9. **Specification-First Convergence** — A case study of an AI coding agent dismantling a core invariant across 189 files in a 717k-line codebase with no test oracle or human review. [arxiv.org/abs/2608.12440](https://arxiv.org/abs/2608.12440)
+10. **Enfold** — Folds a world model's imagination computation into predictive representations for ultra-efficient embodied control. [arxiv.org/abs/2607.26657](https://arxiv.org/abs/2607.26657)
 <!-- LATEST_PAPERS_END -->
 
 [Browse all paper summaries &rarr;](/blog/ai-papers/)
