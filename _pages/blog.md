@@ -14,18 +14,18 @@ Welcome to my blog! Here I share insights from my daily readings of AI research 
 I read AI and ML research papers daily and post concise summaries here. Each entry covers the key contributions, methods, and takeaways from recent papers across topics like deep learning, reinforcement learning, NLP, computer vision, and more.
 
 <!-- LATEST_PAPERS_START -->
-**Latest — August 17, 2026**
+**Latest — August 18, 2026**
 
-1. **Crisis Video Deepfake Defense** — A systematic evaluation of detectors, generators, and social spread for AI-fabricated crisis videos. [arxiv.org/abs/2608.14391](https://arxiv.org/abs/2608.14391)
-2. **Self-Supervised Visual On-Policy Distillation** — Asks where informative teacher-student asymmetry can come from when no privileged supervision exists. [arxiv.org/abs/2608.14144](https://arxiv.org/abs/2608.14144)
-3. **Beyond Final Scores** — Evaluates long-horizon AI R&D agents on where progress is gained or lost, not just the final number. [arxiv.org/abs/2608.13417](https://arxiv.org/abs/2608.13417)
-4. **Intern-S2-Mobius** — A foundation model that decouples a shared knowledge memory from iterative reasoning operators. [arxiv.org/abs/2608.14290](https://arxiv.org/abs/2608.14290)
-5. **Marionette** — An interactive game world model that predicts explicit world states before rendering geometry and appearance. [arxiv.org/abs/2608.14530](https://arxiv.org/abs/2608.14530)
-6. **MobileMem** — A benchmark for persistent mobile assistants that learn from a year of heterogeneous, personal experiences. [arxiv.org/abs/2608.13606](https://arxiv.org/abs/2608.13606)
-7. **SimpleOPD** — A tokenizer-agnostic on-policy distillation recipe that transfers long-context reasoning to short-context students. [arxiv.org/abs/2608.14277](https://arxiv.org/abs/2608.14277)
-8. **DFM Mimir v1** — A 1B open HRM reaching frontier performance using only permissibly-licensed post-training data. [arxiv.org/abs/2608.13517](https://arxiv.org/abs/2608.13517)
-9. **Apodex Discovery** — Reality benchmarks and environments for building and evaluating discovery-oriented AI. [arxiv.org/abs/2608.11341](https://arxiv.org/abs/2608.11341)
-10. **HumanTracker** — A human-aligned motion-tracking benchmark that captures the physical artifacts kinematic error misses. [arxiv.org/abs/2608.13555](https://arxiv.org/abs/2608.13555)
+1. **HarnessEval-W** — Turns world-model evaluation into an agentic process that justifies scores with physics-and-causality reasoning, not just a scalar. [arxiv.org/abs/2608.16859](https://arxiv.org/abs/2608.16859)
+2. **VibeWorlding** — Probes whether multimodal agents can build interactive 3D open worlds end-to-end from realistic, non-idealized user queries. [arxiv.org/abs/2608.15265](https://arxiv.org/abs/2608.15265)
+3. **Large Discovery Models** — Model-based, empirically-grounded open-ended search for expensive scientific objectives like molecules, proteins, and programs. [arxiv.org/abs/2608.15669](https://arxiv.org/abs/2608.15669)
+4. **Saturation-Aware Advantage Reweighting** — Focuses multi-reward RL on objectives still unmastered instead of over-optimizing ones already saturated. [arxiv.org/abs/2608.16072](https://arxiv.org/abs/2608.16072)
+5. **MOSS-VL** — An open vision-language model that treats real-time perceive-while-speaking interaction as a first-class, co-designed capability. [arxiv.org/abs/2608.15045](https://arxiv.org/abs/2608.15045)
+6. **ClawGym II** — Explores black-box reinforcement learning through complex agent harnesses on long-horizon tasks. [arxiv.org/abs/2608.16798](https://arxiv.org/abs/2608.16798)
+7. **UI-Mate** — Advances open-weight foundation GUI agents by grounding execution in in-context demonstrations to tame ambiguous instructions. [arxiv.org/abs/2608.15930](https://arxiv.org/abs/2608.15930)
+8. **Pixel-Space Diffusion Study** — An empirical playbook for training text-to-image diffusion directly in pixel space at scale. [arxiv.org/abs/2608.16887](https://arxiv.org/abs/2608.16887)
+9. **Agentic Transaction** — Brings ACID-style reliability, consistency, and durable state to long-horizon LLM agent systems. [arxiv.org/abs/2608.13900](https://arxiv.org/abs/2608.13900)
+10. **AutoResearch Diagnostics** — End-to-end diagnostic evaluation of where research agents actually break down across 100 real frontier tasks. [arxiv.org/abs/2608.14905](https://arxiv.org/abs/2608.14905)
 <!-- LATEST_PAPERS_END -->
 
 [Browse all paper summaries &rarr;](/blog/ai-papers/)
