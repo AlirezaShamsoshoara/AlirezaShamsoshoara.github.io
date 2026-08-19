@@ -14,18 +14,18 @@ Welcome to my blog! Here I share insights from my daily readings of AI research 
 I read AI and ML research papers daily and post concise summaries here. Each entry covers the key contributions, methods, and takeaways from recent papers across topics like deep learning, reinforcement learning, NLP, computer vision, and more.
 
 <!-- LATEST_PAPERS_START -->
-**Latest — August 18, 2026**
+**Latest — August 19, 2026**
 
-1. **HarnessEval-W** — Turns world-model evaluation into an agentic process that justifies scores with physics-and-causality reasoning, not just a scalar. [arxiv.org/abs/2608.16859](https://arxiv.org/abs/2608.16859)
-2. **VibeWorlding** — Probes whether multimodal agents can build interactive 3D open worlds end-to-end from realistic, non-idealized user queries. [arxiv.org/abs/2608.15265](https://arxiv.org/abs/2608.15265)
-3. **Large Discovery Models** — Model-based, empirically-grounded open-ended search for expensive scientific objectives like molecules, proteins, and programs. [arxiv.org/abs/2608.15669](https://arxiv.org/abs/2608.15669)
-4. **Saturation-Aware Advantage Reweighting** — Focuses multi-reward RL on objectives still unmastered instead of over-optimizing ones already saturated. [arxiv.org/abs/2608.16072](https://arxiv.org/abs/2608.16072)
-5. **MOSS-VL** — An open vision-language model that treats real-time perceive-while-speaking interaction as a first-class, co-designed capability. [arxiv.org/abs/2608.15045](https://arxiv.org/abs/2608.15045)
-6. **ClawGym II** — Explores black-box reinforcement learning through complex agent harnesses on long-horizon tasks. [arxiv.org/abs/2608.16798](https://arxiv.org/abs/2608.16798)
-7. **UI-Mate** — Advances open-weight foundation GUI agents by grounding execution in in-context demonstrations to tame ambiguous instructions. [arxiv.org/abs/2608.15930](https://arxiv.org/abs/2608.15930)
-8. **Pixel-Space Diffusion Study** — An empirical playbook for training text-to-image diffusion directly in pixel space at scale. [arxiv.org/abs/2608.16887](https://arxiv.org/abs/2608.16887)
-9. **Agentic Transaction** — Brings ACID-style reliability, consistency, and durable state to long-horizon LLM agent systems. [arxiv.org/abs/2608.13900](https://arxiv.org/abs/2608.13900)
-10. **AutoResearch Diagnostics** — End-to-end diagnostic evaluation of where research agents actually break down across 100 real frontier tasks. [arxiv.org/abs/2608.14905](https://arxiv.org/abs/2608.14905)
+1. **StateM** — Scales the agent harness itself to hit 95.3% raw accuracy on Terminal-Bench 2.1 for a $15 frontier run. [arxiv.org/abs/2608.15089](https://arxiv.org/abs/2608.15089)
+2. **Agentic ESOpt** — Fine-tunes long-horizon LLM agents via evolution strategies, sidestepping RL's heavyweight backprop and sparse-reward pain. [arxiv.org/abs/2608.17310](https://arxiv.org/abs/2608.17310)
+3. **Demystifying Agent Skills** — Isolates when structured skill packages actually help LLM agents at inference time and where they quietly fail. [arxiv.org/abs/2608.14036](https://arxiv.org/abs/2608.14036)
+4. **ASI-Bench** — Frames a benchmark for artificial superintelligence around creating new, verifiable knowledge rather than compressing existing knowledge. [arxiv.org/abs/2608.17271](https://arxiv.org/abs/2608.17271)
+5. **Embodied-Navigator** — A point-think-memorize-align framework that aligns VLM navigation with 2D pre-training priors for efficient embodied movement. [arxiv.org/abs/2608.17512](https://arxiv.org/abs/2608.17512)
+6. **FreeToken** — An edge-native MoE serving system that treats a personal machine as an elastic, bandwidth-adaptive inference platform. [arxiv.org/abs/2608.16157](https://arxiv.org/abs/2608.16157)
+7. **EDITBRIDGE** — Pushes faithful, efficient image editing past the 1K-resolution wall that quadratic attention normally imposes. [arxiv.org/abs/2608.18063](https://arxiv.org/abs/2608.18063)
+8. **HarmProfile** — Studies harmful LLM outputs as objects of analysis, characterizing the distributions produced during model misbehavior. [arxiv.org/abs/2608.14577](https://arxiv.org/abs/2608.14577)
+9. **Agent Lightning v1.0** — Matures the disaggregated agent-harness-to-RL architecture into a harnessed, production-oriented agentic RL stack. [arxiv.org/abs/2608.17528](https://arxiv.org/abs/2608.17528)
+10. **V-RAE** — Rethinks video latent spaces to add high-level semantic organization beyond pixel-level reconstruction for generation. [arxiv.org/abs/2608.13556](https://arxiv.org/abs/2608.13556)
 <!-- LATEST_PAPERS_END -->
 
 [Browse all paper summaries &rarr;](/blog/ai-papers/)
