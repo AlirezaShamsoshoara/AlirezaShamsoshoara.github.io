@@ -14,18 +14,18 @@ Welcome to my blog! Here I share insights from my daily readings of AI research 
 I read AI and ML research papers daily and post concise summaries here. Each entry covers the key contributions, methods, and takeaways from recent papers across topics like deep learning, reinforcement learning, NLP, computer vision, and more.
 
 <!-- LATEST_PAPERS_START -->
-**Latest — August 20, 2026**
+**Latest — August 21, 2026**
 
-1. **SemComp-Bench** — Reframes video generation as semantic task completion, judging both the intended outcome and its grounding. [arxiv.org/abs/2608.17426](https://arxiv.org/abs/2608.17426)
-2. **Zetta** — An efficient closed-loop embodied harness that learns during physical execution instead of only reflecting after each episode. [arxiv.org/abs/2608.16590](https://arxiv.org/abs/2608.16590)
-3. **SemaPLC** — A verification-gated agent harness that checks whether LLM-generated PLC code actually integrates and runs inside a real project. [arxiv.org/abs/2608.18565](https://arxiv.org/abs/2608.18565)
-4. **Co-RL** — Shows unsupervised reasoning can emerge from a diverse cohort in multi-agent RL, easing dependence on ground-truth reward. [arxiv.org/abs/2608.17253](https://arxiv.org/abs/2608.17253)
-5. **SPADE** — Grows an ever-expanding pool of adaptive, self-generated goals in synthetic executable environments for continual self-improvement. [arxiv.org/abs/2608.19197](https://arxiv.org/abs/2608.19197)
-6. **Chem-Plausible Retrosynthesis** — Uses Top-K prompting to teach LLMs the one-to-many nature of single-step retrosynthesis planning. [arxiv.org/abs/2608.18940](https://arxiv.org/abs/2608.18940)
-7. **LEGO-RL** — Aligns coding-agent harnesses with policy-gradient training, taming crashes, reward hacking, and train-inference drift. [arxiv.org/abs/2608.17393](https://arxiv.org/abs/2608.17393)
-8. **Centered Residual Signatures** — Verifies model lineage from weights alone, revealing shared ancestry across fine-tuned, quantized, or merged checkpoints. [arxiv.org/abs/2608.14929](https://arxiv.org/abs/2608.14929)
-9. **Decision-Metric Alignment** — Diagnoses when latent world-model costs actually rank action sequences by real task progress for MPC planning. [arxiv.org/abs/2608.18746](https://arxiv.org/abs/2608.18746)
-10. **Looped Language Models** — Finds that looped LMs improve compositional tool calling, coordinating multiple API calls and intermediate state. [arxiv.org/abs/2608.18171](https://arxiv.org/abs/2608.18171)
+1. **EnvHarness** — Awakens static worlds into adaptive training environments that evolve with an agent instead of leaving it behind. [arxiv.org/abs/2608.19880](https://arxiv.org/abs/2608.19880)
+2. **FACET** — Synthesizes terminal-agent tasks that keep source intent and executable state consistent, so generated tasks stay solvable and verifiable. [arxiv.org/abs/2608.18580](https://arxiv.org/abs/2608.18580)
+3. **SWE-bench Science** — Probes why coding agents fail when repairing scientific software, where broken code can compromise the evidence itself. [arxiv.org/abs/2608.19799](https://arxiv.org/abs/2608.19799)
+4. **4DAnyone** — Reconstructs 4D humans from a casual monocular video by generating multiview-consistent frames and lifting them into 4D Gaussian Splatting. [arxiv.org/abs/2608.20335](https://arxiv.org/abs/2608.20335)
+5. **WithEveryone** — Unifies planning and identity grounding so group image generation reliably binds each reference person to a distinct spot. [arxiv.org/abs/2608.20336](https://arxiv.org/abs/2608.20336)
+6. **MemTrapBench** — Benchmarks cognitive traps in LLM memory, measuring how retrieved memories reshape reasoning rather than just recall accuracy. [arxiv.org/abs/2608.20202](https://arxiv.org/abs/2608.20202)
+7. **SkillEvo** — Closes the loop on agent skills, letting them self-renew from multi-turn interaction failures instead of a single generation pass. [arxiv.org/abs/2608.13120](https://arxiv.org/abs/2608.13120)
+8. **ForgeWM** — Trains few-step action-conditioned video world models that keep keyboard and mouse controls aligned through causal rollout. [arxiv.org/abs/2608.14022](https://arxiv.org/abs/2608.14022)
+9. **Repo0** — Generates an entire modular software project from natural language, dropping the usual assumption of a predefined repository architecture. [arxiv.org/abs/2608.19854](https://arxiv.org/abs/2608.19854)
+10. **FlashPrefill V2** — Brings block-sparse prefill attention from prototype to production for efficient long-context LLM serving. [arxiv.org/abs/2608.19758](https://arxiv.org/abs/2608.19758)
 <!-- LATEST_PAPERS_END -->
 
 [Browse all paper summaries &rarr;](/blog/ai-papers/)
