@@ -14,18 +14,18 @@ Welcome to my blog! Here I share insights from my daily readings of AI research 
 I read AI and ML research papers daily and post concise summaries here. Each entry covers the key contributions, methods, and takeaways from recent papers across topics like deep learning, reinforcement learning, NLP, computer vision, and more.
 
 <!-- LATEST_PAPERS_START -->
-**Latest — August 22, 2026**
+**Latest — August 23, 2026**
 
-1. **PACE-Bench** — Tests whether self-evolving agents can recover after their execution conditions change, across 144 source-to-target physics adaptation pairs. [arxiv.org/abs/2608.14441](https://arxiv.org/abs/2608.14441)
-2. **Hierarchical Self-Improvement** — Treats an agent's executable harness as continuously evolvable, hot-swapping a task-specific scaffold that rewrites itself from environment feedback. [arxiv.org/abs/2608.08466](https://arxiv.org/abs/2608.08466)
-3. **NARU** — Benchmarks narrative evolution and cultural nuance in extreme-length Japanese video, where meaning stays implicit and high-context. [arxiv.org/abs/2608.13210](https://arxiv.org/abs/2608.13210)
-4. **TinyCast** — Delivers probabilistic zero-shot forecasting from just 146K parameters by computing a context's periodicity instead of learning it. [arxiv.org/abs/2608.15767](https://arxiv.org/abs/2608.15767)
-5. **tau0-VLA** — Adds world-model-guided test-time computation to a hierarchical robot foundation model, spending extra compute on the hardest decisions. [arxiv.org/abs/2608.16885](https://arxiv.org/abs/2608.16885)
-6. **StreamOPD** — A post-training recipe with spatio-temporal cue gating for streaming video, responding directly from the causally observed prefix. [arxiv.org/abs/2608.16320](https://arxiv.org/abs/2608.16320)
-7. **AnyTalk** — Generates 3D speech animation for arbitrary characters with no animation data, leveraging video diffusion instead of rigging. [arxiv.org/abs/2608.16143](https://arxiv.org/abs/2608.16143)
-8. **The Embedder's Dilemma** — A cost-aware comparison of LLMs against 26 dedicated embedding models, weighing when the upgrade is actually worth it. [arxiv.org/abs/2608.12875](https://arxiv.org/abs/2608.12875)
-9. **QuoteBench** — Shows how matched execution scores can hide command-path failures introduced after a coding agent generates its Bash. [arxiv.org/abs/2608.13547](https://arxiv.org/abs/2608.13547)
-10. **Beyond Visual CoT** — Internalizes visual thinking for proactive video reasoning, cutting the heavy inference overhead of generating intermediate images. [arxiv.org/abs/2608.15869](https://arxiv.org/abs/2608.15869)
+1. **Second Thought** — Uses the idle window while a ReAct agent waits on its environment to run reasoning in parallel for future turns. [arxiv.org/abs/2608.13667](https://arxiv.org/abs/2608.13667)
+2. **Domain Data Repetition** — Studies how to scale scarce high-quality domain data in LLM pretraining while holding the tokens-per-parameter ratio. [arxiv.org/abs/2608.14071](https://arxiv.org/abs/2608.14071)
+3. **Dion3** — Cuts the compute and communication overhead of Muon's orthogonalization for sharded, full-stack orthogonal weight updates. [arxiv.org/abs/2608.11612](https://arxiv.org/abs/2608.11612)
+4. **LittleLearner** — Trains language models under pedagogically controlled knowledge exposure to make skill acquisition actually measurable. [arxiv.org/abs/2608.13545](https://arxiv.org/abs/2608.13545)
+5. **Agents Catching Agents** — Shows clinical multi-agent committees can be gamed by benchmark shortcuts a real clinician would ignore. [arxiv.org/abs/2608.03744](https://arxiv.org/abs/2608.03744)
+6. **Verifier-Induced Support Reshaping** — Reveals how RLVR can improve the current objective while starving later objectives of sampleable success. [arxiv.org/abs/2608.00220](https://arxiv.org/abs/2608.00220)
+7. **aDSL** — Pairs an agent with program design to make LLM-authored 3D creation robust from high-level intent to geometry. [arxiv.org/abs/2608.17975](https://arxiv.org/abs/2608.17975)
+8. **QKAN Fast-Weight Programmers** — Introduces matrix-gated quantum KAN programmers to forecast quantum dynamics without costly backprop-through-time. [arxiv.org/abs/2607.27945](https://arxiv.org/abs/2607.27945)
+9. **Interpretable Retinal Foundation Models** — Builds interpretable self-supervised foundation models for retinal fundus images in high-stakes medical imaging. [arxiv.org/abs/2603.18846](https://arxiv.org/abs/2603.18846)
+10. **Zero Gap Is Not Restoration** — Exposes flaws in the G-AP contamination metric and offers stratified per-question evaluation with step-wise mitigation. [arxiv.org/abs/2608.07341](https://arxiv.org/abs/2608.07341)
 <!-- LATEST_PAPERS_END -->
 
 [Browse all paper summaries &rarr;](/blog/ai-papers/)
