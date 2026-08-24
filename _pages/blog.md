@@ -14,18 +14,18 @@ Welcome to my blog! Here I share insights from my daily readings of AI research 
 I read AI and ML research papers daily and post concise summaries here. Each entry covers the key contributions, methods, and takeaways from recent papers across topics like deep learning, reinforcement learning, NLP, computer vision, and more.
 
 <!-- LATEST_PAPERS_START -->
-**Latest — August 23, 2026**
+**Latest — August 24, 2026**
 
-1. **Second Thought** — Uses the idle window while a ReAct agent waits on its environment to run reasoning in parallel for future turns. [arxiv.org/abs/2608.13667](https://arxiv.org/abs/2608.13667)
-2. **Domain Data Repetition** — Studies how to scale scarce high-quality domain data in LLM pretraining while holding the tokens-per-parameter ratio. [arxiv.org/abs/2608.14071](https://arxiv.org/abs/2608.14071)
-3. **Dion3** — Cuts the compute and communication overhead of Muon's orthogonalization for sharded, full-stack orthogonal weight updates. [arxiv.org/abs/2608.11612](https://arxiv.org/abs/2608.11612)
-4. **LittleLearner** — Trains language models under pedagogically controlled knowledge exposure to make skill acquisition actually measurable. [arxiv.org/abs/2608.13545](https://arxiv.org/abs/2608.13545)
-5. **Agents Catching Agents** — Shows clinical multi-agent committees can be gamed by benchmark shortcuts a real clinician would ignore. [arxiv.org/abs/2608.03744](https://arxiv.org/abs/2608.03744)
-6. **Verifier-Induced Support Reshaping** — Reveals how RLVR can improve the current objective while starving later objectives of sampleable success. [arxiv.org/abs/2608.00220](https://arxiv.org/abs/2608.00220)
-7. **aDSL** — Pairs an agent with program design to make LLM-authored 3D creation robust from high-level intent to geometry. [arxiv.org/abs/2608.17975](https://arxiv.org/abs/2608.17975)
-8. **QKAN Fast-Weight Programmers** — Introduces matrix-gated quantum KAN programmers to forecast quantum dynamics without costly backprop-through-time. [arxiv.org/abs/2607.27945](https://arxiv.org/abs/2607.27945)
-9. **Interpretable Retinal Foundation Models** — Builds interpretable self-supervised foundation models for retinal fundus images in high-stakes medical imaging. [arxiv.org/abs/2603.18846](https://arxiv.org/abs/2603.18846)
-10. **Zero Gap Is Not Restoration** — Exposes flaws in the G-AP contamination metric and offers stratified per-question evaluation with step-wise mitigation. [arxiv.org/abs/2608.07341](https://arxiv.org/abs/2608.07341)
+1. **Compute-Efficient MoE HP Transfer** — Transfers optimal hyperparameters like learning rate across MoE scales without prohibitive sweeps. [arxiv.org/abs/2608.20061](https://arxiv.org/abs/2608.20061)
+2. **InfinityEdit** — Enables infinite instruction-based video editing via a lightweight edit-ignition adapter beyond in-place assumptions. [arxiv.org/abs/2608.20910](https://arxiv.org/abs/2608.20910)
+3. **Graph Engineering for LLM Agents** — Surveys the shift from individual prompt/context tricks to system-level intelligence in agent design. [arxiv.org/abs/2608.21156](https://arxiv.org/abs/2608.21156)
+4. **OmniAssistBench** — Benchmarks omni-modal LLMs as active real-time video assistants that guide users toward goals. [arxiv.org/abs/2608.21360](https://arxiv.org/abs/2608.21360)
+5. **ParaTempo** — Prunes parallel reasoning paths using temporal confidence to cut cost without sacrificing accuracy. [arxiv.org/abs/2608.16425](https://arxiv.org/abs/2608.16425)
+6. **FlowEvo** — Lets agents self-evolve by co-evolving reusable workflows and executable skills instead of discarding them. [arxiv.org/abs/2607.21596](https://arxiv.org/abs/2607.21596)
+7. **Dual Nature of On-Policy Distillation** — Dissects when on-policy distillation helps or hurts generalization across domains and teachers. [arxiv.org/abs/2608.16647](https://arxiv.org/abs/2608.16647)
+8. **EviRank** — Re-ranks multimodal image search with structured relevance evidence instead of opaque embeddings or leaky chain-of-thought. [arxiv.org/abs/2608.20886](https://arxiv.org/abs/2608.20886)
+9. **Beyond Correctness** — Benchmarks and aligns response behavior so hybrid-thinking MLLMs meet one user-facing standard across modes. [arxiv.org/abs/2608.12781](https://arxiv.org/abs/2608.12781)
+10. **UniSpace** — Unifies visual representation to preserve fine detail for reconstruction-sensitive multimodal generation and editing. [arxiv.org/abs/2608.08676](https://arxiv.org/abs/2608.08676)
 <!-- LATEST_PAPERS_END -->
 
 [Browse all paper summaries &rarr;](/blog/ai-papers/)
