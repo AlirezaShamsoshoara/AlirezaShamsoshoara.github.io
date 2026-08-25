@@ -14,18 +14,18 @@ Welcome to my blog! Here I share insights from my daily readings of AI research 
 I read AI and ML research papers daily and post concise summaries here. Each entry covers the key contributions, methods, and takeaways from recent papers across topics like deep learning, reinforcement learning, NLP, computer vision, and more.
 
 <!-- LATEST_PAPERS_START -->
-**Latest — August 24, 2026**
+**Latest — August 25, 2026**
 
-1. **Compute-Efficient MoE HP Transfer** — Transfers optimal hyperparameters like learning rate across MoE scales without prohibitive sweeps. [arxiv.org/abs/2608.20061](https://arxiv.org/abs/2608.20061)
-2. **InfinityEdit** — Enables infinite instruction-based video editing via a lightweight edit-ignition adapter beyond in-place assumptions. [arxiv.org/abs/2608.20910](https://arxiv.org/abs/2608.20910)
-3. **Graph Engineering for LLM Agents** — Surveys the shift from individual prompt/context tricks to system-level intelligence in agent design. [arxiv.org/abs/2608.21156](https://arxiv.org/abs/2608.21156)
-4. **OmniAssistBench** — Benchmarks omni-modal LLMs as active real-time video assistants that guide users toward goals. [arxiv.org/abs/2608.21360](https://arxiv.org/abs/2608.21360)
-5. **ParaTempo** — Prunes parallel reasoning paths using temporal confidence to cut cost without sacrificing accuracy. [arxiv.org/abs/2608.16425](https://arxiv.org/abs/2608.16425)
-6. **FlowEvo** — Lets agents self-evolve by co-evolving reusable workflows and executable skills instead of discarding them. [arxiv.org/abs/2607.21596](https://arxiv.org/abs/2607.21596)
-7. **Dual Nature of On-Policy Distillation** — Dissects when on-policy distillation helps or hurts generalization across domains and teachers. [arxiv.org/abs/2608.16647](https://arxiv.org/abs/2608.16647)
-8. **EviRank** — Re-ranks multimodal image search with structured relevance evidence instead of opaque embeddings or leaky chain-of-thought. [arxiv.org/abs/2608.20886](https://arxiv.org/abs/2608.20886)
-9. **Beyond Correctness** — Benchmarks and aligns response behavior so hybrid-thinking MLLMs meet one user-facing standard across modes. [arxiv.org/abs/2608.12781](https://arxiv.org/abs/2608.12781)
-10. **UniSpace** — Unifies visual representation to preserve fine detail for reconstruction-sensitive multimodal generation and editing. [arxiv.org/abs/2608.08676](https://arxiv.org/abs/2608.08676)
+1. **Apodex 1.1** — Scales agentic intelligence toward sustained, verifiable progress on real-world knowledge work. [arxiv.org/abs/2608.23283](https://arxiv.org/abs/2608.23283)
+2. **EchoWM** — An enterable omnimodal world model that jointly generates 720p video, sound, music, and speech under navigation. [arxiv.org/abs/2608.23189](https://arxiv.org/abs/2608.23189)
+3. **TLive-Omni** — Omni-modal understanding tailored to noisy, temporally extended e-commerce live streams. [arxiv.org/abs/2608.20958](https://arxiv.org/abs/2608.20958)
+4. **Concept-Scaled Image Editing** — Boosts editing fidelity via finer edit-concept granularity and dense supervision. [arxiv.org/abs/2608.16812](https://arxiv.org/abs/2608.16812)
+5. **MobilePA-Bench** — Benchmarks mobile planner agents on long-horizon, real-runtime tasks beyond surface GUI clicks. [arxiv.org/abs/2608.23035](https://arxiv.org/abs/2608.23035)
+6. **Prime Agent** — An open-source self-improving harness for long-horizon evaluation and coding-agent workflows. [arxiv.org/abs/2608.23552](https://arxiv.org/abs/2608.23552)
+7. **Block3D** — Efficient high-fidelity text-to-3D generation through block-wise diffusion. [arxiv.org/abs/2608.19567](https://arxiv.org/abs/2608.19567)
+8. **RISE** — Gives world action models an adaptive imagination budget via selective Roll/Stop rollout decisions. [arxiv.org/abs/2608.20430](https://arxiv.org/abs/2608.20430)
+9. **Densing Law for User Representations** — Studies billion-scale user representation learning beyond raw-data scaling bottlenecks. [arxiv.org/abs/2608.23392](https://arxiv.org/abs/2608.23392)
+10. **ReWorld** — An interactive world model reconciling short-horizon control with long-horizon memory in real time. [arxiv.org/abs/2608.23565](https://arxiv.org/abs/2608.23565)
 <!-- LATEST_PAPERS_END -->
 
 [Browse all paper summaries &rarr;](/blog/ai-papers/)
