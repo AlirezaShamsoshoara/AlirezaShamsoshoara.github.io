@@ -14,18 +14,18 @@ Welcome to my blog! Here I share insights from my daily readings of AI research 
 I read AI and ML research papers daily and post concise summaries here. Each entry covers the key contributions, methods, and takeaways from recent papers across topics like deep learning, reinforcement learning, NLP, computer vision, and more.
 
 <!-- LATEST_PAPERS_START -->
-**Latest — August 25, 2026**
+**Latest — August 26, 2026**
 
-1. **Apodex 1.1** — Scales agentic intelligence toward sustained, verifiable progress on real-world knowledge work. [arxiv.org/abs/2608.23283](https://arxiv.org/abs/2608.23283)
-2. **EchoWM** — An enterable omnimodal world model that jointly generates 720p video, sound, music, and speech under navigation. [arxiv.org/abs/2608.23189](https://arxiv.org/abs/2608.23189)
-3. **TLive-Omni** — Omni-modal understanding tailored to noisy, temporally extended e-commerce live streams. [arxiv.org/abs/2608.20958](https://arxiv.org/abs/2608.20958)
-4. **Concept-Scaled Image Editing** — Boosts editing fidelity via finer edit-concept granularity and dense supervision. [arxiv.org/abs/2608.16812](https://arxiv.org/abs/2608.16812)
-5. **MobilePA-Bench** — Benchmarks mobile planner agents on long-horizon, real-runtime tasks beyond surface GUI clicks. [arxiv.org/abs/2608.23035](https://arxiv.org/abs/2608.23035)
-6. **Prime Agent** — An open-source self-improving harness for long-horizon evaluation and coding-agent workflows. [arxiv.org/abs/2608.23552](https://arxiv.org/abs/2608.23552)
-7. **Block3D** — Efficient high-fidelity text-to-3D generation through block-wise diffusion. [arxiv.org/abs/2608.19567](https://arxiv.org/abs/2608.19567)
-8. **RISE** — Gives world action models an adaptive imagination budget via selective Roll/Stop rollout decisions. [arxiv.org/abs/2608.20430](https://arxiv.org/abs/2608.20430)
-9. **Densing Law for User Representations** — Studies billion-scale user representation learning beyond raw-data scaling bottlenecks. [arxiv.org/abs/2608.23392](https://arxiv.org/abs/2608.23392)
-10. **ReWorld** — An interactive world model reconciling short-horizon control with long-horizon memory in real time. [arxiv.org/abs/2608.23565](https://arxiv.org/abs/2608.23565)
+1. **GigaBrain-0.7** — Scales embodied vision-language-action foundation models via a three-system architecture toward emergent generalist capabilities. [arxiv.org/abs/2608.15875](https://arxiv.org/abs/2608.15875)
+2. **Annotations as Rollouts** — A scalable, efficient reinforcement-learning recipe for post-training video multimodal LLMs. [arxiv.org/abs/2608.20492](https://arxiv.org/abs/2608.20492)
+3. **WeMM-Embedding** — WeChat's universal multimodal embedding family spanning text, images, video, and interleaved inputs. [arxiv.org/abs/2608.24053](https://arxiv.org/abs/2608.24053)
+4. **AutoSaddler** — Automatically optimizes agent harnesses using durable updates mined from execution traces. [arxiv.org/abs/2608.23041](https://arxiv.org/abs/2608.23041)
+5. **DiffusionOPSD** — On-policy self-distillation that turns image-level rewards into explicit targets for diffusion models. [arxiv.org/abs/2608.24646](https://arxiv.org/abs/2608.24646)
+6. **SecOPD** — Defends agents against adaptive prompt injection through on-policy distillation. [arxiv.org/abs/2608.21500](https://arxiv.org/abs/2608.21500)
+7. **The Mask Is Not the Model** — A lightweight audit that localizes where causality breaks in attention, state-space, and hybrid models. [arxiv.org/abs/2608.22876](https://arxiv.org/abs/2608.22876)
+8. **CyberFactory** — Scales open-source cybersecurity agent capabilities from real-world instances in the wild. [arxiv.org/abs/2608.23181](https://arxiv.org/abs/2608.23181)
+9. **Recuris** — A recursive experiential-working memory architecture that grounds skill use for long-horizon agents. [arxiv.org/abs/2608.24876](https://arxiv.org/abs/2608.24876)
+10. **LongRCA Bench** — Diagnoses responsible roles and root causes in long-horizon agent failures. [arxiv.org/abs/2608.15242](https://arxiv.org/abs/2608.15242)
 <!-- LATEST_PAPERS_END -->
 
 [Browse all paper summaries &rarr;](/blog/ai-papers/)
