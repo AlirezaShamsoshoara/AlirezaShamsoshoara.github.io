@@ -14,18 +14,18 @@ Welcome to my blog! Here I share insights from my daily readings of AI research 
 I read AI and ML research papers daily and post concise summaries here. Each entry covers the key contributions, methods, and takeaways from recent papers across topics like deep learning, reinforcement learning, NLP, computer vision, and more.
 
 <!-- LATEST_PAPERS_START -->
-**Latest — August 26, 2026**
+**Latest — August 27, 2026**
 
-1. **GigaBrain-0.7** — Scales embodied vision-language-action foundation models via a three-system architecture toward emergent generalist capabilities. [arxiv.org/abs/2608.15875](https://arxiv.org/abs/2608.15875)
-2. **Annotations as Rollouts** — A scalable, efficient reinforcement-learning recipe for post-training video multimodal LLMs. [arxiv.org/abs/2608.20492](https://arxiv.org/abs/2608.20492)
-3. **WeMM-Embedding** — WeChat's universal multimodal embedding family spanning text, images, video, and interleaved inputs. [arxiv.org/abs/2608.24053](https://arxiv.org/abs/2608.24053)
-4. **AutoSaddler** — Automatically optimizes agent harnesses using durable updates mined from execution traces. [arxiv.org/abs/2608.23041](https://arxiv.org/abs/2608.23041)
-5. **DiffusionOPSD** — On-policy self-distillation that turns image-level rewards into explicit targets for diffusion models. [arxiv.org/abs/2608.24646](https://arxiv.org/abs/2608.24646)
-6. **SecOPD** — Defends agents against adaptive prompt injection through on-policy distillation. [arxiv.org/abs/2608.21500](https://arxiv.org/abs/2608.21500)
-7. **The Mask Is Not the Model** — A lightweight audit that localizes where causality breaks in attention, state-space, and hybrid models. [arxiv.org/abs/2608.22876](https://arxiv.org/abs/2608.22876)
-8. **CyberFactory** — Scales open-source cybersecurity agent capabilities from real-world instances in the wild. [arxiv.org/abs/2608.23181](https://arxiv.org/abs/2608.23181)
-9. **Recuris** — A recursive experiential-working memory architecture that grounds skill use for long-horizon agents. [arxiv.org/abs/2608.24876](https://arxiv.org/abs/2608.24876)
-10. **LongRCA Bench** — Diagnoses responsible roles and root causes in long-horizon agent failures. [arxiv.org/abs/2608.15242](https://arxiv.org/abs/2608.15242)
+1. **VoiceMem** — A dual-brain streaming memory architecture giving real-time speech agents both informational recall and emotional context. [arxiv.org/abs/2608.26005](https://arxiv.org/abs/2608.26005)
+2. **VGI-BENCH** — A benchmark that probes whether video generation models can actually reason visually, not just render plausible final frames. [arxiv.org/abs/2608.19583](https://arxiv.org/abs/2608.19583)
+3. **FrontierChallenge** — A cross-domain benchmark of 300 end-to-end scientific workflows that tests agents beyond isolated final answers. [arxiv.org/abs/2608.24979](https://arxiv.org/abs/2608.24979)
+4. **WarpSAC** — Rethinks off-policy RL stabilizers for the high-throughput data regime created by massively parallel simulation. [arxiv.org/abs/2608.24479](https://arxiv.org/abs/2608.24479)
+5. **JIT-Agent** — Evolves the agent harness just-in-time, arguing the scaffolding can matter more than the underlying model. [arxiv.org/abs/2608.25593](https://arxiv.org/abs/2608.25593)
+6. **VBVR-Pro** — A scalable, verifiable suite for native visual reasoning where images and video become the substrate of problem solving. [arxiv.org/abs/2608.26105](https://arxiv.org/abs/2608.26105)
+7. **D^3-MOPD** — Adaptively schedules per-domain data mixtures in multi-teacher distillation to account for uneven convergence rates. [arxiv.org/abs/2608.24987](https://arxiv.org/abs/2608.24987)
+8. **Agent-G^2** — Uses Gaussian guidance to tune how much expert-trajectory prefix to keep, tackling reward sparsity in long-horizon agent RL. [arxiv.org/abs/2608.23318](https://arxiv.org/abs/2608.23318)
+9. **Next-Chunk RL vs SFT** — Critically re-examines whether next-chunk reasoning RL truly beats SFT when training on reasoning-rich but no-CoT corpora. [arxiv.org/abs/2608.23256](https://arxiv.org/abs/2608.23256)
+10. **JoyAI-Echo-1.5** — A unified audio-visual generation system built for long-form narratives and stable, controllable interactive worlds. [arxiv.org/abs/2608.23383](https://arxiv.org/abs/2608.23383)
 <!-- LATEST_PAPERS_END -->
 
 [Browse all paper summaries &rarr;](/blog/ai-papers/)
