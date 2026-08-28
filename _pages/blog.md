@@ -14,18 +14,18 @@ Welcome to my blog! Here I share insights from my daily readings of AI research 
 I read AI and ML research papers daily and post concise summaries here. Each entry covers the key contributions, methods, and takeaways from recent papers across topics like deep learning, reinforcement learning, NLP, computer vision, and more.
 
 <!-- LATEST_PAPERS_START -->
-**Latest — August 28, 2026**
+**Latest — August 29, 2026**
 
-1. **Agentic Game Dev Data Engine** — Turns agentic game development into a verifiable trajectory data engine, arguing world models need grounded reward signals, not just more crawled video. [arxiv.org/abs/2608.25518](https://arxiv.org/abs/2608.25518)
-2. **PAWBench** — A benchmark asking how far video 'world models' are from probabilistically aligned generation, since real physics can unfold in more than one valid way. [arxiv.org/abs/2608.27345](https://arxiv.org/abs/2608.27345)
-3. **UrbanGround** — Tests whether multimodal LLM agents can turn local street-view perception into reliable action across a real-scale city once they start moving. [arxiv.org/abs/2608.27456](https://arxiv.org/abs/2608.27456)
-4. **TTPO** — Test-Time Policy Optimization that enables label-free test-time training for math reasoning without the fragility of majority-vote pseudo-labels. [arxiv.org/abs/2608.27448](https://arxiv.org/abs/2608.27448)
-5. **ACE for Agentic Data** — An ACE lens on what makes agentic training data actually useful — consistency across environments, tasks, interactions, and success signals over sheer volume. [arxiv.org/abs/2608.27260](https://arxiv.org/abs/2608.27260)
-6. **Self-OPD** — On-policy distillation for flow-matching models that drops the need for a separate task-specific teacher, cutting the cost of per-objective training. [arxiv.org/abs/2608.26872](https://arxiv.org/abs/2608.26872)
-7. **TaoLive Avatar Agent** — Trains digital-avatar streamer agents to co-evolve with an updatable harness, balancing large-model adaptability against compact-model latency. [arxiv.org/abs/2608.15763](https://arxiv.org/abs/2608.15763)
-8. **GameWAM** — A world-action model for video games that couples explicit world-dynamics modeling with a task policy, unlike agents that map perception straight to actions. [arxiv.org/abs/2608.26200](https://arxiv.org/abs/2608.26200)
-9. **PILOT in the Loop** — Live self-improvement for long-horizon agents that applies lessons mid-run instead of only after execution ends. [arxiv.org/abs/2608.26530](https://arxiv.org/abs/2608.26530)
-10. **Zero-WAM** — In-context world-action modeling from human videos, aiming for zero-shot manipulation on tasks never seen during training. [arxiv.org/abs/2608.26103](https://arxiv.org/abs/2608.26103)
+1. **MARS** — A prompt-only relay where each LLM agent is a topic specialist (DP, graphs, strings, geometry) with RAG over an algorithm-theory corpus, targeting competitive programming's technique-selection gap. [arxiv.org/abs/2608.23918](https://arxiv.org/abs/2608.23918)
+2. **AgentRoom** — Concurrent multi-agent coding over a CRDT-backed shared workspace, breaking the serial handoff bottleneck so agents can edit multi-file projects in parallel. [arxiv.org/abs/2608.23740](https://arxiv.org/abs/2608.23740)
+3. **Luce** — Relightable Gaussians for image-to-3D that bake in PBR modalities (albedo, metallic-roughness, normals) so assets drop cleanly into standard rendering pipelines. [arxiv.org/abs/2608.23943](https://arxiv.org/abs/2608.23943)
+4. **CritICL** — Inference-time weak-to-strong generalization that mines small-model failure modes to steer stronger models without repeated sampling or external verifiers. [arxiv.org/abs/2608.27455](https://arxiv.org/abs/2608.27455)
+5. **Constraint Weakening** — Diagnoses how hard 'must' constraints silently soften into 'maybe' as LLM agent workflows pass state through summaries, plans, and handoff notes. [arxiv.org/abs/2608.24569](https://arxiv.org/abs/2608.24569)
+6. **CAFE** — Argues self-improving search agents need co-evolving in-trajectory feedback, coupling when-to-request-help decisions with a critic that adapts as the agent improves. [arxiv.org/abs/2608.24794](https://arxiv.org/abs/2608.24794)
+7. **CaSKG** — Counterfactual-causal skill graphs for agent skill retrieval, recovering workflow context that vector search misses without full-library prompting cost. [arxiv.org/abs/2608.25500](https://arxiv.org/abs/2608.25500)
+8. **DREAM** — A unified generative recommender that replaces fragmented cascade pipelines, modeling real-time session shifts across browsing, comparison, and purchase. [arxiv.org/abs/2608.09408](https://arxiv.org/abs/2608.09408)
+9. **Stream4D** — Adds 4D consistency to streaming autoregressive diffusion video, curbing the geometric drift that degrades long rollouts into static or unnatural motion. [arxiv.org/abs/2608.19556](https://arxiv.org/abs/2608.19556)
+10. **Super Star** — Streaming real-time interactive digital humans that generate speech-synchronous gestures online under strict latency, not from complete offline segments. [arxiv.org/abs/2608.24909](https://arxiv.org/abs/2608.24909)
 <!-- LATEST_PAPERS_END -->
 
 [Browse all paper summaries &rarr;](/blog/ai-papers/)
