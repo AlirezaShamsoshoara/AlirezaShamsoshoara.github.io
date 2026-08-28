@@ -14,18 +14,18 @@ Welcome to my blog! Here I share insights from my daily readings of AI research 
 I read AI and ML research papers daily and post concise summaries here. Each entry covers the key contributions, methods, and takeaways from recent papers across topics like deep learning, reinforcement learning, NLP, computer vision, and more.
 
 <!-- LATEST_PAPERS_START -->
-**Latest — August 27, 2026**
+**Latest — August 28, 2026**
 
-1. **VoiceMem** — A dual-brain streaming memory architecture giving real-time speech agents both informational recall and emotional context. [arxiv.org/abs/2608.26005](https://arxiv.org/abs/2608.26005)
-2. **VGI-BENCH** — A benchmark that probes whether video generation models can actually reason visually, not just render plausible final frames. [arxiv.org/abs/2608.19583](https://arxiv.org/abs/2608.19583)
-3. **FrontierChallenge** — A cross-domain benchmark of 300 end-to-end scientific workflows that tests agents beyond isolated final answers. [arxiv.org/abs/2608.24979](https://arxiv.org/abs/2608.24979)
-4. **WarpSAC** — Rethinks off-policy RL stabilizers for the high-throughput data regime created by massively parallel simulation. [arxiv.org/abs/2608.24479](https://arxiv.org/abs/2608.24479)
-5. **JIT-Agent** — Evolves the agent harness just-in-time, arguing the scaffolding can matter more than the underlying model. [arxiv.org/abs/2608.25593](https://arxiv.org/abs/2608.25593)
-6. **VBVR-Pro** — A scalable, verifiable suite for native visual reasoning where images and video become the substrate of problem solving. [arxiv.org/abs/2608.26105](https://arxiv.org/abs/2608.26105)
-7. **D^3-MOPD** — Adaptively schedules per-domain data mixtures in multi-teacher distillation to account for uneven convergence rates. [arxiv.org/abs/2608.24987](https://arxiv.org/abs/2608.24987)
-8. **Agent-G^2** — Uses Gaussian guidance to tune how much expert-trajectory prefix to keep, tackling reward sparsity in long-horizon agent RL. [arxiv.org/abs/2608.23318](https://arxiv.org/abs/2608.23318)
-9. **Next-Chunk RL vs SFT** — Critically re-examines whether next-chunk reasoning RL truly beats SFT when training on reasoning-rich but no-CoT corpora. [arxiv.org/abs/2608.23256](https://arxiv.org/abs/2608.23256)
-10. **JoyAI-Echo-1.5** — A unified audio-visual generation system built for long-form narratives and stable, controllable interactive worlds. [arxiv.org/abs/2608.23383](https://arxiv.org/abs/2608.23383)
+1. **Agentic Game Dev Data Engine** — Turns agentic game development into a verifiable trajectory data engine, arguing world models need grounded reward signals, not just more crawled video. [arxiv.org/abs/2608.25518](https://arxiv.org/abs/2608.25518)
+2. **PAWBench** — A benchmark asking how far video 'world models' are from probabilistically aligned generation, since real physics can unfold in more than one valid way. [arxiv.org/abs/2608.27345](https://arxiv.org/abs/2608.27345)
+3. **UrbanGround** — Tests whether multimodal LLM agents can turn local street-view perception into reliable action across a real-scale city once they start moving. [arxiv.org/abs/2608.27456](https://arxiv.org/abs/2608.27456)
+4. **TTPO** — Test-Time Policy Optimization that enables label-free test-time training for math reasoning without the fragility of majority-vote pseudo-labels. [arxiv.org/abs/2608.27448](https://arxiv.org/abs/2608.27448)
+5. **ACE for Agentic Data** — An ACE lens on what makes agentic training data actually useful — consistency across environments, tasks, interactions, and success signals over sheer volume. [arxiv.org/abs/2608.27260](https://arxiv.org/abs/2608.27260)
+6. **Self-OPD** — On-policy distillation for flow-matching models that drops the need for a separate task-specific teacher, cutting the cost of per-objective training. [arxiv.org/abs/2608.26872](https://arxiv.org/abs/2608.26872)
+7. **TaoLive Avatar Agent** — Trains digital-avatar streamer agents to co-evolve with an updatable harness, balancing large-model adaptability against compact-model latency. [arxiv.org/abs/2608.15763](https://arxiv.org/abs/2608.15763)
+8. **GameWAM** — A world-action model for video games that couples explicit world-dynamics modeling with a task policy, unlike agents that map perception straight to actions. [arxiv.org/abs/2608.26200](https://arxiv.org/abs/2608.26200)
+9. **PILOT in the Loop** — Live self-improvement for long-horizon agents that applies lessons mid-run instead of only after execution ends. [arxiv.org/abs/2608.26530](https://arxiv.org/abs/2608.26530)
+10. **Zero-WAM** — In-context world-action modeling from human videos, aiming for zero-shot manipulation on tasks never seen during training. [arxiv.org/abs/2608.26103](https://arxiv.org/abs/2608.26103)
 <!-- LATEST_PAPERS_END -->
 
 [Browse all paper summaries &rarr;](/blog/ai-papers/)
