@@ -14,18 +14,18 @@ Welcome to my blog! Here I share insights from my daily readings of AI research 
 I read AI and ML research papers daily and post concise summaries here. Each entry covers the key contributions, methods, and takeaways from recent papers across topics like deep learning, reinforcement learning, NLP, computer vision, and more.
 
 <!-- LATEST_PAPERS_START -->
-**Latest — August 31, 2026**
+**Latest — September 1, 2026**
 
-1. **LoopArena** — Benchmarks LLMs as runtime controllers for "loop engineering," where models monitor progress, assign work, and decide what a coding agent does next. [arxiv.org/abs/2608.28281](https://arxiv.org/abs/2608.28281)
-2. **DART-SD** — A diamond-topology-aware retrieval and self-distillation recipe for multi-turn tool-calling agents, breaking the reliance on full-length trajectory imitation. [arxiv.org/abs/2608.18524](https://arxiv.org/abs/2608.18524)
-3. **Representation-Centric VLA** — Continued pre-training that turns a fixed robot-data budget into transferable visual-action knowledge instead of just fitting actions. [arxiv.org/abs/2608.27550](https://arxiv.org/abs/2608.27550)
-4. **Agentic Artifact Creation** — A survey of systems, evaluation, and principles for turning generative drafts into complete, dependable deliverables. [arxiv.org/abs/2608.28122](https://arxiv.org/abs/2608.28122)
-5. **Code as Worlds** — Agents discover executable world representations—object states, physical parameters, dynamics—for reliable physical reasoning beyond pattern recognition. [arxiv.org/abs/2608.27549](https://arxiv.org/abs/2608.27549)
-6. **J-Zero** — Unified challenger–solver–judge co-evolution that self-improves language models from zero data, extending self-evolution into unverifiable domains. [arxiv.org/abs/2608.26582](https://arxiv.org/abs/2608.26582)
-7. **Streaming 3D Reconstruction** — Revisits local context to stop online camera-and-geometry estimates from degrading over extremely long videos under bounded memory. [arxiv.org/abs/2608.27529](https://arxiv.org/abs/2608.27529)
-8. **Puro-2B** — A fully open, cost-efficient recipe pretraining a Qwen2-1.5B-class model on a single RTX 5090 for under $5090. [arxiv.org/abs/2608.27370](https://arxiv.org/abs/2608.27370)
-9. **LayerRecall** — A state-conditioned memory router that recalls evicted historical cues for long-horizon consistency in autoregressive video generation. [arxiv.org/abs/2608.28460](https://arxiv.org/abs/2608.28460)
-10. **ContextPilot** — Teaches agents proactive context management via fine-grained RL, adding planning, long-term memory, and adaptive compression beyond search-and-delete. [arxiv.org/abs/2608.28476](https://arxiv.org/abs/2608.28476)
+1. **On-Policy Distillation** — Asks whether dense token-level teacher supervision on off-policy student trajectories is real distillation, or a rebranded path to self-improvement. [arxiv.org/abs/2608.31046](https://arxiv.org/abs/2608.31046)
+2. **DreamX-Creator** — A compact 7B native joint audio-video generator that models visual dynamics and acoustic events together at 2K, instead of stitching them in separate stages. [arxiv.org/abs/2608.31106](https://arxiv.org/abs/2608.31106)
+3. **Lucida** — A parse-generate-place pipeline for turning cluttered real captures into editable, simulation-ready indoor scenes for robotics and embodied AI. [arxiv.org/abs/2608.30821](https://arxiv.org/abs/2608.30821)
+4. **GenFirst** — Flips the usual VAE-then-generator recipe by learning generation before reconstruction, stabilizing end-to-end training of latent generative models. [arxiv.org/abs/2608.29335](https://arxiv.org/abs/2608.29335)
+5. **Normalized LoRA** — Tames LoRA's early-training instability by regularizing the down-projection, giving parameter-efficient adaptation cleaner, more effective optimization dynamics. [arxiv.org/abs/2608.31036](https://arxiv.org/abs/2608.31036)
+6. **PaperGym** — A rubric-centered environment for evolving research-plan generators, giving RL the critic it needs for open-ended, unverifiable scientific tasks. [arxiv.org/abs/2608.31119](https://arxiv.org/abs/2608.31119)
+7. **Qwen3.8-Next** — Ablations for a 125B sparse MoE with 6B active parameters that matches a 397B-A17B predecessor on most benchmarks at roughly a ninth of the training FLOPs. [arxiv.org/abs/2608.30320](https://arxiv.org/abs/2608.30320)
+8. **CogEvol** — Learning-environment generation that turns a course brief into structured slides or interactive HTML in seconds, replacing minutes of multi-turn agent scaffolding. [arxiv.org/abs/2608.30968](https://arxiv.org/abs/2608.30968)
+9. **LightNav-0** — Directly elicits VLM spatial priors—grounding, spatial reasoning, and pointing—for generalist embodied navigation across tasks, environments, and robots. [arxiv.org/abs/2608.30935](https://arxiv.org/abs/2608.30935)
+10. **SHAPE** — Analyzes chain-of-thought math reasoning through the lens of semantic spaces and heuristics, surfacing the actual mathematical skills a model is exercising. [arxiv.org/abs/2608.28600](https://arxiv.org/abs/2608.28600)
 <!-- LATEST_PAPERS_END -->
 
 [Browse all paper summaries &rarr;](/blog/ai-papers/)
