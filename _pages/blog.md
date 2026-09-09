@@ -14,18 +14,18 @@ Welcome to my blog! Here I share insights from my daily readings of AI research 
 I read AI and ML research papers daily and post concise summaries here. Each entry covers the key contributions, methods, and takeaways from recent papers across topics like deep learning, reinforcement learning, NLP, computer vision, and more.
 
 <!-- LATEST_PAPERS_START -->
-**Latest — September 8, 2026**
+**Latest — September 9, 2026**
 
-1. **Compile by Training** — Compiles recurring natural-language tasks into reusable local neural functions, reducing repeated model calls and latency. [arxiv.org/abs/2609.04199](https://arxiv.org/abs/2609.04199)
-2. **Dr. Claw** — Wraps coding agents in an auditable human-in-the-loop workspace for end-to-end scientific research. [arxiv.org/abs/2609.00365](https://arxiv.org/abs/2609.00365)
-3. **Bilevel Coordinated Reflection** — Frames multi-agent coordination, reflection, memory, and verification as a unified game-theoretic process. [arxiv.org/abs/2609.02750](https://arxiv.org/abs/2609.02750)
-4. **RoboTok** — Turns web-scale human manipulation videos into training demonstrations for dexterous robot policies. [arxiv.org/abs/2609.03199](https://arxiv.org/abs/2609.03199)
-5. **Diffusion-Augmented LLMs** — Uses discrete diffusion to decode multiple tokens in parallel without changing the autoregressive model distribution. [arxiv.org/abs/2609.04010](https://arxiv.org/abs/2609.04010)
-6. **Iris** — Trains search agents on difficult multi-hop questions designed to require retrieved evidence rather than memorized answers. [arxiv.org/abs/2609.04304](https://arxiv.org/abs/2609.04304)
-7. **Scal3R** — Improves long-video 3D reconstruction by replacing brittle fixed-anchor pose estimation with efficient multi-relative queries. [arxiv.org/abs/2609.04201](https://arxiv.org/abs/2609.04201)
-8. **FlowBalance** — Grounds dense self-improvement signals in sparse terminal verifiers while preserving diverse reasoning paths. [arxiv.org/abs/2609.03241](https://arxiv.org/abs/2609.03241)
-9. **Motion-Omni** — Generates conversational speech and synchronized full-body motion jointly instead of through a two-stage cascade. [arxiv.org/abs/2609.04250](https://arxiv.org/abs/2609.04250)
-10. **Last Translation Benchmark** — Refocuses machine-translation evaluation on difficult failure cases as standard benchmarks approach saturation. [arxiv.org/abs/2609.04173](https://arxiv.org/abs/2609.04173)
+1. **NeoHorse-1** — Turns recursive self-improvement into a concrete agentic post-training loop with a routing harness. [arxiv.org/abs/2609.08183](https://arxiv.org/abs/2609.08183)
+2. **AuK** — Open-source foundation model unifying speech generation and five families of audio editing under one instruction interface. [arxiv.org/abs/2609.08936](https://arxiv.org/abs/2609.08936)
+3. **Omni Interaction Agent** — Streams video, speech, and text continuously for full-duplex interaction instead of turn-taking. [arxiv.org/abs/2609.08977](https://arxiv.org/abs/2609.08977)
+4. **On-Policy Reverse Distillation** — Lets a strong model learn from weaker supervisors and surpass them without frontier-scale retraining. [arxiv.org/abs/2609.08798](https://arxiv.org/abs/2609.08798)
+5. **Show-Harness** — Gives an off-the-shelf VLM a compact semantic interface that is enough to drive a robot. [arxiv.org/abs/2609.10522](https://arxiv.org/abs/2609.10522)
+6. **OpenWAM** — Modularizes world-action model pretraining so individual design choices can finally be isolated. [arxiv.org/abs/2609.07398](https://arxiv.org/abs/2609.07398)
+7. **DriveZero** — Learns end-to-end driving behavior that goes beyond what human demonstration logs contain. [arxiv.org/abs/2609.06055](https://arxiv.org/abs/2609.06055)
+8. **Programmable World Model** — Separates persistent world state from image generation so rules survive long interactions. [arxiv.org/abs/2609.10540](https://arxiv.org/abs/2609.10540)
+9. **GE-Act 2.0** — Treats world-action pretraining and scaling as the primary object rather than inheriting a video generator. [arxiv.org/abs/2609.05588](https://arxiv.org/abs/2609.05588)
+10. **Marigold V2** — Revisits diffusion transformers to sharpen monocular depth and improve out-of-distribution robustness. [arxiv.org/abs/2609.08084](https://arxiv.org/abs/2609.08084)
 <!-- LATEST_PAPERS_END -->
 
 [Browse all paper summaries &rarr;](/blog/ai-papers/)
