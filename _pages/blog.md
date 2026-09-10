@@ -14,18 +14,18 @@ Welcome to my blog! Here I share insights from my daily readings of AI research 
 I read AI and ML research papers daily and post concise summaries here. Each entry covers the key contributions, methods, and takeaways from recent papers across topics like deep learning, reinforcement learning, NLP, computer vision, and more.
 
 <!-- LATEST_PAPERS_START -->
-**Latest — September 9, 2026**
+**Latest — September 10, 2026**
 
-1. **NeoHorse-1** — Turns recursive self-improvement into a concrete agentic post-training loop with a routing harness. [arxiv.org/abs/2609.08183](https://arxiv.org/abs/2609.08183)
-2. **AuK** — Open-source foundation model unifying speech generation and five families of audio editing under one instruction interface. [arxiv.org/abs/2609.08936](https://arxiv.org/abs/2609.08936)
-3. **Omni Interaction Agent** — Streams video, speech, and text continuously for full-duplex interaction instead of turn-taking. [arxiv.org/abs/2609.08977](https://arxiv.org/abs/2609.08977)
-4. **On-Policy Reverse Distillation** — Lets a strong model learn from weaker supervisors and surpass them without frontier-scale retraining. [arxiv.org/abs/2609.08798](https://arxiv.org/abs/2609.08798)
-5. **Show-Harness** — Gives an off-the-shelf VLM a compact semantic interface that is enough to drive a robot. [arxiv.org/abs/2609.10522](https://arxiv.org/abs/2609.10522)
-6. **OpenWAM** — Modularizes world-action model pretraining so individual design choices can finally be isolated. [arxiv.org/abs/2609.07398](https://arxiv.org/abs/2609.07398)
-7. **DriveZero** — Learns end-to-end driving behavior that goes beyond what human demonstration logs contain. [arxiv.org/abs/2609.06055](https://arxiv.org/abs/2609.06055)
-8. **Programmable World Model** — Separates persistent world state from image generation so rules survive long interactions. [arxiv.org/abs/2609.10540](https://arxiv.org/abs/2609.10540)
-9. **GE-Act 2.0** — Treats world-action pretraining and scaling as the primary object rather than inheriting a video generator. [arxiv.org/abs/2609.05588](https://arxiv.org/abs/2609.05588)
-10. **Marigold V2** — Revisits diffusion transformers to sharpen monocular depth and improve out-of-distribution robustness. [arxiv.org/abs/2609.08084](https://arxiv.org/abs/2609.08084)
+1. **WearableQA** — Grounds health-reasoning evaluation in long-term wearable records from real users. [arxiv.org/abs/2609.05405](https://arxiv.org/abs/2609.05405)
+2. **Self-Listening** — Lets full-duplex speech models monitor what they actually say despite asynchronous playback. [arxiv.org/abs/2609.05592](https://arxiv.org/abs/2609.05592)
+3. **Greek Robot Policy Transfer** — Tests cross-lingual robot-policy adaptation without new demonstrations or architecture changes. [arxiv.org/abs/2609.07470](https://arxiv.org/abs/2609.07470)
+4. **SWE-Bench Pro Verified** — Tightens software-agent evaluation against leaked solutions and poorly scoped tests. [arxiv.org/abs/2609.08149](https://arxiv.org/abs/2609.08149)
+5. **SAEScientist-Bench** — Measures whether agents can carry out autonomous sparse-autoencoder interpretability research. [arxiv.org/abs/2609.09113](https://arxiv.org/abs/2609.09113)
+6. **Cadence** — Couples a time-series foundation model with arithmetic coding for guaranteed error-bounded compression. [arxiv.org/abs/2609.06008](https://arxiv.org/abs/2609.06008)
+7. **SynthGait-19K** — Supplies physically grounded synthetic video at scale for clinically meaningful gait estimation. [arxiv.org/abs/2609.08108](https://arxiv.org/abs/2609.08108)
+8. **Discovery Certification Protocol** — Replaces headline research-agent scores with executable recovery and feedback audits. [arxiv.org/abs/2609.09219](https://arxiv.org/abs/2609.09219)
+9. **Encoded Early, Used Late** — Separates when transformers represent a partner's expertise from when they act on it. [arxiv.org/abs/2609.07139](https://arxiv.org/abs/2609.07139)
+10. **CLIP-DINO Deepfake Detection** — Fuses complementary vision backbones with uncertainty awareness for stronger generalization. [arxiv.org/abs/2609.07670](https://arxiv.org/abs/2609.07670)
 <!-- LATEST_PAPERS_END -->
 
 [Browse all paper summaries &rarr;](/blog/ai-papers/)
