@@ -14,18 +14,18 @@ Welcome to my blog! Here I share insights from my daily readings of AI research 
 I read AI and ML research papers daily and post concise summaries here. Each entry covers the key contributions, methods, and takeaways from recent papers across topics like deep learning, reinforcement learning, NLP, computer vision, and more.
 
 <!-- LATEST_PAPERS_START -->
-**Latest — September 11, 2026**
+**Latest — September 12, 2026**
 
-1. **AutoResearch World Models** — Scales autonomous empirical research with world-model-generated experiment proposals. [arxiv.org/abs/2608.12564](https://arxiv.org/abs/2608.12564)
-2. **NCP-ArchPreview** — Adds concept-level prediction to autoregressive training while preserving token generation. [arxiv.org/abs/2609.10715](https://arxiv.org/abs/2609.10715)
-3. **SenseNova-U1.5** — Unifies visual understanding, reasoning, and generation in an encoder-free 8B model. [arxiv.org/abs/2609.11929](https://arxiv.org/abs/2609.11929)
-4. **SpatialBlock** — Uses synthetic block stacking to strengthen 3D reasoning in vision-language models. [arxiv.org/abs/2609.07064](https://arxiv.org/abs/2609.07064)
-5. **T1 Terminal Agent** — Trains a 122B agent with verifier-backed reinforcement learning across 300-plus shell interactions. [arxiv.org/abs/2609.11042](https://arxiv.org/abs/2609.11042)
-6. **EvoSafeHarness** — Evolves safety layers for specific models and domains instead of relying on one generic defense. [arxiv.org/abs/2609.05903](https://arxiv.org/abs/2609.05903)
-7. **Mi-Ripple** — Removes artifacts from repeated AI image edits while preserving visual structure. [arxiv.org/abs/2609.11317](https://arxiv.org/abs/2609.11317)
-8. **PARSER** — Decouples long-document reading from reasoning depth by processing evidence in parallel. [arxiv.org/abs/2609.06702](https://arxiv.org/abs/2609.06702)
-9. **X-AuT** — Compresses speech-model audio encoders with cross-scale distillation while limiting decoder errors. [arxiv.org/abs/2609.11412](https://arxiv.org/abs/2609.11412)
-10. **Memory as Plans** — Turns structured memory into a planning substrate for long-horizon robot manipulation. [arxiv.org/abs/2609.11561](https://arxiv.org/abs/2609.11561)
+1. **IMO Gold Recipe** — Opens a reproducible Nemotron post-training and inference pipeline that reaches the 2026 olympiad gold threshold. [arxiv.org/abs/2609.10712](https://arxiv.org/abs/2609.10712)
+2. **MetroLLM-Bench** — Stress-tests language models as transit-kiosk policy engines across routing, fares, disruptions, and adversarial inputs. [arxiv.org/abs/2609.10016](https://arxiv.org/abs/2609.10016)
+3. **Visual Tokenizers as Languages** — Evaluates image tokenizers by how effectively their visual vocabularies support joint understanding and generation. [arxiv.org/abs/2609.09143](https://arxiv.org/abs/2609.09143)
+4. **Negative Self-Distillation** — Improves difficult reasoning by teaching models to recognize and avoid confidently flawed solution traces. [arxiv.org/abs/2609.11699](https://arxiv.org/abs/2609.11699)
+5. **HyQuant** — Uses hybrid precision to preserve LLM attention quality at aggressively low bit widths. [arxiv.org/abs/2608.27875](https://arxiv.org/abs/2608.27875)
+6. **Multilingual Bridges** — Shows how data mixing can move reasoning models beyond English-first internal reasoning. [arxiv.org/abs/2609.10445](https://arxiv.org/abs/2609.10445)
+7. **Generative Late Interaction** — Compresses visual-document retrieval representations without surrendering late-interaction accuracy. [arxiv.org/abs/2609.11808](https://arxiv.org/abs/2609.11808)
+8. **UniH3** — Unifies restoration across medical-imaging modalities and degradation types in one model. [arxiv.org/abs/2609.11156](https://arxiv.org/abs/2609.11156)
+9. **Beyond Solver Verdicts** — Uses generative reward models to detect formally valid but semantically unfaithful translations. [arxiv.org/abs/2609.11085](https://arxiv.org/abs/2609.11085)
+10. **CARDEA** — Grounds coronary-angiography interpretation in auditable spatial evidence rather than opaque predictions. [arxiv.org/abs/2609.06931](https://arxiv.org/abs/2609.06931)
 <!-- LATEST_PAPERS_END -->
 
 [Browse all paper summaries &rarr;](/blog/ai-papers/)
