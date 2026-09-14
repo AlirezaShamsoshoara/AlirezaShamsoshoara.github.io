@@ -14,18 +14,18 @@ Welcome to my blog! Here I share insights from my daily readings of AI research 
 I read AI and ML research papers daily and post concise summaries here. Each entry covers the key contributions, methods, and takeaways from recent papers across topics like deep learning, reinforcement learning, NLP, computer vision, and more.
 
 <!-- LATEST_PAPERS_START -->
-**Latest — September 12, 2026**
+**Latest — September 13, 2026**
 
-1. **IMO Gold Recipe** — Opens a reproducible Nemotron post-training and inference pipeline that reaches the 2026 olympiad gold threshold. [arxiv.org/abs/2609.10712](https://arxiv.org/abs/2609.10712)
-2. **MetroLLM-Bench** — Stress-tests language models as transit-kiosk policy engines across routing, fares, disruptions, and adversarial inputs. [arxiv.org/abs/2609.10016](https://arxiv.org/abs/2609.10016)
-3. **Visual Tokenizers as Languages** — Evaluates image tokenizers by how effectively their visual vocabularies support joint understanding and generation. [arxiv.org/abs/2609.09143](https://arxiv.org/abs/2609.09143)
-4. **Negative Self-Distillation** — Improves difficult reasoning by teaching models to recognize and avoid confidently flawed solution traces. [arxiv.org/abs/2609.11699](https://arxiv.org/abs/2609.11699)
-5. **HyQuant** — Uses hybrid precision to preserve LLM attention quality at aggressively low bit widths. [arxiv.org/abs/2608.27875](https://arxiv.org/abs/2608.27875)
-6. **Multilingual Bridges** — Shows how data mixing can move reasoning models beyond English-first internal reasoning. [arxiv.org/abs/2609.10445](https://arxiv.org/abs/2609.10445)
-7. **Generative Late Interaction** — Compresses visual-document retrieval representations without surrendering late-interaction accuracy. [arxiv.org/abs/2609.11808](https://arxiv.org/abs/2609.11808)
-8. **UniH3** — Unifies restoration across medical-imaging modalities and degradation types in one model. [arxiv.org/abs/2609.11156](https://arxiv.org/abs/2609.11156)
-9. **Beyond Solver Verdicts** — Uses generative reward models to detect formally valid but semantically unfaithful translations. [arxiv.org/abs/2609.11085](https://arxiv.org/abs/2609.11085)
-10. **CARDEA** — Grounds coronary-angiography interpretation in auditable spatial evidence rather than opaque predictions. [arxiv.org/abs/2609.06931](https://arxiv.org/abs/2609.06931)
+1. **MiniCPM4** — Co-designs architecture, training, and inference to bring capable language models onto end devices. [arxiv.org/abs/2506.07900](https://arxiv.org/abs/2506.07900)
+2. **WideSeek-R1** — Scales broad information seeking through multi-agent reinforcement learning rather than longer single-agent traces. [arxiv.org/abs/2602.04634](https://arxiv.org/abs/2602.04634)
+3. **YuE** — Extends open foundation models to coherent, lyrically aligned songs lasting up to five minutes. [arxiv.org/abs/2503.08638](https://arxiv.org/abs/2503.08638)
+4. **PagedAttention** — Raises LLM serving throughput by managing dynamic key-value caches like virtual memory. [arxiv.org/abs/2309.06180](https://arxiv.org/abs/2309.06180)
+5. **AgentScope 1.0** — Gives developers a flexible framework for building tool-using, agentic applications. [arxiv.org/abs/2508.16279](https://arxiv.org/abs/2508.16279)
+6. **AgentScope Simulation** — Tackles the scalability, diversity, and orchestration demands of very large multi-agent simulations. [arxiv.org/abs/2407.17789](https://arxiv.org/abs/2407.17789)
+7. **Transformers** — Revisits the foundational library that standardized access to pretrained transformer models across NLP. [arxiv.org/abs/1910.03771](https://arxiv.org/abs/1910.03771)
+8. **Production Trading Agents** — Measures six months of real-world LLM-agent behavior across live crypto-trading fleets. [arxiv.org/abs/2609.05663](https://arxiv.org/abs/2609.05663)
+9. **Open-Sora 2.0** — Demonstrates a commercial-quality video-generation training recipe with a roughly $200,000 budget. [arxiv.org/abs/2503.09642](https://arxiv.org/abs/2503.09642)
+10. **Policy Gradients + Prompts** — Jointly optimizes model policies and prompts across modular language-model programs. [arxiv.org/abs/2508.04660](https://arxiv.org/abs/2508.04660)
 <!-- LATEST_PAPERS_END -->
 
 [Browse all paper summaries &rarr;](/blog/ai-papers/)
