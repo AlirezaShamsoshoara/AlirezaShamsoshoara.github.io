@@ -14,18 +14,18 @@ Welcome to my blog! Here I share insights from my daily readings of AI research 
 I read AI and ML research papers daily and post concise summaries here. Each entry covers the key contributions, methods, and takeaways from recent papers across topics like deep learning, reinforcement learning, NLP, computer vision, and more.
 
 <!-- LATEST_PAPERS_START -->
-**Latest — September 14, 2026**
+**Latest — September 15, 2026**
 
-1. **DataFlex-RL** — Standardizes comparisons of rollout selection, weighting, and domain-mixing policies for RLVR training. [arxiv.org/abs/2609.06107](https://arxiv.org/abs/2609.06107)
-2. **Feyospace-v1** — Shows how execution-verified data and cheaper teacher supervision can post-train capable open cyber agents. [arxiv.org/abs/2609.08418](https://arxiv.org/abs/2609.08418)
-3. **Benchmark Radar** — Builds a living search layer for discovering AI benchmarks, datasets, code, and evaluation settings. [arxiv.org/abs/2609.11115](https://arxiv.org/abs/2609.11115)
-4. **Latent Interface Training** — Reduces brittle vision-action shortcuts so robot foundation models generalize across visual shifts. [arxiv.org/abs/2609.12641](https://arxiv.org/abs/2609.12641)
-5. **SAS** — Learns sparse-attention selectors end to end instead of relying on gradient-blocking hard top-k choices. [arxiv.org/abs/2609.13141](https://arxiv.org/abs/2609.13141)
-6. **COBRA-Skills** — Uses contextual bandits to evolve reusable agent skills under tight evaluation budgets. [arxiv.org/abs/2609.11682](https://arxiv.org/abs/2609.11682)
-7. **StepAudio 3 Gen** — Unifies speech, voice design, sound effects, music, and mixed audio in one autoregressive generator. [arxiv.org/abs/2609.12945](https://arxiv.org/abs/2609.12945)
-8. **PLC-DPO** — Corrects uncertain preference labels before they can drive damaging direct-preference updates. [arxiv.org/abs/2608.30597](https://arxiv.org/abs/2608.30597)
-9. **Online LLM Experts** — Frames adaptive model routing with scarce feedback as a contextual-bandit problem. [arxiv.org/abs/2609.05820](https://arxiv.org/abs/2609.05820)
-10. **Diversity-Aware Skill Routing** — Selects complementary rather than redundant skills for complex agent requests. [arxiv.org/abs/2609.05824](https://arxiv.org/abs/2609.05824)
+1. **Atria Dawn** — Trains a foundation research agent with verifiable tool-mediated experience for self-improving scientific workflows. [arxiv.org/abs/2609.15818](https://arxiv.org/abs/2609.15818)
+2. **ZGCM-1** — Pairs a compact open 7B model with deliberate reasoning and external search to overcome parameter limits. [arxiv.org/abs/2609.13356](https://arxiv.org/abs/2609.13356)
+3. **Dream-RSI** — Co-evolves agents and simulated worlds to make recursive self-improvement exploratory rather than static. [arxiv.org/abs/2609.14858](https://arxiv.org/abs/2609.14858)
+4. **PhysBrain 1.5** — Unifies physical-scene understanding, action generation, and future prediction in one foundation model. [arxiv.org/abs/2609.14973](https://arxiv.org/abs/2609.14973)
+5. **Grouped Value Attention** — Shrinks Transformer KV caches by storing values while reconstructing grouped keys on demand. [arxiv.org/abs/2609.13285](https://arxiv.org/abs/2609.13285)
+6. **LynnReal-Omni** — Combines multimodal video generation with editable agentic controls for more stable long-horizon creation. [arxiv.org/abs/2609.15863](https://arxiv.org/abs/2609.15863)
+7. **RSIAgent** — Builds reusable memory through autonomous exploration so agents can adapt to unfamiliar environments without training. [arxiv.org/abs/2609.15364](https://arxiv.org/abs/2609.15364)
+8. **BVB** — Evaluates video understanding by asking agents to reconstruct scenes programmatically in Blender rather than answer questions. [arxiv.org/abs/2609.15478](https://arxiv.org/abs/2609.15478)
+9. **Discovery Foundation Models** — Recasts foundation models as active participants in creating scientific problems, representations, and explanations. [arxiv.org/abs/2609.15973](https://arxiv.org/abs/2609.15973)
+10. **Orthrus** — Finds that numerical precision can break the exact-output guarantees claimed by lossless speculative decoding. [arxiv.org/abs/2609.15504](https://arxiv.org/abs/2609.15504)
 <!-- LATEST_PAPERS_END -->
 
 [Browse all paper summaries &rarr;](/blog/ai-papers/)
