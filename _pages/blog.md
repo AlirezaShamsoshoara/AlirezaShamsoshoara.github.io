@@ -14,18 +14,18 @@ Welcome to my blog! Here I share insights from my daily readings of AI research 
 I read AI and ML research papers daily and post concise summaries here. Each entry covers the key contributions, methods, and takeaways from recent papers across topics like deep learning, reinforcement learning, NLP, computer vision, and more.
 
 <!-- LATEST_PAPERS_START -->
-**Latest — September 16, 2026**
+**Latest — September 17, 2026**
 
-1. **LongCat-Video** — Scales video generation to 13.6B parameters while targeting efficient long-form synthesis. [arxiv.org/abs/2510.22200](https://arxiv.org/abs/2510.22200)
-2. **Never Giving Up** — Rebalances LLM reinforcement learning toward hard problems instead of over-rewarding easy wins. [arxiv.org/abs/2609.13443](https://arxiv.org/abs/2609.13443)
-3. **Pick Your Poison** — Learns which finetuning examples produce stronger and more efficient LLM backdoor attacks. [arxiv.org/abs/2609.15029](https://arxiv.org/abs/2609.15029)
-4. **Dynin-Robotics** — Unifies visual goals, dynamics prediction, and robot action generation in one diffusion model. [arxiv.org/abs/2609.13053](https://arxiv.org/abs/2609.13053)
-5. **Expert-Space Exploration** — Makes expert routing itself an exploration target during mixture-of-experts reinforcement learning. [arxiv.org/abs/2609.13058](https://arxiv.org/abs/2609.13058)
-6. **Vibe Design Agents** — Helps design agents explore coherent interface alternatives rather than stopping at one valid page. [arxiv.org/abs/2609.15078](https://arxiv.org/abs/2609.15078)
-7. **Root-Cause Attribution** — Treats diagnosis across long agent traces as a continual search problem. [arxiv.org/abs/2609.13463](https://arxiv.org/abs/2609.13463)
-8. **Sophea** — Documents a production Greek-English speech recognizer validated against nine deployment gates. [arxiv.org/abs/2609.13498](https://arxiv.org/abs/2609.13498)
-9. **Generalized Agent Iteration** — Formalizes iterative policy improvement and recursive self-improvement within one framework. [arxiv.org/abs/2609.13406](https://arxiv.org/abs/2609.13406)
-10. **LimiX-2** — Scales contextual mechanism networks toward general intelligence for structured data. [arxiv.org/abs/2609.17488](https://arxiv.org/abs/2609.17488)
+1. **Long-Horizon Memorization** — Combines complementary continual-learning mechanisms to retain knowledge across 100 sequential tasks. [arxiv.org/abs/2609.06986](https://arxiv.org/abs/2609.06986)
+2. **AI for Games** — Maps how foundation models are reshaping game design, development, player modeling, and evaluation. [arxiv.org/abs/2609.16679](https://arxiv.org/abs/2609.16679)
+3. **StepAudio 3 Realtime** — Runs private reasoning alongside speech for low-latency, fluid audio conversations. [arxiv.org/abs/2609.14005](https://arxiv.org/abs/2609.14005)
+4. **Recursive Self-Improvement** — Defines a staged roadmap from autonomous improvement execution to recursive meta-improvement. [arxiv.org/abs/2609.11873](https://arxiv.org/abs/2609.11873)
+5. **StepAudio 3 Music** — Uses an explicit symbolic arrangement plan to guide long-form text-controlled music generation. [arxiv.org/abs/2609.16034](https://arxiv.org/abs/2609.16034)
+6. **ScienceIDE** — Turns scientific software repositories into executable training and evaluation environments for agents. [arxiv.org/abs/2609.19134](https://arxiv.org/abs/2609.19134)
+7. **Value Flattening in PPO** — Diagnoses under-responsive critics and applies sparse value supervision to improve learning. [arxiv.org/abs/2609.18708](https://arxiv.org/abs/2609.18708)
+8. **Experiential Confidence** — Calibrates model confidence using accumulated evidence from the model's own graded experience. [arxiv.org/abs/2609.17708](https://arxiv.org/abs/2609.17708)
+9. **ProgramDistill** — Mines interactive applications to create thousands of replay-verifiable software-engineering tasks. [arxiv.org/abs/2609.18805](https://arxiv.org/abs/2609.18805)
+10. **ActionPiece** — Preserves physical action relationships when tokenizing robot controls for autoregressive policies. [arxiv.org/abs/2609.18487](https://arxiv.org/abs/2609.18487)
 <!-- LATEST_PAPERS_END -->
 
 [Browse all paper summaries &rarr;](/blog/ai-papers/)
