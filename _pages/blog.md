@@ -14,18 +14,18 @@ Welcome to my blog! Here I share insights from my daily readings of AI research 
 I read AI and ML research papers daily and post concise summaries here. Each entry covers the key contributions, methods, and takeaways from recent papers across topics like deep learning, reinforcement learning, NLP, computer vision, and more.
 
 <!-- LATEST_PAPERS_START -->
-**Latest — September 18, 2026**
+**Latest — September 19, 2026**
 
-1. **DeepSeek-V4.1-Flash** — Combines million-token multimodal context with asymmetric MoE activation to cut prefill and decoding costs for agents. [arxiv.org/abs/2609.19969](https://arxiv.org/abs/2609.19969)
-2. **SoL-Pi** — Scales recursive auto-research across diverse environments to learn reusable improvements for agent harnesses. [arxiv.org/abs/2609.20519](https://arxiv.org/abs/2609.20519)
-3. **Coding-Agent Harness Design** — Isolates how planning, action spaces, and context management trade off coding-agent accuracy and cost. [arxiv.org/abs/2609.20804](https://arxiv.org/abs/2609.20804)
-4. **JEPA-Anything** — Applies factorized predictive learning across ten dynamics tasks spanning seven distinct domains. [arxiv.org/abs/2609.20800](https://arxiv.org/abs/2609.20800)
-5. **MiniMax-H3 Physical Reasoning** — Tests omni-modal models on cross-modal physical reasoning and finds substantial room to improve. [arxiv.org/abs/2609.18323](https://arxiv.org/abs/2609.18323)
-6. **RiskChainBench** — Links obfuscated-message recovery with evidence-grounded web investigation of risky destinations. [arxiv.org/abs/2609.16900](https://arxiv.org/abs/2609.16900)
-7. **EOS Token Alignment** — Shows that semantically aligning termination tokens curbs runaway output lengths in on-policy distillation. [arxiv.org/abs/2609.20511](https://arxiv.org/abs/2609.20511)
-8. **RetireOPD** — Lets reinforcement-learning students phase out their distillation teacher after surpassing it. [arxiv.org/abs/2609.20784](https://arxiv.org/abs/2609.20784)
-9. **EvoSkill-GUI** — Evolves reusable GUI-agent skills from deployment feedback without additional model training. [arxiv.org/abs/2609.17653](https://arxiv.org/abs/2609.17653)
-10. **WeVisDoc** — Uses held-out residual-error probes to target document-parser weaknesses instead of merely expanding coverage. [arxiv.org/abs/2609.20423](https://arxiv.org/abs/2609.20423)
+1. **SmolVLA** — Shrinks vision-language-action robotics to consumer hardware while retaining near-large-model performance. [arxiv.org/abs/2506.01844](https://arxiv.org/abs/2506.01844)
+2. **Agent Lightning** — Decouples reinforcement learning from agent execution so existing agents can improve with minimal integration work. [arxiv.org/abs/2508.03680](https://arxiv.org/abs/2508.03680)
+3. **Cache-to-Cache** — Transfers semantics directly between LLM KV caches instead of forcing models to communicate through text. [arxiv.org/abs/2510.03215](https://arxiv.org/abs/2510.03215)
+4. **Paper2Agent** — Converts papers and associated code into tested MCP servers for interactive, reproducible research. [arxiv.org/abs/2509.06917](https://arxiv.org/abs/2509.06917)
+5. **GLiNER2** — Unifies entity recognition, classification, and structured extraction in a compact schema-driven model. [arxiv.org/abs/2507.18546](https://arxiv.org/abs/2507.18546)
+6. **Fuse Social Reasoning** — Uses multi-agent simulations to expose framing bias and conversational failure modes in social reasoning. [arxiv.org/abs/2609.17496](https://arxiv.org/abs/2609.17496)
+7. **GPT-Policy** — Learns robot behavior in context from demonstrations and interaction feedback without gradient updates. [arxiv.org/abs/2609.19138](https://arxiv.org/abs/2609.19138)
+8. **LLM Test-Time Scaling** — Shows batching strategy, not just sample count, dominates energy use and tail latency. [arxiv.org/abs/2609.19499](https://arxiv.org/abs/2609.19499)
+9. **FLAT** — Learns flexible-length multimodal tokens that support both cross-modal retrieval and generation. [arxiv.org/abs/2609.16591](https://arxiv.org/abs/2609.16591)
+10. **Srijika** — Restyles complete fonts across nine Indic scripts while preserving complex OpenType shaping. [arxiv.org/abs/2609.05661](https://arxiv.org/abs/2609.05661)
 <!-- LATEST_PAPERS_END -->
 
 [Browse all paper summaries &rarr;](/blog/ai-papers/)
