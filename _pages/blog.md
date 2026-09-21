@@ -14,18 +14,18 @@ Welcome to my blog! Here I share insights from my daily readings of AI research 
 I read AI and ML research papers daily and post concise summaries here. Each entry covers the key contributions, methods, and takeaways from recent papers across topics like deep learning, reinforcement learning, NLP, computer vision, and more.
 
 <!-- LATEST_PAPERS_START -->
-**Latest — September 20, 2026**
+**Latest — September 21, 2026**
 
-1. **PDFMathTranslate** — Preserves equations and page layouts while using language models to translate scientific PDFs. [arxiv.org/abs/2507.03009](https://arxiv.org/abs/2507.03009)
-2. **dQwen3.5** — Turns hybrid attention-RNN backbones into diffusion language models with efficient parallel decoding. [arxiv.org/abs/2609.20751](https://arxiv.org/abs/2609.20751)
-3. **On-Demand Attention** — Learns when long-context decoding needs costly global recall instead of rereading everything. [arxiv.org/abs/2609.20734](https://arxiv.org/abs/2609.20734)
-4. **Score Centering** — Stabilizes off-policy language-model reinforcement learning despite training-and-inference drift. [arxiv.org/abs/2609.20807](https://arxiv.org/abs/2609.20807)
-5. **PersistBench** — Tests whether 4D models remember objects after they leave view, exposing weak long-term consistency. [arxiv.org/abs/2609.20819](https://arxiv.org/abs/2609.20819)
-6. **UnifiedPlayers** — Co-trains planning, tool use, and verification for self-improving reasoning agents. [arxiv.org/abs/2609.20089](https://arxiv.org/abs/2609.20089)
-7. **Chronicle** — Replays agent failures at nondeterministic boundaries to turn them into reliable CI regressions. [arxiv.org/abs/2609.20625](https://arxiv.org/abs/2609.20625)
-8. **Agent Harnesses** — Measures the distinct gains from task plans and read-only release verification. [arxiv.org/abs/2609.20474](https://arxiv.org/abs/2609.20474)
-9. **MM-Future** — Jointly predicts multiple future scenes and actions for autonomous-driving decisions. [arxiv.org/abs/2609.20377](https://arxiv.org/abs/2609.20377)
-10. **JEPA-WAM** — Uses generated visual goals to improve robot instruction following under distribution shifts. [arxiv.org/abs/2609.20277](https://arxiv.org/abs/2609.20277)
+1. **IntBMoE** — Makes every expert participate while retaining sparse execution through learned block-level composition. [arxiv.org/abs/2609.21346](https://arxiv.org/abs/2609.21346)
+2. **Code2Skill** — Converts source code into more than a million verified, reusable skills for coding and general agents. [arxiv.org/abs/2609.05571](https://arxiv.org/abs/2609.05571)
+3. **CodeMidas** — Generates executable reinforcement-learning tasks directly from implemented open-source functionality. [arxiv.org/abs/2609.22068](https://arxiv.org/abs/2609.22068)
+4. **EvoOntology** — Continuously refines an MCP-served ontology to help data agents navigate heterogeneous sources. [arxiv.org/abs/2609.15779](https://arxiv.org/abs/2609.15779)
+5. **RecreationWorld** — Benchmarks agents that combine GUI interaction, coding, command-line work, and visual verification. [arxiv.org/abs/2609.22000](https://arxiv.org/abs/2609.22000)
+6. **OmniVChat** — Trains models for direct audio-visual dialogue without separate transcription or captioning stages. [arxiv.org/abs/2609.21465](https://arxiv.org/abs/2609.21465)
+7. **OmniVBench** — Pairs granular reference-to-video evaluation with a 340,000-sample training dataset. [arxiv.org/abs/2609.22069](https://arxiv.org/abs/2609.22069)
+8. **Designer-RSI** — Improves graphic-design agents by evolving procedural memory from real user trajectories. [arxiv.org/abs/2609.22086](https://arxiv.org/abs/2609.22086)
+9. **MintAct** — Unifies UI grounding, navigation, and visual tool use across mobile, desktop, and web. [arxiv.org/abs/2609.22083](https://arxiv.org/abs/2609.22083)
+10. **GraphSkillEvo** — Optimizes graph-structured agent workflows through population-based mutation and crossover. [arxiv.org/abs/2609.21749](https://arxiv.org/abs/2609.21749)
 <!-- LATEST_PAPERS_END -->
 
 [Browse all paper summaries &rarr;](/blog/ai-papers/)
