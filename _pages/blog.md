@@ -14,18 +14,18 @@ Welcome to my blog! Here I share insights from my daily readings of AI research 
 I read AI and ML research papers daily and post concise summaries here. Each entry covers the key contributions, methods, and takeaways from recent papers across topics like deep learning, reinforcement learning, NLP, computer vision, and more.
 
 <!-- LATEST_PAPERS_START -->
-**Latest — September 21, 2026**
+**Latest — September 22, 2026**
 
-1. **IntBMoE** — Makes every expert participate while retaining sparse execution through learned block-level composition. [arxiv.org/abs/2609.21346](https://arxiv.org/abs/2609.21346)
-2. **Code2Skill** — Converts source code into more than a million verified, reusable skills for coding and general agents. [arxiv.org/abs/2609.05571](https://arxiv.org/abs/2609.05571)
-3. **CodeMidas** — Generates executable reinforcement-learning tasks directly from implemented open-source functionality. [arxiv.org/abs/2609.22068](https://arxiv.org/abs/2609.22068)
-4. **EvoOntology** — Continuously refines an MCP-served ontology to help data agents navigate heterogeneous sources. [arxiv.org/abs/2609.15779](https://arxiv.org/abs/2609.15779)
-5. **RecreationWorld** — Benchmarks agents that combine GUI interaction, coding, command-line work, and visual verification. [arxiv.org/abs/2609.22000](https://arxiv.org/abs/2609.22000)
-6. **OmniVChat** — Trains models for direct audio-visual dialogue without separate transcription or captioning stages. [arxiv.org/abs/2609.21465](https://arxiv.org/abs/2609.21465)
-7. **OmniVBench** — Pairs granular reference-to-video evaluation with a 340,000-sample training dataset. [arxiv.org/abs/2609.22069](https://arxiv.org/abs/2609.22069)
-8. **Designer-RSI** — Improves graphic-design agents by evolving procedural memory from real user trajectories. [arxiv.org/abs/2609.22086](https://arxiv.org/abs/2609.22086)
-9. **MintAct** — Unifies UI grounding, navigation, and visual tool use across mobile, desktop, and web. [arxiv.org/abs/2609.22083](https://arxiv.org/abs/2609.22083)
-10. **GraphSkillEvo** — Optimizes graph-structured agent workflows through population-based mutation and crossover. [arxiv.org/abs/2609.21749](https://arxiv.org/abs/2609.21749)
+1. **RRSI** — Regularizes recursive agent-harness self-improvement to avoid overfitting and cut policy-token cost. [arxiv.org/abs/2609.24972](https://arxiv.org/abs/2609.24972)
+2. **WorldCrafter** — Uses camera-queryable 3D-aware memory to keep video world models consistent over minute-scale exploration. [arxiv.org/abs/2609.24984](https://arxiv.org/abs/2609.24984)
+3. **GameHorizon Suite** — Delivers 5,000 hours of aligned gameplay data and evaluations spanning 47 models. [arxiv.org/abs/2609.25001](https://arxiv.org/abs/2609.25001)
+4. **RoboDawn** — Transfers agentic VLM reasoning to closed-loop robot control using single-demonstration in-context grounding. [arxiv.org/abs/2609.22966](https://arxiv.org/abs/2609.22966)
+5. **OmniEdu** — Offers an open 4B-27B model family tuned for curriculum-grounded teaching and tutoring. [arxiv.org/abs/2609.23088](https://arxiv.org/abs/2609.23088)
+6. **D-RAC** — Normalizes and chunks enterprise documents for retrieval while cutting cost and tokens versus agentic chunking. [arxiv.org/abs/2609.24220](https://arxiv.org/abs/2609.24220)
+7. **VideoGen-Agent** — Reinforces tool-orchestrating video generation agents across six tasks on a 600-prompt benchmark. [arxiv.org/abs/2609.24997](https://arxiv.org/abs/2609.24997)
+8. **onPanda** — Speeds on-policy alignment annotation via first-error token correction instead of manual post-editing. [arxiv.org/abs/2609.24983](https://arxiv.org/abs/2609.24983)
+9. **Grounded Action Model** — Grounds robot action prediction in shared object-centric 3D representations from language, point, or box prompts. [arxiv.org/abs/2609.23863](https://arxiv.org/abs/2609.23863)
+10. **HuRo** — Robotizes human videos into aligned observation-action trajectories to scale VLA pretraining. [arxiv.org/abs/2609.10706](https://arxiv.org/abs/2609.10706)
 <!-- LATEST_PAPERS_END -->
 
 [Browse all paper summaries &rarr;](/blog/ai-papers/)
