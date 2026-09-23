@@ -14,18 +14,18 @@ Welcome to my blog! Here I share insights from my daily readings of AI research 
 I read AI and ML research papers daily and post concise summaries here. Each entry covers the key contributions, methods, and takeaways from recent papers across topics like deep learning, reinforcement learning, NLP, computer vision, and more.
 
 <!-- LATEST_PAPERS_START -->
-**Latest — September 22, 2026**
+**Latest — September 23, 2026**
 
-1. **RRSI** — Regularizes recursive agent-harness self-improvement to avoid overfitting and cut policy-token cost. [arxiv.org/abs/2609.24972](https://arxiv.org/abs/2609.24972)
-2. **WorldCrafter** — Uses camera-queryable 3D-aware memory to keep video world models consistent over minute-scale exploration. [arxiv.org/abs/2609.24984](https://arxiv.org/abs/2609.24984)
-3. **GameHorizon Suite** — Delivers 5,000 hours of aligned gameplay data and evaluations spanning 47 models. [arxiv.org/abs/2609.25001](https://arxiv.org/abs/2609.25001)
-4. **RoboDawn** — Transfers agentic VLM reasoning to closed-loop robot control using single-demonstration in-context grounding. [arxiv.org/abs/2609.22966](https://arxiv.org/abs/2609.22966)
-5. **OmniEdu** — Offers an open 4B-27B model family tuned for curriculum-grounded teaching and tutoring. [arxiv.org/abs/2609.23088](https://arxiv.org/abs/2609.23088)
-6. **D-RAC** — Normalizes and chunks enterprise documents for retrieval while cutting cost and tokens versus agentic chunking. [arxiv.org/abs/2609.24220](https://arxiv.org/abs/2609.24220)
-7. **VideoGen-Agent** — Reinforces tool-orchestrating video generation agents across six tasks on a 600-prompt benchmark. [arxiv.org/abs/2609.24997](https://arxiv.org/abs/2609.24997)
-8. **onPanda** — Speeds on-policy alignment annotation via first-error token correction instead of manual post-editing. [arxiv.org/abs/2609.24983](https://arxiv.org/abs/2609.24983)
-9. **Grounded Action Model** — Grounds robot action prediction in shared object-centric 3D representations from language, point, or box prompts. [arxiv.org/abs/2609.23863](https://arxiv.org/abs/2609.23863)
-10. **HuRo** — Robotizes human videos into aligned observation-action trajectories to scale VLA pretraining. [arxiv.org/abs/2609.10706](https://arxiv.org/abs/2609.10706)
+1. **Tasteful Agent** — Benchmarks long-horizon agent judgment and improves it through hindsight-distilled decision signals. [arxiv.org/abs/2609.25804](https://arxiv.org/abs/2609.25804)
+2. **RULER** — Builds instance-specific visual rubrics that make reinforcement learning for SVG generation more precise and robust. [arxiv.org/abs/2609.25270](https://arxiv.org/abs/2609.25270)
+3. **GAE** — Learns geometry-native latents that improve 3D consistency and camera control in generated worlds. [arxiv.org/abs/2609.24981](https://arxiv.org/abs/2609.24981)
+4. **ScriptMoE** — Routes multilingual scene text through script-aware experts to recognize 229 languages efficiently. [arxiv.org/abs/2609.24058](https://arxiv.org/abs/2609.24058)
+5. **Bellman Policy Optimization** — Recasts critic-free reasoning optimization as a trajectory-level objective grounded in Bellman equations. [arxiv.org/abs/2609.15987](https://arxiv.org/abs/2609.15987)
+6. **HyperQ** — Adds token-conditioned quantum residuals to diffusion language models with tractable classical evaluation. [arxiv.org/abs/2609.24657](https://arxiv.org/abs/2609.24657)
+7. **StableVQ** — Separates tokenizer and codebook objectives to stabilize vector-quantized training without extra parameters. [arxiv.org/abs/2609.26774](https://arxiv.org/abs/2609.26774)
+8. **Ovis-Embedding** — Unifies text, image, video, and audio retrieval in one flexible embedding space. [arxiv.org/abs/2609.25165](https://arxiv.org/abs/2609.25165)
+9. **Mental-Health LLM Survey** — Maps the field's shift from pattern recognition toward empathetic, longitudinal AI companions. [arxiv.org/abs/2609.25186](https://arxiv.org/abs/2609.25186)
+10. **Flash-dLLM** — Combines fused KV caching with parallel decoding to accelerate diffusion LLM inference substantially. [arxiv.org/abs/2609.26796](https://arxiv.org/abs/2609.26796)
 <!-- LATEST_PAPERS_END -->
 
 [Browse all paper summaries &rarr;](/blog/ai-papers/)
