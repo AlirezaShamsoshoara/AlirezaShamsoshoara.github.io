@@ -14,18 +14,18 @@ Welcome to my blog! Here I share insights from my daily readings of AI research 
 I read AI and ML research papers daily and post concise summaries here. Each entry covers the key contributions, methods, and takeaways from recent papers across topics like deep learning, reinforcement learning, NLP, computer vision, and more.
 
 <!-- LATEST_PAPERS_START -->
-**Latest — September 24, 2026**
+**Latest — September 25, 2026**
 
-1. **SpeakerMem-R1** — Builds speaker-aware dual-track memory for reliable long-horizon, multi-party dialogue. [arxiv.org/abs/2609.26780](https://arxiv.org/abs/2609.26780)
-2. **Spatial-Interactor** — Teaches vision-language models to reason about changing physical scenes through embodied interaction. [arxiv.org/abs/2609.23038](https://arxiv.org/abs/2609.23038)
-3. **HappyWorld-Bench** — Exposes reliability gaps in generated worlds across video, spatial, and embodied tasks. [arxiv.org/abs/2609.24308](https://arxiv.org/abs/2609.24308)
-4. **Past Frames, Future Video** — Organizes memory mechanisms and open challenges for long-horizon autoregressive video generation. [arxiv.org/abs/2609.28466](https://arxiv.org/abs/2609.28466)
-5. **Just-in-Time Memory** — Curates agent memories at query time to improve relevance and task success. [arxiv.org/abs/2609.27334](https://arxiv.org/abs/2609.27334)
-6. **RewardVerse** — Uses dynamic rubrics to stabilize and explain reinforcement-learning rewards for generated video. [arxiv.org/abs/2609.22947](https://arxiv.org/abs/2609.22947)
-7. **PACT** — Connects principled token-level credit assignment with stronger actor-critic language-model training. [arxiv.org/abs/2609.26355](https://arxiv.org/abs/2609.26355)
-8. **SchrodingerRepo** — Tests whether coding agents truly reason about repositories or exploit memorized structural cues. [arxiv.org/abs/2609.27891](https://arxiv.org/abs/2609.27891)
-9. **PackLab** — Unifies simulation, training, and evaluation for closed-loop robotic bin packing. [arxiv.org/abs/2609.23784](https://arxiv.org/abs/2609.23784)
-10. **GeoPair** — Compresses transformers across layers while preserving activation geometry and avoiding retraining. [arxiv.org/abs/2609.25963](https://arxiv.org/abs/2609.25963)
+1. **WROP** — Gives video world models a rigorous object-permanence curriculum and benchmark. [arxiv.org/abs/2609.28654](https://arxiv.org/abs/2609.28654)
+2. **Two Thoughts at Once** — Shows transformers can multiplex two language streams in one forward pass. [arxiv.org/abs/2609.29845](https://arxiv.org/abs/2609.29845)
+3. **WanPE** — Converts rough video prompts into shot-level cinematic plans with large preference gains. [arxiv.org/abs/2609.30221](https://arxiv.org/abs/2609.30221)
+4. **OmniEcho** — Adds spatial hearing to embodied agents for scene understanding and sound-guided navigation. [arxiv.org/abs/2609.23407](https://arxiv.org/abs/2609.23407)
+5. **EditAct** — Improves tool-using agents by repairing reasoning state instead of simulating tool responses. [arxiv.org/abs/2609.28416](https://arxiv.org/abs/2609.28416)
+6. **SAE Grammar** — Finds grammatical categories emerge as stable, distributed groups of sparse features. [arxiv.org/abs/2609.29362](https://arxiv.org/abs/2609.29362)
+7. **Qwen-Planner-Agent** — Builds a closed feedback loop for improving deployed mobile agents. [arxiv.org/abs/2609.29892](https://arxiv.org/abs/2609.29892)
+8. **IterSynth** — Separates planning from synthesis to make long-horizon search more accurate and efficient. [arxiv.org/abs/2609.29444](https://arxiv.org/abs/2609.29444)
+9. **Coding Agents for TAMP** — Shows coding agents can synthesize reusable robot planners that beat hand-engineered baselines. [arxiv.org/abs/2609.30233](https://arxiv.org/abs/2609.30233)
+10. **Neural Spectral Capacity** — Scores and optimizes network architectures from specifications alone, without data or training. [arxiv.org/abs/2609.23087](https://arxiv.org/abs/2609.23087)
 <!-- LATEST_PAPERS_END -->
 
 [Browse all paper summaries &rarr;](/blog/ai-papers/)
