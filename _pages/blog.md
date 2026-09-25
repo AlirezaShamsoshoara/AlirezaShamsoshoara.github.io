@@ -14,18 +14,18 @@ Welcome to my blog! Here I share insights from my daily readings of AI research 
 I read AI and ML research papers daily and post concise summaries here. Each entry covers the key contributions, methods, and takeaways from recent papers across topics like deep learning, reinforcement learning, NLP, computer vision, and more.
 
 <!-- LATEST_PAPERS_START -->
-**Latest — September 25, 2026**
+**Latest — September 26, 2026**
 
-1. **WROP** — Gives video world models a rigorous object-permanence curriculum and benchmark. [arxiv.org/abs/2609.28654](https://arxiv.org/abs/2609.28654)
-2. **Two Thoughts at Once** — Shows transformers can multiplex two language streams in one forward pass. [arxiv.org/abs/2609.29845](https://arxiv.org/abs/2609.29845)
-3. **WanPE** — Converts rough video prompts into shot-level cinematic plans with large preference gains. [arxiv.org/abs/2609.30221](https://arxiv.org/abs/2609.30221)
-4. **OmniEcho** — Adds spatial hearing to embodied agents for scene understanding and sound-guided navigation. [arxiv.org/abs/2609.23407](https://arxiv.org/abs/2609.23407)
-5. **EditAct** — Improves tool-using agents by repairing reasoning state instead of simulating tool responses. [arxiv.org/abs/2609.28416](https://arxiv.org/abs/2609.28416)
-6. **SAE Grammar** — Finds grammatical categories emerge as stable, distributed groups of sparse features. [arxiv.org/abs/2609.29362](https://arxiv.org/abs/2609.29362)
-7. **Qwen-Planner-Agent** — Builds a closed feedback loop for improving deployed mobile agents. [arxiv.org/abs/2609.29892](https://arxiv.org/abs/2609.29892)
-8. **IterSynth** — Separates planning from synthesis to make long-horizon search more accurate and efficient. [arxiv.org/abs/2609.29444](https://arxiv.org/abs/2609.29444)
-9. **Coding Agents for TAMP** — Shows coding agents can synthesize reusable robot planners that beat hand-engineered baselines. [arxiv.org/abs/2609.30233](https://arxiv.org/abs/2609.30233)
-10. **Neural Spectral Capacity** — Scores and optimizes network architectures from specifications alone, without data or training. [arxiv.org/abs/2609.23087](https://arxiv.org/abs/2609.23087)
+1. **Interesting Mathematics** — Gives machine-verified theorem discovery a measurable target for novelty and downstream usefulness. [arxiv.org/abs/2609.28603](https://arxiv.org/abs/2609.28603)
+2. **RGBD20K** — Expands RGB-D segmentation to 20,000 carefully corrected image pairs across 160 categories. [arxiv.org/abs/2609.29028](https://arxiv.org/abs/2609.29028)
+3. **Self-Organizing Agent Teams** — Learns reusable collaboration protocols that let agent groups outperform their strongest member. [arxiv.org/abs/2609.22682](https://arxiv.org/abs/2609.22682)
+4. **MemoryAthena** — Routes selectively between retrieved and generated memories to improve question answering. [arxiv.org/abs/2609.25853](https://arxiv.org/abs/2609.25853)
+5. **FLEET** — Reuses high-entropy generation decisions to improve sampling efficiency and coding accuracy. [arxiv.org/abs/2609.27657](https://arxiv.org/abs/2609.27657)
+6. **Six Layers Less** — Prunes Whisper encoders with a label-free recovery stage and no custom inference stack. [arxiv.org/abs/2609.27980](https://arxiv.org/abs/2609.27980)
+7. **Uranus** — Delivers an open, real-time world simulator for scalable embodied-agent training. [arxiv.org/abs/2609.24815](https://arxiv.org/abs/2609.24815)
+8. **Linear Representations** — Reframes representation linearity around explicit group actions and equivalence choices. [arxiv.org/abs/2609.27158](https://arxiv.org/abs/2609.27158)
+9. **StudentBench** — Finds AI tutoring can match expert GRE learning gains at dramatically lower cost. [arxiv.org/abs/2609.28470](https://arxiv.org/abs/2609.28470)
+10. **X-Planner** — Combines explicit event plans with latent reasoning for long-horizon robot manipulation. [arxiv.org/abs/2609.25187](https://arxiv.org/abs/2609.25187)
 <!-- LATEST_PAPERS_END -->
 
 [Browse all paper summaries &rarr;](/blog/ai-papers/)
