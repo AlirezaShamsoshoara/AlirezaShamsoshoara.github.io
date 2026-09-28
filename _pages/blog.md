@@ -14,18 +14,18 @@ Welcome to my blog! Here I share insights from my daily readings of AI research 
 I read AI and ML research papers daily and post concise summaries here. Each entry covers the key contributions, methods, and takeaways from recent papers across topics like deep learning, reinforcement learning, NLP, computer vision, and more.
 
 <!-- LATEST_PAPERS_START -->
-**Latest — September 26, 2026**
+**Latest — September 27, 2026**
 
-1. **Interesting Mathematics** — Gives machine-verified theorem discovery a measurable target for novelty and downstream usefulness. [arxiv.org/abs/2609.28603](https://arxiv.org/abs/2609.28603)
-2. **RGBD20K** — Expands RGB-D segmentation to 20,000 carefully corrected image pairs across 160 categories. [arxiv.org/abs/2609.29028](https://arxiv.org/abs/2609.29028)
-3. **Self-Organizing Agent Teams** — Learns reusable collaboration protocols that let agent groups outperform their strongest member. [arxiv.org/abs/2609.22682](https://arxiv.org/abs/2609.22682)
-4. **MemoryAthena** — Routes selectively between retrieved and generated memories to improve question answering. [arxiv.org/abs/2609.25853](https://arxiv.org/abs/2609.25853)
-5. **FLEET** — Reuses high-entropy generation decisions to improve sampling efficiency and coding accuracy. [arxiv.org/abs/2609.27657](https://arxiv.org/abs/2609.27657)
-6. **Six Layers Less** — Prunes Whisper encoders with a label-free recovery stage and no custom inference stack. [arxiv.org/abs/2609.27980](https://arxiv.org/abs/2609.27980)
-7. **Uranus** — Delivers an open, real-time world simulator for scalable embodied-agent training. [arxiv.org/abs/2609.24815](https://arxiv.org/abs/2609.24815)
-8. **Linear Representations** — Reframes representation linearity around explicit group actions and equivalence choices. [arxiv.org/abs/2609.27158](https://arxiv.org/abs/2609.27158)
-9. **StudentBench** — Finds AI tutoring can match expert GRE learning gains at dramatically lower cost. [arxiv.org/abs/2609.28470](https://arxiv.org/abs/2609.28470)
-10. **X-Planner** — Combines explicit event plans with latent reasoning for long-horizon robot manipulation. [arxiv.org/abs/2609.25187](https://arxiv.org/abs/2609.25187)
+1. **Single-stream Policy Optimization** — Replaces group baselines with a KL-adaptive value tracker for smoother, more efficient LLM reinforcement learning. [arxiv.org/abs/2509.13232](https://arxiv.org/abs/2509.13232)
+2. **Self-Supervised Prompt Optimization** — Improves prompts without labeled references while using a fraction of prior methods’ evaluation cost. [arxiv.org/abs/2502.06855](https://arxiv.org/abs/2502.06855)
+3. **PyTorch Distributed** — Distills the gradient bucketing and communication-overlap techniques behind scalable data-parallel training. [arxiv.org/abs/2006.15704](https://arxiv.org/abs/2006.15704)
+4. **Mira-Scene** — Uses dense pixel-aligned correspondences to reconstruct substantially more accurate 3D scene layouts. [arxiv.org/abs/2609.23796](https://arxiv.org/abs/2609.23796)
+5. **Harness VLA** — Turns frozen robot policies into recoverable manipulation primitives through memory-guided orchestration. [arxiv.org/abs/2607.08448](https://arxiv.org/abs/2607.08448)
+6. **SAGE** — Guides sparse long-horizon reasoning with topological structure to reduce compounding search errors. [arxiv.org/abs/2609.30192](https://arxiv.org/abs/2609.30192)
+7. **Synthetic Hospital** — Provides an open, physician-validated longitudinal EHR benchmark with complete provenance. [arxiv.org/abs/2609.30027](https://arxiv.org/abs/2609.30027)
+8. **Learning to Ideate** — Trains scientific-idea generation against an outcome-grounded signal for future research impact. [arxiv.org/abs/2609.29802](https://arxiv.org/abs/2609.29802)
+9. **Env-Rethink** — Makes an agent’s environment itself a target for recursive improvement and harder training experiences. [arxiv.org/abs/2609.29773](https://arxiv.org/abs/2609.29773)
+10. **iCoder-27B** — Uses agent-directed experimentation and training to build a competitive industrial coding model. [arxiv.org/abs/2609.29626](https://arxiv.org/abs/2609.29626)
 <!-- LATEST_PAPERS_END -->
 
 [Browse all paper summaries &rarr;](/blog/ai-papers/)
