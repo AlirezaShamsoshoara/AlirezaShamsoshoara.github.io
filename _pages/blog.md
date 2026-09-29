@@ -14,18 +14,18 @@ Welcome to my blog! Here I share insights from my daily readings of AI research 
 I read AI and ML research papers daily and post concise summaries here. Each entry covers the key contributions, methods, and takeaways from recent papers across topics like deep learning, reinforcement learning, NLP, computer vision, and more.
 
 <!-- LATEST_PAPERS_START -->
-**Latest — September 28, 2026**
+**Latest — September 29, 2026**
 
-1. **FuseReg** — Makes representation autoencoders less brittle by training one decoder across changing layer combinations. [arxiv.org/abs/2609.31620](https://arxiv.org/abs/2609.31620)
-2. **RayOrch** — Preserves fine-grained data lineage while scaling multimodal foundation-model preparation pipelines. [arxiv.org/abs/2609.18703](https://arxiv.org/abs/2609.18703)
-3. **PISA Sparse Attention** — Delivers log-linear key selection with hardware-aware kernels that avoid full attention matrices. [arxiv.org/abs/2609.31093](https://arxiv.org/abs/2609.31093)
-4. **InternW0-Delta** — Joins predictive world dynamics with action generation using more than 20,000 hours of open demonstrations. [arxiv.org/abs/2609.31394](https://arxiv.org/abs/2609.31394)
-5. **Tactile-JEPA** — Learns topology-aware representations for sparse electronic skin without labeled pretraining data. [arxiv.org/abs/2609.24385](https://arxiv.org/abs/2609.24385)
-6. **Jev in the Wild** — Maps how a low-cost decision model is spreading across thousands of public software projects. [arxiv.org/abs/2609.30216](https://arxiv.org/abs/2609.30216)
-7. **Diffusion DSM Refinement** — Uses pretrained diffusion priors to turn noisy photogrammetry into more accurate elevation maps. [arxiv.org/abs/2609.31199](https://arxiv.org/abs/2609.31199)
-8. **FoMo** — Derives perceptual supervision from where paired diffusion trajectories begin to diverge. [arxiv.org/abs/2609.25716](https://arxiv.org/abs/2609.25716)
-9. **AgentWorld** — Stress-tests teams of 3–20 LLM agents on long-horizon tasks that expose coordination failures. [arxiv.org/abs/2609.31590](https://arxiv.org/abs/2609.31590)
-10. **SLCA-GRPO** — Separates credit assignment across tool calls and final answers for cleaner agent reinforcement learning. [arxiv.org/abs/2609.29050](https://arxiv.org/abs/2609.29050)
+1. **YuE2** — Unifies symbolic composition and full-song audio generation in one editable music model. [arxiv.org/abs/2609.33757](https://arxiv.org/abs/2609.33757)
+2. **Behavioral Shadows** — Shows post-training capabilities can transfer through task-unrelated one-word outputs. [arxiv.org/abs/2609.29233](https://arxiv.org/abs/2609.29233)
+3. **Domain-Normalized MOPD** — Balances specialist-teacher signals so one domain does not dominate shared-student training. [arxiv.org/abs/2609.35347](https://arxiv.org/abs/2609.35347)
+4. **VisionHOPE** — Turns visual backbones into stable self-modifying memory systems within each image. [arxiv.org/abs/2609.33325](https://arxiv.org/abs/2609.33325)
+5. **Physical Coding** — Extends coding-agent workflows to robots with explicit state, tools, verification, and recovery. [arxiv.org/abs/2609.35432](https://arxiv.org/abs/2609.35432)
+6. **Duplex-MPE** — Tests whether speech assistants know when to answer, stay silent, or stop in multi-party conversations. [arxiv.org/abs/2609.31948](https://arxiv.org/abs/2609.31948)
+7. **GAGAR** — Replaces binary test rewards with groupwise code-quality credit for more stable agent RL. [arxiv.org/abs/2609.32577](https://arxiv.org/abs/2609.32577)
+8. **MassAlloc Attention** — Lets attention skip negligible post-score computation while preserving full causal access. [arxiv.org/abs/2609.32712](https://arxiv.org/abs/2609.32712)
+9. **CoWindow Attention** — Splits distant context across heads to retain collective coverage at far lower long-context cost. [arxiv.org/abs/2609.32704](https://arxiv.org/abs/2609.32704)
+10. **TraceDance** — Converts real agent failures into targeted benchmarks and continuation-based evaluations. [arxiv.org/abs/2609.33295](https://arxiv.org/abs/2609.33295)
 <!-- LATEST_PAPERS_END -->
 
 [Browse all paper summaries &rarr;](/blog/ai-papers/)
