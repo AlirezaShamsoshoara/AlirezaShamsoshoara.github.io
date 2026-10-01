@@ -14,18 +14,18 @@ Welcome to my blog! Here I share insights from my daily readings of AI research 
 I read AI and ML research papers daily and post concise summaries here. Each entry covers the key contributions, methods, and takeaways from recent papers across topics like deep learning, reinforcement learning, NLP, computer vision, and more.
 
 <!-- LATEST_PAPERS_START -->
-**Latest — September 30, 2026**
+**Latest — October 1, 2026**
 
-1. **Raven** — Builds and improves reusable agent harnesses for complex, long-horizon work. [arxiv.org/abs/2609.33439](https://arxiv.org/abs/2609.33439)
-2. **Robot In-Context Learning** — Maps how robots adapt from demonstrations through context, world models, and memory. [arxiv.org/abs/2609.36012](https://arxiv.org/abs/2609.36012)
-3. **MaLiang-Harness** — Makes programmatic image and video generation inspectable, verifiable, and revision-aware. [arxiv.org/abs/2609.34309](https://arxiv.org/abs/2609.34309)
-4. **Omni-IO Skills** — Adds coordinated multimodal asset handling to existing agents without retraining. [arxiv.org/abs/2609.31847](https://arxiv.org/abs/2609.31847)
-5. **VoxMem** — Exposes major gaps in retaining speakers, sounds, and evolving context across long audio sessions. [arxiv.org/abs/2609.32607](https://arxiv.org/abs/2609.32607)
-6. **PanoVLN** — Uses panoramic semantics, geometry, and confidence-guided control to improve unseen navigation. [arxiv.org/abs/2609.34759](https://arxiv.org/abs/2609.34759)
-7. **LEGO-Anything** — Turns single-image 3D reconstruction into iterative, editable Blender program synthesis. [arxiv.org/abs/2609.36380](https://arxiv.org/abs/2609.36380)
-8. **Simple-WAM** — Isolates test-time future conditioning as a key signal for generalizable world-action models. [arxiv.org/abs/2609.34981](https://arxiv.org/abs/2609.34981)
-9. **SAKI** — Routes teacher corrections through maximal coupling to improve and accelerate on-policy distillation. [arxiv.org/abs/2609.36601](https://arxiv.org/abs/2609.36601)
-10. **Thinking Reward Model** — Generates case-specific rubrics before scoring visual outputs to deliver stronger training signals. [arxiv.org/abs/2609.37372](https://arxiv.org/abs/2609.37372)
+1. **RIDE** — Pushes distillation beyond the teacher by extrapolating the hidden-state shifts induced by RL. [arxiv.org/abs/2609.36484](https://arxiv.org/abs/2609.36484)
+2. **UniEvo-VL** — Lets a multimodal generator improve itself from critique-conditioned feedback without an external teacher. [arxiv.org/abs/2609.38721](https://arxiv.org/abs/2609.38721)
+3. **CrossFit** — Breaks shared-error feedback loops that make self-evolving search agents appear better than they are. [arxiv.org/abs/2609.39102](https://arxiv.org/abs/2609.39102)
+4. **AREX-2** — Trains long-horizon reflection on verifiable tasks and transfers the gains to research agents. [arxiv.org/abs/2609.38288](https://arxiv.org/abs/2609.38288)
+5. **Mid-Harness** — Verifies candidate terminal actions before execution, scaling test-time compute at the harness boundary. [arxiv.org/abs/2609.39982](https://arxiv.org/abs/2609.39982)
+6. **EvoDuet** — Co-evolves web search and solution generation to improve scientific optimization. [arxiv.org/abs/2609.40340](https://arxiv.org/abs/2609.40340)
+7. **WorldAuditBench** — Reveals a steep gap between human and agent performance when auditing interactive 3D worlds. [arxiv.org/abs/2609.40325](https://arxiv.org/abs/2609.40325)
+8. **Meta-Skill** — Learns reusable principles for building better execution harnesses around fixed models. [arxiv.org/abs/2609.38143](https://arxiv.org/abs/2609.38143)
+9. **EVOKE** — Elicits latent world knowledge through goal-diverse decisions rather than explicit state prediction. [arxiv.org/abs/2609.38334](https://arxiv.org/abs/2609.38334)
+10. **Ordinal-Scale Bias** — Shows direct-decision models collapse larger ordered label spaces and offers a targeted correction. [arxiv.org/abs/2609.38827](https://arxiv.org/abs/2609.38827)
 <!-- LATEST_PAPERS_END -->
 
 [Browse all paper summaries &rarr;](/blog/ai-papers/)
