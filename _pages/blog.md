@@ -14,18 +14,18 @@ Welcome to my blog! Here I share insights from my daily readings of AI research 
 I read AI and ML research papers daily and post concise summaries here. Each entry covers the key contributions, methods, and takeaways from recent papers across topics like deep learning, reinforcement learning, NLP, computer vision, and more.
 
 <!-- LATEST_PAPERS_START -->
-**Latest — October 1, 2026**
+**Latest — October 2, 2026**
 
-1. **RIDE** — Pushes distillation beyond the teacher by extrapolating the hidden-state shifts induced by RL. [arxiv.org/abs/2609.36484](https://arxiv.org/abs/2609.36484)
-2. **UniEvo-VL** — Lets a multimodal generator improve itself from critique-conditioned feedback without an external teacher. [arxiv.org/abs/2609.38721](https://arxiv.org/abs/2609.38721)
-3. **CrossFit** — Breaks shared-error feedback loops that make self-evolving search agents appear better than they are. [arxiv.org/abs/2609.39102](https://arxiv.org/abs/2609.39102)
-4. **AREX-2** — Trains long-horizon reflection on verifiable tasks and transfers the gains to research agents. [arxiv.org/abs/2609.38288](https://arxiv.org/abs/2609.38288)
-5. **Mid-Harness** — Verifies candidate terminal actions before execution, scaling test-time compute at the harness boundary. [arxiv.org/abs/2609.39982](https://arxiv.org/abs/2609.39982)
-6. **EvoDuet** — Co-evolves web search and solution generation to improve scientific optimization. [arxiv.org/abs/2609.40340](https://arxiv.org/abs/2609.40340)
-7. **WorldAuditBench** — Reveals a steep gap between human and agent performance when auditing interactive 3D worlds. [arxiv.org/abs/2609.40325](https://arxiv.org/abs/2609.40325)
-8. **Meta-Skill** — Learns reusable principles for building better execution harnesses around fixed models. [arxiv.org/abs/2609.38143](https://arxiv.org/abs/2609.38143)
-9. **EVOKE** — Elicits latent world knowledge through goal-diverse decisions rather than explicit state prediction. [arxiv.org/abs/2609.38334](https://arxiv.org/abs/2609.38334)
-10. **Ordinal-Scale Bias** — Shows direct-decision models collapse larger ordered label spaces and offers a targeted correction. [arxiv.org/abs/2609.38827](https://arxiv.org/abs/2609.38827)
+1. **OneStreamer** — Unifies live video perception, durable caption memory, and proactive responses in a compact streaming model. [arxiv.org/abs/2610.01762](https://arxiv.org/abs/2610.01762)
+2. **Adaptive Reward Routing** — Dynamically routes competing rewards to improve quality and synchronization in joint audio-video generation. [arxiv.org/abs/2609.37200](https://arxiv.org/abs/2609.37200)
+3. **PoS** — Gives long-horizon agents explicit belief states and a recovery mechanism for stalled reasoning. [arxiv.org/abs/2610.01415](https://arxiv.org/abs/2610.01415)
+4. **APPL** — Exposes robot-skill priors so planners can compose policies beyond their training distribution. [arxiv.org/abs/2609.35690](https://arxiv.org/abs/2609.35690)
+5. **HC-DLM** — Couples continuous latent denoising with discrete token feedback for stronger parallel language generation. [arxiv.org/abs/2610.02193](https://arxiv.org/abs/2610.02193)
+6. **Sharpening Tax** — Quantifies how post-training can trade repeated-sampling diversity for single-shot consistency. [arxiv.org/abs/2610.01509](https://arxiv.org/abs/2610.01509)
+7. **SciCore Review** — Tests whether AI reviewers judge scientific content consistently rather than follow rhetorical presentation. [arxiv.org/abs/2609.39027](https://arxiv.org/abs/2609.39027)
+8. **World Observer** — Preserves off-camera object state by jointly generating actor and observer views of a world. [arxiv.org/abs/2610.02162](https://arxiv.org/abs/2610.02162)
+9. **ActiveSaddler** — Builds agent-training curricula that adapt as new harness failures emerge. [arxiv.org/abs/2610.00906](https://arxiv.org/abs/2610.00906)
+10. **AutoGUIWorld** — Synthesizes grounded GUI trajectories without installing or executing the target applications. [arxiv.org/abs/2610.01215](https://arxiv.org/abs/2610.01215)
 <!-- LATEST_PAPERS_END -->
 
 [Browse all paper summaries &rarr;](/blog/ai-papers/)
