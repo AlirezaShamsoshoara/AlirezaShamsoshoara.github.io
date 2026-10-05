@@ -14,18 +14,18 @@ Welcome to my blog! Here I share insights from my daily readings of AI research 
 I read AI and ML research papers daily and post concise summaries here. Each entry covers the key contributions, methods, and takeaways from recent papers across topics like deep learning, reinforcement learning, NLP, computer vision, and more.
 
 <!-- LATEST_PAPERS_START -->
-**Latest — October 4, 2026**
+**Latest — October 5, 2026**
 
-1. **OpenTumorBoard** — Brings real multidisciplinary cancer-board discussions into medical-LLM evaluation. [arxiv.org/abs/2609.32810](https://arxiv.org/abs/2609.32810)
-2. **DataMagic** — Turns raw tables into editable, provenance-aware data videos through declarative multi-agent orchestration. [arxiv.org/abs/2609.33403](https://arxiv.org/abs/2609.33403)
-3. **NEEDLE** — Removes targeted LLM backdoors through training-free weight orthogonalization with minimal capability loss. [arxiv.org/abs/2610.00348](https://arxiv.org/abs/2610.00348)
-4. **RLE-Bench** — Tests coding agents as end-to-end robot-learning engineers across control, perception, policy learning, and design. [arxiv.org/abs/2609.34210](https://arxiv.org/abs/2609.34210)
-5. **LOCI** — Gives streaming world models geometry-aware long-term memory while keeping observation storage bounded. [arxiv.org/abs/2609.40222](https://arxiv.org/abs/2609.40222)
-6. **Memorizon** — Trains world models across arbitrarily long spans without paying quadratic attention costs. [arxiv.org/abs/2610.00544](https://arxiv.org/abs/2610.00544)
-7. **SemanTok** — Front-loads global semantics into video tokens so autoregressive generators can work efficiently with shorter prefixes. [arxiv.org/abs/2610.00686](https://arxiv.org/abs/2610.00686)
-8. **VTR-Bench** — Exposes how poorly current video generators render readable text across practical scenarios. [arxiv.org/abs/2610.01499](https://arxiv.org/abs/2610.01499)
-9. **Stability-Aware Generalization** — Measures whether LLM behavior stays consistent across equivalent inputs instead of relying on aggregate accuracy. [arxiv.org/abs/2610.01428](https://arxiv.org/abs/2610.01428)
-10. **ScholarCatalyst** — Benchmarks whether research agents can retrieve prior work that experts consider genuinely idea-shaping. [arxiv.org/abs/2610.02202](https://arxiv.org/abs/2610.02202)
+1. **FoldingCorpus** — Converts protein structures into verifiable reasoning data that transfers beyond biology. [arxiv.org/abs/2609.38879](https://arxiv.org/abs/2609.38879)
+2. **FrameMorrow** — Uses prospective tokens to select the history needed for coherent long-horizon video generation. [arxiv.org/abs/2609.38839](https://arxiv.org/abs/2609.38839)
+3. **MotorMind** — Wraps a general vision-language model with controls, monitoring, and memory for zero-shot robot manipulation. [arxiv.org/abs/2609.38078](https://arxiv.org/abs/2609.38078)
+4. **Recursive Self-Rewrite** — Converts specialized-harness successes into reusable trajectories for general agents. [arxiv.org/abs/2610.02826](https://arxiv.org/abs/2610.02826)
+5. **ProWAM** — Gives robot policies sparse visual subgoals that anchor progress without full video rollouts. [arxiv.org/abs/2610.02508](https://arxiv.org/abs/2610.02508)
+6. **NAVA-WAM** — Learns action priors from observation-only video before adapting to robot demonstrations. [arxiv.org/abs/2610.03391](https://arxiv.org/abs/2610.03391)
+7. **OPSFT** — Distills the update direction behind on-policy generalization into efficient supervised fine-tuning. [arxiv.org/abs/2609.36659](https://arxiv.org/abs/2609.36659)
+8. **SimuVerity** — Reveals how far coding agents remain from engineering-grade executable Simulink generation. [arxiv.org/abs/2610.02304](https://arxiv.org/abs/2610.02304)
+9. **Pivot-SD** — Self-distills masked diffusion models around the token commitments that most reduce uncertainty. [arxiv.org/abs/2610.03665](https://arxiv.org/abs/2610.03665)
+10. **PDE-JEPA** — Learns physics-structured latent dynamics that extrapolate to unseen PDE parameters. [arxiv.org/abs/2609.34715](https://arxiv.org/abs/2609.34715)
 <!-- LATEST_PAPERS_END -->
 
 [Browse all paper summaries &rarr;](/blog/ai-papers/)
