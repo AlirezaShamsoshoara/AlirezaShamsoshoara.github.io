@@ -14,18 +14,18 @@ Welcome to my blog! Here I share insights from my daily readings of AI research 
 I read AI and ML research papers daily and post concise summaries here. Each entry covers the key contributions, methods, and takeaways from recent papers across topics like deep learning, reinforcement learning, NLP, computer vision, and more.
 
 <!-- LATEST_PAPERS_START -->
-**Latest — October 3, 2026**
+**Latest — October 4, 2026**
 
-1. **Distillation Dynamics** — Separates rollout policy, KL direction, and optimization to show what actually controls strong-to-weak distillation. [arxiv.org/abs/2609.35259](https://arxiv.org/abs/2609.35259)
-2. **Tiny LoRA** — Extends transformer reference-chain reasoning with a rank-8 adapter inserted at one early layer. [arxiv.org/abs/2609.36585](https://arxiv.org/abs/2609.36585)
-3. **Video Post-Training Survey** — Maps alignment methods for video generators across fine-tuning, distillation, rewards, and inference. [arxiv.org/abs/2610.00812](https://arxiv.org/abs/2610.00812)
-4. **PersonaDose** — Calibrates activation steering so requested personality traits land at measurable intensities. [arxiv.org/abs/2609.36388](https://arxiv.org/abs/2609.36388)
-5. **PyRUA-Lean** — Combines executable robot-control primitives with local retries to improve success while cutting tokens. [arxiv.org/abs/2610.01939](https://arxiv.org/abs/2610.01939)
-6. **X-Tree** — Extracts reusable hierarchical skills from past trajectories without extra model calls. [arxiv.org/abs/2609.32993](https://arxiv.org/abs/2609.32993)
-7. **SILSA** — Preserves 3D topology using overlapping slice latents with far fewer tokens. [arxiv.org/abs/2610.02201](https://arxiv.org/abs/2610.02201)
-8. **Architect-Ant** — Generates editable floor-plan furnishings while enforcing geometric and functional constraints. [arxiv.org/abs/2606.10953](https://arxiv.org/abs/2606.10953)
-9. **LoopCD** — Reuses intermediate recurrent predictions to improve looped-transformer decoding at negligible cost. [arxiv.org/abs/2610.02185](https://arxiv.org/abs/2610.02185)
-10. **Multimodal Flow** — Generates language and images through one continuous flow-matching process in a shared embedding space. [arxiv.org/abs/2609.40362](https://arxiv.org/abs/2609.40362)
+1. **OpenTumorBoard** — Brings real multidisciplinary cancer-board discussions into medical-LLM evaluation. [arxiv.org/abs/2609.32810](https://arxiv.org/abs/2609.32810)
+2. **DataMagic** — Turns raw tables into editable, provenance-aware data videos through declarative multi-agent orchestration. [arxiv.org/abs/2609.33403](https://arxiv.org/abs/2609.33403)
+3. **NEEDLE** — Removes targeted LLM backdoors through training-free weight orthogonalization with minimal capability loss. [arxiv.org/abs/2610.00348](https://arxiv.org/abs/2610.00348)
+4. **RLE-Bench** — Tests coding agents as end-to-end robot-learning engineers across control, perception, policy learning, and design. [arxiv.org/abs/2609.34210](https://arxiv.org/abs/2609.34210)
+5. **LOCI** — Gives streaming world models geometry-aware long-term memory while keeping observation storage bounded. [arxiv.org/abs/2609.40222](https://arxiv.org/abs/2609.40222)
+6. **Memorizon** — Trains world models across arbitrarily long spans without paying quadratic attention costs. [arxiv.org/abs/2610.00544](https://arxiv.org/abs/2610.00544)
+7. **SemanTok** — Front-loads global semantics into video tokens so autoregressive generators can work efficiently with shorter prefixes. [arxiv.org/abs/2610.00686](https://arxiv.org/abs/2610.00686)
+8. **VTR-Bench** — Exposes how poorly current video generators render readable text across practical scenarios. [arxiv.org/abs/2610.01499](https://arxiv.org/abs/2610.01499)
+9. **Stability-Aware Generalization** — Measures whether LLM behavior stays consistent across equivalent inputs instead of relying on aggregate accuracy. [arxiv.org/abs/2610.01428](https://arxiv.org/abs/2610.01428)
+10. **ScholarCatalyst** — Benchmarks whether research agents can retrieve prior work that experts consider genuinely idea-shaping. [arxiv.org/abs/2610.02202](https://arxiv.org/abs/2610.02202)
 <!-- LATEST_PAPERS_END -->
 
 [Browse all paper summaries &rarr;](/blog/ai-papers/)
