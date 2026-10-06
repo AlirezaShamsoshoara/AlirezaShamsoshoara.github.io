@@ -14,18 +14,18 @@ Welcome to my blog! Here I share insights from my daily readings of AI research 
 I read AI and ML research papers daily and post concise summaries here. Each entry covers the key contributions, methods, and takeaways from recent papers across topics like deep learning, reinforcement learning, NLP, computer vision, and more.
 
 <!-- LATEST_PAPERS_START -->
-**Latest — October 5, 2026**
+**Latest — October 6, 2026**
 
-1. **FoldingCorpus** — Converts protein structures into verifiable reasoning data that transfers beyond biology. [arxiv.org/abs/2609.38879](https://arxiv.org/abs/2609.38879)
-2. **FrameMorrow** — Uses prospective tokens to select the history needed for coherent long-horizon video generation. [arxiv.org/abs/2609.38839](https://arxiv.org/abs/2609.38839)
-3. **MotorMind** — Wraps a general vision-language model with controls, monitoring, and memory for zero-shot robot manipulation. [arxiv.org/abs/2609.38078](https://arxiv.org/abs/2609.38078)
-4. **Recursive Self-Rewrite** — Converts specialized-harness successes into reusable trajectories for general agents. [arxiv.org/abs/2610.02826](https://arxiv.org/abs/2610.02826)
-5. **ProWAM** — Gives robot policies sparse visual subgoals that anchor progress without full video rollouts. [arxiv.org/abs/2610.02508](https://arxiv.org/abs/2610.02508)
-6. **NAVA-WAM** — Learns action priors from observation-only video before adapting to robot demonstrations. [arxiv.org/abs/2610.03391](https://arxiv.org/abs/2610.03391)
-7. **OPSFT** — Distills the update direction behind on-policy generalization into efficient supervised fine-tuning. [arxiv.org/abs/2609.36659](https://arxiv.org/abs/2609.36659)
-8. **SimuVerity** — Reveals how far coding agents remain from engineering-grade executable Simulink generation. [arxiv.org/abs/2610.02304](https://arxiv.org/abs/2610.02304)
-9. **Pivot-SD** — Self-distills masked diffusion models around the token commitments that most reduce uncertainty. [arxiv.org/abs/2610.03665](https://arxiv.org/abs/2610.03665)
-10. **PDE-JEPA** — Learns physics-structured latent dynamics that extrapolate to unseen PDE parameters. [arxiv.org/abs/2609.34715](https://arxiv.org/abs/2609.34715)
+1. **Kandinsky 6.0 Video** — Generates synchronized video and 44 kHz audio with open 3B and 29B diffusion models. [arxiv.org/abs/2610.05608](https://arxiv.org/abs/2610.05608)
+2. **ALoDLM** — Allocates more diffusion steps to difficult tokens while committing easy ones early. [arxiv.org/abs/2610.04198](https://arxiv.org/abs/2610.04198)
+3. **MemAdapter** — Counteracts memory-induced sycophancy by calibrating stored context against current evidence. [arxiv.org/abs/2610.05162](https://arxiv.org/abs/2610.05162)
+4. **In-Distribution Forcing** — Extends short-horizon video diffusion models to minute-scale generation without retraining. [arxiv.org/abs/2610.03120](https://arxiv.org/abs/2610.03120)
+5. **LMBuild** — Tests whether agent-designed structures are genuinely buildable and functional, not merely plausible. [arxiv.org/abs/2610.04292](https://arxiv.org/abs/2610.04292)
+6. **Proactivity-Gym** — Makes intervention timing and user trust first-class measures for proactive agents. [arxiv.org/abs/2609.37267](https://arxiv.org/abs/2609.37267)
+7. **Self-Generated Feedback** — Shows why long-running self-training loops can degrade models on independent human text. [arxiv.org/abs/2610.05076](https://arxiv.org/abs/2610.05076)
+8. **AutoSella** — Uses language-model autoresearch to reduce costly molecular-relaxation force evaluations. [arxiv.org/abs/2610.06577](https://arxiv.org/abs/2610.06577)
+9. **CANOPY** — Compresses multimodal RAG evidence at adaptive granularity while preserving useful context. [arxiv.org/abs/2610.00923](https://arxiv.org/abs/2610.00923)
+10. **Looped Models at Fixed Points** — Converts fixed-point behavior into faster training, prefill, and smaller KV caches. [arxiv.org/abs/2610.06833](https://arxiv.org/abs/2610.06833)
 <!-- LATEST_PAPERS_END -->
 
 [Browse all paper summaries &rarr;](/blog/ai-papers/)
