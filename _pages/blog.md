@@ -14,18 +14,18 @@ Welcome to my blog! Here I share insights from my daily readings of AI research 
 I read AI and ML research papers daily and post concise summaries here. Each entry covers the key contributions, methods, and takeaways from recent papers across topics like deep learning, reinforcement learning, NLP, computer vision, and more.
 
 <!-- LATEST_PAPERS_START -->
-**Latest — October 10, 2026**
+**Latest — October 11, 2026**
 
-1. **FreeMatching** — Matches dense correspondences through severe edits without relying on ordinary motion or geometry priors. [arxiv.org/abs/2610.12421](https://arxiv.org/abs/2610.12421)
-2. **Pumpire** — Tests whether 3D foundation models recover real metric distances across images and videos. [arxiv.org/abs/2610.12423](https://arxiv.org/abs/2610.12423)
-3. **Code-Only-as-Policy** — Uses reusable stateful code to improve robot behavior without a runtime foundation model. [arxiv.org/abs/2610.12369](https://arxiv.org/abs/2610.12369)
-4. **SparseEngine** — Unifies sparse-attention serving while delivering major gains in long-context decoding throughput. [arxiv.org/abs/2609.39068](https://arxiv.org/abs/2609.39068)
-5. **OmniCapBench** — Exposes fine-grained identity and cross-modal reasoning failures hidden by aggregate caption scores. [arxiv.org/abs/2610.12458](https://arxiv.org/abs/2610.12458)
-6. **Sequential Structure** — Shows that behavioral fidelity can mask failure to recover the true sequence-generating rule. [arxiv.org/abs/2610.04977](https://arxiv.org/abs/2610.04977)
-7. **Opera** — Makes coding-agent critiques persistent, evidence-based, and accountable to actual resolution. [arxiv.org/abs/2609.33987](https://arxiv.org/abs/2609.33987)
-8. **Hebero** — Trains one policy across 40 robot tasks and transfers it from simulation to real hardware. [arxiv.org/abs/2606.03335](https://arxiv.org/abs/2606.03335)
-9. **ReSPO** — Preserves useful gradients when policy optimization reuses trajectories from older models. [arxiv.org/abs/2609.35433](https://arxiv.org/abs/2609.35433)
-10. **Mara Chain** — Recycles failed AI-system configurations into evidence for more efficient self-improvement. [arxiv.org/abs/2609.35855](https://arxiv.org/abs/2609.35855)
+1. **Structured LATents** — Unifies radiance fields, 3D Gaussians, and meshes in one scalable, editable 3D representation. [arxiv.org/abs/2412.01506](https://arxiv.org/abs/2412.01506)
+2. **SpatialLM** — Turns point clouds into structured indoor layouts and object descriptions with a multimodal language model. [arxiv.org/abs/2506.07491](https://arxiv.org/abs/2506.07491)
+3. **Context Language Models** — Lets models manage persistent context files directly for more efficient long-horizon and multi-agent work. [arxiv.org/abs/2609.37725](https://arxiv.org/abs/2609.37725)
+4. **Prism** — Accelerates native 2K video-audio generation with adaptive sparse attention that preserves cross-modal structure. [arxiv.org/abs/2610.05416](https://arxiv.org/abs/2610.05416)
+5. **Bitnet.cpp** — Makes ternary language-model inference substantially faster and more practical on edge hardware. [arxiv.org/abs/2502.11880](https://arxiv.org/abs/2502.11880)
+6. **Iris-3B** — Scales pixel-space diffusion while finding little evidence that it improves downstream visual priors. [arxiv.org/abs/2610.09450](https://arxiv.org/abs/2610.09450)
+7. **MIRA** — Refines text-to-music prompts against explicit intent rubrics instead of opaque aggregate scores. [arxiv.org/abs/2610.10355](https://arxiv.org/abs/2610.10355)
+8. **Synthesis Through Simulation** — Generates constraint-valid enterprise data through agents operating policy-enforcing simulated APIs. [arxiv.org/abs/2610.10549](https://arxiv.org/abs/2610.10549)
+9. **BrickBench** — Tests whether coding agents can create semantically faithful, physically buildable LEGO designs. [arxiv.org/abs/2610.12452](https://arxiv.org/abs/2610.12452)
+10. **O-Voxel** — Compresses textured, topology-flexible 3D assets into efficient native structured latents. [arxiv.org/abs/2512.14692](https://arxiv.org/abs/2512.14692)
 <!-- LATEST_PAPERS_END -->
 
 [Browse all paper summaries &rarr;](/blog/ai-papers/)
