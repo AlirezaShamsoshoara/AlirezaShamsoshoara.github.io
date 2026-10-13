@@ -14,18 +14,18 @@ Welcome to my blog! Here I share insights from my daily readings of AI research 
 I read AI and ML research papers daily and post concise summaries here. Each entry covers the key contributions, methods, and takeaways from recent papers across topics like deep learning, reinforcement learning, NLP, computer vision, and more.
 
 <!-- LATEST_PAPERS_START -->
-**Latest — October 12, 2026**
+**Latest — October 13, 2026**
 
-1. **DiffusionART** — Stabilizes reinforcement learning for diffusion models while sharply reducing sample and GPU costs. [arxiv.org/abs/2610.12572](https://arxiv.org/abs/2610.12572)
-2. **S-Space** — Reveals causal coordinate subspaces in multimodal models and their limits under viewpoint changes. [arxiv.org/abs/2610.13527](https://arxiv.org/abs/2610.13527)
-3. **Reflex** — Combines visual perception and whole-body control so a humanoid can catch human-thrown objects. [arxiv.org/abs/2610.12772](https://arxiv.org/abs/2610.12772)
-4. **SoftwareGym** — Synthesizes verified GUI applications to scale transferable training for computer-use agents. [arxiv.org/abs/2610.12611](https://arxiv.org/abs/2610.12611)
-5. **EmbodiedCLBench** — Tests continual embodied learning and exposes weak returns from additional experience on harder tasks. [arxiv.org/abs/2610.13021](https://arxiv.org/abs/2610.13021)
-6. **VisionWeave** — Allocates visual tokens adaptively to improve multimodal serving speed with minimal quality loss. [arxiv.org/abs/2610.07987](https://arxiv.org/abs/2610.07987)
-7. **StereoBind** — Aligns moving visual sources with spatialized stereo sound in joint video-audio generation. [arxiv.org/abs/2609.38748](https://arxiv.org/abs/2609.38748)
-8. **ProgramGym** — Builds verifiable multi-language environments for training long-horizon program reproduction agents. [arxiv.org/abs/2610.13395](https://arxiv.org/abs/2610.13395)
-9. **AAArena** — Measures whether fixed-weight agents can improve executable game strategies through competitive experience. [arxiv.org/abs/2610.12341](https://arxiv.org/abs/2610.12341)
-10. **Synthetic Self-Distillation** — Continually upgrades small models while preserving previously learned capabilities. [arxiv.org/abs/2610.13113](https://arxiv.org/abs/2610.13113)
+1. **GroundingPI** — Turns visual grounding into coordinate primitives that transfer strongly to robotics and autonomous driving. [arxiv.org/abs/2609.39601](https://arxiv.org/abs/2609.39601)
+2. **Thinking Inertia** — Shows that LLMs continue visible reasoning even when explicitly told not to think. [arxiv.org/abs/2610.11765](https://arxiv.org/abs/2610.11765)
+3. **AgentSWE** — Exposes the gap between coding-agent demos and production behavior that meets hidden requirements. [arxiv.org/abs/2610.13361](https://arxiv.org/abs/2610.13361)
+4. **TerminalHorizon** — Scales verified long-horizon terminal training so agents keep improving beyond their first solution. [arxiv.org/abs/2610.13166](https://arxiv.org/abs/2610.13166)
+5. **VIS-Ground** — Makes video continuations steerable by translating viewer requests into verifiable constraints. [arxiv.org/abs/2610.09326](https://arxiv.org/abs/2610.09326)
+6. **GroundAnything** — Delivers precise grounding with parallel decoding and an optional 4.51-times speculative speedup. [arxiv.org/abs/2609.39600](https://arxiv.org/abs/2609.39600)
+7. **Multi-Stream Attention Residuals** — Improves large-model pretraining with efficiently mixed contextual streams at multiple scales. [arxiv.org/abs/2610.13630](https://arxiv.org/abs/2610.13630)
+8. **ExpActivator** — Activates personal GUI history only when it applies, improving success while cutting context use. [arxiv.org/abs/2609.33304](https://arxiv.org/abs/2609.33304)
+9. **CrossTimeEdit** — Reconstructs historical street views by combining persistent scene content with satellite-observed change. [arxiv.org/abs/2609.36616](https://arxiv.org/abs/2609.36616)
+10. **SpatialASM** — Teaches vision-language models to plan viewpoints and mentally reconstruct scenes for spatial reasoning. [arxiv.org/abs/2610.13832](https://arxiv.org/abs/2610.13832)
 <!-- LATEST_PAPERS_END -->
 
 [Browse all paper summaries &rarr;](/blog/ai-papers/)
