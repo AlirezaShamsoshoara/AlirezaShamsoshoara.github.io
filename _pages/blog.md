@@ -14,18 +14,18 @@ Welcome to my blog! Here I share insights from my daily readings of AI research 
 I read AI and ML research papers daily and post concise summaries here. Each entry covers the key contributions, methods, and takeaways from recent papers across topics like deep learning, reinforcement learning, NLP, computer vision, and more.
 
 <!-- LATEST_PAPERS_START -->
-**Latest — October 13, 2026**
+**Latest — October 14, 2026**
 
-1. **GroundingPI** — Turns visual grounding into coordinate primitives that transfer strongly to robotics and autonomous driving. [arxiv.org/abs/2609.39601](https://arxiv.org/abs/2609.39601)
-2. **Thinking Inertia** — Shows that LLMs continue visible reasoning even when explicitly told not to think. [arxiv.org/abs/2610.11765](https://arxiv.org/abs/2610.11765)
-3. **AgentSWE** — Exposes the gap between coding-agent demos and production behavior that meets hidden requirements. [arxiv.org/abs/2610.13361](https://arxiv.org/abs/2610.13361)
-4. **TerminalHorizon** — Scales verified long-horizon terminal training so agents keep improving beyond their first solution. [arxiv.org/abs/2610.13166](https://arxiv.org/abs/2610.13166)
-5. **VIS-Ground** — Makes video continuations steerable by translating viewer requests into verifiable constraints. [arxiv.org/abs/2610.09326](https://arxiv.org/abs/2610.09326)
-6. **GroundAnything** — Delivers precise grounding with parallel decoding and an optional 4.51-times speculative speedup. [arxiv.org/abs/2609.39600](https://arxiv.org/abs/2609.39600)
-7. **Multi-Stream Attention Residuals** — Improves large-model pretraining with efficiently mixed contextual streams at multiple scales. [arxiv.org/abs/2610.13630](https://arxiv.org/abs/2610.13630)
-8. **ExpActivator** — Activates personal GUI history only when it applies, improving success while cutting context use. [arxiv.org/abs/2609.33304](https://arxiv.org/abs/2609.33304)
-9. **CrossTimeEdit** — Reconstructs historical street views by combining persistent scene content with satellite-observed change. [arxiv.org/abs/2609.36616](https://arxiv.org/abs/2609.36616)
-10. **SpatialASM** — Teaches vision-language models to plan viewpoints and mentally reconstruct scenes for spatial reasoning. [arxiv.org/abs/2610.13832](https://arxiv.org/abs/2610.13832)
+1. **VideoJev** — Reuses video evidence across queries for much faster grounding and question answering. [arxiv.org/abs/2610.18615](https://arxiv.org/abs/2610.18615)
+2. **Agent-Reflex** — Trains language agents to recover proactively from noisy tools and user corrections. [arxiv.org/abs/2610.17953](https://arxiv.org/abs/2610.17953)
+3. **Jeva** — Builds low-latency decision models with null awareness, permutation invariance, and reusable option scoring. [arxiv.org/abs/2610.18773](https://arxiv.org/abs/2610.18773)
+4. **Urbex** — Replaces city-scale proposal ranking with an active spatial-search agent for 3D grounding. [arxiv.org/abs/2610.18356](https://arxiv.org/abs/2610.18356)
+5. **GreenWAM** — Unifies world prediction and control across 20 robot families through a shared action space. [arxiv.org/abs/2610.18774](https://arxiv.org/abs/2610.18774)
+6. **AesCode** — Improves the visual quality of generated code without sacrificing structure or verifiability. [arxiv.org/abs/2610.18860](https://arxiv.org/abs/2610.18860)
+7. **Harness²** — Lets agent execution harnesses improve recursively without ground-truth verifiers. [arxiv.org/abs/2610.14224](https://arxiv.org/abs/2610.14224)
+8. **TPPO** — Strengthens token-level credit assignment by tracking value updates in log-odds space. [arxiv.org/abs/2610.16794](https://arxiv.org/abs/2610.16794)
+9. **Vela** — Turns long-term user behavior into scalable supervision for preference and intent modeling. [arxiv.org/abs/2610.14709](https://arxiv.org/abs/2610.14709)
+10. **DoSA** — Preserves exact sparse-attention selection while cutting indexing and first-token latency. [arxiv.org/abs/2610.13990](https://arxiv.org/abs/2610.13990)
 <!-- LATEST_PAPERS_END -->
 
 [Browse all paper summaries &rarr;](/blog/ai-papers/)
