@@ -14,18 +14,18 @@ Welcome to my blog! Here I share insights from my daily readings of AI research 
 I read AI and ML research papers daily and post concise summaries here. Each entry covers the key contributions, methods, and takeaways from recent papers across topics like deep learning, reinforcement learning, NLP, computer vision, and more.
 
 <!-- LATEST_PAPERS_START -->
-**Latest — October 14, 2026**
+**Latest — October 15, 2026**
 
-1. **VideoJev** — Reuses video evidence across queries for much faster grounding and question answering. [arxiv.org/abs/2610.18615](https://arxiv.org/abs/2610.18615)
-2. **Agent-Reflex** — Trains language agents to recover proactively from noisy tools and user corrections. [arxiv.org/abs/2610.17953](https://arxiv.org/abs/2610.17953)
-3. **Jeva** — Builds low-latency decision models with null awareness, permutation invariance, and reusable option scoring. [arxiv.org/abs/2610.18773](https://arxiv.org/abs/2610.18773)
-4. **Urbex** — Replaces city-scale proposal ranking with an active spatial-search agent for 3D grounding. [arxiv.org/abs/2610.18356](https://arxiv.org/abs/2610.18356)
-5. **GreenWAM** — Unifies world prediction and control across 20 robot families through a shared action space. [arxiv.org/abs/2610.18774](https://arxiv.org/abs/2610.18774)
-6. **AesCode** — Improves the visual quality of generated code without sacrificing structure or verifiability. [arxiv.org/abs/2610.18860](https://arxiv.org/abs/2610.18860)
-7. **Harness²** — Lets agent execution harnesses improve recursively without ground-truth verifiers. [arxiv.org/abs/2610.14224](https://arxiv.org/abs/2610.14224)
-8. **TPPO** — Strengthens token-level credit assignment by tracking value updates in log-odds space. [arxiv.org/abs/2610.16794](https://arxiv.org/abs/2610.16794)
-9. **Vela** — Turns long-term user behavior into scalable supervision for preference and intent modeling. [arxiv.org/abs/2610.14709](https://arxiv.org/abs/2610.14709)
-10. **DoSA** — Preserves exact sparse-attention selection while cutting indexing and first-token latency. [arxiv.org/abs/2610.13990](https://arxiv.org/abs/2610.13990)
+1. **ATAS** — Keeps long-form generated video consistent by grounding every shot in shared scene geometry and event memory. [arxiv.org/abs/2610.20571](https://arxiv.org/abs/2610.20571)
+2. **Road MOPD** — Uses non-routed teachers as cross-domain critics to stabilize multi-teacher distillation. [arxiv.org/abs/2610.13521](https://arxiv.org/abs/2610.13521)
+3. **Player-1** — Learns game control from synthetic demonstrations and reinforcement learning that transfer across diverse environments. [arxiv.org/abs/2610.20584](https://arxiv.org/abs/2610.20584)
+4. **Doc2Harness** — Tests whether frontier models can build complete coding-agent harnesses from specifications. [arxiv.org/abs/2610.20344](https://arxiv.org/abs/2610.20344)
+5. **Self-Distillation Reality Check** — Finds that ten agent self-distillation methods do not consistently beat standard GRPO. [arxiv.org/abs/2610.19789](https://arxiv.org/abs/2610.19789)
+6. **CriticOPD** — Repairs faulty student reasoning with critique-guided rewrites for stronger on-policy distillation. [arxiv.org/abs/2610.20572](https://arxiv.org/abs/2610.20572)
+7. **LatentLoop** — Allocates looped MoE compute asymmetrically to lower loss and improve efficiency. [arxiv.org/abs/2610.19975](https://arxiv.org/abs/2610.19975)
+8. **Cortex** — Compresses temporary context into persistent, mergeable parametric memory. [arxiv.org/abs/2610.20399](https://arxiv.org/abs/2610.20399)
+9. **RuleTrek** — Measures how well agents discover, infer, and apply rules across complex workspaces. [arxiv.org/abs/2610.19698](https://arxiv.org/abs/2610.19698)
+10. **ActionOPD** — Distills semantic decisions from black-box teachers without token-level access. [arxiv.org/abs/2610.19820](https://arxiv.org/abs/2610.19820)
 <!-- LATEST_PAPERS_END -->
 
 [Browse all paper summaries &rarr;](/blog/ai-papers/)
