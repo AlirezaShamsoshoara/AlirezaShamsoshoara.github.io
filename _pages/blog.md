@@ -14,18 +14,18 @@ Welcome to my blog! Here I share insights from my daily readings of AI research 
 I read AI and ML research papers daily and post concise summaries here. Each entry covers the key contributions, methods, and takeaways from recent papers across topics like deep learning, reinforcement learning, NLP, computer vision, and more.
 
 <!-- LATEST_PAPERS_START -->
-**Latest — October 16, 2026**
+**Latest — October 17, 2026**
 
-1. **OmniCompass** — Benchmarks temporal, spatial, and audio-visual grounding to expose where multimodal video models still fail. [arxiv.org/abs/2610.18829](https://arxiv.org/abs/2610.18829)
-2. **Waypoint-OPD** — Gates on-policy distillation with intermediate-checkpoint agreement to transfer reinforcement-learning gains more reliably. [arxiv.org/abs/2610.21601](https://arxiv.org/abs/2610.21601)
-3. **OpenGCUA** — Opens the models, trajectories, and device harnesses needed to study generalist computer-use agents. [arxiv.org/abs/2610.22200](https://arxiv.org/abs/2610.22200)
-4. **FDE-Gym** — Tests whether agents can turn ambiguous customer needs into working systems with measurable business value. [arxiv.org/abs/2610.22350](https://arxiv.org/abs/2610.22350)
-5. **RoTA-Bench** — Reveals a stark human-model gap in interactive 3D reasoning through projection-alignment tasks. [arxiv.org/abs/2610.17665](https://arxiv.org/abs/2610.17665)
-6. **Self-Evolving Agent Harness** — Formalizes how agent infrastructure can improve persistently while bounding the risks of accepted revisions. [arxiv.org/abs/2610.18813](https://arxiv.org/abs/2610.18813)
-7. **MJev-Spatial** — Converts pretrained attention into fast, token-free spatial decisions across diverse task formats. [arxiv.org/abs/2610.22276](https://arxiv.org/abs/2610.22276)
-8. **Dynamic Band Splitting** — Learns frequency partitions for each audio mixture instead of relying on fixed spectral bands. [arxiv.org/abs/2610.14993](https://arxiv.org/abs/2610.14993)
-9. **InfiniSplat v2** — Improves feed-forward 3D Gaussian reconstruction by separating geometry from appearance and supervising wider viewpoints. [arxiv.org/abs/2610.20341](https://arxiv.org/abs/2610.20341)
-10. **3DCodeVerse** — Scales editable 3D generation with executable programs and automated spatial and visual verification. [arxiv.org/abs/2610.22341](https://arxiv.org/abs/2610.22341)
+1. **SAE Compositionality** — Measures when sparse-autoencoder features combine faithfully for behavioral explanations and steering. [arxiv.org/abs/2610.21261](https://arxiv.org/abs/2610.21261)
+2. **OneWM** — Unifies robot world prediction and policy learning so each objective improves the other. [arxiv.org/abs/2610.21095](https://arxiv.org/abs/2610.21095)
+3. **OmniVerifier-C1** — Replaces brittle binary judgments with decomposed, graded verification for structured visual worlds. [arxiv.org/abs/2610.22355](https://arxiv.org/abs/2610.22355)
+4. **MRTPO** — Assigns each reward only to the response tokens relevant to its verifier. [arxiv.org/abs/2610.21439](https://arxiv.org/abs/2610.21439)
+5. **Data World** — Builds auditable synthetic data environments for training and evaluating analysis agents. [arxiv.org/abs/2610.21656](https://arxiv.org/abs/2610.21656)
+6. **MLExpert** — Trains an open agentic model to run end-to-end machine-learning engineering experiments. [arxiv.org/abs/2610.22344](https://arxiv.org/abs/2610.22344)
+7. **SpecAgent** — Cuts strong-model agent costs by verifying weak-model tool trajectories in batches. [arxiv.org/abs/2610.21463](https://arxiv.org/abs/2610.21463)
+8. **Self-Orchestrating Swarms** — Learns decentralized agent coordination through market-based bidding and local credit. [arxiv.org/abs/2610.22322](https://arxiv.org/abs/2610.22322)
+9. **CarryOn** — Adds persistent personalization, safety checks, and reusable recovery to robot assistance. [arxiv.org/abs/2610.21453](https://arxiv.org/abs/2610.21453)
+10. **Virtual Head Attention** — Improves long-context quality while reducing KV-cache and attention costs. [arxiv.org/abs/2610.17959](https://arxiv.org/abs/2610.17959)
 <!-- LATEST_PAPERS_END -->
 
 [Browse all paper summaries &rarr;](/blog/ai-papers/)
