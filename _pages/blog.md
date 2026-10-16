@@ -14,18 +14,18 @@ Welcome to my blog! Here I share insights from my daily readings of AI research 
 I read AI and ML research papers daily and post concise summaries here. Each entry covers the key contributions, methods, and takeaways from recent papers across topics like deep learning, reinforcement learning, NLP, computer vision, and more.
 
 <!-- LATEST_PAPERS_START -->
-**Latest — October 15, 2026**
+**Latest — October 16, 2026**
 
-1. **ATAS** — Keeps long-form generated video consistent by grounding every shot in shared scene geometry and event memory. [arxiv.org/abs/2610.20571](https://arxiv.org/abs/2610.20571)
-2. **Road MOPD** — Uses non-routed teachers as cross-domain critics to stabilize multi-teacher distillation. [arxiv.org/abs/2610.13521](https://arxiv.org/abs/2610.13521)
-3. **Player-1** — Learns game control from synthetic demonstrations and reinforcement learning that transfer across diverse environments. [arxiv.org/abs/2610.20584](https://arxiv.org/abs/2610.20584)
-4. **Doc2Harness** — Tests whether frontier models can build complete coding-agent harnesses from specifications. [arxiv.org/abs/2610.20344](https://arxiv.org/abs/2610.20344)
-5. **Self-Distillation Reality Check** — Finds that ten agent self-distillation methods do not consistently beat standard GRPO. [arxiv.org/abs/2610.19789](https://arxiv.org/abs/2610.19789)
-6. **CriticOPD** — Repairs faulty student reasoning with critique-guided rewrites for stronger on-policy distillation. [arxiv.org/abs/2610.20572](https://arxiv.org/abs/2610.20572)
-7. **LatentLoop** — Allocates looped MoE compute asymmetrically to lower loss and improve efficiency. [arxiv.org/abs/2610.19975](https://arxiv.org/abs/2610.19975)
-8. **Cortex** — Compresses temporary context into persistent, mergeable parametric memory. [arxiv.org/abs/2610.20399](https://arxiv.org/abs/2610.20399)
-9. **RuleTrek** — Measures how well agents discover, infer, and apply rules across complex workspaces. [arxiv.org/abs/2610.19698](https://arxiv.org/abs/2610.19698)
-10. **ActionOPD** — Distills semantic decisions from black-box teachers without token-level access. [arxiv.org/abs/2610.19820](https://arxiv.org/abs/2610.19820)
+1. **OmniCompass** — Benchmarks temporal, spatial, and audio-visual grounding to expose where multimodal video models still fail. [arxiv.org/abs/2610.18829](https://arxiv.org/abs/2610.18829)
+2. **Waypoint-OPD** — Gates on-policy distillation with intermediate-checkpoint agreement to transfer reinforcement-learning gains more reliably. [arxiv.org/abs/2610.21601](https://arxiv.org/abs/2610.21601)
+3. **OpenGCUA** — Opens the models, trajectories, and device harnesses needed to study generalist computer-use agents. [arxiv.org/abs/2610.22200](https://arxiv.org/abs/2610.22200)
+4. **FDE-Gym** — Tests whether agents can turn ambiguous customer needs into working systems with measurable business value. [arxiv.org/abs/2610.22350](https://arxiv.org/abs/2610.22350)
+5. **RoTA-Bench** — Reveals a stark human-model gap in interactive 3D reasoning through projection-alignment tasks. [arxiv.org/abs/2610.17665](https://arxiv.org/abs/2610.17665)
+6. **Self-Evolving Agent Harness** — Formalizes how agent infrastructure can improve persistently while bounding the risks of accepted revisions. [arxiv.org/abs/2610.18813](https://arxiv.org/abs/2610.18813)
+7. **MJev-Spatial** — Converts pretrained attention into fast, token-free spatial decisions across diverse task formats. [arxiv.org/abs/2610.22276](https://arxiv.org/abs/2610.22276)
+8. **Dynamic Band Splitting** — Learns frequency partitions for each audio mixture instead of relying on fixed spectral bands. [arxiv.org/abs/2610.14993](https://arxiv.org/abs/2610.14993)
+9. **InfiniSplat v2** — Improves feed-forward 3D Gaussian reconstruction by separating geometry from appearance and supervising wider viewpoints. [arxiv.org/abs/2610.20341](https://arxiv.org/abs/2610.20341)
+10. **3DCodeVerse** — Scales editable 3D generation with executable programs and automated spatial and visual verification. [arxiv.org/abs/2610.22341](https://arxiv.org/abs/2610.22341)
 <!-- LATEST_PAPERS_END -->
 
 [Browse all paper summaries &rarr;](/blog/ai-papers/)
