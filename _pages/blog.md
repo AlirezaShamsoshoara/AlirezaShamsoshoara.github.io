@@ -14,18 +14,18 @@ Welcome to my blog! Here I share insights from my daily readings of AI research 
 I read AI and ML research papers daily and post concise summaries here. Each entry covers the key contributions, methods, and takeaways from recent papers across topics like deep learning, reinforcement learning, NLP, computer vision, and more.
 
 <!-- LATEST_PAPERS_START -->
-**Latest — October 17, 2026**
+**Latest — October 18, 2026**
 
-1. **SAE Compositionality** — Measures when sparse-autoencoder features combine faithfully for behavioral explanations and steering. [arxiv.org/abs/2610.21261](https://arxiv.org/abs/2610.21261)
-2. **OneWM** — Unifies robot world prediction and policy learning so each objective improves the other. [arxiv.org/abs/2610.21095](https://arxiv.org/abs/2610.21095)
-3. **OmniVerifier-C1** — Replaces brittle binary judgments with decomposed, graded verification for structured visual worlds. [arxiv.org/abs/2610.22355](https://arxiv.org/abs/2610.22355)
-4. **MRTPO** — Assigns each reward only to the response tokens relevant to its verifier. [arxiv.org/abs/2610.21439](https://arxiv.org/abs/2610.21439)
-5. **Data World** — Builds auditable synthetic data environments for training and evaluating analysis agents. [arxiv.org/abs/2610.21656](https://arxiv.org/abs/2610.21656)
-6. **MLExpert** — Trains an open agentic model to run end-to-end machine-learning engineering experiments. [arxiv.org/abs/2610.22344](https://arxiv.org/abs/2610.22344)
-7. **SpecAgent** — Cuts strong-model agent costs by verifying weak-model tool trajectories in batches. [arxiv.org/abs/2610.21463](https://arxiv.org/abs/2610.21463)
-8. **Self-Orchestrating Swarms** — Learns decentralized agent coordination through market-based bidding and local credit. [arxiv.org/abs/2610.22322](https://arxiv.org/abs/2610.22322)
-9. **CarryOn** — Adds persistent personalization, safety checks, and reusable recovery to robot assistance. [arxiv.org/abs/2610.21453](https://arxiv.org/abs/2610.21453)
-10. **Virtual Head Attention** — Improves long-context quality while reducing KV-cache and attention costs. [arxiv.org/abs/2610.17959](https://arxiv.org/abs/2610.17959)
+1. **LeanPRM** — Uses Lean-grounded supervision to train more accurate natural-language proof verifiers. [arxiv.org/abs/2610.17697](https://arxiv.org/abs/2610.17697)
+2. **Copy-Paste LMs** — Adds an explicit copying head that improves Transformer training and contextual retrieval. [arxiv.org/abs/2610.19247](https://arxiv.org/abs/2610.19247)
+3. **Verifier Hardening** — Iteratively attacks and repairs reward verifiers to reduce agent reward hacking. [arxiv.org/abs/2610.15924](https://arxiv.org/abs/2610.15924)
+4. **Recursive Environment Scaling** — Creates harder long-horizon agent tasks while preserving their original objectives. [arxiv.org/abs/2610.16397](https://arxiv.org/abs/2610.16397)
+5. **Unembedding Dynamics** — Reveals that models can encode capabilities well before their output layers expose them. [arxiv.org/abs/2610.21025](https://arxiv.org/abs/2610.21025)
+6. **PathFM** — Generates coherent multivariate futures while keeping trajectory sampling fast. [arxiv.org/abs/2610.22358](https://arxiv.org/abs/2610.22358)
+7. **MoE Personalization** — Identifies and causally controls experts responsible for personalized language-model behavior. [arxiv.org/abs/2610.22127](https://arxiv.org/abs/2610.22127)
+8. **H-DDCM** — Makes generative image and video compression practical with efficient Hadamard codebooks. [arxiv.org/abs/2610.18125](https://arxiv.org/abs/2610.18125)
+9. **Speech Event Detector** — Adds efficient timestamped non-verbal events and background sounds to speech transcripts. [arxiv.org/abs/2610.14232](https://arxiv.org/abs/2610.14232)
+10. **CoWorld Reasoner** — Turns video world models into selectable visual-imagination tools for multimodal reasoning. [arxiv.org/abs/2610.21910](https://arxiv.org/abs/2610.21910)
 <!-- LATEST_PAPERS_END -->
 
 [Browse all paper summaries &rarr;](/blog/ai-papers/)
