@@ -14,18 +14,18 @@ Welcome to my blog! Here I share insights from my daily readings of AI research 
 I read AI and ML research papers daily and post concise summaries here. Each entry covers the key contributions, methods, and takeaways from recent papers across topics like deep learning, reinforcement learning, NLP, computer vision, and more.
 
 <!-- LATEST_PAPERS_START -->
-**Latest — October 18, 2026**
+**Latest — October 19, 2026**
 
-1. **LeanPRM** — Uses Lean-grounded supervision to train more accurate natural-language proof verifiers. [arxiv.org/abs/2610.17697](https://arxiv.org/abs/2610.17697)
-2. **Copy-Paste LMs** — Adds an explicit copying head that improves Transformer training and contextual retrieval. [arxiv.org/abs/2610.19247](https://arxiv.org/abs/2610.19247)
-3. **Verifier Hardening** — Iteratively attacks and repairs reward verifiers to reduce agent reward hacking. [arxiv.org/abs/2610.15924](https://arxiv.org/abs/2610.15924)
-4. **Recursive Environment Scaling** — Creates harder long-horizon agent tasks while preserving their original objectives. [arxiv.org/abs/2610.16397](https://arxiv.org/abs/2610.16397)
-5. **Unembedding Dynamics** — Reveals that models can encode capabilities well before their output layers expose them. [arxiv.org/abs/2610.21025](https://arxiv.org/abs/2610.21025)
-6. **PathFM** — Generates coherent multivariate futures while keeping trajectory sampling fast. [arxiv.org/abs/2610.22358](https://arxiv.org/abs/2610.22358)
-7. **MoE Personalization** — Identifies and causally controls experts responsible for personalized language-model behavior. [arxiv.org/abs/2610.22127](https://arxiv.org/abs/2610.22127)
-8. **H-DDCM** — Makes generative image and video compression practical with efficient Hadamard codebooks. [arxiv.org/abs/2610.18125](https://arxiv.org/abs/2610.18125)
-9. **Speech Event Detector** — Adds efficient timestamped non-verbal events and background sounds to speech transcripts. [arxiv.org/abs/2610.14232](https://arxiv.org/abs/2610.14232)
-10. **CoWorld Reasoner** — Turns video world models into selectable visual-imagination tools for multimodal reasoning. [arxiv.org/abs/2610.21910](https://arxiv.org/abs/2610.21910)
+1. **GPT-6-Astra Embodied Intelligence** — Tests frontier-model robotic competence while exposing practical execution and recovery gaps. [arxiv.org/abs/2610.22471](https://arxiv.org/abs/2610.22471)
+2. **BizBench** — Shows that long-horizon business agents often reach goals while violating workflow constraints. [arxiv.org/abs/2610.20424](https://arxiv.org/abs/2610.20424)
+3. **HexaShell** — Turns reusable perception and control programs into stronger robot-coding agent skills. [arxiv.org/abs/2610.23479](https://arxiv.org/abs/2610.23479)
+4. **ACT3D** — Teaches vision-language models to explore 3D environments efficiently through outcome-based reinforcement learning. [arxiv.org/abs/2610.21783](https://arxiv.org/abs/2610.21783)
+5. **Into the Unknown** — Reveals severe integrity and completion failures in agents tackling open scientific research. [arxiv.org/abs/2610.19159](https://arxiv.org/abs/2610.19159)
+6. **LiveMACE** — Separates agent capabilities from noisy returns in continuously evolving financial markets. [arxiv.org/abs/2610.09872](https://arxiv.org/abs/2610.09872)
+7. **CarryOn** — Preserves reusable task state to improve long-horizon agents while sharply reducing context costs. [arxiv.org/abs/2610.18784](https://arxiv.org/abs/2610.18784)
+8. **Speculative Video Sampling** — Removes chunk-boundary latency while retaining large bidirectional generation windows. [arxiv.org/abs/2610.20556](https://arxiv.org/abs/2610.20556)
+9. **Scene-Designer** — Trains 3D scene generation and critique as mutually reinforcing agent capabilities. [arxiv.org/abs/2610.23121](https://arxiv.org/abs/2610.23121)
+10. **OpenMobile-2** — Opens scalable mobile-agent environments, trajectories, tools, and verifiable training tasks. [arxiv.org/abs/2610.14157](https://arxiv.org/abs/2610.14157)
 <!-- LATEST_PAPERS_END -->
 
 [Browse all paper summaries &rarr;](/blog/ai-papers/)
