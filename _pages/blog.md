@@ -14,18 +14,18 @@ Welcome to my blog! Here I share insights from my daily readings of AI research 
 I read AI and ML research papers daily and post concise summaries here. Each entry covers the key contributions, methods, and takeaways from recent papers across topics like deep learning, reinforcement learning, NLP, computer vision, and more.
 
 <!-- LATEST_PAPERS_START -->
-**Latest — October 19, 2026**
+**Latest — October 20, 2026**
 
-1. **GPT-6-Astra Embodied Intelligence** — Tests frontier-model robotic competence while exposing practical execution and recovery gaps. [arxiv.org/abs/2610.22471](https://arxiv.org/abs/2610.22471)
-2. **BizBench** — Shows that long-horizon business agents often reach goals while violating workflow constraints. [arxiv.org/abs/2610.20424](https://arxiv.org/abs/2610.20424)
-3. **HexaShell** — Turns reusable perception and control programs into stronger robot-coding agent skills. [arxiv.org/abs/2610.23479](https://arxiv.org/abs/2610.23479)
-4. **ACT3D** — Teaches vision-language models to explore 3D environments efficiently through outcome-based reinforcement learning. [arxiv.org/abs/2610.21783](https://arxiv.org/abs/2610.21783)
-5. **Into the Unknown** — Reveals severe integrity and completion failures in agents tackling open scientific research. [arxiv.org/abs/2610.19159](https://arxiv.org/abs/2610.19159)
-6. **LiveMACE** — Separates agent capabilities from noisy returns in continuously evolving financial markets. [arxiv.org/abs/2610.09872](https://arxiv.org/abs/2610.09872)
-7. **CarryOn** — Preserves reusable task state to improve long-horizon agents while sharply reducing context costs. [arxiv.org/abs/2610.18784](https://arxiv.org/abs/2610.18784)
-8. **Speculative Video Sampling** — Removes chunk-boundary latency while retaining large bidirectional generation windows. [arxiv.org/abs/2610.20556](https://arxiv.org/abs/2610.20556)
-9. **Scene-Designer** — Trains 3D scene generation and critique as mutually reinforcing agent capabilities. [arxiv.org/abs/2610.23121](https://arxiv.org/abs/2610.23121)
-10. **OpenMobile-2** — Opens scalable mobile-agent environments, trajectories, tools, and verifiable training tasks. [arxiv.org/abs/2610.14157](https://arxiv.org/abs/2610.14157)
+1. **BrainLoRA** — Scales interpretable brain encoding to 104B multimodal backbones with efficient shared LoRA adaptation. [arxiv.org/abs/2610.26802](https://arxiv.org/abs/2610.26802)
+2. **MemT-1.0** — Makes long-term memory native to foundation models while sharply reducing inference storage costs. [arxiv.org/abs/2610.26825](https://arxiv.org/abs/2610.26825)
+3. **Fleet Experience** — Lets robot fleets turn successful runs into reliable policies without new expert corrections. [arxiv.org/abs/2610.25736](https://arxiv.org/abs/2610.25736)
+4. **Holi-World** — Unifies egocentric capture, world modeling, training, and evaluation for dynamic spatial intelligence. [arxiv.org/abs/2610.26549](https://arxiv.org/abs/2610.26549)
+5. **EgoXperience** — Reconstructs cameras, scenes, hands, and objects from egocentric video in one metric world frame. [arxiv.org/abs/2610.26625](https://arxiv.org/abs/2610.26625)
+6. **OR-License** — Reveals that frontier coding agents still lag experts on deployable operations-research work. [arxiv.org/abs/2610.24087](https://arxiv.org/abs/2610.24087)
+7. **ScaleNav** — Uses internet video to pretrain language-guided navigation that transfers to real robots. [arxiv.org/abs/2610.25690](https://arxiv.org/abs/2610.25690)
+8. **SpecMRL** — Reorders embedding features so compact Matryoshka prefixes preserve more useful information. [arxiv.org/abs/2610.26824](https://arxiv.org/abs/2610.26824)
+9. **OpenVLHarness** — Combines multimodal tools with persistent evidence memory for stronger, cheaper visual agents. [arxiv.org/abs/2610.26860](https://arxiv.org/abs/2610.26860)
+10. **Self-HPO** — Co-evolves coding-agent harnesses and policies to improve both capability and reliability. [arxiv.org/abs/2610.22791](https://arxiv.org/abs/2610.22791)
 <!-- LATEST_PAPERS_END -->
 
 [Browse all paper summaries &rarr;](/blog/ai-papers/)
