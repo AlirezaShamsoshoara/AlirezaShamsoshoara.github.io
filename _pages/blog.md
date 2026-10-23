@@ -14,18 +14,18 @@ Welcome to my blog! Here I share insights from my daily readings of AI research 
 I read AI and ML research papers daily and post concise summaries here. Each entry covers the key contributions, methods, and takeaways from recent papers across topics like deep learning, reinforcement learning, NLP, computer vision, and more.
 
 <!-- LATEST_PAPERS_START -->
-**Latest — October 22, 2026**
+**Latest — October 23, 2026**
 
-1. **StreamEval** — Shows why polished streaming video is not enough when interactive requests and scene state must stay consistent. [arxiv.org/abs/2610.28402](https://arxiv.org/abs/2610.28402)
-2. **SpatialScout** — Tests whether VLM agents can turn active exploration into precise 3D maps, exposing gaps beyond coarse layouts. [arxiv.org/abs/2610.26659](https://arxiv.org/abs/2610.26659)
-3. **Cache Engineering** — Makes long-horizon agents cheaper by managing KV-cache state without repeatedly rebuilding their context. [arxiv.org/abs/2610.28577](https://arxiv.org/abs/2610.28577)
-4. **DONIC** — Learns a reusable two-hand robot controller from diverse human demonstrations that transfers to unseen objects. [arxiv.org/abs/2610.29997](https://arxiv.org/abs/2610.29997)
-5. **Looking Ahead** — Improves video physics by training models to anticipate future chunks without adding inference overhead. [arxiv.org/abs/2610.29989](https://arxiv.org/abs/2610.29989)
-6. **WildAWM** — Builds executable synthetic computer-use environments to help agents generalize beyond their training tasks. [arxiv.org/abs/2610.26828](https://arxiv.org/abs/2610.26828)
-7. **PrismaCoder** — Uses shared rubrics for correctness and visual quality to strengthen open multimodal coding models. [arxiv.org/abs/2610.20538](https://arxiv.org/abs/2610.20538)
-8. **Scaling in Games** — Finds that more virtual-world data helps nearby tasks but leaves distant-world transfer stubbornly difficult. [arxiv.org/abs/2610.28698](https://arxiv.org/abs/2610.28698)
-9. **Spectral-Spatial Interpretation** — Explains multispectral predictions jointly across location and channel instead of treating those views separately. [arxiv.org/abs/2610.21114](https://arxiv.org/abs/2610.21114)
-10. **Socratic Skill Learning** — Turns guided practice and targeted review into reusable agent skills with lower teaching costs. [arxiv.org/abs/2610.17860](https://arxiv.org/abs/2610.17860)
+1. **WeVisOne-VL** — Brings object detection and pixel-level perception into one visual model without losing its ability to reject absent objects. [arxiv.org/abs/2610.31329](https://arxiv.org/abs/2610.31329)
+2. **Factor-Aware Video** — Makes language-model latents useful for coordinating characters, scenes, actions, and cameras in generated video. [arxiv.org/abs/2610.30926](https://arxiv.org/abs/2610.30926)
+3. **OpenDS-World** — Exposes how far research agents still have to go when searches, browser actions, and evidence must work together on the live web. [arxiv.org/abs/2610.30181](https://arxiv.org/abs/2610.30181)
+4. **LayerEditor** — Turns flattened image edits into reusable transparent layers for more flexible local manipulation. [arxiv.org/abs/2610.24738](https://arxiv.org/abs/2610.24738)
+5. **IQuest-Q1** — Builds an open sparse foundation model around the coding and tool-use demands of agentic command-line systems. [arxiv.org/abs/2610.30949](https://arxiv.org/abs/2610.30949)
+6. **Physical Self-Improvement** — Separates demonstrated robot-learning gains from unproven recursive improvement and calls for clearer evaluation. [arxiv.org/abs/2610.29677](https://arxiv.org/abs/2610.29677)
+7. **Policy-Mask** — Learns which diffusion features to extract so visual recognition can improve within an explicit representation budget. [arxiv.org/abs/2610.28889](https://arxiv.org/abs/2610.28889)
+8. **Deep Fusion Memory** — Adds chunk-level knowledge to a frozen language model without requiring retrieval during inference. [arxiv.org/abs/2610.25100](https://arxiv.org/abs/2610.25100)
+9. **GAFU** — Reuses a multimodal model’s generative visual representations to sharpen fine-grained understanding. [arxiv.org/abs/2610.23987](https://arxiv.org/abs/2610.23987)
+10. **LaLa-World** — Uses language-described actions to share world-model learning across data sources and make planning faster. [arxiv.org/abs/2610.27851](https://arxiv.org/abs/2610.27851)
 <!-- LATEST_PAPERS_END -->
 
 [Browse all paper summaries &rarr;](/blog/ai-papers/)
