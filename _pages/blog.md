@@ -14,18 +14,18 @@ Welcome to my blog! Here I share insights from my daily readings of AI research 
 I read AI and ML research papers daily and post concise summaries here. Each entry covers the key contributions, methods, and takeaways from recent papers across topics like deep learning, reinforcement learning, NLP, computer vision, and more.
 
 <!-- LATEST_PAPERS_START -->
-**Latest — October 24, 2026**
+**Latest — October 25, 2026**
 
-1. **MOSS-Image** — Tackles dense bilingual text and intricate layouts with prompt enhancement tailored to image-generation intent. [arxiv.org/abs/2610.23374](https://arxiv.org/abs/2610.23374)
-2. **StartLux-Decision** — Lets decision models deliberate only when needed, pairing calibrated confidence with shorter reasoning traces. [arxiv.org/abs/2610.17309](https://arxiv.org/abs/2610.17309)
-3. **DecisionPivot** — Reveals decision-model inconsistencies and unreliable confidence that aggregate benchmark scores can hide. [arxiv.org/abs/2610.28522](https://arxiv.org/abs/2610.28522)
-4. **SANA-Video** — Makes long-form video generation more practical by keeping memory constant as the sequence grows. [arxiv.org/abs/2509.24695](https://arxiv.org/abs/2509.24695)
-5. **Internal Safety Collapse** — Shows how apparently benign professional tasks can still trigger harmful outputs from frontier models. [arxiv.org/abs/2603.23509](https://arxiv.org/abs/2603.23509)
-6. **FilmFlow** — Turns cinematic instructions and reference videos into controllable camera paths through coordinated agents. [arxiv.org/abs/2610.30753](https://arxiv.org/abs/2610.30753)
-7. **Agent Mosaic** — Exposes confidentiality leaks when agents combine individually accessible documents into sensitive conclusions. [arxiv.org/abs/2610.30418](https://arxiv.org/abs/2610.30418)
-8. **Next-Concept Modeling** — Speeds up text generation by predicting hierarchical concept codes in parallel rather than token by token. [arxiv.org/abs/2610.14162](https://arxiv.org/abs/2610.14162)
-9. **T2Quant** — Allocates diffusion-language-model precision according to both the task and the denoising timestep. [arxiv.org/abs/2610.31198](https://arxiv.org/abs/2610.31198)
-10. **Verus-Insight** — Grounds synthetic-video artifact detection in verified visual evidence to make its judgments explainable. [arxiv.org/abs/2610.30866](https://arxiv.org/abs/2610.30866)
+1. **EvalResearchBench** — Tests whether agents can build trustworthy evaluation feedback, exposing a gap to human-designed baselines. [arxiv.org/abs/2610.04184](https://arxiv.org/abs/2610.04184)
+2. **F2G-Pose** — Turns foundation-model features into fast, geometry-aware object pose estimates from a single RGB-D observation. [arxiv.org/abs/2610.31623](https://arxiv.org/abs/2610.31623)
+3. **UniAVC** — Unifies audio-video generation and editing while making better use of scarce paired training data. [arxiv.org/abs/2610.24791](https://arxiv.org/abs/2610.24791)
+4. **Learned Unmasking** — Isolates which policy choices improve the speed-accuracy trade-off in diffusion language models. [arxiv.org/abs/2610.31576](https://arxiv.org/abs/2610.31576)
+5. **Foundation4D** — Brings driving perception and scene reconstruction together in a shared multi-camera video model. [arxiv.org/abs/2610.30340](https://arxiv.org/abs/2610.30340)
+6. **Who Takes the Lead?** — Shows that stronger agents involve humans selectively when people hold a genuine task advantage. [arxiv.org/abs/2610.27148](https://arxiv.org/abs/2610.27148)
+7. **MambaAct** — Shrinks the action expert in a vision-language-action policy to cut robotic control latency. [arxiv.org/abs/2610.22951](https://arxiv.org/abs/2610.22951)
+8. **TILDE** — Distills robust robot policies through autonomous teacher interventions and recovery experience. [arxiv.org/abs/2610.25376](https://arxiv.org/abs/2610.25376)
+9. **HyperDrone** — Accelerates visually rich drone simulation and demonstrates onboard transfer of a simulation-trained control policy. [arxiv.org/abs/2610.28950](https://arxiv.org/abs/2610.28950)
+10. **Diffusion Decoding Speed** — Reveals task-dependent inference costs and uses decoding speed as a signal for more reliable math answers. [arxiv.org/abs/2610.25835](https://arxiv.org/abs/2610.25835)
 <!-- LATEST_PAPERS_END -->
 
 [Browse all paper summaries &rarr;](/blog/ai-papers/)
