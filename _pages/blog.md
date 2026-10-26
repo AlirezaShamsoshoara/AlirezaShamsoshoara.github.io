@@ -14,18 +14,18 @@ Welcome to my blog! Here I share insights from my daily readings of AI research 
 I read AI and ML research papers daily and post concise summaries here. Each entry covers the key contributions, methods, and takeaways from recent papers across topics like deep learning, reinforcement learning, NLP, computer vision, and more.
 
 <!-- LATEST_PAPERS_START -->
-**Latest — October 25, 2026**
+**Latest — October 26, 2026**
 
-1. **EvalResearchBench** — Tests whether agents can build trustworthy evaluation feedback, exposing a gap to human-designed baselines. [arxiv.org/abs/2610.04184](https://arxiv.org/abs/2610.04184)
-2. **F2G-Pose** — Turns foundation-model features into fast, geometry-aware object pose estimates from a single RGB-D observation. [arxiv.org/abs/2610.31623](https://arxiv.org/abs/2610.31623)
-3. **UniAVC** — Unifies audio-video generation and editing while making better use of scarce paired training data. [arxiv.org/abs/2610.24791](https://arxiv.org/abs/2610.24791)
-4. **Learned Unmasking** — Isolates which policy choices improve the speed-accuracy trade-off in diffusion language models. [arxiv.org/abs/2610.31576](https://arxiv.org/abs/2610.31576)
-5. **Foundation4D** — Brings driving perception and scene reconstruction together in a shared multi-camera video model. [arxiv.org/abs/2610.30340](https://arxiv.org/abs/2610.30340)
-6. **Who Takes the Lead?** — Shows that stronger agents involve humans selectively when people hold a genuine task advantage. [arxiv.org/abs/2610.27148](https://arxiv.org/abs/2610.27148)
-7. **MambaAct** — Shrinks the action expert in a vision-language-action policy to cut robotic control latency. [arxiv.org/abs/2610.22951](https://arxiv.org/abs/2610.22951)
-8. **TILDE** — Distills robust robot policies through autonomous teacher interventions and recovery experience. [arxiv.org/abs/2610.25376](https://arxiv.org/abs/2610.25376)
-9. **HyperDrone** — Accelerates visually rich drone simulation and demonstrates onboard transfer of a simulation-trained control policy. [arxiv.org/abs/2610.28950](https://arxiv.org/abs/2610.28950)
-10. **Diffusion Decoding Speed** — Reveals task-dependent inference costs and uses decoding speed as a signal for more reliable math answers. [arxiv.org/abs/2610.25835](https://arxiv.org/abs/2610.25835)
+1. **UserArena** — Grounds shopping-agent simulation in real user journeys and checks whether simulated outcomes reflect production experiments. [arxiv.org/abs/2610.30932](https://arxiv.org/abs/2610.30932)
+2. **HiSTEVE 1.0** — Combines planning, memory, and native keyboard-and-mouse control for long-horizon Minecraft tasks. [arxiv.org/abs/2610.31162](https://arxiv.org/abs/2610.31162)
+3. **RSIHub** — Makes agent self-improvement recipes comparable while exposing gains that fail to transfer to held-out tasks. [arxiv.org/abs/2610.32253](https://arxiv.org/abs/2610.32253)
+4. **RynnUnify** — Brings spatial reasoning, visual prediction, and robot action together in a shared embodied model. [arxiv.org/abs/2610.32965](https://arxiv.org/abs/2610.32965)
+5. **Omni-Woodpecker** — Corrects audio-visual hallucinations by rebalancing grounding evidence and learned priors without retraining. [arxiv.org/abs/2610.27103](https://arxiv.org/abs/2610.27103)
+6. **TWIG** — Unifies pruning, quantization, and weight sharing through discrete decision trees designed to reduce arithmetic cost. [arxiv.org/abs/2610.31931](https://arxiv.org/abs/2610.31931)
+7. **Dual Exam** — Tests agent decisions and world-model dynamics separately to pinpoint failures in their interaction. [arxiv.org/abs/2610.31066](https://arxiv.org/abs/2610.31066)
+8. **DirCast** — Uses one streaming video-language model to choose live esports camera views and generate commentary. [arxiv.org/abs/2610.31734](https://arxiv.org/abs/2610.31734)
+9. **TenetBench** — Tests professional-code adherence with clause-linked requests and benign controls rather than broad harm labels. [arxiv.org/abs/2610.29477](https://arxiv.org/abs/2610.29477)
+10. **On-Policy Self-Training** — Builds a self-generated curriculum from topic descriptions to improve models without curated task data. [arxiv.org/abs/2610.32770](https://arxiv.org/abs/2610.32770)
 <!-- LATEST_PAPERS_END -->
 
 [Browse all paper summaries &rarr;](/blog/ai-papers/)
