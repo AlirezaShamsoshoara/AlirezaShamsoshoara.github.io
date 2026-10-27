@@ -14,18 +14,18 @@ Welcome to my blog! Here I share insights from my daily readings of AI research 
 I read AI and ML research papers daily and post concise summaries here. Each entry covers the key contributions, methods, and takeaways from recent papers across topics like deep learning, reinforcement learning, NLP, computer vision, and more.
 
 <!-- LATEST_PAPERS_START -->
-**Latest — October 26, 2026**
+**Latest — October 27, 2026**
 
-1. **UserArena** — Grounds shopping-agent simulation in real user journeys and checks whether simulated outcomes reflect production experiments. [arxiv.org/abs/2610.30932](https://arxiv.org/abs/2610.30932)
-2. **HiSTEVE 1.0** — Combines planning, memory, and native keyboard-and-mouse control for long-horizon Minecraft tasks. [arxiv.org/abs/2610.31162](https://arxiv.org/abs/2610.31162)
-3. **RSIHub** — Makes agent self-improvement recipes comparable while exposing gains that fail to transfer to held-out tasks. [arxiv.org/abs/2610.32253](https://arxiv.org/abs/2610.32253)
-4. **RynnUnify** — Brings spatial reasoning, visual prediction, and robot action together in a shared embodied model. [arxiv.org/abs/2610.32965](https://arxiv.org/abs/2610.32965)
-5. **Omni-Woodpecker** — Corrects audio-visual hallucinations by rebalancing grounding evidence and learned priors without retraining. [arxiv.org/abs/2610.27103](https://arxiv.org/abs/2610.27103)
-6. **TWIG** — Unifies pruning, quantization, and weight sharing through discrete decision trees designed to reduce arithmetic cost. [arxiv.org/abs/2610.31931](https://arxiv.org/abs/2610.31931)
-7. **Dual Exam** — Tests agent decisions and world-model dynamics separately to pinpoint failures in their interaction. [arxiv.org/abs/2610.31066](https://arxiv.org/abs/2610.31066)
-8. **DirCast** — Uses one streaming video-language model to choose live esports camera views and generate commentary. [arxiv.org/abs/2610.31734](https://arxiv.org/abs/2610.31734)
-9. **TenetBench** — Tests professional-code adherence with clause-linked requests and benign controls rather than broad harm labels. [arxiv.org/abs/2610.29477](https://arxiv.org/abs/2610.29477)
-10. **On-Policy Self-Training** — Builds a self-generated curriculum from topic descriptions to improve models without curated task data. [arxiv.org/abs/2610.32770](https://arxiv.org/abs/2610.32770)
+1. **Trajectory2Gym** — Builds compositional tool-use training interactions whose decisions are grounded in what the agent can actually observe. [arxiv.org/abs/2610.33568](https://arxiv.org/abs/2610.33568)
+2. **StreamVibe** — Tracks changing user intent to make streaming video assistants respond proactively at useful moments. [arxiv.org/abs/2610.34662](https://arxiv.org/abs/2610.34662)
+3. **DynaFlow** — Learns executable, task-specific multi-agent workflows instead of relying on fixed collaboration templates. [arxiv.org/abs/2610.34467](https://arxiv.org/abs/2610.34467)
+4. **Trial by Trace** — Separates successful task outcomes from reliable agent execution using trace-based failure attribution. [arxiv.org/abs/2610.32285](https://arxiv.org/abs/2610.32285)
+5. **InteractiveWorld** — Tests whether multimodal assistants can reliably guide an independently acting person through physical tasks. [arxiv.org/abs/2610.33966](https://arxiv.org/abs/2610.33966)
+6. **Work Agents** — Maps the models, runtime harnesses, and evaluation methods needed to deliver verifiable delegated work. [arxiv.org/abs/2610.35845](https://arxiv.org/abs/2610.35845)
+7. **WorldCast** — Uses 3D guidance and geometry-aligned memory to preserve character identity during large camera moves. [arxiv.org/abs/2610.33135](https://arxiv.org/abs/2610.33135)
+8. **Continual Learning Exam** — Measures whether agents turn feedback into sustained progress across increasingly demanding professional tasks. [arxiv.org/abs/2610.33956](https://arxiv.org/abs/2610.33956)
+9. **AMBIT** — Connects executable spatial audio plans with coherent soundfield generation and instruction-guided editing. [arxiv.org/abs/2610.34415](https://arxiv.org/abs/2610.34415)
+10. **AV-FABLE** — Exposes sparse deepfake segments in long videos by evaluating audio and visual manipulation timelines separately. [arxiv.org/abs/2610.33413](https://arxiv.org/abs/2610.33413)
 <!-- LATEST_PAPERS_END -->
 
 [Browse all paper summaries &rarr;](/blog/ai-papers/)
