@@ -14,18 +14,18 @@ Welcome to my blog! Here I share insights from my daily readings of AI research 
 I read AI and ML research papers daily and post concise summaries here. Each entry covers the key contributions, methods, and takeaways from recent papers across topics like deep learning, reinforcement learning, NLP, computer vision, and more.
 
 <!-- LATEST_PAPERS_START -->
-**Latest — October 27, 2026**
+**Latest — October 28, 2026**
 
-1. **Trajectory2Gym** — Builds compositional tool-use training interactions whose decisions are grounded in what the agent can actually observe. [arxiv.org/abs/2610.33568](https://arxiv.org/abs/2610.33568)
-2. **StreamVibe** — Tracks changing user intent to make streaming video assistants respond proactively at useful moments. [arxiv.org/abs/2610.34662](https://arxiv.org/abs/2610.34662)
-3. **DynaFlow** — Learns executable, task-specific multi-agent workflows instead of relying on fixed collaboration templates. [arxiv.org/abs/2610.34467](https://arxiv.org/abs/2610.34467)
-4. **Trial by Trace** — Separates successful task outcomes from reliable agent execution using trace-based failure attribution. [arxiv.org/abs/2610.32285](https://arxiv.org/abs/2610.32285)
-5. **InteractiveWorld** — Tests whether multimodal assistants can reliably guide an independently acting person through physical tasks. [arxiv.org/abs/2610.33966](https://arxiv.org/abs/2610.33966)
-6. **Work Agents** — Maps the models, runtime harnesses, and evaluation methods needed to deliver verifiable delegated work. [arxiv.org/abs/2610.35845](https://arxiv.org/abs/2610.35845)
-7. **WorldCast** — Uses 3D guidance and geometry-aligned memory to preserve character identity during large camera moves. [arxiv.org/abs/2610.33135](https://arxiv.org/abs/2610.33135)
-8. **Continual Learning Exam** — Measures whether agents turn feedback into sustained progress across increasingly demanding professional tasks. [arxiv.org/abs/2610.33956](https://arxiv.org/abs/2610.33956)
-9. **AMBIT** — Connects executable spatial audio plans with coherent soundfield generation and instruction-guided editing. [arxiv.org/abs/2610.34415](https://arxiv.org/abs/2610.34415)
-10. **AV-FABLE** — Exposes sparse deepfake segments in long videos by evaluating audio and visual manipulation timelines separately. [arxiv.org/abs/2610.33413](https://arxiv.org/abs/2610.33413)
+1. **The Trinity** — Couples world generation with evolving agent harnesses to build reusable multimodal capabilities. [arxiv.org/abs/2610.36077](https://arxiv.org/abs/2610.36077)
+2. **ChronoReplay** — Trains one streaming vision-language model to handle varied spatial tasks without specializing in a single answer format. [arxiv.org/abs/2610.34283](https://arxiv.org/abs/2610.34283)
+3. **PDRVLA** — Gives robot policies physical dynamics representations without putting video generation in the control loop. [arxiv.org/abs/2610.37381](https://arxiv.org/abs/2610.37381)
+4. **Multiscale Policy Optimization** — Aligns long-horizon agent learning with assistant turns while preserving token-level credit assignment. [arxiv.org/abs/2610.35013](https://arxiv.org/abs/2610.35013)
+5. **VibeVideoBench** — Tests whether video-generation agents deliver complete audiovisual results, not just promising intermediate work. [arxiv.org/abs/2610.35864](https://arxiv.org/abs/2610.35864)
+6. **Hy-Nomas** — Extends interactive world generation with successive text instructions, camera control, and persistent history. [arxiv.org/abs/2610.36729](https://arxiv.org/abs/2610.36729)
+7. **Memory Tax** — Challenges whether processed agent memory adds value beyond retrieving evidence from raw interaction history. [arxiv.org/abs/2610.34073](https://arxiv.org/abs/2610.34073)
+8. **Factorized Vector Quantization** — Shows how better discrete visual tokenization can close the understanding gap with continuous representations. [arxiv.org/abs/2610.37662](https://arxiv.org/abs/2610.37662)
+9. **HABIT-Bench** — Tests whether agents infer implicit user habits from long histories and apply them despite exceptions and change. [arxiv.org/abs/2610.24520](https://arxiv.org/abs/2610.24520)
+10. **Representation Redistribution** — Traces recurring sparse-autoencoder feature shifts and their connection to downstream safety readout failures. [arxiv.org/abs/2610.21240](https://arxiv.org/abs/2610.21240)
 <!-- LATEST_PAPERS_END -->
 
 [Browse all paper summaries &rarr;](/blog/ai-papers/)
