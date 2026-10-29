@@ -14,18 +14,18 @@ Welcome to my blog! Here I share insights from my daily readings of AI research 
 I read AI and ML research papers daily and post concise summaries here. Each entry covers the key contributions, methods, and takeaways from recent papers across topics like deep learning, reinforcement learning, NLP, computer vision, and more.
 
 <!-- LATEST_PAPERS_START -->
-**Latest — October 28, 2026**
+**Latest — October 29, 2026**
 
-1. **The Trinity** — Couples world generation with evolving agent harnesses to build reusable multimodal capabilities. [arxiv.org/abs/2610.36077](https://arxiv.org/abs/2610.36077)
-2. **ChronoReplay** — Trains one streaming vision-language model to handle varied spatial tasks without specializing in a single answer format. [arxiv.org/abs/2610.34283](https://arxiv.org/abs/2610.34283)
-3. **PDRVLA** — Gives robot policies physical dynamics representations without putting video generation in the control loop. [arxiv.org/abs/2610.37381](https://arxiv.org/abs/2610.37381)
-4. **Multiscale Policy Optimization** — Aligns long-horizon agent learning with assistant turns while preserving token-level credit assignment. [arxiv.org/abs/2610.35013](https://arxiv.org/abs/2610.35013)
-5. **VibeVideoBench** — Tests whether video-generation agents deliver complete audiovisual results, not just promising intermediate work. [arxiv.org/abs/2610.35864](https://arxiv.org/abs/2610.35864)
-6. **Hy-Nomas** — Extends interactive world generation with successive text instructions, camera control, and persistent history. [arxiv.org/abs/2610.36729](https://arxiv.org/abs/2610.36729)
-7. **Memory Tax** — Challenges whether processed agent memory adds value beyond retrieving evidence from raw interaction history. [arxiv.org/abs/2610.34073](https://arxiv.org/abs/2610.34073)
-8. **Factorized Vector Quantization** — Shows how better discrete visual tokenization can close the understanding gap with continuous representations. [arxiv.org/abs/2610.37662](https://arxiv.org/abs/2610.37662)
-9. **HABIT-Bench** — Tests whether agents infer implicit user habits from long histories and apply them despite exceptions and change. [arxiv.org/abs/2610.24520](https://arxiv.org/abs/2610.24520)
-10. **Representation Redistribution** — Traces recurring sparse-autoencoder feature shifts and their connection to downstream safety readout failures. [arxiv.org/abs/2610.21240](https://arxiv.org/abs/2610.21240)
+1. **Falcon** — Makes real-time target speaker extraction more practical by pairing visual cues with a much lighter audio separator. [arxiv.org/abs/2610.32749](https://arxiv.org/abs/2610.32749)
+2. **OmniShowcase** — Uses multi-view geometry to keep subjects recognizable as generated videos move around them. [arxiv.org/abs/2610.35684](https://arxiv.org/abs/2610.35684)
+3. **Sensorimotor Alignment** — Offers a training-free signal for choosing robot perception backbones before expensive policy evaluation. [arxiv.org/abs/2610.31670](https://arxiv.org/abs/2610.31670)
+4. **EmbeddingGemma 2** — Brings text, images, audio, and video into one retrieval space with flexible inference budgets. [arxiv.org/abs/2610.37364](https://arxiv.org/abs/2610.37364)
+5. **Calibration-Free MoE Decoding** — Cuts expert-weight reads with a fixed per-token channel budget instead of calibrated thresholds. [arxiv.org/abs/2610.37386](https://arxiv.org/abs/2610.37386)
+6. **MatAnyone-E** — Concentrates high-resolution matching on uncertain regions to make 4K video matting faster and lighter. [arxiv.org/abs/2610.35724](https://arxiv.org/abs/2610.35724)
+7. **h1** — Shows how a simple, efficient Lean interface can unlock strong theorem proving through execution feedback. [arxiv.org/abs/2610.35962](https://arxiv.org/abs/2610.35962)
+8. **TAO** — Schedules agent inference around tool readiness and cache value to reduce latency and improve GPU throughput. [arxiv.org/abs/2610.37230](https://arxiv.org/abs/2610.37230)
+9. **RealCLI** — Tests whether CLI agents remain steerable and trustworthy during collaboration, not just whether they finish tasks. [arxiv.org/abs/2610.22507](https://arxiv.org/abs/2610.22507)
+10. **Omni-InteractScope** — Exposes gaps in when streaming assistants take initiative and invoke the right tools. [arxiv.org/abs/2610.35439](https://arxiv.org/abs/2610.35439)
 <!-- LATEST_PAPERS_END -->
 
 [Browse all paper summaries &rarr;](/blog/ai-papers/)
