@@ -14,18 +14,18 @@ Welcome to my blog! Here I share insights from my daily readings of AI research 
 I read AI and ML research papers daily and post concise summaries here. Each entry covers the key contributions, methods, and takeaways from recent papers across topics like deep learning, reinforcement learning, NLP, computer vision, and more.
 
 <!-- LATEST_PAPERS_START -->
-**Latest — October 30, 2026**
+**Latest — October 31, 2026**
 
-1. **Intrinsic Distribution Matching** — Strengthens prompt-detail fidelity in few-step image generation without adding an external feature encoder. [arxiv.org/abs/2610.39633](https://arxiv.org/abs/2610.39633)
-2. **A-RSI** — Refreshes self-generated multimodal tasks as their learning signal fades to sustain improvement without external examples. [arxiv.org/abs/2610.38568](https://arxiv.org/abs/2610.38568)
-3. **Benchmark Difficulty** — Exposes uneven difficulty coverage that can distort benchmark conclusions and targets the gaps with rewritten items. [arxiv.org/abs/2610.29927](https://arxiv.org/abs/2610.29927)
-4. **LOWN** — Skips redundant image processing in diffusion VLMs while preserving nearly all evaluated performance. [arxiv.org/abs/2610.36671](https://arxiv.org/abs/2610.36671)
-5. **L3G-World** — Uses compact 3D memory to keep generated worlds spatially consistent during real-time exploration. [arxiv.org/abs/2610.40614](https://arxiv.org/abs/2610.40614)
-6. **WorkFactory** — Turns professional work intents into executable, repairable tasks for scalable agent training. [arxiv.org/abs/2610.37161](https://arxiv.org/abs/2610.37161)
-7. **Multimodal Retrieval Heads** — Identifies shared attention heads that can be trained to improve retrieval across modalities. [arxiv.org/abs/2610.32411](https://arxiv.org/abs/2610.32411)
-8. **Youtu-Parsing-Omni** — Unifies document and audiovisual parsing into structured records grounded in space and time. [arxiv.org/abs/2610.39301](https://arxiv.org/abs/2610.39301)
-9. **SpecSlot** — Separates global image structure from local detail to make pixel-space generation more efficient. [arxiv.org/abs/2610.40647](https://arxiv.org/abs/2610.40647)
-10. **Co-Design Bench** — Tests whether coding agents satisfy complete multimodal requests rather than merely pass some acceptance checks. [arxiv.org/abs/2610.35138](https://arxiv.org/abs/2610.35138)
+1. **JEPA Alignment** — Links aligned representations to shared-scene training views rather than model scale alone. [arxiv.org/abs/2610.39302](https://arxiv.org/abs/2610.39302)
+2. **Recurrent Looped Transformer** — Carries state between tokens to improve algorithmic reasoning on sequences far longer than those seen in training. [arxiv.org/abs/2610.07591](https://arxiv.org/abs/2610.07591)
+3. **AutoTavern** — Shows research agents building a competitive game-playing policy instead of trying to play directly. [arxiv.org/abs/2610.33845](https://arxiv.org/abs/2610.33845)
+4. **Zero-Mem** — Retrieves structured interaction history without intermediate LLM calls to reduce agent-memory overhead. [arxiv.org/abs/2607.29377](https://arxiv.org/abs/2607.29377)
+5. **Soft Multi-Token Prediction** — Refines training gradients to improve language modeling and speculative decoding without extra parameters. [arxiv.org/abs/2610.38331](https://arxiv.org/abs/2610.38331)
+6. **Investor's Last Exam** — Tests equity-research agents against frozen evidence and exposes weaker forecasting than research quality. [arxiv.org/abs/2610.38342](https://arxiv.org/abs/2610.38342)
+7. **EditAgent** — Combines richer editing tools with evidence-backed candidate judging to improve image edits at lower judging cost. [arxiv.org/abs/2610.39664](https://arxiv.org/abs/2610.39664)
+8. **Live iOS Navigation** — Uses dense online reinforcement learning to strengthen mobile-app navigation and cross-platform generalization. [arxiv.org/abs/2610.39264](https://arxiv.org/abs/2610.39264)
+9. **Unified Foundation-Model Training** — Brings static data and model-generated targets into one trainer for a better accuracy-compute tradeoff. [arxiv.org/abs/2610.40564](https://arxiv.org/abs/2610.40564)
+10. **SO-101 Bench** — Makes spatial robot-policy evaluation accessible and checks whether simulation rankings hold on a real arm. [arxiv.org/abs/2610.36420](https://arxiv.org/abs/2610.36420)
 <!-- LATEST_PAPERS_END -->
 
 [Browse all paper summaries &rarr;](/blog/ai-papers/)
