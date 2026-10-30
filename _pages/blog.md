@@ -14,18 +14,18 @@ Welcome to my blog! Here I share insights from my daily readings of AI research 
 I read AI and ML research papers daily and post concise summaries here. Each entry covers the key contributions, methods, and takeaways from recent papers across topics like deep learning, reinforcement learning, NLP, computer vision, and more.
 
 <!-- LATEST_PAPERS_START -->
-**Latest — October 29, 2026**
+**Latest — October 30, 2026**
 
-1. **Falcon** — Makes real-time target speaker extraction more practical by pairing visual cues with a much lighter audio separator. [arxiv.org/abs/2610.32749](https://arxiv.org/abs/2610.32749)
-2. **OmniShowcase** — Uses multi-view geometry to keep subjects recognizable as generated videos move around them. [arxiv.org/abs/2610.35684](https://arxiv.org/abs/2610.35684)
-3. **Sensorimotor Alignment** — Offers a training-free signal for choosing robot perception backbones before expensive policy evaluation. [arxiv.org/abs/2610.31670](https://arxiv.org/abs/2610.31670)
-4. **EmbeddingGemma 2** — Brings text, images, audio, and video into one retrieval space with flexible inference budgets. [arxiv.org/abs/2610.37364](https://arxiv.org/abs/2610.37364)
-5. **Calibration-Free MoE Decoding** — Cuts expert-weight reads with a fixed per-token channel budget instead of calibrated thresholds. [arxiv.org/abs/2610.37386](https://arxiv.org/abs/2610.37386)
-6. **MatAnyone-E** — Concentrates high-resolution matching on uncertain regions to make 4K video matting faster and lighter. [arxiv.org/abs/2610.35724](https://arxiv.org/abs/2610.35724)
-7. **h1** — Shows how a simple, efficient Lean interface can unlock strong theorem proving through execution feedback. [arxiv.org/abs/2610.35962](https://arxiv.org/abs/2610.35962)
-8. **TAO** — Schedules agent inference around tool readiness and cache value to reduce latency and improve GPU throughput. [arxiv.org/abs/2610.37230](https://arxiv.org/abs/2610.37230)
-9. **RealCLI** — Tests whether CLI agents remain steerable and trustworthy during collaboration, not just whether they finish tasks. [arxiv.org/abs/2610.22507](https://arxiv.org/abs/2610.22507)
-10. **Omni-InteractScope** — Exposes gaps in when streaming assistants take initiative and invoke the right tools. [arxiv.org/abs/2610.35439](https://arxiv.org/abs/2610.35439)
+1. **Intrinsic Distribution Matching** — Strengthens prompt-detail fidelity in few-step image generation without adding an external feature encoder. [arxiv.org/abs/2610.39633](https://arxiv.org/abs/2610.39633)
+2. **A-RSI** — Refreshes self-generated multimodal tasks as their learning signal fades to sustain improvement without external examples. [arxiv.org/abs/2610.38568](https://arxiv.org/abs/2610.38568)
+3. **Benchmark Difficulty** — Exposes uneven difficulty coverage that can distort benchmark conclusions and targets the gaps with rewritten items. [arxiv.org/abs/2610.29927](https://arxiv.org/abs/2610.29927)
+4. **LOWN** — Skips redundant image processing in diffusion VLMs while preserving nearly all evaluated performance. [arxiv.org/abs/2610.36671](https://arxiv.org/abs/2610.36671)
+5. **L3G-World** — Uses compact 3D memory to keep generated worlds spatially consistent during real-time exploration. [arxiv.org/abs/2610.40614](https://arxiv.org/abs/2610.40614)
+6. **WorkFactory** — Turns professional work intents into executable, repairable tasks for scalable agent training. [arxiv.org/abs/2610.37161](https://arxiv.org/abs/2610.37161)
+7. **Multimodal Retrieval Heads** — Identifies shared attention heads that can be trained to improve retrieval across modalities. [arxiv.org/abs/2610.32411](https://arxiv.org/abs/2610.32411)
+8. **Youtu-Parsing-Omni** — Unifies document and audiovisual parsing into structured records grounded in space and time. [arxiv.org/abs/2610.39301](https://arxiv.org/abs/2610.39301)
+9. **SpecSlot** — Separates global image structure from local detail to make pixel-space generation more efficient. [arxiv.org/abs/2610.40647](https://arxiv.org/abs/2610.40647)
+10. **Co-Design Bench** — Tests whether coding agents satisfy complete multimodal requests rather than merely pass some acceptance checks. [arxiv.org/abs/2610.35138](https://arxiv.org/abs/2610.35138)
 <!-- LATEST_PAPERS_END -->
 
 [Browse all paper summaries &rarr;](/blog/ai-papers/)
