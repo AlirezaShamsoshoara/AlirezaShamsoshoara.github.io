@@ -14,18 +14,18 @@ Welcome to my blog! Here I share insights from my daily readings of AI research 
 I read AI and ML research papers daily and post concise summaries here. Each entry covers the key contributions, methods, and takeaways from recent papers across topics like deep learning, reinforcement learning, NLP, computer vision, and more.
 
 <!-- LATEST_PAPERS_START -->
-**Latest — November 1, 2026**
+**Latest — November 2, 2026**
 
-1. **EasyProver** — Extends agentic Lean theorem proving to implementation-level code verification without extra model training. [arxiv.org/abs/2610.38174](https://arxiv.org/abs/2610.38174)
-2. **CausGround** — Reuses causal action knowledge to make embodied planning more adaptable without updating model parameters. [arxiv.org/abs/2610.29702](https://arxiv.org/abs/2610.29702)
-3. **PreView** — Improves GUI target localization by giving frozen grounding models focused screenshot views and cues. [arxiv.org/abs/2610.33645](https://arxiv.org/abs/2610.33645)
-4. **Instruction Capacity** — Measures how instruction following degrades as independent rules crowd the prompt. [arxiv.org/abs/2610.36095](https://arxiv.org/abs/2610.36095)
-5. **LOB-Impact** — Tests whether generative market models react realistically to trades rather than merely imitate historical prices. [arxiv.org/abs/2610.27100](https://arxiv.org/abs/2610.27100)
-6. **Holo4D** — Uses reconstructed geometry and motion to steer novel-view video generation without retraining the diffusion model. [arxiv.org/abs/2610.25276](https://arxiv.org/abs/2610.25276)
-7. **ABF-Bench** — Makes blockchain-forensics agents back each claimed fund movement with verifiable ledger evidence. [arxiv.org/abs/2610.23656](https://arxiv.org/abs/2610.23656)
-8. **Weaken to Strengthen** — Turns a quantized or pruned counterpart into self-distillation signals that improve reasoning without an external teacher. [arxiv.org/abs/2610.38681](https://arxiv.org/abs/2610.38681)
-9. **Know, then Draw** — Separates semantic pretraining from diffusion rendering to make text-to-image training more efficient. [arxiv.org/abs/2610.37626](https://arxiv.org/abs/2610.37626)
-10. **Any-Order Image Generation** — Adapts pretrained raster-scan image models for flexible inpainting, outpainting, and editing. [arxiv.org/abs/2610.39293](https://arxiv.org/abs/2610.39293)
+1. **FrameForge** — Reuses video-model priors to unify conditional image generation and editing. [arxiv.org/abs/2610.36545](https://arxiv.org/abs/2610.36545)
+2. **R^2Orch** — Trains agent orchestrators through self-play, then withdraws external skills as their knowledge is internalized. [arxiv.org/abs/2610.22740](https://arxiv.org/abs/2610.22740)
+3. **Conditional Interaction** — Studies when lightweight screening can save reasoning compute without sacrificing useful exploration. [arxiv.org/abs/2610.39497](https://arxiv.org/abs/2610.39497)
+4. **REA** — Keeps robot control responsive by running deliberative reasoning and reactive policies asynchronously. [arxiv.org/abs/2610.42053](https://arxiv.org/abs/2610.42053)
+5. **Apriel Voice 27B** — Brings spoken requests, reasoning, and tool calls into one open speech-language model. [arxiv.org/abs/2610.40738](https://arxiv.org/abs/2610.40738)
+6. **WeFair** — Personalizes short-video query rewriting while protecting the user's immediate search intent. [arxiv.org/abs/2610.16927](https://arxiv.org/abs/2610.16927)
+7. **LARC** — Uses continuous hidden-state reasoning to improve prompt following and compositional image generation. [arxiv.org/abs/2610.42149](https://arxiv.org/abs/2610.42149)
+8. **HiFOR** — Guides robot actions with selectively retrieved predictions of near-term dynamics, milestones, and goals. [arxiv.org/abs/2610.40373](https://arxiv.org/abs/2610.40373)
+9. **Wizard** — Couples explicit game-state control with video generation for real-time character manipulation across new worlds. [arxiv.org/abs/2610.40339](https://arxiv.org/abs/2610.40339)
+10. **OSWAM** — Distills future information into one-step action generation to make world-action models faster at inference. [arxiv.org/abs/2610.35850](https://arxiv.org/abs/2610.35850)
 <!-- LATEST_PAPERS_END -->
 
 [Browse all paper summaries &rarr;](/blog/ai-papers/)
