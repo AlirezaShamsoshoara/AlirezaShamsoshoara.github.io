@@ -14,18 +14,18 @@ Welcome to my blog! Here I share insights from my daily readings of AI research 
 I read AI and ML research papers daily and post concise summaries here. Each entry covers the key contributions, methods, and takeaways from recent papers across topics like deep learning, reinforcement learning, NLP, computer vision, and more.
 
 <!-- LATEST_PAPERS_START -->
-**Latest — November 2, 2026**
+**Latest — November 3, 2026**
 
-1. **FrameForge** — Reuses video-model priors to unify conditional image generation and editing. [arxiv.org/abs/2610.36545](https://arxiv.org/abs/2610.36545)
-2. **R^2Orch** — Trains agent orchestrators through self-play, then withdraws external skills as their knowledge is internalized. [arxiv.org/abs/2610.22740](https://arxiv.org/abs/2610.22740)
-3. **Conditional Interaction** — Studies when lightweight screening can save reasoning compute without sacrificing useful exploration. [arxiv.org/abs/2610.39497](https://arxiv.org/abs/2610.39497)
-4. **REA** — Keeps robot control responsive by running deliberative reasoning and reactive policies asynchronously. [arxiv.org/abs/2610.42053](https://arxiv.org/abs/2610.42053)
-5. **Apriel Voice 27B** — Brings spoken requests, reasoning, and tool calls into one open speech-language model. [arxiv.org/abs/2610.40738](https://arxiv.org/abs/2610.40738)
-6. **WeFair** — Personalizes short-video query rewriting while protecting the user's immediate search intent. [arxiv.org/abs/2610.16927](https://arxiv.org/abs/2610.16927)
-7. **LARC** — Uses continuous hidden-state reasoning to improve prompt following and compositional image generation. [arxiv.org/abs/2610.42149](https://arxiv.org/abs/2610.42149)
-8. **HiFOR** — Guides robot actions with selectively retrieved predictions of near-term dynamics, milestones, and goals. [arxiv.org/abs/2610.40373](https://arxiv.org/abs/2610.40373)
-9. **Wizard** — Couples explicit game-state control with video generation for real-time character manipulation across new worlds. [arxiv.org/abs/2610.40339](https://arxiv.org/abs/2610.40339)
-10. **OSWAM** — Distills future information into one-step action generation to make world-action models faster at inference. [arxiv.org/abs/2610.35850](https://arxiv.org/abs/2610.35850)
+1. **Wave Forcing** — Pairs causal denoising with a pipelined runtime for fast, continuous video generation. [arxiv.org/abs/2611.00859](https://arxiv.org/abs/2611.00859)
+2. **CUA-Master** — Turns instructional videos and verified workflows into a recursive training loop for computer-use agents. [arxiv.org/abs/2611.03126](https://arxiv.org/abs/2611.03126)
+3. **CoworkOS** — Gives agent coworkers shared artifacts, persistent memory, and asynchronous delegation for sustained automation. [arxiv.org/abs/2611.03178](https://arxiv.org/abs/2611.03178)
+4. **Agentic Computer Graphics** — Maps how LLM agents generate and refine graphics code, highlighting coordination and evaluation challenges. [arxiv.org/abs/2611.01860](https://arxiv.org/abs/2611.01860)
+5. **Video Generation Meets Agent Harness** — Frames video production and interactive world modeling around runtimes that manage tools, state, and feedback. [arxiv.org/abs/2610.40191](https://arxiv.org/abs/2610.40191)
+6. **Open Robot-Use Agents** — Makes zero-shot manipulation research accessible through a unified harness for open-weight models. [arxiv.org/abs/2611.01560](https://arxiv.org/abs/2611.01560)
+7. **SWE-Trail** — Uses past coding trajectories to collect better training data without requiring historical advice at test time. [arxiv.org/abs/2611.02074](https://arxiv.org/abs/2611.02074)
+8. **NorthCUA** — Links verified experience collection and staged policy learning to scale desktop and web agents. [arxiv.org/abs/2611.02102](https://arxiv.org/abs/2611.02102)
+9. **SimpleLoRIF** — Traces safety degradation to fine-tuning examples whose gradients align with unsafe behavior. [arxiv.org/abs/2610.37481](https://arxiv.org/abs/2610.37481)
+10. **ReTrace** — Makes computer-use recovery measurable by testing whether replayed actions restore the intended downstream outcomes. [arxiv.org/abs/2610.27954](https://arxiv.org/abs/2610.27954)
 <!-- LATEST_PAPERS_END -->
 
 [Browse all paper summaries &rarr;](/blog/ai-papers/)
