@@ -14,18 +14,18 @@ Welcome to my blog! Here I share insights from my daily readings of AI research 
 I read AI and ML research papers daily and post concise summaries here. Each entry covers the key contributions, methods, and takeaways from recent papers across topics like deep learning, reinforcement learning, NLP, computer vision, and more.
 
 <!-- LATEST_PAPERS_START -->
-**Latest — November 3, 2026**
+**Latest — November 4, 2026**
 
-1. **Wave Forcing** — Pairs causal denoising with a pipelined runtime for fast, continuous video generation. [arxiv.org/abs/2611.00859](https://arxiv.org/abs/2611.00859)
-2. **CUA-Master** — Turns instructional videos and verified workflows into a recursive training loop for computer-use agents. [arxiv.org/abs/2611.03126](https://arxiv.org/abs/2611.03126)
-3. **CoworkOS** — Gives agent coworkers shared artifacts, persistent memory, and asynchronous delegation for sustained automation. [arxiv.org/abs/2611.03178](https://arxiv.org/abs/2611.03178)
-4. **Agentic Computer Graphics** — Maps how LLM agents generate and refine graphics code, highlighting coordination and evaluation challenges. [arxiv.org/abs/2611.01860](https://arxiv.org/abs/2611.01860)
-5. **Video Generation Meets Agent Harness** — Frames video production and interactive world modeling around runtimes that manage tools, state, and feedback. [arxiv.org/abs/2610.40191](https://arxiv.org/abs/2610.40191)
-6. **Open Robot-Use Agents** — Makes zero-shot manipulation research accessible through a unified harness for open-weight models. [arxiv.org/abs/2611.01560](https://arxiv.org/abs/2611.01560)
-7. **SWE-Trail** — Uses past coding trajectories to collect better training data without requiring historical advice at test time. [arxiv.org/abs/2611.02074](https://arxiv.org/abs/2611.02074)
-8. **NorthCUA** — Links verified experience collection and staged policy learning to scale desktop and web agents. [arxiv.org/abs/2611.02102](https://arxiv.org/abs/2611.02102)
-9. **SimpleLoRIF** — Traces safety degradation to fine-tuning examples whose gradients align with unsafe behavior. [arxiv.org/abs/2610.37481](https://arxiv.org/abs/2610.37481)
-10. **ReTrace** — Makes computer-use recovery measurable by testing whether replayed actions restore the intended downstream outcomes. [arxiv.org/abs/2610.27954](https://arxiv.org/abs/2610.27954)
+1. **Route Anything** — Learns to select models and policies across modalities while balancing answer quality against cost. [arxiv.org/abs/2611.05275](https://arxiv.org/abs/2611.05275)
+2. **Pandora** — Models changing psychological states to make simulated therapy clients express themselves more authentically. [arxiv.org/abs/2611.00617](https://arxiv.org/abs/2611.00617)
+3. **LoCo** — Teaches reasoning models when to stop, cutting unnecessary tokens while preserving accuracy. [arxiv.org/abs/2611.04814](https://arxiv.org/abs/2611.04814)
+4. **MoviEdit** — Combines cross-shot supervision with staged refinement to keep long-form video edits coherent. [arxiv.org/abs/2611.02737](https://arxiv.org/abs/2611.02737)
+5. **Kling Multimodal Understanding** — Explains how captioning, conditioning, and reward design underpin controllable video generation. [arxiv.org/abs/2611.04916](https://arxiv.org/abs/2611.04916)
+6. **DreamX** — Turns video diffusion features into compact action representations that transfer across humans and robots. [arxiv.org/abs/2611.05377](https://arxiv.org/abs/2611.05377)
+7. **RoboColosseum** — Tests robot policies across distributed real-world sites, exposing fragile rankings and generalization gaps. [arxiv.org/abs/2611.02497](https://arxiv.org/abs/2611.02497)
+8. **FactEmbed** — Separates query interpretation from retrieval embeddings to improve image search with text modifications. [arxiv.org/abs/2611.05193](https://arxiv.org/abs/2611.05193)
+9. **Axion 1.0** — Offers an open agent-training recipe built from two supervised stages and reinforcement learning. [arxiv.org/abs/2611.03233](https://arxiv.org/abs/2611.03233)
+10. **ToolSpace** — Builds executable long-horizon training tasks from verified tool dependencies and service traces. [arxiv.org/abs/2611.05036](https://arxiv.org/abs/2611.05036)
 <!-- LATEST_PAPERS_END -->
 
 [Browse all paper summaries &rarr;](/blog/ai-papers/)
