@@ -14,18 +14,18 @@ Welcome to my blog! Here I share insights from my daily readings of AI research 
 I read AI and ML research papers daily and post concise summaries here. Each entry covers the key contributions, methods, and takeaways from recent papers across topics like deep learning, reinforcement learning, NLP, computer vision, and more.
 
 <!-- LATEST_PAPERS_START -->
-**Latest — November 4, 2026**
+**Latest — November 5, 2026**
 
-1. **Route Anything** — Learns to select models and policies across modalities while balancing answer quality against cost. [arxiv.org/abs/2611.05275](https://arxiv.org/abs/2611.05275)
-2. **Pandora** — Models changing psychological states to make simulated therapy clients express themselves more authentically. [arxiv.org/abs/2611.00617](https://arxiv.org/abs/2611.00617)
-3. **LoCo** — Teaches reasoning models when to stop, cutting unnecessary tokens while preserving accuracy. [arxiv.org/abs/2611.04814](https://arxiv.org/abs/2611.04814)
-4. **MoviEdit** — Combines cross-shot supervision with staged refinement to keep long-form video edits coherent. [arxiv.org/abs/2611.02737](https://arxiv.org/abs/2611.02737)
-5. **Kling Multimodal Understanding** — Explains how captioning, conditioning, and reward design underpin controllable video generation. [arxiv.org/abs/2611.04916](https://arxiv.org/abs/2611.04916)
-6. **DreamX** — Turns video diffusion features into compact action representations that transfer across humans and robots. [arxiv.org/abs/2611.05377](https://arxiv.org/abs/2611.05377)
-7. **RoboColosseum** — Tests robot policies across distributed real-world sites, exposing fragile rankings and generalization gaps. [arxiv.org/abs/2611.02497](https://arxiv.org/abs/2611.02497)
-8. **FactEmbed** — Separates query interpretation from retrieval embeddings to improve image search with text modifications. [arxiv.org/abs/2611.05193](https://arxiv.org/abs/2611.05193)
-9. **Axion 1.0** — Offers an open agent-training recipe built from two supervised stages and reinforcement learning. [arxiv.org/abs/2611.03233](https://arxiv.org/abs/2611.03233)
-10. **ToolSpace** — Builds executable long-horizon training tasks from verified tool dependencies and service traces. [arxiv.org/abs/2611.05036](https://arxiv.org/abs/2611.05036)
+1. **TurnWise** — Teaches streaming-video assistants when to answer and when to wait through turn-level credit assignment. [arxiv.org/abs/2611.06728](https://arxiv.org/abs/2611.06728)
+2. **NEO-VLA** — Replaces a fixed visual encoder with instruction-conditioned visual features for more robust robot control. [arxiv.org/abs/2611.06918](https://arxiv.org/abs/2611.06918)
+3. **FrontierPhysics** — Tests scientific agents on end-to-end physics research, exposing gaps in reasoning rigor and expert intuition. [arxiv.org/abs/2611.06910](https://arxiv.org/abs/2611.06910)
+4. **GameVerse** — Supplies minute-scale gameplay sequences that help interactive world models sustain coherent rollouts. [arxiv.org/abs/2610.37257](https://arxiv.org/abs/2610.37257)
+5. **BudgetMix RL** — Varies turn budgets during training to make agent error recovery more robust across deployment settings. [arxiv.org/abs/2611.06483](https://arxiv.org/abs/2611.06483)
+6. **PyRUA-DataFarm** — Generates action-labeled robot demonstrations from simulation and minimal real-world calibration, reducing reliance on human teleoperation. [arxiv.org/abs/2611.05320](https://arxiv.org/abs/2611.05320)
+7. **EmoReward** — Calibrates emotional video-generation rewards using prompt evidence, reliability gates, and experience from prior runs. [arxiv.org/abs/2611.06518](https://arxiv.org/abs/2611.06518)
+8. **StreamDuo** — Pairs live gameplay commentary with a wiki-reading research agent to transfer knowledge to unseen games. [arxiv.org/abs/2611.01120](https://arxiv.org/abs/2611.01120)
+9. **Halley** — Coordinates predictive optical-network controllers with verified fallbacks to improve simulated AI data-center goodput. [arxiv.org/abs/2611.04408](https://arxiv.org/abs/2611.04408)
+10. **Solv3R** — Uses one iterative solver for offline and streaming 3D reconstruction without restarting when new views arrive. [arxiv.org/abs/2611.02857](https://arxiv.org/abs/2611.02857)
 <!-- LATEST_PAPERS_END -->
 
 [Browse all paper summaries &rarr;](/blog/ai-papers/)
