@@ -14,18 +14,18 @@ Welcome to my blog! Here I share insights from my daily readings of AI research 
 I read AI and ML research papers daily and post concise summaries here. Each entry covers the key contributions, methods, and takeaways from recent papers across topics like deep learning, reinforcement learning, NLP, computer vision, and more.
 
 <!-- LATEST_PAPERS_START -->
-**Latest — November 5, 2026**
+**Latest — November 6, 2026**
 
-1. **TurnWise** — Teaches streaming-video assistants when to answer and when to wait through turn-level credit assignment. [arxiv.org/abs/2611.06728](https://arxiv.org/abs/2611.06728)
-2. **NEO-VLA** — Replaces a fixed visual encoder with instruction-conditioned visual features for more robust robot control. [arxiv.org/abs/2611.06918](https://arxiv.org/abs/2611.06918)
-3. **FrontierPhysics** — Tests scientific agents on end-to-end physics research, exposing gaps in reasoning rigor and expert intuition. [arxiv.org/abs/2611.06910](https://arxiv.org/abs/2611.06910)
-4. **GameVerse** — Supplies minute-scale gameplay sequences that help interactive world models sustain coherent rollouts. [arxiv.org/abs/2610.37257](https://arxiv.org/abs/2610.37257)
-5. **BudgetMix RL** — Varies turn budgets during training to make agent error recovery more robust across deployment settings. [arxiv.org/abs/2611.06483](https://arxiv.org/abs/2611.06483)
-6. **PyRUA-DataFarm** — Generates action-labeled robot demonstrations from simulation and minimal real-world calibration, reducing reliance on human teleoperation. [arxiv.org/abs/2611.05320](https://arxiv.org/abs/2611.05320)
-7. **EmoReward** — Calibrates emotional video-generation rewards using prompt evidence, reliability gates, and experience from prior runs. [arxiv.org/abs/2611.06518](https://arxiv.org/abs/2611.06518)
-8. **StreamDuo** — Pairs live gameplay commentary with a wiki-reading research agent to transfer knowledge to unseen games. [arxiv.org/abs/2611.01120](https://arxiv.org/abs/2611.01120)
-9. **Halley** — Coordinates predictive optical-network controllers with verified fallbacks to improve simulated AI data-center goodput. [arxiv.org/abs/2611.04408](https://arxiv.org/abs/2611.04408)
-10. **Solv3R** — Uses one iterative solver for offline and streaming 3D reconstruction without restarting when new views arrive. [arxiv.org/abs/2611.02857](https://arxiv.org/abs/2611.02857)
+1. **DPDM** — Reuses deployment history through a shared frozen predictor to improve agent decisions without updating model parameters. [arxiv.org/abs/2611.02075](https://arxiv.org/abs/2611.02075)
+2. **VFlash** — Decodes whole visual primitives at once to accelerate robot trajectory planning without sacrificing precision. [arxiv.org/abs/2611.08449](https://arxiv.org/abs/2611.08449)
+3. **Harness-S** — Transfers successful trajectories from complementary execution harnesses into an agent that still runs under its original harness. [arxiv.org/abs/2611.04277](https://arxiv.org/abs/2611.04277)
+4. **BestRand** — Makes compact benchmark subsets more reliable by reducing the risk of unusually large evaluation errors. [arxiv.org/abs/2611.00883](https://arxiv.org/abs/2611.00883)
+5. **SLA** — Builds transferable spatial understanding into robot policies during pretraining without adding inference-time modules. [arxiv.org/abs/2611.08373](https://arxiv.org/abs/2611.08373)
+6. **WeLM-Image** — Unifies image understanding, generation, and editing with a fast variant designed for single-GPU deployment. [arxiv.org/abs/2611.07392](https://arxiv.org/abs/2611.07392)
+7. **TailSteer** — Focuses content-preservation corrections late in denoising to curb visual drift across repeated image edits. [arxiv.org/abs/2611.06741](https://arxiv.org/abs/2611.06741)
+8. **EvoMemState** — Connects persistent facts with evolving relationships and request-aware reasoning to improve personal-agent memory use. [arxiv.org/abs/2611.03743](https://arxiv.org/abs/2611.03743)
+9. **D3D** — Separates diffusion drafting from target-model state so drafting and verification can overlap for faster decoding. [arxiv.org/abs/2611.06425](https://arxiv.org/abs/2611.06425)
+10. **VisSearch-Bench** — Exposes how multimodal agents struggle to connect visual evidence across long, tool-assisted searches. [arxiv.org/abs/2611.04894](https://arxiv.org/abs/2611.04894)
 <!-- LATEST_PAPERS_END -->
 
 [Browse all paper summaries &rarr;](/blog/ai-papers/)
