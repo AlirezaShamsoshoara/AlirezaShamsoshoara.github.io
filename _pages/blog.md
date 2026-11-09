@@ -14,18 +14,18 @@ Welcome to my blog! Here I share insights from my daily readings of AI research 
 I read AI and ML research papers daily and post concise summaries here. Each entry covers the key contributions, methods, and takeaways from recent papers across topics like deep learning, reinforcement learning, NLP, computer vision, and more.
 
 <!-- LATEST_PAPERS_START -->
-**Latest — November 8, 2026**
+**Latest — November 9, 2026**
 
-1. **Qwen3-TTS** — Combines multilingual voice cloning and description-based voice control with low-latency streaming speech synthesis. [arxiv.org/abs/2601.15621](https://arxiv.org/abs/2601.15621)
-2. **Latent Tool Context** — Compresses verbose tool observations into latent tokens that preserve an agent's next actions while reducing context and runtime costs. [arxiv.org/abs/2611.06500](https://arxiv.org/abs/2611.06500)
-3. **Signed but Steerable** — Shows why signed RAG documents still need checks that bind retrieval vectors to the text they claim to represent. [arxiv.org/abs/2611.06498](https://arxiv.org/abs/2611.06498)
-4. **Jailbreak Seed Variability** — Finds that identically safety-trained checkpoints fail on different jailbreaks, challenging evaluations based on a single pretraining run. [arxiv.org/abs/2610.34074](https://arxiv.org/abs/2610.34074)
-5. **NPCBench** — Tests coherent clinical decisions across a patient's care pathway rather than treating strong isolated medical-task scores as sufficient. [arxiv.org/abs/2611.08369](https://arxiv.org/abs/2611.08369)
-6. **UniRestorer++** — Routes image restoration through degradation-aware experts to improve scaling and transfer to unfamiliar real-world corruptions. [arxiv.org/abs/2611.06042](https://arxiv.org/abs/2611.06042)
-7. **ViT-HarDis** — Encourages attention heads to specialize on difficult face identities without adding inference-time computation. [arxiv.org/abs/2610.41789](https://arxiv.org/abs/2610.41789)
-8. **HERIT** — Uses retrieval-generated translation labels to broaden access to historical Hanja archives across underrepresented time periods. [arxiv.org/abs/2611.04949](https://arxiv.org/abs/2611.04949)
-9. **SynthFaces** — Generates balanced synthetic identities for personalized image generation, reducing reliance on real personal photographs. [arxiv.org/abs/2610.40119](https://arxiv.org/abs/2610.40119)
-10. **DRAP** — Adapts robot-policy learning rates to closed-loop risk so continual learning better retains earlier behaviors without replay. [arxiv.org/abs/2611.05029](https://arxiv.org/abs/2611.05029)
+1. **SplatAnything** — Normalizes Gaussian spacing to make feed-forward 3D reconstruction more robust across scene scales and viewpoints. [arxiv.org/abs/2611.08264](https://arxiv.org/abs/2611.08264)
+2. **P^2-MOPD** — Uses expert parameter priors to recover teacher capabilities with fewer on-policy distillation steps. [arxiv.org/abs/2611.03953](https://arxiv.org/abs/2611.03953)
+3. **LongBanana** — Tests whether image-generation agents can satisfy dense visual references and constraints rather than only simple prompts. [arxiv.org/abs/2611.06856](https://arxiv.org/abs/2611.06856)
+4. **EvoAudit** — Audits agent self-improvement for lost capabilities and rising costs instead of treating aggregate gains as sufficient. [arxiv.org/abs/2611.07624](https://arxiv.org/abs/2611.07624)
+5. **EvoWorld** — Adds persistent world-state reasoning so generated videos track causal consequences beyond the camera's view. [arxiv.org/abs/2611.06748](https://arxiv.org/abs/2611.06748)
+6. **Structure-Aware Attention** — Brings exact additive relative-position attention into tiled kernels for faster, more memory-efficient transformers. [arxiv.org/abs/2611.01182](https://arxiv.org/abs/2611.01182)
+7. **FinDendro** — Shows why stated knowledge cutoffs and model self-reports cannot establish leak-free financial backtests. [arxiv.org/abs/2611.06808](https://arxiv.org/abs/2611.06808)
+8. **Confucius4-R2T2** — Produces low-latency streaming speech transcripts without revising words already emitted. [arxiv.org/abs/2611.06043](https://arxiv.org/abs/2611.06043)
+9. **AgentBaton** — Learns when to hand agent tasks from capable models to cheaper ones while largely preserving accuracy. [arxiv.org/abs/2610.35959](https://arxiv.org/abs/2610.35959)
+10. **Video-Coder** — Reinforces coding agents to create executable 3D scenes that guide more controllable video generation. [arxiv.org/abs/2611.09894](https://arxiv.org/abs/2611.09894)
 <!-- LATEST_PAPERS_END -->
 
 [Browse all paper summaries &rarr;](/blog/ai-papers/)
