@@ -14,18 +14,18 @@ Welcome to my blog! Here I share insights from my daily readings of AI research 
 I read AI and ML research papers daily and post concise summaries here. Each entry covers the key contributions, methods, and takeaways from recent papers across topics like deep learning, reinforcement learning, NLP, computer vision, and more.
 
 <!-- LATEST_PAPERS_START -->
-**Latest — November 9, 2026**
+**Latest — November 10, 2026**
 
-1. **SplatAnything** — Normalizes Gaussian spacing to make feed-forward 3D reconstruction more robust across scene scales and viewpoints. [arxiv.org/abs/2611.08264](https://arxiv.org/abs/2611.08264)
-2. **P^2-MOPD** — Uses expert parameter priors to recover teacher capabilities with fewer on-policy distillation steps. [arxiv.org/abs/2611.03953](https://arxiv.org/abs/2611.03953)
-3. **LongBanana** — Tests whether image-generation agents can satisfy dense visual references and constraints rather than only simple prompts. [arxiv.org/abs/2611.06856](https://arxiv.org/abs/2611.06856)
-4. **EvoAudit** — Audits agent self-improvement for lost capabilities and rising costs instead of treating aggregate gains as sufficient. [arxiv.org/abs/2611.07624](https://arxiv.org/abs/2611.07624)
-5. **EvoWorld** — Adds persistent world-state reasoning so generated videos track causal consequences beyond the camera's view. [arxiv.org/abs/2611.06748](https://arxiv.org/abs/2611.06748)
-6. **Structure-Aware Attention** — Brings exact additive relative-position attention into tiled kernels for faster, more memory-efficient transformers. [arxiv.org/abs/2611.01182](https://arxiv.org/abs/2611.01182)
-7. **FinDendro** — Shows why stated knowledge cutoffs and model self-reports cannot establish leak-free financial backtests. [arxiv.org/abs/2611.06808](https://arxiv.org/abs/2611.06808)
-8. **Confucius4-R2T2** — Produces low-latency streaming speech transcripts without revising words already emitted. [arxiv.org/abs/2611.06043](https://arxiv.org/abs/2611.06043)
-9. **AgentBaton** — Learns when to hand agent tasks from capable models to cheaper ones while largely preserving accuracy. [arxiv.org/abs/2610.35959](https://arxiv.org/abs/2610.35959)
-10. **Video-Coder** — Reinforces coding agents to create executable 3D scenes that guide more controllable video generation. [arxiv.org/abs/2611.09894](https://arxiv.org/abs/2611.09894)
+1. **LingBot-Touch** — Unifies different touch sensors into reusable tactile tokens for more dexterous robot manipulation. [arxiv.org/abs/2611.12806](https://arxiv.org/abs/2611.12806)
+2. **WorldFoundry** — Standardizes world-model execution and evaluation while distinguishing runnable systems from demonstrated capabilities. [arxiv.org/abs/2611.10771](https://arxiv.org/abs/2611.10771)
+3. **A2-MEAS** — Combines action policies, world models, and correction codes to improve robot autonomy and failure recovery. [arxiv.org/abs/2611.09124](https://arxiv.org/abs/2611.09124)
+4. **Sage-Taiyi** — Uses metacognitive monitoring to steer scientific proposals toward experimental and computational validation. [arxiv.org/abs/2611.12762](https://arxiv.org/abs/2611.12762)
+5. **Reframe** — Repairs tool actions and distills observation-grounded reasoning to make visual agents more reliable. [arxiv.org/abs/2611.12886](https://arxiv.org/abs/2611.12886)
+6. **Flide** — Shares computation across branched decisions while preserving isolated-branch semantics in exact arithmetic. [arxiv.org/abs/2610.42148](https://arxiv.org/abs/2610.42148)
+7. **ReproBridge** — Packages recovered experimental procedures into audited, reusable artifacts that improve ML reproduction success. [arxiv.org/abs/2611.08452](https://arxiv.org/abs/2611.08452)
+8. **Longtail-SWE** — Extends executable coding-agent evaluation to repository tasks in underrepresented programming languages. [arxiv.org/abs/2611.10304](https://arxiv.org/abs/2611.10304)
+9. **InfraRSI** — Co-optimizes training launch settings, kernels, and communication under a fixed verification contract. [arxiv.org/abs/2611.11558](https://arxiv.org/abs/2611.11558)
+10. **Distillation Mismatch Budget** — Calibrates quantization and asynchronous rollouts to speed on-policy distillation without degrading training quality. [arxiv.org/abs/2611.11450](https://arxiv.org/abs/2611.11450)
 <!-- LATEST_PAPERS_END -->
 
 [Browse all paper summaries &rarr;](/blog/ai-papers/)
