@@ -14,18 +14,18 @@ Welcome to my blog! Here I share insights from my daily readings of AI research 
 I read AI and ML research papers daily and post concise summaries here. Each entry covers the key contributions, methods, and takeaways from recent papers across topics like deep learning, reinforcement learning, NLP, computer vision, and more.
 
 <!-- LATEST_PAPERS_START -->
-**Latest — November 11, 2026**
+**Latest — November 12, 2026**
 
-1. **Tree-Ising** — Repairs language-model reasoning failures through sparse bit-level weight edits rather than gradient updates. [arxiv.org/abs/2611.14210](https://arxiv.org/abs/2611.14210)
-2. **World In-Context Learning** — Lets frozen robot models learn from one demonstration and simulator feedback without retraining. [arxiv.org/abs/2611.12885](https://arxiv.org/abs/2611.12885)
-3. **APEX** — Makes few-step streaming video distillation cheaper by eliminating a separate fake-score network. [arxiv.org/abs/2611.14033](https://arxiv.org/abs/2611.14033)
-4. **WikiTrace** — Links agent memories to their supporting trajectories so agents can check lessons before acting. [arxiv.org/abs/2611.14320](https://arxiv.org/abs/2611.14320)
-5. **OneTrans-GSR** — Unifies recommendation reranking and mix-ranking in a generative policy that improves value while reducing latency. [arxiv.org/abs/2611.04720](https://arxiv.org/abs/2611.04720)
-6. **dNaViT** — Uses a compact vocabulary of discrete visual tokens across understanding, generation, and image editing. [arxiv.org/abs/2611.12426](https://arxiv.org/abs/2611.12426)
-7. **Infrathon** — Tests whether language agents can sustain progress on real AI infrastructure optimization over a full day. [arxiv.org/abs/2611.11995](https://arxiv.org/abs/2611.11995)
-8. **MMDM** — Exposes weaknesses in single-pass decision models when choices involve constraints or interdependent options. [arxiv.org/abs/2611.14309](https://arxiv.org/abs/2611.14309)
-9. **DexForesight** — Transfers a world model’s spatial foresight into dexterous robot policies without future prediction at deployment. [arxiv.org/abs/2611.11166](https://arxiv.org/abs/2611.11166)
-10. **SWAM** — Studies how cross-modal supervision scales world action models and improves robot manipulation. [arxiv.org/abs/2611.12870](https://arxiv.org/abs/2611.12870)
+1. **One Table Benchmark** — Tests whether generalist tabular models can replace specialists across generation, imputation, and prediction. [arxiv.org/abs/2611.13001](https://arxiv.org/abs/2611.13001)
+2. **TOME-Math** — Turns structured mathematics textbooks into proof supervision while preserving dependencies and curricular order. [arxiv.org/abs/2610.40394](https://arxiv.org/abs/2610.40394)
+3. **SteerDistill** — Recovers low-bit agents’ task performance by distilling teacher corrections verified through execution feedback. [arxiv.org/abs/2611.13410](https://arxiv.org/abs/2611.13410)
+4. **Embodied First Exam** — Tests coding agents on diverse robots and exposes how physical constraints limit their success. [arxiv.org/abs/2611.12177](https://arxiv.org/abs/2611.12177)
+5. **BookNavigator** — Rewards language models for studying unfamiliar textbooks and building proofs without reference solutions. [arxiv.org/abs/2610.39671](https://arxiv.org/abs/2610.39671)
+6. **Deletion Tuning** — Acquires new capabilities by deleting a tiny fraction of pretrained weights rather than updating them. [arxiv.org/abs/2611.10866](https://arxiv.org/abs/2611.10866)
+7. **SparseRead** — Cuts agent reading costs by exposing only needed evidence while retaining a full-view fallback. [arxiv.org/abs/2608.22237](https://arxiv.org/abs/2608.22237)
+8. **PISA-E** — Selects prompt-specific model ensembles and their size to balance inference cost against answer quality. [arxiv.org/abs/2611.10193](https://arxiv.org/abs/2611.10193)
+9. **GTAGym** — Turns GTA V into a verifiable agent training ground with navigation and shooting tasks. [arxiv.org/abs/2611.13028](https://arxiv.org/abs/2611.13028)
+10. **BioAgent-DF** — Audits biomedical agents’ tool state and evidence provenance to reveal faults that final verdicts can hide. [arxiv.org/abs/2611.01527](https://arxiv.org/abs/2611.01527)
 <!-- LATEST_PAPERS_END -->
 
 [Browse all paper summaries &rarr;](/blog/ai-papers/)
