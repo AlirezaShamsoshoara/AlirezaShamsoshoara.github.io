@@ -1,0 +1,287 @@
+{
+  "kind": "announcement animation composed from the RL-from-zero repository demo GIFs; no generated or retouched agent footage",
+  "source_repository": "https://github.com/AlirezaShamsoshoara/RL-from-zero",
+  "source_revision": "27ea78dc267363afec2d447f1ba0278bfccdf89e",
+  "tiles": [
+    {
+      "folder": "Qlearning",
+      "gif": "Qlearning/assets/qlearning_frozenlake_8x8.gif",
+      "label": "Q-learning \u00b7 FrozenLake 8\u00d78",
+      "sha256": "04f53a09ba9387fbbe6cb72c5b9fe0cec7cbfca91fed60e08a09e03c3bda058e",
+      "caption_band_cropped_px": 0,
+      "content_window": [
+        0,
+        0,
+        512,
+        512
+      ],
+      "source_duration_ms": 11160,
+      "loops_within_cut": true
+    },
+    {
+      "folder": "Independent-QL",
+      "gif": "Independent-QL/assets/independent_ql_lineworld.gif",
+      "label": "Independent QL \u00b7 LineWorld",
+      "sha256": "c4f3f4de086086db899d1f433430a0c47d650dae4e3a0df0eee2cbe6206160c2",
+      "caption_band_cropped_px": 0,
+      "content_window": [
+        0,
+        0,
+        560,
+        207
+      ],
+      "source_duration_ms": 11910,
+      "loops_within_cut": true
+    },
+    {
+      "folder": "Nash-QL",
+      "gif": "Nash-QL/assets/nash_ql_grid_soccer.gif",
+      "label": "Nash Q-learning \u00b7 Grid Soccer",
+      "sha256": "25957793f8bde6a3001bd5eabe5f5807cc8a3c480c784c933c673a5e3c21c360",
+      "caption_band_cropped_px": 0,
+      "content_window": [
+        16,
+        0,
+        544,
+        352
+      ],
+      "source_duration_ms": 10970,
+      "loops_within_cut": true
+    },
+    {
+      "folder": "deepQN",
+      "gif": "deepQN/assets/dqn_mountaincar.gif",
+      "label": "DQN \u00b7 MountainCar",
+      "sha256": "d192d5c913a578bcc64b2a19802758a2725b5d0b03230eb8464d0a17f11b3e53",
+      "caption_band_cropped_px": 0,
+      "content_window": [
+        0,
+        0,
+        600,
+        400
+      ],
+      "source_duration_ms": 5760,
+      "loops_within_cut": true
+    },
+    {
+      "folder": "PPO",
+      "gif": "PPO/assets/ppo_cartpole.gif",
+      "label": "PPO \u00b7 CartPole",
+      "sha256": "3314fcdbc2962fd4f5fc069599fb8d289f2e7bc42fc84fa9f90b3f1a6e927f3c",
+      "caption_band_cropped_px": 0,
+      "content_window": [
+        0,
+        0,
+        600,
+        400
+      ],
+      "source_duration_ms": 13130,
+      "loops_within_cut": false
+    },
+    {
+      "folder": "TRPO",
+      "gif": "TRPO/assets/trpo_acrobot.gif",
+      "label": "TRPO \u00b7 Acrobot",
+      "sha256": "4627ba53527610984f5b2da3a93b54cdc935a9bfb81ce27cd3f05bf8ce4265e6",
+      "caption_band_cropped_px": 0,
+      "content_window": [
+        0,
+        97,
+        500,
+        500
+      ],
+      "source_duration_ms": 5210,
+      "loops_within_cut": true
+    },
+    {
+      "folder": "A3C",
+      "gif": "A3C/assets/a3c_lunarlander.gif",
+      "label": "A3C \u00b7 LunarLander",
+      "sha256": "3e055d2af2364dee30accfde6a090186acb101c9064104f55e6063c675ac1933",
+      "caption_band_cropped_px": 58,
+      "content_window": [
+        0,
+        0,
+        600,
+        400
+      ],
+      "source_duration_ms": 13040,
+      "loops_within_cut": false
+    },
+    {
+      "folder": "SAC",
+      "gif": "SAC/assets/sac_pendulum.gif",
+      "label": "SAC \u00b7 Pendulum",
+      "sha256": "6fe850d5ede2a767a4152042fbab251b69a7ec0c02b141a07cda95f85e6bdc50",
+      "caption_band_cropped_px": 68,
+      "content_window": [
+        23,
+        95,
+        488,
+        405
+      ],
+      "source_duration_ms": 11050,
+      "loops_within_cut": true
+    },
+    {
+      "folder": "IQL",
+      "gif": "IQL/assets/iql_pendulum.gif",
+      "label": "IQL (offline) \u00b7 Pendulum",
+      "sha256": "fc4315a5fe7d7712b1094551415cae9b420a1c5f6ef26d4bc78db46743533492",
+      "caption_band_cropped_px": 0,
+      "content_window": [
+        70,
+        95,
+        431,
+        336
+      ],
+      "source_duration_ms": 11080,
+      "loops_within_cut": true
+    },
+    {
+      "folder": "DDPG",
+      "gif": "DDPG/assets/ddpg_lunarlander.gif",
+      "label": "DDPG \u00b7 LunarLander",
+      "sha256": "c9a78f1692976de0fbcd94fd46dc2b0d2b003d95197e6eab34d7feda9eb16800",
+      "caption_band_cropped_px": 0,
+      "content_window": [
+        0,
+        0,
+        600,
+        400
+      ],
+      "source_duration_ms": 13030,
+      "loops_within_cut": false
+    },
+    {
+      "folder": "TD3",
+      "gif": "TD3/assets/td3_mountaincar_continuous.gif",
+      "label": "TD3 \u00b7 MountainCar",
+      "sha256": "0e0563a8eb6a257ac9d31a149a60635ee48b732dd3f517307b7a1266202af20f",
+      "caption_band_cropped_px": 68,
+      "content_window": [
+        0,
+        0,
+        600,
+        400
+      ],
+      "source_duration_ms": 8100,
+      "loops_within_cut": true
+    },
+    {
+      "folder": "MAPPO",
+      "gif": "MAPPO/assets/mappo_full_delivery.gif",
+      "label": "MAPPO \u00b7 MultiWalker",
+      "sha256": "61942f50fecb9b6b2d1c7444a33a35fe45fa899aa54eefb11ab0f6d03641b925",
+      "caption_band_cropped_px": 0,
+      "content_window": [
+        0,
+        0,
+        600,
+        400
+      ],
+      "source_duration_ms": 13100,
+      "loops_within_cut": false
+    },
+    {
+      "folder": "MADDPG",
+      "gif": "MADDPG/assets/maddpg_simple_spread.gif",
+      "label": "MADDPG \u00b7 Simple Spread",
+      "sha256": "0e0407f117f9812904ba0ca730a0c1590236c5f3a5b4761f00b0bc1ed7a735ff",
+      "caption_band_cropped_px": 0,
+      "content_window": [
+        0,
+        0,
+        700,
+        700
+      ],
+      "source_duration_ms": 8250,
+      "loops_within_cut": true
+    }
+  ],
+  "timelines_seconds": {
+    "loop": [
+      [
+        "close",
+        1.0
+      ],
+      [
+        "out",
+        2.0
+      ],
+      [
+        "full",
+        3.9
+      ],
+      [
+        "in",
+        1.5
+      ],
+      [
+        "close",
+        0.5
+      ]
+    ],
+    "linkedin": [
+      [
+        "close",
+        1.0
+      ],
+      [
+        "out",
+        2.0
+      ],
+      [
+        "full",
+        9.0
+      ]
+    ]
+  },
+  "close_up": "A3C",
+  "close_up_segment_ms": [
+    0,
+    8880
+  ],
+  "close_up_time_stretch_in_loop": 0.9977528089887641,
+  "series_start_outlined": "Qlearning",
+  "outputs": {
+    "loop_mp4": {
+      "file": "rl-from-zero-announcement.mp4",
+      "frames": 267,
+      "fps": 30,
+      "size": [
+        1920,
+        1080
+      ],
+      "bytes": 1760064
+    },
+    "linkedin_mp4": {
+      "file": "rl-from-zero-announcement-linkedin.mp4",
+      "frames": 360,
+      "fps": 30,
+      "size": [
+        1920,
+        1080
+      ],
+      "bytes": 1504137
+    },
+    "loop_gif": {
+      "file": "rl-from-zero-announcement.gif",
+      "frames": 178,
+      "fps": 20,
+      "size": [
+        1280,
+        720
+      ],
+      "bytes": 4591752
+    },
+    "poster": {
+      "file": "rl-from-zero-announcement.png",
+      "size": [
+        1920,
+        1080
+      ],
+      "bytes": 243035
+    }
+  }
+}
