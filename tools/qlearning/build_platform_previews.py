@@ -56,8 +56,8 @@ def resolve_image(root, source_dir, href, static_media):
     return path, f'data:{mime};base64,{encoded}', width, height
 
 
-def build(root, out, platform, static_media=False):
-    source_dir = root / 'tools/qlearning/platform-drafts'
+def build(root, out, platform, static_media=False, drafts_dir='tools/qlearning/platform-drafts'):
+    source_dir = root / drafts_dir
     source = source_dir / f'{platform}.md'
     text = source.read_text()
     heading = re.match(r'^#\s+(.+)', text)
@@ -69,7 +69,7 @@ def build(root, out, platform, static_media=False):
         href = html.unescape(match.group(1))
         path, uri, width, height = resolve_image(root, source_dir, href, static_media)
         images.append({'source': str(path.relative_to(root)), 'width': width, 'height': height, 'mime': path.suffix})
-        kind = 'hero-image' if path.name == 'q-learning-hero.png' else 'native-image' if path.name.startswith('frozenlake-8x8') else 'clip-image'
+        kind = 'hero-image' if path.name == 'q-learning-hero.png' or path.name.startswith('rl-from-zero-announcement') else 'native-image' if path.name.startswith('frozenlake-8x8') else 'clip-image'
         return f'src="{uri}" class="{kind}" width="{width}" height="{height}"'
     document = re.sub(r'src="([^"]+)"', embed, document)
     if re.search(r'{%|{{|<script|<iframe', document):
@@ -87,10 +87,11 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--root', type=Path, default=Path(__file__).resolve().parents[2])
     parser.add_argument('--out', type=Path, required=True)
+    parser.add_argument('--drafts-dir', default='tools/qlearning/platform-drafts', help='Folder with medium.md and substack.md, relative to the repository root')
     args = parser.parse_args()
     root = args.root.resolve()
     if args.out.resolve() == root or args.out.resolve().is_relative_to(root):
         raise ValueError('Generated review HTML must stay outside the checkout')
-    manifest = [build(root, args.out, 'medium'), build(root, args.out, 'substack'), build(root, args.out, 'substack', static_media=True)]
+    manifest = [build(root, args.out, 'medium', drafts_dir=args.drafts_dir), build(root, args.out, 'substack', drafts_dir=args.drafts_dir), build(root, args.out, 'substack', static_media=True, drafts_dir=args.drafts_dir)]
     (args.out / 'platform-preview-manifest.json').write_text(json.dumps(manifest, indent=2))
     print(json.dumps(manifest, indent=2))
