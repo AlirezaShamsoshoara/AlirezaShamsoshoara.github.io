@@ -1,0 +1,42 @@
+{
+  "source_gif_sha256": "bba3eb3fba1da6abb150f025aacd270f372062a980da16178f6832af16b6bf73",
+  "source_duration_ms": 105550,
+  "clips": [
+    {
+      "name": "first-goal",
+      "recorded_transition_index": 210,
+      "recorded_episode": 29,
+      "description": "True-terminal goal transition 14 Right -> 15; Q(14,Right) 0 -> 0.1",
+      "source_interval_ms": [
+        52750,
+        65670
+      ],
+      "duration_ms": 12920,
+      "encoded_frames": 9,
+      "width": 1036,
+      "height": 896,
+      "bytes": 559529,
+      "sha256": "634f868a5039553320c56a9232664ce48e0f705ff8db199d43810844ccc39f86",
+      "interpretation": "Single recorded transition extracted from the full edited lesson, not a complete episode, new training run, or benchmark."
+    },
+    {
+      "name": "first-bootstrap",
+      "recorded_transition_index": 550,
+      "recorded_episode": 70,
+      "description": "Later zero-reward transition 13 Right -> 14; Q(13,Right) 0 -> 0.0095",
+      "source_interval_ms": [
+        72690,
+        85610
+      ],
+      "duration_ms": 12920,
+      "encoded_frames": 9,
+      "width": 1036,
+      "height": 896,
+      "bytes": 551609,
+      "sha256": "417c4c65f6fe5201989cec1a573c1ce228877762234513e00b8443c070747439",
+      "interpretation": "Single recorded transition extracted from the full edited lesson, not a complete episode, new training run, or benchmark."
+    }
+  ],
+  "learning_performed": false,
+  "provenance": "Byte-derived clips of the verified code-rendered lesson; every displayed Q-value comes from that original recording."
+}

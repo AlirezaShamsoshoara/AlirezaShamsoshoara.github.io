@@ -1,0 +1,59 @@
+<section class="rlql-lab rlql-exploration" data-ql-worked aria-labelledby="ql-worked-title">
+  <header class="rlql-lab-head"><div><span class="rlql-eyebrow">Figure 1 · Step through actual ε-greedy experience</span><h3 id="ql-worked-title">Explore, make mistakes, and learn from a goal</h3></div><span class="rlql-badge">Recorded locally · seed 7</span></header>
+  <p class="rlql-lab-intro">No route is prescribed. This learner chooses random exploration or a currently maximal action, can hit holes or revisit cells, and updates one Q-table entry at a time. Figure 2 uses the same rules and settings in an independent experiment.</p>
+  <p class="rlql-trace-export-note" data-trace-export-note hidden></p>
+  <div class="rlql-trace-heading"><p data-guided-position>Episode 1 · Move 1 · Recorded transition 1</p><span data-trace-selection>Explore · random action</span></div>
+  <div class="rlql-worked-grid">
+    <div class="rlql-world-panel">
+      <svg class="rlql-transition-world rlql-guided-world" viewBox="0 0 324 324" role="img" aria-labelledby="ql-world-title ql-world-desc">
+        <title id="ql-world-title">Actual exploratory experience in the four by four map</title>
+        <desc id="ql-world-desc">Start at state zero. The goal is state fifteen; holes are five, seven, eleven, twelve. The first randomly chosen action is Up at the top boundary, so the agent stays in state zero.</desc>
+        <defs><marker id="ql-guided-arrow" markerWidth="7" markerHeight="7" refX="6" refY="3.5" orient="auto"><path d="M0 0L7 3.5L0 7" fill="#69798a"/></marker></defs>
+        <g data-guided-tiles>
+          <rect x="12" y="12" width="68" height="68" rx="3" fill="#eef4ff" stroke="#2356a8"/><text x="18" y="27" class="rlql-grid-id">0</text><text x="46" y="54" text-anchor="middle" class="rlql-grid-letter">S</text>
+          <rect x="88" y="12" width="68" height="68" rx="3" fill="#fafbfc" stroke="#cdd5de"/><text x="94" y="27" class="rlql-grid-id">1</text>
+          <rect x="164" y="12" width="68" height="68" rx="3" fill="#fafbfc" stroke="#cdd5de"/><text x="170" y="27" class="rlql-grid-id">2</text>
+          <rect x="240" y="12" width="68" height="68" rx="3" fill="#fafbfc" stroke="#cdd5de"/><text x="246" y="27" class="rlql-grid-id">3</text>
+          <rect x="12" y="88" width="68" height="68" rx="3" fill="#fafbfc" stroke="#cdd5de"/><text x="18" y="103" class="rlql-grid-id">4</text>
+          <rect x="88" y="88" width="68" height="68" rx="3" fill="#f8eeee" stroke="#dfc6c6"/><text x="94" y="103" class="rlql-grid-id">5</text><text x="122" y="130" text-anchor="middle" class="rlql-grid-letter">H</text>
+          <rect x="164" y="88" width="68" height="68" rx="3" fill="#fafbfc" stroke="#cdd5de"/><text x="170" y="103" class="rlql-grid-id">6</text>
+          <rect x="240" y="88" width="68" height="68" rx="3" fill="#f8eeee" stroke="#dfc6c6"/><text x="246" y="103" class="rlql-grid-id">7</text><text x="274" y="130" text-anchor="middle" class="rlql-grid-letter">H</text>
+          <rect x="12" y="164" width="68" height="68" rx="3" fill="#fafbfc" stroke="#cdd5de"/><text x="18" y="179" class="rlql-grid-id">8</text>
+          <rect x="88" y="164" width="68" height="68" rx="3" fill="#fafbfc" stroke="#cdd5de"/><text x="94" y="179" class="rlql-grid-id">9</text>
+          <rect x="164" y="164" width="68" height="68" rx="3" fill="#fafbfc" stroke="#cdd5de"/><text x="170" y="179" class="rlql-grid-id">10</text>
+          <rect x="240" y="164" width="68" height="68" rx="3" fill="#f8eeee" stroke="#dfc6c6"/><text x="246" y="179" class="rlql-grid-id">11</text><text x="274" y="206" text-anchor="middle" class="rlql-grid-letter">H</text>
+          <rect x="12" y="240" width="68" height="68" rx="3" fill="#f8eeee" stroke="#dfc6c6"/><text x="18" y="255" class="rlql-grid-id">12</text><text x="46" y="282" text-anchor="middle" class="rlql-grid-letter">H</text>
+          <rect x="88" y="240" width="68" height="68" rx="3" fill="#fafbfc" stroke="#cdd5de"/><text x="94" y="255" class="rlql-grid-id">13</text>
+          <rect x="164" y="240" width="68" height="68" rx="3" fill="#fafbfc" stroke="#cdd5de"/><text x="170" y="255" class="rlql-grid-id">14</text>
+          <rect x="240" y="240" width="68" height="68" rx="3" fill="#e8f2eb" stroke="#a2c0ac"/><text x="246" y="255" class="rlql-grid-id">15</text><text x="274" y="282" text-anchor="middle" class="rlql-grid-letter">G</text>
+        </g>
+        <polyline data-trace-path points="66,66" fill="none" stroke="#b8934c" stroke-width="1.5" opacity=".7"/>
+        <line data-guided-action-arrow x1="66" y1="66" x2="66" y2="66" stroke="#69798a" stroke-width="2" marker-end="url(#ql-guided-arrow)" visibility="hidden"/>
+        <g class="rlql-agent" data-worked-agent transform="translate(66 66)"><circle r="7" fill="#2356a8" stroke="#ffffff" stroke-width="1.5"/></g>
+      </svg>
+      <p class="rlql-guided-observation" data-guided-observation>0 → 0 · Up · boundary keeps the agent in place</p>
+      <p class="rlql-small" data-trace-path-copy>Path so far: 0</p>
+    </div>
+    <div class="rlql-table-panel">
+      <h4 data-worked-table-title>Q-table before this update</h4>
+      <div class="rlql-table-scroll" tabindex="0" role="region" aria-label="Current and observed next Q-table rows"><table class="rlql-qtable"><caption class="rlql-sr-only">The experienced row and next row at this selected recorded transition</caption><thead><tr><th scope="col">State</th><th scope="col">Left</th><th scope="col">Down</th><th scope="col">Right</th><th scope="col">Up</th></tr></thead><tbody data-worked-table><tr><th scope="row">0 (s)</th><td>0</td><td>0</td><td>0</td><td class="rlql-current">0</td></tr><tr><th scope="row">0 (s′)</th><td>0</td><td>0</td><td>0</td><td>0</td></tr></tbody></table></div>
+      <p class="rlql-small" data-guided-next-note>All estimates are zero. An initial tie is not evidence that Up is a good action.</p>
+      <ol class="rlql-phases" aria-label="Explanatory phase for this recorded move" data-worked-phases><li class="is-current">Pick</li><li>Act</li><li>Reward</li><li>Next Q</li><li>Target</li><li>Update</li></ol>
+      <div class="rlql-step-copy"><span data-worked-step-number>1 / 6</span><h4 data-worked-step-title>Inspect the selected action</h4><p data-worked-step-copy>The exploration branch chose Up at state 0. Only Q(0, Up) is updated by this observation.</p></div>
+      <div class="rlql-number-line" aria-label="Recorded Q-learning update"><div><span>Old Q</span><strong data-worked-old>0</strong></div><span class="rlql-operation">+</span><div><span>α</span><strong data-worked-alpha>0.10</strong></div><span class="rlql-operation">×</span><div><span>TD error</span><strong data-worked-error>0</strong></div><span class="rlql-operation">=</span><div class="rlql-result"><span>New Q</span><strong data-worked-new>0</strong></div></div>
+      <p class="rlql-target-copy" data-worked-target>First move: target = 0 + 0.95 × 0 = 0; error = 0.</p>
+    </div>
+  </div>
+  <div class="rlql-trace-summary"><span data-trace-summary>Recorded episode 1 starts from a zero table.</span><span>max Q at start: <strong data-guided-start-value>0</strong></span></div>
+  <div class="rlql-controls" data-interactive-controls hidden>
+    <div class="rlql-transport"><button type="button" data-worked-back>← Previous phase</button><button type="button" class="rlql-primary" data-worked-next>Next phase →</button><button type="button" data-guided-next-move>Next move</button><button type="button" data-worked-play aria-pressed="false">Play this episode</button><button type="button" data-worked-reset>Restart replay</button></div>
+    <div class="rlql-trace-navigation"><button type="button" data-trace-previous-episode>← Episode</button><label for="ql-episode">Recorded episode <select id="ql-episode" data-trace-episode><option value="0">1</option></select></label><button type="button" data-trace-next-episode>Episode →</button><button type="button" data-guided-result>End of this episode</button></div>
+    <label class="rlql-guided-timeline" for="ql-guided-move">Recorded move <output data-guided-move-output for="ql-guided-move">1</output><input id="ql-guided-move" type="range" min="0" max="842" step="1" value="0"/></label>
+    <div class="rlql-guided-chapters"><span>Inspect:</span><button type="button" data-guided-chapter="explore">Random choice</button><button type="button" data-guided-chapter="hole">First failed attempt</button><button type="button" data-guided-chapter="reward">First goal reward</button><button type="button" data-guided-chapter="bootstrap">First bootstrap</button><button type="button" data-guided-chapter="start">Signal at the start</button></div>
+    <details class="rlql-table-details"><summary>Inspect all 16 Q-table rows at this phase</summary><div class="rlql-table-scroll" tabindex="0" role="region" aria-label="Full recorded Q-table"><table class="rlql-qtable"><caption>This phase's own table, not the final table</caption><thead><tr><th scope="col">State</th><th scope="col">Left</th><th scope="col">Down</th><th scope="col">Right</th><th scope="col">Up</th></tr></thead><tbody data-guided-full-table><tr><td colspan="5">Every value starts at zero.</td></tr></tbody></table></div></details>
+    <details class="rlql-table-details" id="ql-shared-settings"><summary>Learning settings shared by both figures</summary><p class="rlql-small">Changing a setting resets both independent experiments. Seeking through the recording does not copy values into Figure 2. ε stays fixed until changed.</p><div class="rlql-parameters"><label>Learning rate α <output data-alpha-output for="ql-alpha">0.10</output><input id="ql-alpha" data-param="alpha" type="range" min="0" max="1" step="0.05" value="0.1"/></label><label>Discount γ <output data-gamma-output for="ql-gamma">0.95</output><input id="ql-gamma" data-param="gamma" type="range" min="0" max="1" step="0.05" value="0.95"/></label><label>Exploration ε <output data-epsilon-output for="ql-epsilon">0.30</output><input id="ql-epsilon" data-param="epsilon" type="range" min="0" max="1" step="0.05" value="0.3"/></label></div><button type="button" data-guided-defaults>Restore default settings</button></details>
+  </div>
+  <p class="rlql-small">The complete recording contains 120 seeded episodes at the default settings. Episode paths and lengths differ. Edited GIF/video highlights skip recorded intervals explicitly; all omitted moves remain available here. Four-significant-digit display keeps tiny nonzero estimates visible. This is a teaching model, not the repository's 8×8 benchmark.</p>
+  <p class="rlql-live rlql-sr-only" data-worked-live aria-live="polite" aria-atomic="true"></p>
+  <noscript><p class="rlql-fallback">No replay or training runs without JavaScript. The first random action is Up at the boundary, giving zero reward and a zero update. The first episode later falls into a hole. In the default recording, the first goal occurs in episode 29 and raises Q(14, Right) to 0.1; a later revisit in episode 70 updates Q(13, Right) to 0.0095. The article explains the same arithmetic.</p></noscript>
+</section>
