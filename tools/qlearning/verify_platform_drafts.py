@@ -50,8 +50,8 @@ def verify(args):
             assert len(alt) > 30
             path = (draft_dir / href).resolve()
             assert path.is_relative_to(root) and path.is_file()
-        for marker in ('internalmeta.com', 'internalfb.com', 'facebook.com', '/home/alisol', 'devvm', 'T296474467', 'WANDB_API_KEY', '\u2014', '{%', '{{'):
-            assert marker not in text, (platform, marker)
+        for name, pattern in (('internal link', r'internal(?:fb|meta)\.com|facebook\.com'), ('local home path', r'/home/[a-z]'), ('internal hostname', r'\bdev(?:vm|gpu)\d'), ('Task ID', r'(?<![\w/])T\d{8,}\b'), ('W&B key name', r'WANDB_API_KEY'), ('em or en dash', '[\u2014\u2013]'), ('Liquid', r'{%|{{')):
+            assert not re.search(pattern, text), (platform, name)
         for pattern in (r'\b120\b', r'\b843\b', r'\b29\b', r'\b70\b', r'\b103\b', r'\b0\.0095\b', r'\b0\.95\b', r'\b0\.99\b', r'\b200\b', r'\b16\b'):
             assert re.search(pattern, text), (platform, pattern)
         assert 'https://AlirezaShamsoshoara.github.io/blog/rl-from-zero/q-learning/' in text

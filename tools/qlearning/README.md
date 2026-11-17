@@ -1,17 +1,13 @@
-# Q-learning educational pilot: review guide
+# Q-learning post: tools and review guide
 
-## Review boundary
+## Scope
 
-The post is publication-ready at `_posts/<date>-q-learning-one-update-at-a-time.md`
-with permalink `/blog/rl-from-zero/q-learning/`. Merging it into `master`
-publishes it through GitHub Pages. Work stays in the
-`ali/qlearning-educational-pilot` worktree; the daily-update master checkout is
-separate. The owner stages, commits, pushes, opens the PR and merges.
+The post is `_posts/2026-11-15-q-learning-one-update-at-a-time.md`, published at
+`/blog/rl-from-zero/q-learning/`. Make changes on a fresh branch and open a PR;
+merging into `master` publishes them through GitHub Pages.
 
-The real Jekyll build has not been run from this session: the RubyGems download
-was refused by the chat's internet policy, and that restriction was not worked
-around. Run the production check below before merging. The standalone preview
-is not a Jekyll build.
+Run the production check below before merging: the standalone preview is not a
+Jekyll build.
 
 ## Two views of real exploratory learning
 
@@ -81,22 +77,27 @@ verification uses offline W&B, not telemetry in readers' browsers.
 
 ## Local verification tools
 
-Create a fresh named environment:
+Create a fresh named environment outside the checkout, so it is never committed:
 
 ```bash
-uv venv .venv-qlearning-exploration-review
-uv pip install --python .venv-qlearning-exploration-review/bin/python \
+REVIEW_ENV=$(mktemp -d /tmp/ql-review-env-XXXXXX)
+uv venv "$REVIEW_ENV/ql-review"
+PY="$REVIEW_ENV/ql-review/bin/python"
+uv pip install --python "$PY" \
   playwright pillow wandb numpy pyyaml markdown libsass pygments
 node tools/qlearning/core.test.mjs
-.venv-qlearning-exploration-review/bin/python \
-  tools/qlearning/build_review_preview.py --out /tmp/ql-exploration-preview
-WANDB_MODE=offline .venv-qlearning-exploration-review/bin/python \
+"$PY" tools/qlearning/build_review_preview.py --out /tmp/ql-exploration-preview
+WANDB_MODE=offline "$PY" \
   tools/qlearning/verify_browser.py --site /tmp/ql-exploration-preview \
   --out /tmp/ql-exploration-checks --browser /path/to/chrome-headless-shell
-.venv-qlearning-exploration-review/bin/python \
-  tools/qlearning/package_review.py --preview /tmp/ql-exploration-preview \
+"$PY" tools/qlearning/package_review.py --preview /tmp/ql-exploration-preview \
   --out /tmp/qlearning-review.html
+rm -rf "$REVIEW_ENV"
 ```
+
+`verify_browser.py` also re-exports the lesson media into
+`assets/media/rl/qlearning/`. To check without changing them, run it with
+`--root` pointing at a copy of the repository.
 
 Tests cover real action-selection evidence, variable episode paths and bounds,
 one-cell updates, chronological carry-over, terminal/cap handling, truthful

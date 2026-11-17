@@ -41,8 +41,8 @@ def main(root):
             for stale in ('s5','s6','3.3','4.6'):
                 assert stale not in text, ('superseded illustration',stale)
             assert '120' in text and '843' in text and '0.0095' in text
-        for marker in ('internalmeta.com','internalfb.com','/home/alisol','devvm1953','T296474467','WANDB_API_KEY','\u2014'):
-            assert marker not in text, (path,marker)
+        for name,pattern in (('internal link',r'internal(?:fb|meta)\.com'),('local home path',r'/home/[a-z]'),('internal hostname',r'\bdev(?:vm|gpu)\d'),('Task ID',r'(?<![\w/])T\d{8,}\b'),('W&B key name',r'WANDB_API_KEY'),('em or en dash','[\u2014\u2013]')):
+            assert not re.search(pattern,text), (path,name)
     for name in ('q-learning-hero.svg','q-learning-hero.png','q-update.png','q-update.gif','q-update.webm','q-update.mp4','q-update.json','frozenlake-8x8.gif','frozenlake-8x8.png','frozenlake-8x8.json'):
         assert (root/'assets/media/rl/qlearning'/name).is_file(), name
     identifiers=[]
