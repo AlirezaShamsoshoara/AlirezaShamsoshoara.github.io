@@ -1,0 +1,20 @@
+---
+layout: default
+---
+<link rel="stylesheet" href="{{ '/assets/css/rl/qlearning.css' | relative_url }}">
+<main id="main" class="rlql-page" role="main">
+  <article class="rlql-article" aria-labelledby="rlql-title">
+    <header class="rlql-hero">
+      <span class="rlql-series">Reinforcement learning, from zero <span>01 · Q-learning</span></span>
+      <h1 id="rlql-title">{{ page.title }}</h1>
+      {% if page.hero_image %}<figure class="rlql-title-figure"><img src="{{ page.hero_image | relative_url }}" alt="{{ page.hero_alt | escape }}" width="1200" height="420" fetchpriority="high" decoding="async"/></figure>{% endif %}
+      <p class="rlql-lede">A small world. A table of guesses. Watch one experience change a decision, then see a policy emerge.</p>
+    <div class="rlql-byline"><span>By {{ site.author.name }}</span><span>Interactive explainer · 15-minute read</span></div>
+      {% if page.published == false %}<p class="rlql-draft-note">Review draft. This installment has not been published.</p>{% endif %}
+      <nav class="rlql-jump-links" aria-label="Article shortcuts"><a href="#ql-worked-title">Step through an update ↓</a><a href="#ql-policy-title">Train the small world ↓</a><a href="#follow-the-equation-into-the-code">Read the code ↓</a></nav>
+    </header>
+    <div class="rlql-prose">{{ content }}</div>
+    <footer class="rlql-article-footer"><strong>Part 01 of RL-from-zero</strong><p>Next: when a table is not enough, how do we learn action values with a neural network?</p><a href="{{ '/blog/projects/' | relative_url }}">More project writing →</a></footer>
+  </article>
+</main>
+<script type="module" src="{{ '/assets/js/rl/qlearning-article.mjs' | relative_url }}"></script>

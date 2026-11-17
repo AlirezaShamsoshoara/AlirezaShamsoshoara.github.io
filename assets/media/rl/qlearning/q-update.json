@@ -1,0 +1,44 @@
+{
+  "kind": "edited highlights of real seeded epsilon-greedy experience, not a prescribed route",
+  "map": [
+    "SFFF",
+    "FHFH",
+    "FFFH",
+    "HFFG"
+  ],
+  "alpha": 0.1,
+  "gamma": 0.95,
+  "epsilon": 0.3,
+  "seed": 7,
+  "recorded_episodes": 120,
+  "recorded_transitions": 843,
+  "highlight_episodes": [
+    1,
+    2,
+    29,
+    70,
+    103
+  ],
+  "highlight_transitions": 40,
+  "milestones": {
+    "explore": 0,
+    "hole": 11,
+    "reward": 210,
+    "bootstrap": 550,
+    "start": 735
+  },
+  "poster_transition": 550,
+  "poster_width": 2072,
+  "poster_height": 1656,
+  "poster_scale_factor": 2,
+  "submitted_frames": 220,
+  "encoded_frames": 184,
+  "gif_bytes": 11304341,
+  "duration_ms": 105550,
+  "video_duration_ms": 105550.0,
+  "video_codec": "vp9",
+  "video_color_range": "tv",
+  "visual_style": "compact white editorial figures",
+  "interpretation": "Portable media omit intervals explicitly; every intervening update is retained in the shown snapshots and the complete interactive history. Not an8x8 benchmark.",
+  "renderer": "same actual browser renderer and shared epsilon-greedy learner as the interactive"
+}

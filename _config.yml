@@ -123,6 +123,8 @@ include:
   - _pages
   - files
 exclude:
+  - tools
+  - .claude
   - "*.sublime-project"
   - "*.sublime-workspace"
   - .asset-cache

@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420" role="img" aria-labelledby="title description">
+  <title id="title">Q-learning: from experience to a better estimate</title>
+  <desc id="description">A white-background illustration connects the article's four by four gridworld to its Q-table. A recorded Right move from safe state 13 to safe state 14 has reward zero. State 14's best estimate is 0.1. With learning rate 0.1 and discount 0.95, only Q(13, Right) changes from zero to 0.0095. This illustrates one observed update, not a supplied route or a converged table.</desc>
+  <rect width="1200" height="420" fill="#ffffff"/>
+  <style>
+    text { font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; }
+    .heading { font-size: 24px; font-weight: 600; fill: #253341; }
+    .label { font-size: 20px; fill: #56616e; }
+    .number { font: 28px ui-monospace, SFMono-Regular, Consolas, monospace; fill: #33475c; }
+    .tile-id { font-size: 13px; fill: #6b7682; }
+    .tile-letter { font-size: 22px; font-weight: 600; fill: #56616e; }
+    .q-current { fill: #194581; font-weight: 700; }
+    .q-next { fill: #275939; font-weight: 700; }
+  </style>
+  <text x="174" y="50" text-anchor="middle" class="heading">Experience</text>
+  <g transform="translate(70 80)">
+    <g fill="#fafbfc" stroke="#cdd5de" stroke-width="1.4">
+      <rect x="0" y="0" width="48" height="48" rx="3"/><rect x="54" y="0" width="48" height="48" rx="3"/><rect x="108" y="0" width="48" height="48" rx="3"/><rect x="162" y="0" width="48" height="48" rx="3"/>
+      <rect x="0" y="54" width="48" height="48" rx="3"/><rect x="54" y="54" width="48" height="48" rx="3" fill="#f8eeee" stroke="#dfc6c6"/><rect x="108" y="54" width="48" height="48" rx="3"/><rect x="162" y="54" width="48" height="48" rx="3" fill="#f8eeee" stroke="#dfc6c6"/>
+      <rect x="0" y="108" width="48" height="48" rx="3"/><rect x="54" y="108" width="48" height="48" rx="3"/><rect x="108" y="108" width="48" height="48" rx="3"/><rect x="162" y="108" width="48" height="48" rx="3" fill="#f8eeee" stroke="#dfc6c6"/>
+      <rect x="0" y="162" width="48" height="48" rx="3" fill="#f8eeee" stroke="#dfc6c6"/><rect x="54" y="162" width="48" height="48" rx="3" fill="#eef4ff" stroke="#2356a8" stroke-width="2"/><rect x="108" y="162" width="48" height="48" rx="3" fill="#edf5ef" stroke="#39754d" stroke-width="2"/><rect x="162" y="162" width="48" height="48" rx="3" fill="#e8f2eb" stroke="#a2c0ac"/>
+    </g>
+    <text x="24" y="32" text-anchor="middle" class="tile-letter">S</text>
+    <text x="78" y="86" text-anchor="middle" class="tile-letter" fill="#8a4141">H</text><text x="186" y="86" text-anchor="middle" class="tile-letter">H</text><text x="186" y="140" text-anchor="middle" class="tile-letter">H</text><text x="24" y="194" text-anchor="middle" class="tile-letter">H</text><text x="186" y="194" text-anchor="middle" class="tile-letter">G</text>
+    <text x="60" y="177" class="tile-id">13</text><text x="114" y="177" class="tile-id">14</text>
+    <path d="M90 189H123M116 182L123 189L116 196" fill="none" stroke="#2356a8" stroke-width="2.5"/>
+    <circle cx="78" cy="189" r="7" fill="#2356a8"/>
+  </g>
+  <text x="174" y="326" text-anchor="middle" class="label">One observed move</text>
+  <path d="M315 190H374M362 178L374 190L362 202" fill="none" stroke="#8899ac" stroke-width="2.4"/>
+  <text x="630" y="50" text-anchor="middle" class="heading">Action values</text>
+  <g transform="translate(402 91)">
+    <rect width="462" height="164" fill="#ffffff" stroke="#d5dbe2"/>
+    <rect width="462" height="52" fill="#f6f7f9"/>
+    <path d="M82 0V164M177 0V164M272 0V164M367 0V164M0 52H462M0 108H462" fill="none" stroke="#d5dbe2"/>
+    <rect x="272" y="52" width="95" height="56" fill="#eef4ff" stroke="#2356a8" stroke-width="2"/>
+    <rect x="272" y="108" width="95" height="56" fill="#edf5ef" stroke="#39754d" stroke-width="2"/>
+    <text x="41" y="33" text-anchor="middle" class="label">State</text><text x="129" y="33" text-anchor="middle" class="label">Left</text><text x="224" y="33" text-anchor="middle" class="label">Down</text><text x="319" y="33" text-anchor="middle" class="label">Right</text><text x="414" y="33" text-anchor="middle" class="label">Up</text>
+    <text x="41" y="88" text-anchor="middle" class="number">13</text><text x="129" y="88" text-anchor="middle" class="number">0</text><text x="224" y="88" text-anchor="middle" class="number">0</text><text x="319" y="88" text-anchor="middle" class="number q-current">Q</text><text x="414" y="88" text-anchor="middle" class="number">0</text>
+    <text x="41" y="144" text-anchor="middle" class="number">14</text><text x="129" y="144" text-anchor="middle" class="number">0</text><text x="224" y="144" text-anchor="middle" class="number">0</text><text x="319" y="144" text-anchor="middle" class="number q-next">0.1</text><text x="414" y="144" text-anchor="middle" class="number">0</text>
+  </g>
+  <path d="M891 190H938M926 178L938 190L926 202" fill="none" stroke="#8899ac" stroke-width="2.4"/>
+  <text x="1055" y="50" text-anchor="middle" class="heading">One update</text>
+  <text x="1055" y="159" text-anchor="middle" class="number" style="font-size:38px">0</text>
+  <path d="M1055 182V217M1047 209L1055 217L1063 209" fill="none" stroke="#2356a8" stroke-width="2.5"/>
+  <text x="1055" y="261" text-anchor="middle" class="number q-current" style="font-size:37px">0.0095</text>
+  <text x="630" y="309" text-anchor="middle" class="label">Read the next row. Change only the experienced entry.</text>
+  <path d="M70 349H1130" stroke="#e2e6eb"/>
+  <text x="600" y="389" text-anchor="middle" class="label">Q(13, Right) ← 0 + 0.1 × (0 + 0.95 × 0.1 − 0)</text>
+</svg>
