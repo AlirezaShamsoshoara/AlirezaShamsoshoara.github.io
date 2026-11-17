@@ -22,18 +22,18 @@ In this section, I share outcomes, results, and lessons learned from open-source
 I read AI and ML research papers daily and post concise summaries here. Each entry covers the key contributions, methods, and takeaways from recent papers across topics like deep learning, reinforcement learning, NLP, computer vision, and more.
 
 <!-- LATEST_PAPERS_START -->
-**Latest — November 16, 2026**
+**Latest — November 17, 2026**
 
-1. **Agentic Robotics** — Proposes a shared framework for evaluating foundation-model robots as closed-loop systems rather than isolated policies. [arxiv.org/abs/2611.18359](https://arxiv.org/abs/2611.18359)
-2. **Gamer** — Combines keyboard-and-mouse pretraining with multi-turn reinforcement learning to build generalist agents for real-time games. [arxiv.org/abs/2611.18397](https://arxiv.org/abs/2611.18397)
-3. **VibePrevisBench** — Tests coding agents on animated Blender scenes and reveals a gap between inspecting rendered mistakes and fixing them. [arxiv.org/abs/2611.15789](https://arxiv.org/abs/2611.15789)
-4. **MMFlash** — Makes speculative decoding sensitive to visual information, delivering lossless vision-language model speedups of up to 3.58 times. [arxiv.org/abs/2611.18482](https://arxiv.org/abs/2611.18482)
-5. **StepRefine** — Uses entropy spikes to target latent refinement, reducing hallucinations in multimodal diffusion language models without retraining. [arxiv.org/abs/2611.12901](https://arxiv.org/abs/2611.12901)
-6. **MIRIX-2.0** — Combines typed memory agents, provenance tracking, and offline consolidation to strengthen long-term recall and reusable agent skills. [arxiv.org/abs/2611.12068](https://arxiv.org/abs/2611.12068)
-7. **V-JEPA-LM** — Uses counterfactual video supervision to help language models exploit motion information already captured by their video encoder. [arxiv.org/abs/2611.17831](https://arxiv.org/abs/2611.17831)
-8. **DySENSE** — Jointly generates satellite imagery and building-energy maps to improve city-scale prediction with limited labeled data. [arxiv.org/abs/2611.17878](https://arxiv.org/abs/2611.17878)
-9. **Loopback Transformer** — Reuses individual block updates through depth-aware memory, improving language-model validation loss with fewer parameters. [arxiv.org/abs/2611.07226](https://arxiv.org/abs/2611.07226)
-10. **G-CAST** — Governs continual self-training for a deployed procurement agent, adapting to new demand while preserving previously accepted behavior. [arxiv.org/abs/2611.17814](https://arxiv.org/abs/2611.17814)
+1. **Sage S2.1 Flash** — Combines scientific multimodal inputs with verifiable agent training for evidence-based office work and machine-learning tasks. [arxiv.org/abs/2611.21072](https://arxiv.org/abs/2611.21072)
+2. **AllocFlow** — Generates joint portfolio allocations directly from market histories, using reinforcement learning to improve reported trading returns and risk-adjusted performance. [arxiv.org/abs/2611.19937](https://arxiv.org/abs/2611.19937)
+3. **K2-Horizon** — Releases six open language models alongside training data, checkpoints, and infrastructure to make frontier-scale research more reproducible. [arxiv.org/abs/2611.21003](https://arxiv.org/abs/2611.21003)
+4. **InclusionMed** — Evaluates medical AI across healthcare roles, revealing capability gaps and cost differences that aggregate rankings can hide. [arxiv.org/abs/2611.21218](https://arxiv.org/abs/2611.21218)
+5. **SPILLWAY** — Separates action-target admission from sanitization to block prompt-injection redirection with minimal extra model calls. [arxiv.org/abs/2611.07222](https://arxiv.org/abs/2611.07222)
+6. **SWE-CoWork** — Tests coding agents inside simulated organizations, exposing a sharp gap between passing individual tests and completing whole assignments. [arxiv.org/abs/2611.20218](https://arxiv.org/abs/2611.20218)
+7. **ScaleVLA** — Scales robot-policy backbones to 552 billion parameters, improving generalization and real-world manipulation while retaining practical action latency. [arxiv.org/abs/2611.21607](https://arxiv.org/abs/2611.21607)
+8. **PaperCritic** — Trains AI reviewers to identify substantive soundness issues, rewarding both precision and coverage of useful review points. [arxiv.org/abs/2611.17834](https://arxiv.org/abs/2611.17834)
+9. **VoxMel** — Uses invertible acoustic representations and coarse-to-fine generation to simplify high-fidelity English and Chinese speech synthesis. [arxiv.org/abs/2611.20254](https://arxiv.org/abs/2611.20254)
+10. **Accelerate Bench** — Evaluates coding agents on complete CPU optimization tasks, measuring verified speedups rather than correctness alone. [arxiv.org/abs/2611.20882](https://arxiv.org/abs/2611.20882)
 <!-- LATEST_PAPERS_END -->
 
 [Browse all paper summaries &rarr;](/blog/ai-papers/)
