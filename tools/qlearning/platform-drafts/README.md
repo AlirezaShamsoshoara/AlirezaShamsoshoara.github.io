@@ -23,7 +23,7 @@ uv pip install --python "$REVIEW_ENV/bin/python" \
 
 Generated HTML stays outside the checkout. The existing extraction and browser-check tools are in `tools/qlearning/`; their media manifest records the original verified clip intervals.
 
-These files are **not loaded into either platform's account**. Nothing has been posted, emailed to subscribers or published. Account credentials are not needed for this content handoff.
+These are drafts to paste into each platform's editor; they are not synced to either account.
 
 ## Source and editorial decisions
 
@@ -78,32 +78,12 @@ The HTML review file is for content review, not raw HTML to paste into Medium. S
 
 `substack-email-review.html` is a static-media reading check, not a real email-client or Substack rendering test. Actual GIF behavior varies across email clients. Do not paste our custom interactive blog HTML into the post editor.
 
-## Publication and PR gates
+## Publishing order
 
-The drafts reference this **planned** personal-blog URL:
-
-```text
-https://AlirezaShamsoshoara.github.io/blog/rl-from-zero/q-learning/
-```
-
-It is not marked as already live. Publish/verify the personal blog first, then check every companion link before publishing the adaptations. Do not use private Meta Artifact URLs as public blog links. Once the original is live, use Medium's canonical-link setting to identify that original source where appropriate.
-
-The main post now lives in `_posts/` without draft flags, so merging the branch publishes it once GitHub Pages rebuilds.
-
-Run the real Jekyll build before merging (see `tools/qlearning/README.md`). It was not run from this session because the RubyGems download was refused by the chat's internet policy. The platform HTML previews do not replace it.
-
-The owner handles staging, commits, pushes and PR creation in the isolated worktree:
-
-```text
-/home/alisol/projects/blog-qlearning-education
-branch: ali/qlearning-educational-pilot
-```
-
-The daily-update master checkout stays untouched. Do not stage the untracked platform `.claude/` directory or temporary environments/evidence. No repository cleanup request was resumed during this drafting turn.
-
-## Skill and announcement
-
-The reusable educational-content skill comes after review of these adaptations. It has not been written in this turn. No LinkedIn announcement or public account post has been drafted or sent; those follow reviewed platform versions and verified live links.
+1. The blog post is live at https://AlirezaShamsoshoara.github.io/blog/rl-from-zero/q-learning/ and the GitHub Pages build is green.
+2. Medium: publish with the canonical link set to that URL (More settings, Advanced Settings, "This story was originally published elsewhere").
+3. Substack: preview, send a test email to yourself, then publish. Avoid sending it on the same day as another Substack email.
+4. Once all three are live, check every companion link. Use only public URLs, never private review links.
 
 ## Format references
 
