@@ -9,7 +9,9 @@ the repository's committed demo GIFs; the only edits are cropping caption bands
 and empty margins, and scaling into the tile.
 
 Outputs: a looping GIF and MP4 for the blog, a LinkedIn MP4 that ends on the
-full grid, a still poster, and a provenance JSON.
+full grid, a still poster, and a provenance JSON. With --platform-dir it also
+writes a copy of the GIF loop that starts on the full grid (for Medium and
+Substack, where emails and previews often show only the first frame).
 """
 import argparse
 import bisect
@@ -17,6 +19,7 @@ import hashlib
 import json
 import math
 import multiprocessing as mp
+import os
 import pathlib
 import subprocess
 import tempfile
@@ -264,14 +267,22 @@ def encode_mp4(frames, width, height, fps, path):
     return count
 
 
-def encode_gif(frames, width, height, fps, path, colors):
+def encode_gif(frames, width, height, fps, path, colors, rotated=None):
+    """Write the GIF; `rotated=(start_frame, gif_path, png_path)` also writes the same loop starting at start_frame."""
+    graph = (f'split[a][b];[a]palettegen=max_colors={colors}:stats_mode=diff[p];'
+             '[b][p]paletteuse=dither=sierra2_4a:diff_mode=rectangle')
     with tempfile.TemporaryDirectory() as tmp:
         count = 0
         for count, data in enumerate(frames, 1):
             Image.frombytes('RGB', (width, height), data).save(f'{tmp}/f{count:04d}.png', compress_level=1)
-        graph = (f'split[a][b];[a]palettegen=max_colors={colors}:stats_mode=diff[p];'
-                 '[b][p]paletteuse=dither=sierra2_4a:diff_mode=rectangle')
         subprocess.run(['ffmpeg', '-hide_banner', '-loglevel', 'error', '-y', '-framerate', str(fps), '-i', f'{tmp}/f%04d.png', '-lavfi', graph, '-loop', '0', str(path)], check=True)
+        if rotated:
+            start, rotated_gif, rotated_png = rotated
+            os.mkdir(f'{tmp}/rotated')
+            for j in range(count):
+                os.symlink(f'{tmp}/f{(j + start) % count + 1:04d}.png', f'{tmp}/rotated/f{j + 1:04d}.png')
+            subprocess.run(['ffmpeg', '-hide_banner', '-loglevel', 'error', '-y', '-framerate', str(fps), '-i', f'{tmp}/rotated/f%04d.png', '-lavfi', graph, '-loop', '0', str(rotated_gif)], check=True)
+            Image.open(f'{tmp}/rotated/f0001.png').save(rotated_png, optimize=True)
     return count
 
 
@@ -281,6 +292,7 @@ def main():
     parser.add_argument('--source-revision', required=True)
     parser.add_argument('--out-dir', type=pathlib.Path, required=True, help='Blog media folder')
     parser.add_argument('--extra-dir', type=pathlib.Path, required=True, help='Folder for the LinkedIn cut, kept out of the repository')
+    parser.add_argument('--platform-dir', type=pathlib.Path, help='Also write the grid-first GIF and its first frame here (Medium and Substack)')
     parser.add_argument('--workers', type=int, default=8)
     parser.add_argument('--gif-width', type=int, default=960)
     parser.add_argument('--gif-fps', type=int, default=20)
@@ -303,12 +315,21 @@ def main():
         outputs['loop_mp4'] = {'file': f'{name}.mp4', 'frames': encode_mp4(render(sources, rects, TIMELINES['loop'], width, height, 30, args.workers, hero_stretch, True), width, height, 30, args.out_dir / f'{name}.mp4'), 'fps': 30, 'size': [width, height]}
         outputs['linkedin_mp4'] = {'file': f'{name}-linkedin.mp4', 'frames': encode_mp4(render(sources, rects, TIMELINES['linkedin'], width, height, 30, args.workers, 1.0), width, height, 30, args.extra_dir / f'{name}-linkedin.mp4'), 'fps': 30, 'size': [width, height]}
         gif_w, gif_h = args.gif_width, args.gif_width * 9 // 16
-        outputs['loop_gif'] = {'file': f'{name}.gif', 'frames': encode_gif(render(sources, rects, TIMELINES['loop'], gif_w, gif_h, args.gif_fps, args.workers, hero_stretch, True), gif_w, gif_h, args.gif_fps, args.out_dir / f'{name}.gif', args.gif_colors), 'fps': args.gif_fps, 'size': [gif_w, gif_h]}
+        rotated = None
+        if args.platform_dir:
+            args.platform_dir.mkdir(parents=True, exist_ok=True)
+            kinds = [kind for kind, _ in TIMELINES['loop']]
+            full_start = round(sum(length for _, length in TIMELINES['loop'][:kinds.index('full')]) * args.gif_fps)
+            rotated = (full_start, args.platform_dir / f'{name}-grid-first.gif', args.platform_dir / f'{name}-grid-first.png')
+        outputs['loop_gif'] = {'file': f'{name}.gif', 'frames': encode_gif(render(sources, rects, TIMELINES['loop'], gif_w, gif_h, args.gif_fps, args.workers, hero_stretch, True), gif_w, gif_h, args.gif_fps, args.out_dir / f'{name}.gif', args.gif_colors, rotated), 'fps': args.gif_fps, 'size': [gif_w, gif_h]}
+        if rotated:
+            outputs['platform_gif'] = {'file': rotated[1].name, 'frames': outputs['loop_gif']['frames'], 'fps': args.gif_fps, 'size': [gif_w, gif_h], 'starts_at_frame': rotated[0], 'note': 'same loop, first frame is the full grid'}
+            outputs['platform_still'] = {'file': rotated[2].name, 'size': [gif_w, gif_h], 'note': 'first frame of the grid-first GIF'}
         poster = list(render(sources, rects, [('full', 6.0)], width, height, 1, 1, 1.0))[-1]  # full grid, 5 s in, mid-motion
         Image.frombytes('RGB', (width, height), poster).save(args.out_dir / f'{name}.png', optimize=True)
         outputs['poster'] = {'file': f'{name}.png', 'size': [width, height]}
         for key, item in outputs.items():
-            folder = args.extra_dir if key == 'linkedin_mp4' else args.out_dir
+            folder = args.extra_dir if key == 'linkedin_mp4' else args.platform_dir if key.startswith('platform_') else args.out_dir
             item['bytes'] = (folder / item['file']).stat().st_size
         provenance = {
             'kind': 'announcement animation composed from the RL-from-zero repository demo GIFs; no generated or retouched agent footage',

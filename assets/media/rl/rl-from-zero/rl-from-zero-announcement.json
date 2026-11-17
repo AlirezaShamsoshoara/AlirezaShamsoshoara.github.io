@@ -275,6 +275,27 @@
       ],
       "bytes": 4591752
     },
+    "platform_gif": {
+      "file": "rl-from-zero-announcement-grid-first.gif",
+      "frames": 178,
+      "fps": 20,
+      "size": [
+        1280,
+        720
+      ],
+      "starts_at_frame": 60,
+      "note": "same loop, first frame is the full grid",
+      "bytes": 4611885
+    },
+    "platform_still": {
+      "file": "rl-from-zero-announcement-grid-first.png",
+      "size": [
+        1280,
+        720
+      ],
+      "note": "first frame of the grid-first GIF",
+      "bytes": 157599
+    },
     "poster": {
       "file": "rl-from-zero-announcement.png",
       "size": [
