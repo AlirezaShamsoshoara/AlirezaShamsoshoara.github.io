@@ -23,6 +23,7 @@
 .rlql-hero { padding: .75rem 0 2rem; border-bottom: 1px solid var(--rule); margin-bottom: 2.5rem; }
 .rlql-series { display: flex; flex-wrap: wrap; justify-content: space-between; gap: .5rem; font-size: .8rem; color: var(--muted); }
 .rlql-series span { color: var(--muted); }
+.rlql-series a { color: inherit; text-decoration: underline; text-underline-offset: 3px; }
 .rlql-hero h1 { font-family: Georgia, "Times New Roman", serif; font-size: clamp(2.4rem, 5vw, 3.6rem); font-weight: 700; line-height: 1.15; letter-spacing: -.02em; max-width: 850px; margin: 1.25rem 0; color: #18242f; }
 .rlql-title-figure { width: 100%; margin: 1.25rem 0 1.5rem; padding: 0; background: #fff; }
 .rlql-title-figure img { display: block; width: 100%; height: auto; margin: 0 auto; border: 1px solid #e2e6eb; border-radius: 3px; }

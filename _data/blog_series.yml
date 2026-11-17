@@ -1,0 +1,11 @@
+# Series shown on the Interesting Blogs page (/blog/projects/), in this order.
+# A post joins a series with `series: <id>` and `series_part: <number>` in its
+# front matter. Posts in the `interesting-blogs` category without a series are
+# listed under "Other posts".
+- id: rl-from-zero
+  title: RL From Zero
+  url: /blog/rl-from-zero/
+  summary: >-
+    Reinforcement learning algorithms built from scratch and explained one idea
+    at a time, with interactive figures, the math worked through, and the real
+    code from my open-source RL-from-zero repository.

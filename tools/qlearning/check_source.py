@@ -20,7 +20,11 @@ def main(root):
     assert page.get('published',True) is not False and page.get('sitemap',True) is not False
     assert str(page['date'])==stamp.group(1), 'Front matter date must match the file name'
     assert page['permalink']=='/blog/rl-from-zero/q-learning/'
-    assert 'interesting-projects' in page['categories'], 'The post must appear on /blog/projects/'
+    assert 'interesting-blogs' in page['categories'], 'The post must appear on /blog/projects/'
+    assert page.get('series')=='rl-from-zero' and page.get('series_part')==1, 'The post must be part 1 of RL From Zero'
+    series=yaml.safe_load((root/'_data/blog_series.yml').read_text())
+    assert any(s['id']=='rl-from-zero' and s['url']=='/blog/rl-from-zero/' for s in series), 'RL From Zero must be listed in _data/blog_series.yml'
+    assert (root/'_pages/blog-rl-from-zero.md').is_file(), 'Missing the RL From Zero series page'
     assert page['hero_image']=='/assets/media/rl/qlearning/q-learning-hero.svg' and page['hero_alt']
     assert (root/page['hero_image'].lstrip('/')).is_file()
     layout=(root/'_layouts/rl-article.html').read_text()
