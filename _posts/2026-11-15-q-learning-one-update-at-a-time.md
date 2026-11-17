@@ -5,7 +5,9 @@ layout: rl-article
 hero_image: /assets/media/rl/qlearning/q-learning-hero.svg
 hero_alt: "Q-learning connects an observed gridworld move to a Q-table and updates one action value from 0 to 0.0095."
 permalink: /blog/rl-from-zero/q-learning/
-categories: [interesting-projects, reinforcement-learning]
+categories: [interesting-blogs, reinforcement-learning]
+series: rl-from-zero
+series_part: 1
 tags: [rl-from-zero, q-learning, interactive]
 excerpt: "Follow one experience into one changed table cell, then watch exploration and delayed rewards turn local updates into a policy."
 read_time: true

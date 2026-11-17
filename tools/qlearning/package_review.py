@@ -32,6 +32,7 @@ def package(root: Path, preview: Path, out: Path):
     inline = '<script type="module">\n' + core + '\n' + ui + '\n</script>'
     document = document.replace('<script type="module" src="/assets/js/rl/qlearning-article.mjs"></script>', inline)
     document = document.replace('href="/blog/projects/"', 'href="https://AlirezaShamsoshoara.github.io/blog/projects/"')
+    document = document.replace('href="/blog/rl-from-zero/"', 'href="https://AlirezaShamsoshoara.github.io/blog/rl-from-zero/"')
     if re.search(r'(src|href)="/assets/', document):
         raise ValueError('Some local assets remain unresolved')
     out.parent.mkdir(parents=True, exist_ok=True)
