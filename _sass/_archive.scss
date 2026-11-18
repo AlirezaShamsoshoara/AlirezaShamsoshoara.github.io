@@ -27,6 +27,17 @@
   }
 }
 
+/* Archive pages without a sidebar: center the content instead of leaving the
+   sidebar column empty. */
+.archive--no-sidebar {
+  @include breakpoint($large) {
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0;
+  }
+}
+
 .archive__subtitle {
   margin: 1.414em 0 0;
   padding-bottom: 0.5em;

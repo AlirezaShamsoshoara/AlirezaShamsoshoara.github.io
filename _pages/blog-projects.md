@@ -2,7 +2,7 @@
 layout: archive
 title: "Interesting Blogs"
 permalink: /blog/projects/
-author_profile: true
+author_profile: false
 ---
 
 Posts about open-source projects I'm working on, sharing outcomes, results, and lessons learned with the community. Posts are grouped into series, and each series has an overview page that lists its posts in reading order.

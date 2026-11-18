@@ -2,7 +2,7 @@
 layout: archive
 title: "RL From Zero"
 permalink: /blog/rl-from-zero/
-author_profile: true
+author_profile: false
 excerpt: "An overview of the RL From Zero series: reinforcement learning algorithms built from scratch and explained one idea at a time."
 ---
 
