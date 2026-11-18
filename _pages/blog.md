@@ -22,18 +22,18 @@ In this section, I share outcomes, results, and lessons learned from open-source
 I read AI and ML research papers daily and post concise summaries here. Each entry covers the key contributions, methods, and takeaways from recent papers across topics like deep learning, reinforcement learning, NLP, computer vision, and more.
 
 <!-- LATEST_PAPERS_START -->
-**Latest — November 17, 2026**
+**Latest — November 18, 2026**
 
-1. **Sage S2.1 Flash** — Combines scientific multimodal inputs with verifiable agent training for evidence-based office work and machine-learning tasks. [arxiv.org/abs/2611.21072](https://arxiv.org/abs/2611.21072)
-2. **AllocFlow** — Generates joint portfolio allocations directly from market histories, using reinforcement learning to improve reported trading returns and risk-adjusted performance. [arxiv.org/abs/2611.19937](https://arxiv.org/abs/2611.19937)
-3. **K2-Horizon** — Releases six open language models alongside training data, checkpoints, and infrastructure to make frontier-scale research more reproducible. [arxiv.org/abs/2611.21003](https://arxiv.org/abs/2611.21003)
-4. **InclusionMed** — Evaluates medical AI across healthcare roles, revealing capability gaps and cost differences that aggregate rankings can hide. [arxiv.org/abs/2611.21218](https://arxiv.org/abs/2611.21218)
-5. **SPILLWAY** — Separates action-target admission from sanitization to block prompt-injection redirection with minimal extra model calls. [arxiv.org/abs/2611.07222](https://arxiv.org/abs/2611.07222)
-6. **SWE-CoWork** — Tests coding agents inside simulated organizations, exposing a sharp gap between passing individual tests and completing whole assignments. [arxiv.org/abs/2611.20218](https://arxiv.org/abs/2611.20218)
-7. **ScaleVLA** — Scales robot-policy backbones to 552 billion parameters, improving generalization and real-world manipulation while retaining practical action latency. [arxiv.org/abs/2611.21607](https://arxiv.org/abs/2611.21607)
-8. **PaperCritic** — Trains AI reviewers to identify substantive soundness issues, rewarding both precision and coverage of useful review points. [arxiv.org/abs/2611.17834](https://arxiv.org/abs/2611.17834)
-9. **VoxMel** — Uses invertible acoustic representations and coarse-to-fine generation to simplify high-fidelity English and Chinese speech synthesis. [arxiv.org/abs/2611.20254](https://arxiv.org/abs/2611.20254)
-10. **Accelerate Bench** — Evaluates coding agents on complete CPU optimization tasks, measuring verified speedups rather than correctness alone. [arxiv.org/abs/2611.20882](https://arxiv.org/abs/2611.20882)
+1. **Xing4 / TeleGym** — Pairs frontier-scale training on Ascend hardware with an asynchronous platform for agent post-training. [arxiv.org/abs/2611.22115](https://arxiv.org/abs/2611.22115)
+2. **AscendGYM** — Benchmarks agent-driven NPU kernel optimization on realistic workloads while weighing speedups against token cost. [arxiv.org/abs/2611.17621](https://arxiv.org/abs/2611.17621)
+3. **Weight-Space Programming** — Finds that LLM-written sparse lookup models can outperform their hand-written Transformers with far fewer parameters. [arxiv.org/abs/2611.22055](https://arxiv.org/abs/2611.22055)
+4. **Multi-Branch Transformer** — Adds parallel branches as a scaling axis, improving decoding throughput while reducing KV-cache storage. [arxiv.org/abs/2611.19800](https://arxiv.org/abs/2611.19800)
+5. **ForceHarness** — Translates contact forces into actionable physics so frozen multimodal models can handle contact-rich robot manipulation. [arxiv.org/abs/2611.21099](https://arxiv.org/abs/2611.21099)
+6. **AURA 2.0** — Lets streaming video assistants initiate conversations, call tools, and ground objects without waiting for a prompt. [arxiv.org/abs/2611.17048](https://arxiv.org/abs/2611.17048)
+7. **Breath-Dx** — Shows how sensor drift weakens breath-based disease classifiers under realistic temporal evaluation. [arxiv.org/abs/2611.15348](https://arxiv.org/abs/2611.15348)
+8. **Self-Improvement Memory** — Preserves edit rationales and evaluation outcomes to help agent harness optimization transfer across tasks and models. [arxiv.org/abs/2611.18856](https://arxiv.org/abs/2611.18856)
+9. **TCP4D** — Tracks and generates tool-center-point trajectories in a shared 4D representation to turn robot videos into reusable action data. [arxiv.org/abs/2611.23143](https://arxiv.org/abs/2611.23143)
+10. **Heave-Ho** — Combines decentralized control, visual planning, and speech coordination to scale long-horizon humanoid teamwork without retraining. [arxiv.org/abs/2611.22275](https://arxiv.org/abs/2611.22275)
 <!-- LATEST_PAPERS_END -->
 
 [Browse all paper summaries &rarr;](/blog/ai-papers/)
