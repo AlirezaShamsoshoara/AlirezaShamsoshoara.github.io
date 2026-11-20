@@ -1,10 +1,13 @@
 # Series shown on the Interesting Blogs page (/blog/projects/), in this order.
 # A post joins a series with `series: <id>` and `series_part: <number>` in its
 # front matter. Posts in the `interesting-blogs` category without a series are
-# listed under "Other posts".
+# listed under "Other posts". Optional `subscribe_url` and `medium_url` add a
+# follow line to the footer of every post in the series.
 - id: rl-from-zero
   title: RL From Zero
   url: /blog/rl-from-zero/
+  subscribe_url: https://ali1956283.substack.com/subscribe
+  medium_url: https://medium.com/@a.shamsoshoara
   summary: >-
     Reinforcement learning algorithms built from scratch and explained one idea
     at a time, with interactive figures, the math worked through, and the real

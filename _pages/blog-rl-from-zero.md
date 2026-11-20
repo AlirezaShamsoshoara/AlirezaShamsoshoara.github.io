@@ -56,4 +56,8 @@ The repository spans tabular methods, deep value-based learning, policy gradient
   {% include archive-single.html %}
 {% endfor %}
 
+## Follow the series
+
+The series introduction is also on [Medium](https://medium.com/@a.shamsoshoara/rl-from-zero-reinforcement-learning-built-from-scratch-6f7472215597) and [Substack](https://ali1956283.substack.com/p/introducing-rl-from-zero). To get each new part by email, [subscribe on Substack](https://ali1956283.substack.com/subscribe).
+
 [Browse all Interesting Blogs &rarr;](/blog/projects/)
