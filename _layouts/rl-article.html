@@ -14,7 +14,7 @@ layout: default
       <nav class="rlql-jump-links" aria-label="Article shortcuts"><a href="#ql-worked-title">Step through an update ↓</a><a href="#ql-policy-title">Train the small world ↓</a><a href="#follow-the-equation-into-the-code">Read the code ↓</a></nav>
     </header>
     <div class="rlql-prose">{{ content }}</div>
-    <footer class="rlql-article-footer"><strong>Part 01 of RL From Zero</strong><p>Next: when a table is not enough, how do we learn action values with a neural network?</p><a href="{{ '/blog/rl-from-zero/' | relative_url }}">More from RL From Zero →</a></footer>
+    <footer class="rlql-article-footer"><strong>Part 01 of RL From Zero</strong><p>Next: when a table is not enough, how do we learn action values with a neural network?</p>{% if page.medium_url or page.substack_url %}<p>This part is also on {% if page.medium_url %}<a href="{{ page.medium_url }}">Medium</a>{% endif %}{% if page.medium_url and page.substack_url %} and {% endif %}{% if page.substack_url %}<a href="{{ page.substack_url }}">Substack</a>{% endif %}.</p>{% endif %}{% if page.series %}{% assign rlfz_series = site.data.blog_series | where: "id", page.series | first %}{% endif %}{% if rlfz_series.subscribe_url %}<p>To get each new part by email, <a href="{{ rlfz_series.subscribe_url }}">subscribe on Substack</a>.{% if rlfz_series.medium_url %}{% unless page.medium_url %} The series is also on <a href="{{ rlfz_series.medium_url }}">Medium</a>.{% endunless %}{% endif %}</p>{% endif %}<a href="{{ '/blog/rl-from-zero/' | relative_url }}">More from RL From Zero →</a></footer>
   </article>
 </main>
 <script type="module" src="{{ '/assets/js/rl/qlearning-article.mjs' | relative_url }}"></script>

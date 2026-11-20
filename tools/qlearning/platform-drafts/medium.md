@@ -2,7 +2,7 @@
 
 ![Q-learning connects an observed gridworld move to a Q-table and changes one action value.](../../../assets/media/rl/qlearning/q-learning-hero.png)
 
-*From a zero-filled table to delayed reward, exploration, and a real FrozenLake agent. Part 1 of RL-from-zero.*
+*From a zero-filled table to delayed reward, exploration, and a real FrozenLake agent. Part 1 of [RL From Zero](https://medium.com/@a.shamsoshoara/rl-from-zero-reinforcement-learning-built-from-scratch-6f7472215597).*
 
 A Q-learning agent does not begin with a route to the goal. It begins with a table of guesses.
 

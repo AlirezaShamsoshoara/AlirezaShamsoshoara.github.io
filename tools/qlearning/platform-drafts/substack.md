@@ -1,7 +1,7 @@
 # Q-learning: how a table learns from a delayed reward
 ![Q-learning connects a gridworld transition to a Q-table and changes one action value from 0 to 0.0095.](../../../assets/media/rl/qlearning/q-learning-hero.png)
 
-*Most moves earn nothing. A few local corrections can still teach an agent where a distant reward might be found.*
+*Most moves earn nothing. A few local corrections can still teach an agent where a distant reward might be found. Part 1 of [RL From Zero](https://ali1956283.substack.com/p/introducing-rl-from-zero).*
 
 The agent's first move goes nowhere.
 
