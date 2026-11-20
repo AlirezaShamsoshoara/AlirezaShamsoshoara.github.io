@@ -22,18 +22,18 @@ In this section, I share outcomes, results, and lessons learned from open-source
 I read AI and ML research papers daily and post concise summaries here. Each entry covers the key contributions, methods, and takeaways from recent papers across topics like deep learning, reinforcement learning, NLP, computer vision, and more.
 
 <!-- LATEST_PAPERS_START -->
-**Latest — November 20, 2026**
+**Latest — November 21, 2026**
 
-1. **WeVisForensics** — Coordinates self-improving visual and audio agents to detect generated videos and explain the forensic evidence. [arxiv.org/abs/2611.21373](https://arxiv.org/abs/2611.21373)
-2. **Mind2Act World** — Exposes how strong robotic reasoning and execution can still fail when combined in closed-loop manipulation. [arxiv.org/abs/2611.26444](https://arxiv.org/abs/2611.26444)
-3. **WeMM-Video** — Releases bilingual models and a reproduction pipeline for joint audio-visual understanding and reasoning. [arxiv.org/abs/2611.26409](https://arxiv.org/abs/2611.26409)
-4. **Multimodal Concept Lens** — Probes selective concept access in vision-language models without treating workspace-like behavior as proof of consciousness. [arxiv.org/abs/2611.26590](https://arxiv.org/abs/2611.26590)
-5. **Coda-DaVinci** — Uses task-adaptive 3D code and physics simulation to improve control and physical plausibility in generated video. [arxiv.org/abs/2611.26595](https://arxiv.org/abs/2611.26595)
-6. **VODA** — Supervises Gaussian primitives in depth to recover complete 3D objects rather than merely accurate rendered masks. [arxiv.org/abs/2611.21383](https://arxiv.org/abs/2611.21383)
-7. **HiUni** — Shares a vision-language backbone across visual understanding, image generation, and editing while preserving average understanding performance. [arxiv.org/abs/2611.26107](https://arxiv.org/abs/2611.26107)
-8. **EgoCaptioner** — Combines video overviews with precisely timed first-person narration and refines caption quality through reinforcement learning. [arxiv.org/abs/2611.26380](https://arxiv.org/abs/2611.26380)
-9. **Posterior Matching Distillation** — Trains few-step diffusion students to match the teacher's full posterior instead of favoring a narrow set of modes. [arxiv.org/abs/2611.26629](https://arxiv.org/abs/2611.26629)
-10. **Depth Pro 2** — Brings sharp metric depth estimation to images and video while improving temporal consistency. [arxiv.org/abs/2611.26603](https://arxiv.org/abs/2611.26603)
+1. **InCoder-32B** — Brings execution-grounded code modeling to chip design, GPU kernels, and other industrial programming tasks. [arxiv.org/abs/2603.16790](https://arxiv.org/abs/2603.16790)
+2. **DragGAN** — Makes image editing interactive by letting users drag tracked points to control pose, shape, and layout. [arxiv.org/abs/2305.10973](https://arxiv.org/abs/2305.10973)
+3. **SHARP** — Reconstructs a 3D Gaussian scene from one photograph in under a second for rendering nearby views. [arxiv.org/abs/2512.10685](https://arxiv.org/abs/2512.10685)
+4. **Diffusion RL as Steering** — Reproduces most evaluated diffusion post-training reward gains with fixed activation vectors rather than weight adaptation. [arxiv.org/abs/2611.26627](https://arxiv.org/abs/2611.26627)
+5. **CompoundingKernel** — Combines agent search, a kernel archive, and independent correctness checks to optimize GPU code reliably. [arxiv.org/abs/2611.19230](https://arxiv.org/abs/2611.19230)
+6. **Online Mistake Detection** — Uses instructions and first-person video to detect procedural errors while recovery is still possible. [arxiv.org/abs/2611.25567](https://arxiv.org/abs/2611.25567)
+7. **VSpark** — Adapts speculative decoding to robot action models for faster generation without changing target decoding. [arxiv.org/abs/2611.22666](https://arxiv.org/abs/2611.22666)
+8. **Twice-Told Critiques** — Finds greater claim overlap in detector-flagged peer reviews without establishing that LLM use causes the redundancy. [arxiv.org/abs/2611.26286](https://arxiv.org/abs/2611.26286)
+9. **Embeddings vs. Grep** — Shows how identifier-aware lexical queries can erase dense retrieval’s advantage in evaluated Python code-search pools. [arxiv.org/abs/2611.20455](https://arxiv.org/abs/2611.20455)
+10. **Accord** — Builds online dense metric maps from a camera and IMU across varied platforms without retuning the mapping configuration. [arxiv.org/abs/2611.25279](https://arxiv.org/abs/2611.25279)
 <!-- LATEST_PAPERS_END -->
 
 [Browse all paper summaries &rarr;](/blog/ai-papers/)
