@@ -22,18 +22,18 @@ In this section, I share outcomes, results, and lessons learned from open-source
 I read AI and ML research papers daily and post concise summaries here. Each entry covers the key contributions, methods, and takeaways from recent papers across topics like deep learning, reinforcement learning, NLP, computer vision, and more.
 
 <!-- LATEST_PAPERS_START -->
-**Latest — November 23, 2026**
+**Latest — November 24, 2026**
 
-1. **cmHC** — Balances stream mixing to make hyper-connection pretraining more stable and efficient. [arxiv.org/abs/2611.27193](https://arxiv.org/abs/2611.27193)
-2. **NoPeWorld** — Detects obstacle-penetrating actions in video world models and substitutes physically safer alternatives. [arxiv.org/abs/2611.27963](https://arxiv.org/abs/2611.27963)
-3. **Clover** — Combines diffusion language generation with recurrent memory for reasoning and coding agents. [arxiv.org/abs/2611.24636](https://arxiv.org/abs/2611.24636)
-4. **SynthDCB** — Turns device behavior into executable worlds for scalable, verifiable control-agent evaluation. [arxiv.org/abs/2611.18639](https://arxiv.org/abs/2611.18639)
-5. **Duopra** — Connects interruptible full-duplex conversation with timely tool use and faithful request revision. [arxiv.org/abs/2611.25773](https://arxiv.org/abs/2611.25773)
-6. **ReasonText** — Uses multimodal reasoning to recover degraded image text that visual restoration alone cannot resolve. [arxiv.org/abs/2611.15449](https://arxiv.org/abs/2611.15449)
-7. **MemOnce** — Compresses persistent model memory and reuses retrieval decisions to reduce long-context inference costs. [arxiv.org/abs/2611.27973](https://arxiv.org/abs/2611.27973)
-8. **ReSpaceBench** — Tests whether agents retain spatial memory across revisits, look-alike rooms, and object changes. [arxiv.org/abs/2611.21485](https://arxiv.org/abs/2611.21485)
-9. **AgentRoboCritic** — Evaluates robot actions against local intent to expose grounding, execution, and recovery failures. [arxiv.org/abs/2611.26613](https://arxiv.org/abs/2611.26613)
-10. **StereoVLM** — Grounds metric 3D reasoning in calibrated binocular geometry for stronger spatial understanding. [arxiv.org/abs/2611.27915](https://arxiv.org/abs/2611.27915)
+1. **Motion Mamba 2.0** — Couples recurrent memory with diffusion to sustain efficient, controllable humanoid motion over long horizons. [arxiv.org/abs/2611.29897](https://arxiv.org/abs/2611.29897)
+2. **Embo-Harness** — Shows how spatial grounding and execution design turn frontier multimodal models into stronger closed-loop robot policies. [arxiv.org/abs/2611.31201](https://arxiv.org/abs/2611.31201)
+3. **WorldLeague** — Separates talking about physical tasks from actually completing them across a broad robot benchmark. [arxiv.org/abs/2611.30989](https://arxiv.org/abs/2611.30989)
+4. **3AGameFactory-Motion** — Uses executable skeleton and motion programs to make instruction-driven animation more reliable across diverse 3D assets. [arxiv.org/abs/2611.30013](https://arxiv.org/abs/2611.30013)
+5. **WeMM-Ecom** — Offers open multimodal models and a domain-specialization recipe for e-commerce understanding. [arxiv.org/abs/2611.30662](https://arxiv.org/abs/2611.30662)
+6. **Let the Fixer Decide** — Trains code retrieval around the fixer's ability to produce verified patches rather than reference edit locations. [arxiv.org/abs/2611.12164](https://arxiv.org/abs/2611.12164)
+7. **nanoAstra** — Adapts VLMs for manipulation with semantic action primitives and overlapping inference that keeps robots moving. [arxiv.org/abs/2611.29338](https://arxiv.org/abs/2611.29338)
+8. **ViDecide** — Turns video diffusion into stepwise planning and corrects failed decisions without policy-gradient training. [arxiv.org/abs/2611.26389](https://arxiv.org/abs/2611.26389)
+9. **AutoPILOT** — Lets gameplay agents keep acting between model calls through macros and screen-based controllers. [arxiv.org/abs/2611.28202](https://arxiv.org/abs/2611.28202)
+10. **Plan4D** — Predicts action-conditioned video alongside explicit geometry to generate plannable 4D worlds. [arxiv.org/abs/2611.26516](https://arxiv.org/abs/2611.26516)
 <!-- LATEST_PAPERS_END -->
 
 [Browse all paper summaries &rarr;](/blog/ai-papers/)
