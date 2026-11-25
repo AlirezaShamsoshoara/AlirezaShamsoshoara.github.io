@@ -5,6 +5,8 @@ layout: rl-article
 hero_image: /assets/media/rl/dqn/dqn-hero.svg
 hero_alt: "One recorded DQN update: a minibatch drawn from replay across the MountainCar position and velocity map, a target built from the frozen target network, and one gradient step that changes the value of every state on the map."
 permalink: /blog/rl-from-zero/dqn/
+medium_url: https://medium.com/@a.shamsoshoara/dqn-when-a-table-is-not-enough-f00ea28fc09f
+substack_url: https://ali1956283.substack.com/p/dqn-when-a-table-is-not-enough
 categories: [interesting-blogs, reinforcement-learning]
 series: rl-from-zero
 series_part: 2
