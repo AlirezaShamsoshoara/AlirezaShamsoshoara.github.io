@@ -1,0 +1,14 @@
+<section class="rldq-figure rldq-target" id="dqn-target" data-dqn-target data-src="{{ '/assets/media/rl/dqn/dqn-target-sync.json' | relative_url }}" aria-labelledby="dqn-target-title">
+  <header class="rldq-head">
+    <p class="rldq-eyebrow">Figure 2 · The target holds still between syncs</p>
+    <h3 id="dqn-target-title">The first 1,500 updates, recorded</h3>
+    <p class="rldq-intro">Vertical lines mark target syncs, every 250 updates. Between them, the target network does not change at all. The online network chases it, and each sync moves the target about one step further.</p>
+  </header>
+  <div class="rldq-chips" role="group" aria-label="Choose what to plot" data-target-chips></div>
+  <div class="rldq-panel">
+    <p class="rldq-legend-row" data-target-legend></p>
+    <svg class="rldq-chart" viewBox="0 0 960 432" data-target-chart role="img" aria-label="Online and target values over the first 1,500 updates"></svg>
+    <p class="rldq-map-caption" data-target-caption></p>
+  </div>
+  <noscript><p class="rldq-fallback">This chart needs JavaScript. In the recorded run, the average target was about −1.27 just before the first sync and −2.23 just after it.</p></noscript>
+</section>

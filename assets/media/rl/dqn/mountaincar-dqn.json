@@ -1,0 +1,104 @@
+{
+ "what": "The repository agent GIF for RL-from-zero DQN on MountainCar-v0, copied byte for byte, with its still poster and provenance.",
+ "source": {
+  "repository": "https://github.com/AlirezaShamsoshoara/RL-from-zero",
+  "revision": "f1563be804410939adf0b45ff93fd6f09f589cc3",
+  "gif": "deepQN/assets/dqn_mountaincar.gif",
+  "config": "deepQN/configs/mountaincar_exploration.yaml",
+  "checkpoint": "deepQN/checkpoints_exploration/best.pt (not committed; kept with the repository run)"
+ },
+ "files": {
+  "gif": {
+   "path": "assets/media/rl/dqn/mountaincar-dqn.gif",
+   "sha256": "d192d5c913a578bcc64b2a19802758a2725b5d0b03230eb8464d0a17f11b3e53",
+   "bytes": 472260,
+   "size": [
+    600,
+    400
+   ],
+   "frames": 152,
+   "duration_ms": 5760
+  },
+  "poster": {
+   "path": "assets/media/rl/dqn/mountaincar-dqn.png",
+   "sha256": "7465f316f46a5440187cf1845819746e225d8bfab211ac627b8004eac86bbe97",
+   "bytes": 9542,
+   "size": [
+    600,
+    400
+   ],
+   "made_from": "first frame of the GIF"
+  }
+ },
+ "checkpoint_selection": {
+  "rule": "best mean native return over the previous 20 completed training episodes",
+  "step": 251392,
+  "gradient_updates": 57849,
+  "window_mean_return": -96.05,
+  "sha256": "0804c9152d86b3ddd4d50a663f8bec8491641b7fdf22a72df515b577ba10300f"
+ },
+ "gif_selection": {
+  "rule": "make_gif.py: 8 greedy episodes on seeds 3000 to 3007, keep the 3 highest native returns (ties keep the earlier seed)",
+  "returns_by_seed": {
+   "3000": -105,
+   "3001": -85,
+   "3002": -108,
+   "3003": -110,
+   "3004": -87,
+   "3005": -109,
+   "3006": -110,
+   "3007": -105
+  },
+  "all_reached_flag": true,
+  "kept_seeds": [
+   3001,
+   3004,
+   3000
+  ]
+ },
+ "unfiltered_evaluation": {
+  "policy": "greedy, no action holds, no exploration",
+  "ranges": {
+   "40000": {
+    "episodes": 100,
+    "seeds": "40000 to 40099",
+    "goals": 100,
+    "mean_return": -99.97,
+    "std_return": 8.5597,
+    "min_return": -110.0,
+    "max_return": -83.0,
+    "mean_length": 99.97,
+    "checkpoint_sha256": "0804c9152d86b3ddd4d50a663f8bec8491641b7fdf22a72df515b577ba10300f"
+   },
+   "50000": {
+    "episodes": 100,
+    "seeds": "50000 to 50099",
+    "goals": 100,
+    "mean_return": -100.95,
+    "std_return": 9.7881,
+    "min_return": -143.0,
+    "max_return": -83.0,
+    "mean_length": 100.95,
+    "checkpoint_sha256": "0804c9152d86b3ddd4d50a663f8bec8491641b7fdf22a72df515b577ba10300f"
+   }
+  },
+  "pooled": {
+   "episodes": 200,
+   "goals": 200,
+   "mean_return": -100.46,
+   "std_return": 9.21
+  },
+  "reproduced": "Re-running the repository evaluator on the rerun checkpoint (byte-identical to the saved one; checkpoints are not in git) reproduced both committed summaries exactly."
+ },
+ "rerun": {
+  "checkpoints_compared": 61,
+  "checkpoints_identical": 61,
+  "transitions": 300000,
+  "gradient_updates": 70001,
+  "torch": "2.12.0+cu130",
+  "gymnasium": "1.3.0",
+  "numpy": "2.4.6",
+  "cpu_threads": 1
+ },
+ "interpretation": "A selected showcase of 3 of 8 greedy episodes, not an evaluation statistic. Test starts vary the start position, not the physics; this is one training seed."
+}

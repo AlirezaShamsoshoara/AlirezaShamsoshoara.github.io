@@ -1,77 +1,4 @@
-/* Q-learning article: flat white figures, restrained colors, no global theme changes. */
-.rlql-page {
-  --ink: #1d2733;
-  --muted: #56616e;
-  --cyan: #2356a8;
-  --lime: #39754d;
-  --gold: #996418;
-  --panel: #ffffff;
-  --rule: #d5dbe2;
-  max-width: 1080px !important;
-  margin: 2.5rem auto !important;
-  padding: 0 1.25rem 3rem !important;
-  animation: none !important;
-}
-.rlql-article {
-  width: 100%;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-  color: var(--ink);
-  font-size: 18px;
-  line-height: 1.8;
-  background: #fff;
-}
-.rlql-hero { padding: .75rem 0 2rem; border-bottom: 1px solid var(--rule); margin-bottom: 2.5rem; }
-.rlql-series { display: flex; flex-wrap: wrap; justify-content: space-between; gap: .5rem; font-size: .8rem; color: var(--muted); }
-.rlql-series span { color: var(--muted); }
-.rlql-series a { color: inherit; text-decoration: underline; text-underline-offset: 3px; }
-.rlql-hero h1 { font-family: Georgia, "Times New Roman", serif; font-size: clamp(2.4rem, 5vw, 3.6rem); font-weight: 700; line-height: 1.15; letter-spacing: -.02em; max-width: 850px; margin: 1.25rem 0; color: #18242f; }
-.rlql-title-figure { width: 100%; margin: 1.25rem 0 1.5rem; padding: 0; background: #fff; }
-.rlql-title-figure img { display: block; width: 100%; height: auto; margin: 0 auto; border: 1px solid #e2e6eb; border-radius: 3px; }
-.rlql-lede { max-width: 750px; font-size: 1.15rem; line-height: 1.7; color: #414d5a; margin: 0 0 1.3rem; }
-.rlql-byline { display: flex; gap: 1.25rem; flex-wrap: wrap; font-size: .82rem; color: var(--muted); }
-.rlql-draft-note { font-size: .78rem; margin-top: .8rem; color: #70561d; }
-.rlql-jump-links { display: flex; gap: 1.25rem; flex-wrap: wrap; margin: 1.4rem 0 0; }
-.rlql-jump-links a { font-size: .83rem; color: #2356a8; text-decoration: underline !important; text-underline-offset: 3px; }
-.rlql-prose > p, .rlql-prose > ul, .rlql-prose > ol, .rlql-prose > blockquote,
-.rlql-prose > h2, .rlql-prose > h3, .rlql-prose > pre, .rlql-prose > .highlight, .rlql-prose > .highlighter-rouge, .rlql-prose > details {
-  max-width: 790px; margin-left: auto; margin-right: auto;
-}
-.rlql-prose > h2 { font-family: Georgia, "Times New Roman", serif; font-size: 1.85rem; line-height: 1.3; margin-top: 3rem; margin-bottom: 1rem; scroll-margin-top: 2rem; }
-.rlql-prose > h3 { font-size: 1.2rem; margin-top: 2rem; }
-.rlql-prose p { margin-bottom: 1.25rem; }
-.rlql-prose li { margin-bottom: .55rem; }
-.rlql-prose a { color: #2356a8; text-decoration: underline; text-underline-offset: 3px; }
-.rlql-prose code { font-size: .87em; background: #f4f5f7; padding: .1em .3em; border-radius: 3px; color: #273646; }
-.rlql-prose :not(pre) > code { overflow-wrap: anywhere; white-space: normal; }
-.rlql-prose pre code { padding: 0; background: none; color: inherit; }
-.rlql-prose .highlighter-rouge { font-size: .85rem; border-radius: 4px; overflow: hidden; }
-.rlql-prose > .highlight, .rlql-prose > .highlighter-rouge { position: relative; border: 1px solid #d5dbe2; background: #f8fafc; border-radius: 5px; margin-top: .4rem; margin-bottom: 1.5rem; }
-.rlql-prose .highlight pre, .rlql-prose .highlighter-rouge pre { margin: 0; padding: 1rem 1.15rem; background: #f8fafc; color: #263545; font: .82rem/1.65 ui-monospace, SFMono-Regular, Consolas, monospace; text-align: left; white-space: pre; overflow-x: auto; border: 0; }
-.rlql-prose .highlight code { font: inherit; background: none; white-space: pre; }
-.rlql-prose .highlight span { color: #263545; }
-.rlql-prose .highlight .k, .rlql-prose .highlight .kd, .rlql-prose .highlight .kn, .rlql-prose .highlight .kp, .rlql-prose .highlight .kr, .rlql-prose .highlight .kc { color: #703b93; font-weight: 600; }
-.rlql-prose .highlight .nf, .rlql-prose .highlight .nb, .rlql-prose .highlight .bp, .rlql-prose .highlight .nc { color: #175685; }
-.rlql-prose .highlight .s, .rlql-prose .highlight .s1, .rlql-prose .highlight .s2, .rlql-prose .highlight .sa, .rlql-prose .highlight .sd { color: #2f6545; }
-.rlql-prose .highlight .m, .rlql-prose .highlight .mf, .rlql-prose .highlight .mi, .rlql-prose .highlight .il { color: #8a4f19; }
-.rlql-prose .highlight .c, .rlql-prose .highlight .c1, .rlql-prose .highlight .cm { color: #5b6977; font-style: italic; }
-.rlql-prose .highlight .o, .rlql-prose .highlight .p, .rlql-prose .highlight .n { color: #263545; }
-.rlql-code-caption { font-size: .8rem; color: #56616e; margin-bottom: .2rem !important; }
-.rlql-code-toolbar { display: flex; justify-content: space-between; align-items: center; padding: .5rem 1rem; border-bottom: 1px solid #d5dbe2; color: #56616e; font-size: .74rem; background: #f0f3f7; }
-.rlql-code-toolbar button { min-height: 32px; padding: .2rem .5rem; border: 1px solid #b7c1cc; border-radius: 3px; color: #33475c; background: #fff; font: inherit; cursor: pointer; }
-.rlql-code-toolbar button:focus-visible { outline: 3px solid #9e761f; outline-offset: 2px; }
-.rlql-prose .rl-equation { background: #f8f9fa; border-left: 2px solid #6d86ad; padding: .8rem 1.1rem; overflow: auto; line-height: 2; text-align: center; }
-.rlql-prose .rl-equation code { display: inline-block; max-width: 100%; background: none; padding: 0; white-space: normal; text-align: center; color: #1d334b; font-size: .94em; }
-.rlql-prose > .rlql-map-matrix { max-width: 790px; margin: 1.5rem auto; text-align: center; overflow-x: auto; }
-.rlql-map-matrix .rlql-map-grid { display: inline-block; max-width: 100%; margin: 0; padding: 1rem 1.25rem; border: 1px solid #d5dbe2; border-radius: 3px; background: #fff; text-align: left; white-space: pre; font-size: .95rem; line-height: 1.7; }
-.rlql-map-matrix .rlql-map-grid code { display: block; padding: 0; white-space: pre; background: none; }
-.rlql-prose figure { max-width: 950px; margin: 2rem auto; }
-.rlql-prose figure img { display: block; border: 1px solid var(--rule); border-radius: 3px; width: 100%; }
-.rlql-prose figcaption { font-size: .8rem; line-height: 1.65; color: var(--muted); margin-top: .7rem; }
-.rlql-article-footer { max-width: 790px; margin: 3rem auto 0; padding-top: 2rem; border-top: 1px solid var(--rule); font-size: .9rem; }
-.rlql-article-footer p { color: var(--muted); }
-.rlql-article-footer a { color: #2356a8; }
-
-/* The educational figure, not a dashboard. */
+/* Q-learning teaching figure rules. Article chrome lives in article.css. */
 .rlql-lab { margin: 2.5rem 0; background: #fff; color: #1d2733; border: 1px solid #cdd4dc; border-radius: 5px; padding: 1.4rem; box-shadow: none; line-height: 1.55; font-size: 16px; isolation: isolate; }
 .rlql-lab *, .rlql-lab *::before, .rlql-lab *::after { box-sizing: border-box; }
 .rlql-lab h3, .rlql-lab h4 { color: #1d2733; margin: 0; line-height: 1.35; font-family: inherit; border: 0; }
@@ -182,8 +109,6 @@
 .rlql-table-details { margin-top: 1.3rem; border-top: 1px solid #dce1e7; padding-top: .85rem; font-size: .8rem; }
 .rlql-table-details summary { cursor: pointer; color: #33475c; }
 .rlql-table-details .rlql-qtable { max-width: 620px; margin: 1rem auto 0; }
-.rlql-fallback { border-left: 2px solid #a17b35; padding: .75rem .85rem; background: #fffaf0; color: #654d20 !important; font-size: .82rem !important; }
-.rlql-sr-only { position: absolute !important; width: 1px; height: 1px; padding: 0; margin: -1px !important; overflow: hidden; clip: rect(0,0,0,0); white-space: nowrap; border: 0; }
 
 /* Detailed exploratory figure: natural-height content instead of reserved blank panels. */
 .rlql-exploration .rlql-lab-intro { margin-bottom: .65rem !important; }
@@ -219,21 +144,7 @@
 .rlql-exploration[data-export-mode="true"] .rlql-controls { display: none !important; }
 .rlql-exploration[data-export-mode="true"] > .rlql-small { display: none; }
 
-/* Native repository showcase remains distinct from both teaching interactives. */
-.rlql-prose .rlql-native-demo { max-width: 790px; }
-.rlql-prose .rlql-native-demo > img { max-width: 512px; width: 100%; height: auto; margin: 0 auto; }
-.rlql-native-controls { display: flex; justify-content: center; align-items: center; flex-wrap: wrap; gap: 1rem; margin-top: .75rem; }
-.rlql-native-controls[hidden] { display: none; }
-.rlql-native-controls button { min-height: 44px; padding: .5rem .8rem; border: 1px solid #b7c1cc; border-radius: 4px; background: #fff; color: #253341; font: .8rem system-ui, sans-serif; cursor: pointer; }
-.rlql-native-controls a { font-size: .8rem; }
-.rlql-native-controls button:focus-visible { outline: 3px solid #9e761f; outline-offset: 3px; }
-
 @media (max-width: 760px) {
-  .rlql-page { padding: 0 .8rem 2rem !important; margin-top: 1.75rem !important; }
-  .rlql-article { font-size: 17px; }
-  .rlql-hero { padding-top: 0; }
-  .rlql-hero h1 { font-size: 2.65rem; }
-  .rlql-lede { font-size: 1.05rem; }
   .rlql-lab { padding: .9rem; border-radius: 4px; }
   .rlql-worked-grid, .rlql-policy-columns { grid-template-columns: 1fr; gap: 1rem; }
   .rlql-exploration .rlql-worked-grid { grid-template-columns: 1fr; }
@@ -256,9 +167,6 @@
   .rlql-terminal-control { align-items: flex-start; flex-wrap: wrap; }
   .rlql-phases li { font-size: .64rem !important; }
   .rlql-mini-stats strong { font-size: 1.35rem; }
-  .rlql-prose > h2 { font-size: 1.6rem; margin-top: 2.3rem; }
-  .rlql-jump-links { gap: .75rem; }
-  .rlql-jump-links a { font-size: .77rem; }
   .rlql-qtable { font-size: .8rem; }
   .rlql-qtable th, .rlql-qtable td { padding: .65rem .15rem; }
   .rlql-lab button { font-size: .77rem; padding: .65rem .75rem; }
@@ -270,6 +178,5 @@
 }
 @media print {
   .rlql-lab { break-inside: avoid; }
-  .rlql-controls, .rlql-jump-links { display: none !important; }
-  .rlql-prose a { color: #253341; }
+  .rlql-controls { display: none !important; }
 }

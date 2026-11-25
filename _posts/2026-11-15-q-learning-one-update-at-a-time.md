@@ -13,6 +13,26 @@ series_part: 1
 tags: [rl-from-zero, q-learning, interactive]
 excerpt: "Follow one experience into one changed table cell, then watch exploration and delayed rewards turn local updates into a policy."
 read_time: true
+stylesheets:
+  - /assets/css/rl/qlearning.css
+scripts:
+  - /assets/js/rl/article-common.mjs
+  - /assets/js/rl/qlearning-article.mjs
+series_label: "01 · Q-learning"
+lede: "A small world. A table of guesses. Watch one experience change a decision, then see a policy emerge."
+read_time_text: "Interactive explainer · 15-minute read"
+jump_links:
+  - href: "#ql-worked-title"
+    label: "Step through an update ↓"
+  - href: "#ql-policy-title"
+    label: "Train the small world ↓"
+  - href: "#follow-the-equation-into-the-code"
+    label: "Read the code ↓"
+footer_part_label: "Part 01 of RL From Zero"
+next_teaser: "Next: when a table is not enough, how do we learn action values with a neural network?"
+next_part:
+  url: /blog/rl-from-zero/dqn/
+  title: "DQN: when a table is not enough"
 ---
 
 A Q-learning agent does not start with a route to the goal. It starts with a table of guesses.

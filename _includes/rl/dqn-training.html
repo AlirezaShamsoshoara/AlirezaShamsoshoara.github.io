@@ -1,0 +1,43 @@
+<section class="rldq-figure rldq-training" id="dqn-training" data-dqn-training data-src="{{ '/assets/media/rl/dqn/dqn-checkpoints.json' | relative_url }}" aria-labelledby="dqn-training-title">
+  <header class="rldq-head">
+    <p class="rldq-eyebrow">Figure 4 · Training, checkpoint by checkpoint</p>
+    <h3 id="dqn-training-title">Watch the value map take shape</h3>
+    <p class="rldq-intro">Each position on the slider is a checkpoint saved during the real run. Arrows show the network's greedy push in each region. Pick a start and the car follows that checkpoint's greedy choices; no learning happens while it drives.</p>
+  </header>
+  <div class="rldq-slider">
+    <label for="dqn-training-step">Checkpoint</label>
+    <input type="range" id="dqn-training-step" min="0" max="31" step="1" value="0" data-training-slider>
+    <output for="dqn-training-step" data-training-label></output>
+  </div>
+  <div class="rldq-training-grid">
+    <div class="rldq-panel rldq-map-panel">
+      <div class="rldq-map-head">
+        <strong>Value of each state, and the greedy push</strong>
+        <span class="rldq-legend" data-training-legend></span>
+      </div>
+      <div class="rldq-map" data-training-map>
+        <canvas width="864" height="560" data-map-canvas aria-hidden="true"></canvas>
+        <svg viewBox="0 0 864 560" data-map-overlay role="img" aria-label="Value map with the greedy rollout"></svg>
+      </div>
+      <p class="rldq-map-caption">Darker blue means a higher value, fewer steps from the flag; colors span the middle 96% of visited states, and gray marks regions the run had not reached yet. Arrows: greedy push right or left; dots: no push.</p>
+    </div>
+    <div class="rldq-panel rldq-training-side">
+      <div class="rldq-hill" data-training-hill>
+        <svg viewBox="0 0 360 150" role="img" aria-label="The car following the checkpoint's greedy policy"></svg>
+      </div>
+      <p class="rldq-big" data-training-outcome></p>
+      <p class="rldq-map-caption rldq-start-label">Start position, at rest:</p>
+      <div class="rldq-chips rldq-starts" role="group" aria-label="Start position" data-training-starts></div>
+      <p class="rldq-step-copy" data-training-summary></p>
+    </div>
+    <div class="rldq-panel rldq-span">
+      <svg class="rldq-curve" viewBox="0 0 960 150" data-training-curve role="img" aria-label="Goal rate during training and the greedy test at each checkpoint"></svg>
+      <p class="rldq-map-caption">Line: share of the previous 20 training episodes that reached the flag; those still include random pulses. Dots: the greedy test from the 11 starts at each checkpoint. The ochre line marks the checkpoint shown.</p>
+    </div>
+  </div>
+  <div class="rldq-controls">
+    <button type="button" data-action="play-training">Play training</button>
+    <button type="button" data-action="drive">Drive again</button>
+  </div>
+  <noscript><p class="rldq-fallback">This figure needs JavaScript to load the saved checkpoints.</p></noscript>
+</section>
