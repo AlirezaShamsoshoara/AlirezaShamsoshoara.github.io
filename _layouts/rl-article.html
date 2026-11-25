@@ -1,20 +1,21 @@
 ---
 layout: default
 ---
-<link rel="stylesheet" href="{{ '/assets/css/rl/qlearning.css' | relative_url }}">
+<link rel="stylesheet" href="{{ '/assets/css/rl/article.css' | relative_url }}">
+{% for stylesheet in page.stylesheets %}{% if stylesheet != blank %}<link rel="stylesheet" href="{{ stylesheet | relative_url | escape }}">{% endif %}{% endfor %}
 <main id="main" class="rlql-page" role="main">
   <article class="rlql-article" aria-labelledby="rlql-title">
     <header class="rlql-hero">
-      <span class="rlql-series"><a href="{{ '/blog/rl-from-zero/' | relative_url }}">RL From Zero</a> <span>01 · Q-learning</span></span>
+      <span class="rlql-series"><a href="{{ '/blog/rl-from-zero/' | relative_url }}">RL From Zero</a>{% if page.series_label != blank %} <span>{{ page.series_label | escape }}</span>{% elsif page.series_part %} <span>Part {{ page.series_part }}</span>{% endif %}</span>
       <h1 id="rlql-title">{{ page.title }}</h1>
       {% if page.hero_image %}<figure class="rlql-title-figure"><img src="{{ page.hero_image | relative_url }}" alt="{{ page.hero_alt | escape }}" width="1200" height="420" fetchpriority="high" decoding="async"/></figure>{% endif %}
-      <p class="rlql-lede">A small world. A table of guesses. Watch one experience change a decision, then see a policy emerge.</p>
-    <div class="rlql-byline"><span>By {{ site.author.name }}</span><span>Interactive explainer · 15-minute read</span></div>
+      {% if page.lede != blank %}<p class="rlql-lede">{{ page.lede | escape }}</p>{% endif %}
+    {% if site.author.name or page.read_time_text != blank %}<div class="rlql-byline">{% if site.author.name %}<span>By {{ site.author.name }}</span>{% endif %}{% if page.read_time_text != blank %}<span>{{ page.read_time_text | escape }}</span>{% endif %}</div>{% endif %}
       {% if page.published == false %}<p class="rlql-draft-note">Review draft. This installment has not been published.</p>{% endif %}
-      <nav class="rlql-jump-links" aria-label="Article shortcuts"><a href="#ql-worked-title">Step through an update ↓</a><a href="#ql-policy-title">Train the small world ↓</a><a href="#follow-the-equation-into-the-code">Read the code ↓</a></nav>
+      {% if page.jump_links.size > 0 %}<nav class="rlql-jump-links" aria-label="Article shortcuts">{% for link in page.jump_links %}<a href="{{ link.href | escape }}">{{ link.label | escape }}</a>{% endfor %}</nav>{% endif %}
     </header>
     <div class="rlql-prose">{{ content }}</div>
-    <footer class="rlql-article-footer"><strong>Part 01 of RL From Zero</strong><p>Next: when a table is not enough, how do we learn action values with a neural network?</p>{% if page.medium_url or page.substack_url %}<p>This part is also on {% if page.medium_url %}<a href="{{ page.medium_url }}">Medium</a>{% endif %}{% if page.medium_url and page.substack_url %} and {% endif %}{% if page.substack_url %}<a href="{{ page.substack_url }}">Substack</a>{% endif %}.</p>{% endif %}{% if page.series %}{% assign rlfz_series = site.data.blog_series | where: "id", page.series | first %}{% endif %}{% if rlfz_series.subscribe_url %}<p>To get each new part by email, <a href="{{ rlfz_series.subscribe_url }}">subscribe on Substack</a>.{% if rlfz_series.medium_url %}{% unless page.medium_url %} The series is also on <a href="{{ rlfz_series.medium_url }}">Medium</a>.{% endunless %}{% endif %}</p>{% endif %}<a href="{{ '/blog/rl-from-zero/' | relative_url }}">More from RL From Zero →</a></footer>
+    <footer class="rlql-article-footer">{% if page.footer_part_label != blank %}<strong>{{ page.footer_part_label | escape }}</strong>{% elsif page.series_part %}<strong>Part {{ page.series_part }} of RL From Zero</strong>{% endif %}{% if page.next_teaser != blank %}<p>{{ page.next_teaser | escape }}</p>{% endif %}{% if page.previous_part.url != blank and page.previous_part.title != blank %}<p><a href="{{ page.previous_part.url | relative_url | escape }}" rel="prev">Previous: {{ page.previous_part.title | escape }}</a></p>{% endif %}{% if page.next_part.url != blank and page.next_part.title != blank %}<p><a href="{{ page.next_part.url | relative_url | escape }}" rel="next">Next: {{ page.next_part.title | escape }}</a></p>{% endif %}{% if page.medium_url or page.substack_url %}<p>This part is also on {% if page.medium_url %}<a href="{{ page.medium_url }}">Medium</a>{% endif %}{% if page.medium_url and page.substack_url %} and {% endif %}{% if page.substack_url %}<a href="{{ page.substack_url }}">Substack</a>{% endif %}.</p>{% endif %}{% if page.series %}{% assign rlfz_series = site.data.blog_series | where: "id", page.series | first %}{% endif %}{% if rlfz_series.subscribe_url %}<p>To get each new part by email, <a href="{{ rlfz_series.subscribe_url }}">subscribe on Substack</a>.{% if rlfz_series.medium_url %}{% unless page.medium_url %} The series is also on <a href="{{ rlfz_series.medium_url }}">Medium</a>.{% endunless %}{% endif %}</p>{% endif %}<a href="{{ '/blog/rl-from-zero/' | relative_url }}">More from RL From Zero →</a></footer>
   </article>
 </main>
-<script type="module" src="{{ '/assets/js/rl/qlearning-article.mjs' | relative_url }}"></script>
+{% for script in page.scripts %}{% if script != blank %}<script type="module" src="{{ script | relative_url | escape }}"></script>{% endif %}{% endfor %}

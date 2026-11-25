@@ -290,59 +290,6 @@ function stopForContext(reason) {
 document.addEventListener('visibilitychange', () => { if (document.hidden) stopForContext('while this tab was hidden'); });
 reducedMotion.addEventListener('change', () => stopForContext('because the motion preference changed'));
 
-// Static highlighting stays readable without JavaScript; these controls only copy text.
-for (const pre of document.querySelectorAll('.rlql-prose .highlight pre')) {
-  const container = pre.closest('.highlighter-rouge') || pre.closest('.highlight');
-  if (!container || container.querySelector('.rlql-code-toolbar')) continue;
-  const toolbar = document.createElement('div'); toolbar.className = 'rlql-code-toolbar';
-  const label = document.createElement('span'); label.textContent = 'Code example';
-  const button = document.createElement('button'); button.type = 'button'; button.textContent = 'Copy code';
-  button.addEventListener('click', async () => {
-    try {
-      if (navigator.clipboard && window.isSecureContext) await navigator.clipboard.writeText(pre.textContent);
-      else {
-        const field = document.createElement('textarea'); field.value = pre.textContent; field.style.position = 'fixed'; field.style.opacity = '0'; document.body.append(field); field.select();
-        const copied = document.execCommand('copy'); field.remove(); button.focus(); if (!copied) throw new Error('Copy unavailable');
-      }
-      button.textContent = 'Copied';
-    } catch { button.textContent = 'Select text to copy'; }
-  });
-  toolbar.append(label, button); container.prepend(toolbar);
-}
-const nativeDemo = document.querySelector('[data-native-demo]');
-let nativePlaying = false, nativeUserPaused = false, nativeObserver = null;
-function setNativePlaying(playing) {
-  if (!nativeDemo) return;
-  nativePlaying = playing;
-  const image = nativeDemo.querySelector('[data-native-image]'); image.src = playing ? image.dataset.gifSrc : image.dataset.posterSrc;
-  const button = nativeDemo.querySelector('[data-native-play]');
-  button.textContent = playing ? 'Pause real agent GIF' : 'Play real agent GIF'; button.setAttribute('aria-pressed', String(playing));
-}
-function disarmNativeAutoplay() {
-  if (nativeObserver) { nativeObserver.disconnect(); nativeObserver = null; }
-}
-// Start once, from the first frame, when Figure 3 is in view. A reader's pause or a reduced-motion preference wins.
-function armNativeAutoplay() {
-  if (!nativeDemo || nativePlaying || nativeUserPaused || reducedMotion.matches || nativeObserver) return;
-  if (!('IntersectionObserver' in window)) { setNativePlaying(true); return; }
-  nativeObserver = new IntersectionObserver(entries => {
-    if (!entries.some(entry => entry.isIntersecting && entry.intersectionRatio >= 0.4)) return;
-    disarmNativeAutoplay();
-    if (!nativeUserPaused && !reducedMotion.matches) setNativePlaying(true);
-  }, { threshold: 0.4 });
-  nativeObserver.observe(nativeDemo.querySelector('[data-native-image]'));
-}
-if (nativeDemo) {
-  const image = nativeDemo.querySelector('[data-native-image]'); image.dataset.posterSrc = image.getAttribute('src');
-  nativeDemo.querySelector('[data-native-controls]').hidden = false;
-  nativeDemo.querySelector('[data-native-play]').addEventListener('click', () => {
-    disarmNativeAutoplay(); nativeUserPaused = nativePlaying; setNativePlaying(!nativePlaying);
-  });
-  reducedMotion.addEventListener('change', () => {
-    if (reducedMotion.matches) { disarmNativeAutoplay(); setNativePlaying(false); } else armNativeAutoplay();
-  });
-  armNativeAutoplay();
-}
 window.QLearningPilot = Object.freeze({
   exploration: () => ({ phase, moveIndex, params: { ...params }, transition: trace.records[moveIndex], episode: episodeFor(trace.records[moveIndex]), length: trace.records.length, episodes: trace.episodes }),
   trace: () => trace,

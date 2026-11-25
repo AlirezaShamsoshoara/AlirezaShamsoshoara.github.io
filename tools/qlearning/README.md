@@ -84,7 +84,7 @@ REVIEW_ENV=$(mktemp -d /tmp/ql-review-env-XXXXXX)
 uv venv "$REVIEW_ENV/ql-review"
 PY="$REVIEW_ENV/ql-review/bin/python"
 uv pip install --python "$PY" \
-  playwright pillow wandb numpy pyyaml markdown libsass pygments
+  playwright pillow wandb numpy pyyaml markdown libsass pygments python-liquid
 node tools/qlearning/core.test.mjs
 "$PY" tools/qlearning/build_review_preview.py --out /tmp/ql-exploration-preview
 WANDB_MODE=offline "$PY" \
@@ -105,6 +105,13 @@ milestone discovery, independent histories, settings/reset/stop behavior,
 keyboard/responsive/reduced-motion/static views, native2x capture, edited-media
 provenance, GIF size and video decoding/timing. Builds/evidence stay outside the
 checkout. All scripts under `tools/` are excluded from public site output.
+
+## Shared article infrastructure
+
+The preview, packager and MP4 exporter now delegate to `tools/rl-blog/`.
+Their existing commands and `--root` options remain supported. The shared
+[review guide](../rl-blog/README.md) documents front matter and commands for
+other installments, plus draft/published source and code checks.
 
 ## Required production check
 

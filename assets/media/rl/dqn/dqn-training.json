@@ -1,0 +1,64 @@
+{
+ "what": "Figure 4 of the DQN post: the selected checkpoint first, then the saved checkpoints in order, then one greedy drive at the selected checkpoint from position -0.5.",
+ "interpretation": "Checkpoints every 10,000 steps plus the first and the selected one. A greedy drive from one start is a demonstration, not an evaluation statistic.",
+ "frames": 140,
+ "duration_ms": 38440,
+ "capture": {
+  "device_scale_factor": 2,
+  "viewport_css_px": [
+   1280,
+   1000
+  ],
+  "frame_px": [
+   2072,
+   2052
+  ]
+ },
+ "gif": {
+  "path": "assets/media/rl/dqn/dqn-training.gif",
+  "bytes": 16089661,
+  "sha256": "f99f86659880fd5b815a59c7ec73550f05107e15a1cec7b8acfa05132f79fb6f",
+  "size": [
+   1036,
+   1026
+  ],
+  "scale_from_capture": 0.5
+ },
+ "webm": {
+  "path": "assets/media/rl/dqn/dqn-training.webm",
+  "bytes": 3545997,
+  "sha256": "cc527723ae68ca81dbd57e930fcf4923a63021a1e9b28e263c8d94a5af76ffa9",
+  "codec": "vp9",
+  "size": [
+   2072,
+   2052
+  ],
+  "pix_fmt": "yuv420p",
+  "color_range": "tv",
+  "color_space": "bt709",
+  "duration_s": 38.44
+ },
+ "mp4": {
+  "path": "assets/media/rl/dqn/dqn-training.mp4",
+  "bytes": 2990142,
+  "sha256": "77f4c1e00a88f49199f90630af524fe7dca1387e46a9c2006e2f4fbf425c53f6",
+  "codec": "h264",
+  "size": [
+   2072,
+   2052
+  ],
+  "pix_fmt": "yuv420p",
+  "color_range": "tv",
+  "color_space": "bt709",
+  "duration_s": 38.44
+ },
+ "poster": {
+  "path": "assets/media/rl/dqn/dqn-training.png",
+  "bytes": 515184,
+  "sha256": "abae64aefe1f24b8b2f70a1f9e11ede5d989685df1fb4172e57edfc7c7c736a3",
+  "size": [
+   2072,
+   2052
+  ]
+ }
+}

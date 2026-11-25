@@ -1,0 +1,46 @@
+<section class="rldq-figure rldq-update" id="dqn-update" data-dqn-update data-src="{{ '/assets/media/rl/dqn/dqn-update-steps.json' | relative_url }}" aria-labelledby="dqn-update-title">
+  <header class="rldq-head">
+    <p class="rldq-eyebrow">Figure 1 · One update from the real training run</p>
+    <h3 id="dqn-update-title">Follow one gradient step through the network</h3>
+    <p class="rldq-intro">Each button is an actual update from the run that produced the trained agent below. Step through it to see where the minibatch comes from, how the target is built, and how far one step spreads.</p>
+  </header>
+  <div class="rldq-chips" role="group" aria-label="Choose an update" data-update-chips></div>
+  <p class="rldq-chip-note" data-update-note></p>
+  <div class="rldq-update-grid">
+    <div class="rldq-panel rldq-map-panel">
+      <div class="rldq-map-head">
+        <strong data-map-title>Value of each state</strong>
+        <span class="rldq-legend" data-map-legend></span>
+      </div>
+      <div class="rldq-map" data-update-map>
+        <canvas width="864" height="560" data-map-canvas aria-hidden="true"></canvas>
+        <svg viewBox="0 0 864 560" data-map-overlay role="img" aria-label="Position and velocity map for the selected update"></svg>
+      </div>
+      <p class="rldq-map-caption" data-map-caption></p>
+    </div>
+    <div class="rldq-panel rldq-steps-panel">
+      <ol class="rldq-phases" data-phases>
+        <li><button type="button" data-phase="0"><span>1</span>Collect</button></li>
+        <li><button type="button" data-phase="1"><span>2</span>Sample</button></li>
+        <li><button type="button" data-phase="2"><span>3</span>Look ahead</button></li>
+        <li><button type="button" data-phase="3"><span>4</span>Target</button></li>
+        <li><button type="button" data-phase="4"><span>5</span>Error</button></li>
+        <li><button type="button" data-phase="5"><span>6</span>Step</button></li>
+      </ol>
+      <h4 class="rldq-step-title" data-step-title></h4>
+      <p class="rldq-step-copy" data-step-copy></p>
+      <div class="rldq-numbers" data-numbers></div>
+      <div class="rldq-residuals" data-residuals aria-hidden="true"></div>
+      <p class="rldq-sync" data-sync></p>
+    </div>
+  </div>
+  <div class="rldq-controls" data-update-controls>
+    <button type="button" data-action="previous">← Previous step</button>
+    <button type="button" data-action="next">Next step →</button>
+    <button type="button" data-action="play">Play this update</button>
+    <button type="button" data-action="sample">Track another sample</button>
+  </div>
+  <p class="rldq-export-note" data-export-note hidden></p>
+  <p class="rldq-live rldq-sr-only" aria-live="polite" data-update-live></p>
+  <noscript><p class="rldq-fallback">This figure needs JavaScript to step through the recorded update. The text below works through the same numbers.</p></noscript>
+</section>

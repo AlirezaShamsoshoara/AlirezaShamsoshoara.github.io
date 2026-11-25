@@ -1,0 +1,32 @@
+<section class="rldq-figure rldq-explore" id="dqn-explore" data-dqn-explore aria-labelledby="dqn-explore-title">
+  <header class="rldq-head">
+    <p class="rldq-eyebrow">Figure 3 · Exploration lab</p>
+    <h3 id="dqn-explore-title">Random actions, with and without holding them</h3>
+    <p class="rldq-intro">No learning happens here: every action is random. Choose how long each random action is held, then run 500 episodes, computed live in your browser with the MountainCar equations; nothing here comes from the training run. The traces show the first 24 episodes in position and velocity.</p>
+  </header>
+  <div class="rldq-chips" role="group" aria-label="Hold length" data-explore-chips></div>
+  <div class="rldq-explore-grid">
+    <div class="rldq-panel">
+      <svg class="rldq-chart" viewBox="0 0 640 420" data-explore-map role="img" aria-label="Phase-space traces of random episodes"></svg>
+    </div>
+    <div class="rldq-panel rldq-explore-side">
+      <p class="rldq-big" data-explore-count></p>
+      <p class="rldq-step-copy" data-explore-copy></p>
+      <div class="rldq-hill" data-explore-hill>
+        <svg viewBox="0 0 360 150" role="img" aria-label="The car replaying one of these episodes"></svg>
+      </div>
+    </div>
+    <div class="rldq-panel rldq-span">
+      <table class="rldq-table rldq-wide-table" data-explore-table>
+        <thead><tr><th scope="row">Hold length</th></tr></thead>
+        <tbody><tr><th scope="row">Goals in 500</th></tr></tbody>
+      </table>
+    </div>
+  </div>
+  <div class="rldq-controls">
+    <button type="button" data-action="replay">Replay an episode</button>
+    <button type="button" data-action="seed">New seed</button>
+    <span class="rldq-seed" data-explore-seed></span>
+  </div>
+  <noscript><p class="rldq-fallback">This lab needs JavaScript. With seed 7, independent random actions reached the goal in 0 of 500 episodes and actions held for 20 to 60 steps reached it in 71.</p></noscript>
+</section>
